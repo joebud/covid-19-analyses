@@ -350,17 +350,6 @@ Lockdown factor in the entire simulation is constant and equals one.
 ### GLOSSARY
 
 
-$^*$ - asterisk denotes ... , true otherwise
-
-$t$ - Time since early stages of the epidemic
-
-$\tau$   - age of infection (the time elapsed since the last infection)
-
-$\tau'$ - Age of immunity (the time elapsed since the last recovery or vaccination)
-
-$N$ - Total population
-
-
 ### PARAMETERS
 
 
