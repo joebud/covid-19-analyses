@@ -12,19 +12,19 @@ do_ext_analysis : False
 
 new_dbg : False
 
-countries : ['Austria', 'Slovakia']
+countries : ['Italy', 'Austria']
 
-numrows : 374
+numrows : 375
 
-enddate : 2021-03-05
+enddate : 2021-03-06
 
 startdate : 2020-02-26
 
 forcasttill : 2023-06-09
 
-curr_period : 2020-02-26 to 2021-03-05
+curr_period : 2020-02-26 to 2021-03-06
 
-data_init_lam0 : 0.3
+data_init_lam0 : 0.298
 
 data_init_elam0 : 0.02
 
@@ -32,13 +32,13 @@ data_init_dC0_ast : 28.865261024936412
 
 data_init_edC0_ast : 1.7359363313275948
 
-model_init_beta0 : 0.2593672132890608
+model_init_beta0 : 0.26234055881921736
 
-model_init_ebeta0 : 0.014748530231558086
+model_init_ebeta0 : 0.013987176944173165
 
-model_init_I0_ast : 111.29109442513274
+model_init_I0_ast : 110.02973064804623
 
-model_init_eI0_ast : 9.211106872403334
+model_init_eI0_ast : 8.843148204026058
 
 t_infect : -18.24484094288309
 
@@ -68,11 +68,11 @@ idx_start : 35
 
 idx_start1 : 24
 
-numrows1 : 385
+numrows1 : 386
 
 curr_vacc_start : 305
 
-curr_vacc_e : 382
+curr_vacc_e : 383
 
 curr_test_start : 35
 
@@ -100,7 +100,7 @@ plot_all_scenarios : False
 
 p_test_given_sym : 1.0
 
-vacc_end_fraction : 0.9728244120774714
+vacc_end_fraction : 1.0179115692453933
 
 ld_relax_fraction : 0.42857142857142855
 
@@ -112,7 +112,7 @@ end_lockdown_I_thr : 0.99
 
 use_fix_lam0 : True
 
-fix_lam0_val : 0.3
+fix_lam0_val : 0.298
 
 reconstruct_NoL_NoV : True
 
@@ -316,7 +316,7 @@ lambda_decay_period : 22.613
 
 init_fit_from_t_0 : True
 
-R_seasonal_max : 6.58959601025786
+R_seasonal_max : 6.557201194292583
 
 variable_R_seasonal_max : True
 
@@ -334,11 +334,11 @@ ld_relax_lam : 0.04
 
 ld_start_a : 0.03125
 
-max_lockdown_fac : 6.968145738832026
+max_lockdown_fac : 6.933892121988628
 
-ld_relax_level : 2.8096619024619365
+ld_relax_level : 2.795849450209444
 
-LDF_Inf : 1.9667633317233555
+LDF_Inf : 1.9570946151466106
 
 symptomatic_proportion_unc_fac : 1.8
 
@@ -416,7 +416,7 @@ lambda_est_win_len : 7
 
 initial_lambda_max_t : 100
 
-lam0_for_model_plots : 0.3
+lam0_for_model_plots : 0.298
 
 clip_nonpos_incidence_val : 0.1
 
@@ -448,7 +448,7 @@ PAR_Flu_DR_low_fac : 3.0
 
 PAR_Flu_DR_high_fac : 7.0
 
-curr_rD : 0.007808076453496864
+curr_rD : 0.007563495962406216
 
 dDavg_AT_flu : 5.62591437
 
@@ -612,7 +612,7 @@ R_seasonal_min_flu : 0.9
 
 pi_0 : 7.619047619047619
 
-R_seasonal_min : 2.8241125758247967
+R_seasonal_min : 2.8102290832682497
 
 T_habit_min : -10.0
 
