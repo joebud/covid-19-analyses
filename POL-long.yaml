@@ -10,7 +10,7 @@ end_lockdown_I_thr: 0.99
 endtime: 3000
 fast_sim: false
 fix_elam0_val: 0.02
-fix_lam0_val: 0.3
+fix_lam0_val: 0.298
 fix_vacc_end_fraction: false
 lam0_est_t_limit: 10
 lam0_est_t_limit_low: 0
