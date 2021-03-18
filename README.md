@@ -4,9 +4,6 @@ Generating COVID-19 projections for various scenarios and countries
 
 [//]: # CONTENTS
 
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
-
 ## COUNTRY ANALYSIS
 
 - DATA AND PROJECTION PERIODS
@@ -537,6 +534,11 @@ $t_{var}$ - variant appearance time
 
 $t_{sim}$ - projection time
 
+
+```math
+t_{sim}
+```
+- projection time
 
 
 ### PARAMETERS
