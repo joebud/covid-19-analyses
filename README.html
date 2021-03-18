@@ -387,7 +387,7 @@ $(document).ready(function () {
 
 <div id="covid-19-analyses" class="section level1">
 <h1>COVID-19 Analyses</h1>
-<p>CONTENTS</p>
+<p>Generating COVID-19 projections for various scenarios and countries</p>
 <div id="country-analysis" class="section level2">
 <h2>COUNTRY ANALYSIS</h2>
 <ul>
@@ -722,8 +722,98 @@ $(document).ready(function () {
 <div id="seasonality" class="section level3">
 <h3>SEASONALITY</h3>
 </div>
-<div id="glossary" class="section level3">
-<h3>GLOSSARY</h3>
+<div id="notation" class="section level3">
+<h3>NOTATION</h3>
+<p><span class="math inline">\(^*\)</span> - Asterisks indicate confirmed (or reported) cases, and all cases otherwise (or true number of cases)</p>
+<p><span class="math inline">\(t\)</span> - Time since early stages of the epidemic</p>
+<p><span class="math inline">\(\tau\)</span> - age of infection (the time elapsed since the last infection)</p>
+<p><span class="math inline">\(\tau'\)</span> - Age of immunity (the time elapsed since the last recovery or vaccination)</p>
+<p><span class="math inline">\(N\)</span> - Total population</p>
+<p><span class="math inline">\({\mu}\)</span> - natural mortality rate (per day per person)</p>
+<p><span class="math inline">\({\epsilon}\)</span> - vaccine efficacy</p>
+<p><span class="math inline">\({\nu}\)</span> - yearly vaccination rate (or coverage)</p>
+<p><span class="math inline">\({\eta_C},{\eta_I}\)</span> - cumulative <span class="math inline">\(C\)</span> and <span class="math inline">\(I\)</span></p>
+<p><span class="math inline">\(\zeta\)</span> - logarithm of <span class="math inline">\(I\)</span></p>
+<p><span class="math inline">\(\lambda_0\)</span> - Initial logarithmic growth rate</p>
+<p><span class="math inline">\(R_0\)</span> - Initial reproduction number (for COVID-19 and influenza)</p>
+<p><span class="math inline">\(r_0\)</span> - Initial disease-related mortality (for COVID-19 and influenza)</p>
+<p><span class="math inline">\(\alpha(t)\)</span> - fraction of the reported to true case incidence at time <span class="math inline">\(t\)</span></p>
+<p><span class="math inline">\(\dot{C}_0,\dot{C}^*_0\)</span> - Initial incidence</p>
+<p><span class="math inline">\(R(t),R^*(t)\)</span> - Basic reproduction number</p>
+<p><span class="math inline">\(R_e(t),R^*_e(t)\)</span> - Effective reproduction number</p>
+<p><span class="math inline">\(R_{min}(t),R_{max}(t)\)</span> - Min and max seasonal reproduction number (for COVID-19 and influenza)</p>
+<p><span class="math inline">\(R_s(t),R^*_s(t)\)</span> - Seasonal reproduction number <span class="math inline">\(\Omega(t),\Omega^*(t)\)</span> - current lockdown factor</p>
+<p><span class="math inline">\(\Omega_{rel}\)</span> - Short-term lockdown factor relaxation value (post-lockdown)</p>
+<p><span class="math inline">\(\tau_{rel}\)</span> - Short-term lockdown factor relaxation time constant</p>
+<p><span class="math inline">\(\Omega_{\infty}\)</span> - Long-term lockdown factor relaxation value (new normal)</p>
+<p><span class="math inline">\(\theta_i\)</span> - lockdown start/exit thresholds</p>
+<p><span class="math inline">\(m_i(t)\)</span> - index for control measure <span class="math inline">\(i\)</span> (e.g. stringency index or school closing)</p>
+<p><span class="math inline">\(\eta_i(t)\)</span> - effectiveness of control measure <span class="math inline">\(i\)</span></p>
+<p><span class="math inline">\(f(t)\)</span> - fatigue factor</p>
+<p><span class="math inline">\(M(t)\)</span> - outdoor mobility</p>
+<p><span class="math inline">\(k(t)\)</span> - outdoor temperature</p>
+<p><span class="math inline">\(\lambda(t),\lambda^*(t)\)</span> - logarithmic growth rate</p>
+<p><span class="math inline">\(T(t),T^*(t)\)</span> - total umber of tests</p>
+<p><span class="math inline">\(r(t),r^*(t)\)</span> - disease-related mortality</p>
+<p><span class="math inline">\(C(t),C^*(t)\)</span> - Total cases</p>
+<p><span class="math inline">\(C^*_{data}(t)\)</span> - Total cases data (as reported)</p>
+<p><span class="math inline">\(C^*_{diag}(t)\)</span> - Total cases data (wrt diagnosis date)</p>
+<p><span class="math inline">\(C_{ri}(t),C_{ri}^*(t)\)</span> - Total reinfection cases</p>
+<p><span class="math inline">\(H(t),H^*(t)\)</span> - total recoveries</p>
+<p><span class="math inline">\({D}(t),{D}^*(t)\)</span> - deaths attributable to COVID-19 only</p>
+<p><span class="math inline">\({D}_{\mu}(t),{D}^*_{\mu}(t)\)</span> - deaths of the infected population which are attributable to natural mortality</p>
+<p><span class="math inline">\({D}_{tot}(t),{D}_{tot}^*(t)\)</span> - total deaths</p>
+<p><span class="math inline">\(D^*_{data}(t)\)</span> - Deaths data (as reported)</p>
+<p><span class="math inline">\(D^*_{diag}(t)\)</span> - Deaths data (wrt diagnosis date)</p>
+<p><span class="math inline">\(I(t),I^*(t)\)</span> - Infected population at time <span class="math inline">\(t\)</span></p>
+<p><span class="math inline">\(I_{min}\)</span> - lower limit on infection prevalence</p>
+<p><span class="math inline">\(F(t),F^*(t)\)</span> - Infectious population at time <span class="math inline">\(t\)</span></p>
+<p><span class="math inline">\(S(t),S^*(t)\)</span> - susceptible population at time <span class="math inline">\(t\)</span></p>
+<p><span class="math inline">\(\tilde{I}(t,\tau),\tilde{I}^*(t,\tau)\)</span> - Currently infected population at time <span class="math inline">\(t\)</span> with infection age <span class="math inline">\(\tau\)</span></p>
+<p><span class="math inline">\(L(t),L^*(t)\)</span> - Total lost disease-induced immunities (recovered and susceptible)</p>
+<p><span class="math inline">\(J(t),J^*(t)\)</span> - currently recovered immune population at time <span class="math inline">\(t\)</span> (recovered and immune)</p>
+<p><span class="math inline">\(\tilde{J}(t,\tau'),\tilde{J}^*(t,\tau')\)</span> - currently recovered immune population at time <span class="math inline">\(t\)</span> with immunity age <span class="math inline">\(\tau'\)</span></p>
+<p><span class="math inline">\(V(t)\)</span> - Total vaccine-induced immunities</p>
+<p><span class="math inline">\(V'(t)\)</span> - Total vaccinated</p>
+<p><span class="math inline">\(U(t)\)</span> - Total lost vaccine-induced immunities (vaccinated and susceptible)</p>
+<p><span class="math inline">\(K(t)\)</span> - currently vaccinated immune population at time <span class="math inline">\(t\)</span> (vaccinated and immune)</p>
+<p><span class="math inline">\(\tilde{K}(t,\tau')\)</span> - currently vaccinated immune population at time <span class="math inline">\(t\)</span> with immunity age <span class="math inline">\(\tau'\)</span></p>
+<p><span class="math inline">\(p_{\beta}(\tau)\)</span> - age-specific transmission rate (for COVID-19 and influenza)</p>
+<p><span class="math inline">\(p_{\gamma}(\tau)\)</span> - age-specific recovery rate (for mild, severe, and critical cases)</p>
+<p><span class="math inline">\(p_{\delta}(\tau)\)</span> - age-specific disease-related mortality rate</p>
+<p><span class="math inline">\(p_{\nu}(\tau')\)</span> - age-specific waning immunity rate (after natural infection)</p>
+<p><span class="math inline">\(p_{\nu'}(\tau')\)</span> - age-specific waning immunity rate (after vaccination)</p>
+<p><span class="math inline">\(\Lambda(\tau),\Lambda^*(\tau)\)</span> - probability, for an infected individual, to remain in the infected state until infection age <span class="math inline">\(\tau\)</span> (survival or removal function)</p>
+<p><span class="math inline">\(\Lambda_{\nu}(\tau')\)</span> -probability, for an infected individual, to remain in the immune state until immunity age <span class="math inline">\(\tau'\)</span></p>
+<p><span class="math inline">\(\bar{\beta}(t),\bar{\beta}^*(t)\)</span> - contact rate (age-averaged model)</p>
+<p><span class="math inline">\(\bar{\gamma}(t),\bar{\gamma}^*(t)\)</span> - recovery rate (age-averaged model)</p>
+<p><span class="math inline">\(\bar{\delta}(t),\bar{\delta}^*(t)\)</span> - death rate (age-averaged model)</p>
+<p><span class="math inline">\(\bar{R}(t),\bar{R}^*(t)\)</span> - reproduction number (age-averaged model)</p>
+<p><span class="math inline">\(\tau_{diag}\)</span> - mean time to diagnosis</p>
+<p><span class="math inline">\(\tau_{inf}\)</span> - mean infectious period</p>
+<p><span class="math inline">\(\tau_{cut}\)</span> - contact tracing cutoff on distribution <span class="math inline">\(p_{\beta}\)</span></p>
+<p><span class="math inline">\(\tau_{\beta}\)</span> - scale parameter of distribution <span class="math inline">\(p_{\beta}\)</span></p>
+<p><span class="math inline">\(\tau_{\gamma}\)</span> - scale parameter of distribution <span class="math inline">\(p_{\gamma}\)</span></p>
+<p><span class="math inline">\(\tau_{\delta}\)</span> - scale parameter of distribution <span class="math inline">\(p_{\delta}\)</span></p>
+<p><span class="math inline">\(\tau_{\nu}\)</span> - scale parameter of distribution <span class="math inline">\(p_{\nu}\)</span></p>
+<p><span class="math inline">\(s_{\beta}\)</span> - shape parameter of distribution <span class="math inline">\(p_{\beta}\)</span></p>
+<p><span class="math inline">\(s_{\gamma}\)</span> - shape parameter of distribution <span class="math inline">\(p_{\gamma}\)</span></p>
+<p><span class="math inline">\(s_{\delta}\)</span> - shape parameter of distribution <span class="math inline">\(p_{\delta}\)</span></p>
+<p><span class="math inline">\(s_{\nu}\)</span> - shape parameter of distribution <span class="math inline">\(p_{\nu}\)</span></p>
+<p><span class="math inline">\(p_{asym}\)</span> - probability of asymptomatic infection</p>
+<p><span class="math inline">\(p_{sym}\)</span> - probability of symptomatic infection</p>
+<p><span class="math inline">\(p_{fev | sym}\)</span> - probability of fever given symptoms</p>
+<p><span class="math inline">\(p_{sev|sym}\)</span> - probability of severe infection given symptoms</p>
+<p><span class="math inline">\(p_{crit|sym}\)</span> - probability of critical infection given symptoms</p>
+<p><span class="math inline">\(p_{diag | sym}\)</span> - probability of diagnosis given symptoms</p>
+<p><span class="math inline">\(p_{hosp}\)</span> - probability of hospitalization</p>
+<p><span class="math inline">\(p_{mild}\)</span> - probability of mild infection</p>
+<p><span class="math inline">\(\tau_{hosp}\)</span> - mean time to hospitalization</p>
+<p><span class="math inline">\(\Delta_{hosp}\)</span> - mean hospitalization duration</p>
+<p><span class="math inline">\(\Delta_{ICU}\)</span> - mean duration of ICU stay</p>
+<p><span class="math inline">\(\pi\)</span> - variant multiplicative advantage</p>
+<p><span class="math inline">\(t_{var}\)</span> - variant appearance time</p>
+<p><span class="math inline">\(t_{sim}\)</span> - projection time</p>
 </div>
 <div id="parameters" class="section level3">
 <h3>PARAMETERS</h3>
