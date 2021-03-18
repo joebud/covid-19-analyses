@@ -12,17 +12,17 @@ do_ext_analysis : False
 
 new_dbg : False
 
-countries : ['United Kingdom', 'Austria']
+countries : ['Korea, South', 'Austria']
 
-numrows : 375
+numrows : 376
 
-enddate : 2021-03-06
+enddate : 2021-03-07
 
 startdate : 2020-02-26
 
 forcasttill : 2023-06-09
 
-curr_period : 2020-02-26 to 2021-03-06
+curr_period : 2020-02-26 to 2021-03-07
 
 data_init_lam0 : 0.298
 
@@ -68,11 +68,11 @@ idx_start : 35
 
 idx_start1 : 24
 
-numrows1 : 386
+numrows1 : 387
 
 curr_vacc_start : 305
 
-curr_vacc_e : 383
+curr_vacc_e : 384
 
 curr_test_start : 35
 
@@ -100,7 +100,7 @@ plot_all_scenarios : False
 
 p_test_given_sym : 1.0
 
-vacc_end_fraction : 1.0179115692453933
+vacc_end_fraction : 1.0354929252198588
 
 ld_relax_fraction : 0.42857142857142855
 
@@ -448,7 +448,7 @@ PAR_Flu_DR_low_fac : 3.0
 
 PAR_Flu_DR_high_fac : 7.0
 
-curr_rD : 0.007563495962406216
+curr_rD : 0.007507699117318233
 
 dDavg_AT_flu : 5.62591437
 

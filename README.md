@@ -554,5 +554,14 @@ COVID-19-ANALYSIS-{COUNTRY-CODE}-{TIME-SPAN}-{EXTENDED-ANALYSIS?}-{DATE}.pdf
 
 
 
+## LICENSE
+
+For non-commercial users of all documents and datasets found in  this repository, the following constitute prior written permission:
+
+- written content, graphs, and screenshots of the visualizations in  this repository can be copied and redistributed with proper attribution by non-commercial users via a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (https://creativecommons.org/licenses/by-nc-nd/4.0/).
+      
+- data made available for download in  this repository can be used, shared, modified or built upon by non-commercial users via the Creative Commons Attribution-NonCommercial 4.0 International License (https://creativecommons.org/licenses/by-nc/4.0/).
+
+Commercial organizations wishing to acquire a license to access and download contents of this repository should contact jbudzin@gmail.com.
 
 
