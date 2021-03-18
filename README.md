@@ -4,6 +4,8 @@ Generating COVID-19 projections for various scenarios and countries
 
 [//]: # CONTENTS
 
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
 
 ## COUNTRY ANALYSIS
 
@@ -562,6 +564,6 @@ For non-commercial users of all documents and datasets found in  this repository
       
 - data made available for download in  this repository can be used, shared, modified or built upon by non-commercial users via the Creative Commons Attribution-NonCommercial 4.0 International License (https://creativecommons.org/licenses/by-nc/4.0/).
 
-Commercial organizations wishing to acquire a license to access and download contents of this repository should contact jbudzin@gmail.com.
+Commercial organizations wishing to acquire a license to access and download contents of this repository should contact jbudzin@gmail.com.  
 
 
