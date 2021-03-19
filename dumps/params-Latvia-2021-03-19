@@ -14,15 +14,15 @@ new_dbg : False
 
 countries : ['Latvia', 'Austria']
 
-numrows : 364
+numrows : 365
 
-enddate : 2021-03-07
+enddate : 2021-03-08
 
 startdate : 2020-03-09
 
 forcasttill : 2023-06-21
 
-curr_period : 2020-03-09 to 2021-03-07
+curr_period : 2020-03-09 to 2021-03-08
 
 data_init_lam0 : 0.298
 
@@ -58,25 +58,25 @@ PAR_hosp_beds : [0.00557]
 
 PAR_ventils : []
 
-curr_t_seasonal_min : 0
+curr_t_seasonal_min : 15
 
-curr_T_seasonal_max : 25.0
+curr_T_seasonal_max : 16.9
 
-curr_T_seasonal_min : 25.0
+curr_T_seasonal_min : -4.7
 
 idx_start : 47
 
 idx_start1 : 30
 
-numrows1 : 381
+numrows1 : 382
 
 curr_vacc_start : 294
 
-curr_vacc_e : 373
+curr_vacc_e : 374
 
 curr_test_start : -9
 
-curr_test_e : 371
+curr_test_e : 374
 
 snew_init_pars_est : True
 
@@ -100,11 +100,11 @@ plot_all_scenarios : False
 
 p_test_given_sym : 1.0
 
-vacc_end_fraction : 0.4388419909862515
+vacc_end_fraction : 0.37281380511029516
 
 ld_relax_fraction : 0.42857142857142855
 
-ldf_inf_fraction : 0.3
+ldf_inf_fraction : 0.375
 
 start_lockdown_safety_fac : 2.55
 
@@ -316,7 +316,7 @@ lambda_decay_period : 22.613
 
 init_fit_from_t_0 : True
 
-R_seasonal_max : 10.547105017060574
+R_seasonal_max : 4.055296947817963
 
 variable_R_seasonal_max : True
 
@@ -334,11 +334,11 @@ ld_relax_lam : 0.04
 
 ld_start_a : 0.03125
 
-max_lockdown_fac : 3.7514482390905077
+max_lockdown_fac : 3.469160451213422
 
-ld_relax_level : 1.7552866125106314
+ld_relax_level : 1.8333796313508688
 
-LDF_Inf : 1.228700628757442
+LDF_Inf : 1.6042071774320101
 
 symptomatic_proportion_unc_fac : 1.8
 
@@ -448,7 +448,7 @@ PAR_Flu_DR_low_fac : 3.0
 
 PAR_Flu_DR_high_fac : 7.0
 
-curr_rD : 0.0068848783759345245
+curr_rD : 0.006258579068222815
 
 dDavg_AT_flu : 5.62591437
 
@@ -612,7 +612,7 @@ R_seasonal_min_flu : 0.9
 
 pi_0 : 7.619047619047619
 
-R_seasonal_min : 4.520187864454531
+R_seasonal_min : 1.7379844062076983
 
 T_habit_min : -10.0
 
@@ -622,11 +622,11 @@ T_room : 25.0
 
 T_dev0 : 0.45
 
-curr_t_seasonal_min : 0
+curr_t_seasonal_min : 15
 
-curr_T_seasonal_max : 25.0
+curr_T_seasonal_max : 16.9
 
-curr_T_seasonal_min : 25.0
+curr_T_seasonal_min : -4.7
 
 curr_R_soc : 1.0
 

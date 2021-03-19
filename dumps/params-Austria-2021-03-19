@@ -12,7 +12,7 @@ do_ext_analysis : False
 
 new_dbg : False
 
-countries : ['Slovakia', 'Austria']
+countries : ['Lithuania', 'Austria']
 
 numrows : 377
 
@@ -104,7 +104,7 @@ vacc_end_fraction : 1.05503774015507
 
 ld_relax_fraction : 0.42857142857142855
 
-ldf_inf_fraction : 0.3
+ldf_inf_fraction : 0.375
 
 start_lockdown_safety_fac : 2.55
 
@@ -338,7 +338,7 @@ max_lockdown_fac : 6.933892121988628
 
 ld_relax_level : 2.795849450209444
 
-LDF_Inf : 1.9570946151466106
+LDF_Inf : 2.4463682689332638
 
 symptomatic_proportion_unc_fac : 1.8
 

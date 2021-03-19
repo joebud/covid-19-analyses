@@ -15,7 +15,7 @@ fix_vacc_end_fraction: false
 lam0_est_t_limit: 10
 lam0_est_t_limit_low: 0
 ld_relax_fraction: 0.42857142857142855
-ldf_inf_fraction: 0.3
+ldf_inf_fraction: 0.375
 minors_frac: 0.2
 new_dbg: false
 no_nat_mort_in_model: false

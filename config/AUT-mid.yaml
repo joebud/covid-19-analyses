@@ -3,7 +3,7 @@ control_measures_add_time: 130
 cost_lockd: 23.80952380952381
 cost_test: 5.0
 cost_vacc: 15.0
-countries: [Austria, Austria]
+countries: [Austria, Israel, South Africa, Germany, US]
 default_ICU_beds_per_N: 0.000218
 do_ext_analysis: false
 end_lockdown_I_thr: 0.99
@@ -15,7 +15,7 @@ fix_vacc_end_fraction: false
 lam0_est_t_limit: 10
 lam0_est_t_limit_low: 0
 ld_relax_fraction: 0.42857142857142855
-ldf_inf_fraction: 0.3
+ldf_inf_fraction: 0.375
 minors_frac: 0.2
 new_dbg: false
 no_nat_mort_in_model: false
