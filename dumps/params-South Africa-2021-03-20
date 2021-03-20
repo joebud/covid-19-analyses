@@ -4,25 +4,25 @@ curr_country : South Africa
 
 time_span : mid
 
-endtime : 1200
+endtime : 3000
 
 fast_sim : False
 
-do_ext_analysis : False
+do_ext_analysis : True
 
 new_dbg : False
 
-countries : ['South Africa', 'Austria']
+countries : ['Austria', 'Israel', 'South Africa', 'Germany', 'US']
 
-numrows : 367
+numrows : 368
 
-enddate : 2021-03-08
+enddate : 2021-03-09
 
 startdate : 2020-03-07
 
-forcasttill : 2023-06-19
+forcasttill : 2028-05-23
 
-curr_period : 2020-03-07 to 2021-03-08
+curr_period : 2020-03-07 to 2021-03-09
 
 data_init_lam0 : 0.298
 
@@ -32,13 +32,13 @@ data_init_dC0_ast : 27.37597655621489
 
 data_init_edC0_ast : 1.8274088494747351
 
-model_init_beta0 : 0.2578910053023474
+model_init_beta0 : 0.26234055881921736
 
-model_init_ebeta0 : 0.014775623324970042
+model_init_ebeta0 : 0.013987176944173165
 
-model_init_I0_ast : 106.15328178708569
+model_init_I0_ast : 104.35281787701027
 
-model_init_eI0_ast : 9.338156706635623
+model_init_eI0_ast : 8.915026366787503
 
 t_infect : -64.66263017137184
 
@@ -68,11 +68,11 @@ idx_start : 45
 
 idx_start1 : 33
 
-numrows1 : 379
+numrows1 : 380
 
 curr_vacc_start : 346
 
-curr_vacc_e : 376
+curr_vacc_e : 377
 
 curr_test_start : -29
 
@@ -100,7 +100,7 @@ plot_all_scenarios : False
 
 p_test_given_sym : 1.0
 
-vacc_end_fraction : 0.037399962774667346
+vacc_end_fraction : 0.03695139805819349
 
 ld_relax_fraction : 0.42857142857142855
 
@@ -132,7 +132,7 @@ THRESHOLD_FOR_min_I_descent : 1e-05
 
 use_con_tracing_cutoff : False
 
-con_tracing_cutoff_tau_pct : -1
+con_tracing_cutoff_tau_pct : 16
 
 use_con_tracing_normalize_pb : False
 
@@ -216,25 +216,27 @@ variant_calculation_v : False
 
 variant_calculation_imm_escape : -1
 
-variant_appear_idx : 0
+variant_appear_idx : 178
 
-variant_appear_pi : 1.0
+variant_appear_pi : 1.5
 
 variant_calculation_debug : False
 
-variant_calculation_dC : None
+variant_calculation_dC : [  52.86677843   47.67526603   72.00189173 ... 1060.02727407 1002.7220059
+  947.99447984]
 
-variant_calculation_S : None
+variant_calculation_S : [9006220.59470324 9006172.91410308 9006100.90563823 ... 5421551.59199853
+ 5420614.76241435 5419737.17292548]
 
 new_max_nu : 550
 
 R_sinus_osc : False
 
-R_sinus_osc_equil : 1.0
+R_sinus_osc_equil : 1.2
 
-R_sinus_osc_ampl : 0.0
+R_sinus_osc_ampl : 0.46672288689471136
 
-R_sinus_osc_freq : 0.0
+R_sinus_osc_freq : 0.0013698630136986301
 
 R_rect_osc : False
 
@@ -448,7 +450,7 @@ PAR_Flu_DR_low_fac : 3.0
 
 PAR_Flu_DR_high_fac : 7.0
 
-curr_rD : 0.017512562393839724
+curr_rD : 0.020226308624063636
 
 dDavg_AT_flu : 5.62591437
 
