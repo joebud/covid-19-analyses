@@ -2,7 +2,6 @@
 
 Generating COVID-19 projections for various scenarios and countries
 
-[//]: # CONTENTS
 
 ## COUNTRY ANALYSIS
 
