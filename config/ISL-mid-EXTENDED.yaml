@@ -23,7 +23,7 @@ p_test_given_sym: 1.0
 plot_I_zoom_win: 180
 print_I_hosp_I_sev_I_crit: false
 reinfections_based_on_C: true
-scen_variant_appear_idx: 30
+scen_variant_appear_idx: 15
 scen_variant_appear_pi: 1.25
 sims_in_the_past_tstep: 30
 snew_init_pars_est: true
