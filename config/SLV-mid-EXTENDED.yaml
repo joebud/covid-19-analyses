@@ -6,6 +6,7 @@ cost_vacc: 15.0
 countries: [El Salvador, Austria]
 default_ICU_beds_per_N: 0.000218
 do_ext_analysis: true
+do_save_html: false
 end_lockdown_I_thr: 0.99
 endtime: 1200
 fast_sim: false
@@ -24,7 +25,9 @@ plot_I_zoom_win: 180
 print_I_hosp_I_sev_I_crit: false
 reinfections_based_on_C: true
 scen_variant_appear_idx: 15
-scen_variant_appear_pi: 1.25
+scen_variant_appear_pi: 1.3
+show_MODEL_CHECKS: false
+show_VALIDITY: true
 sims_in_the_past_tstep: 30
 snew_init_pars_est: true
 start_lockdown_safety_fac: 2.55

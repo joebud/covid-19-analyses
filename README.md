@@ -326,39 +326,6 @@ A custom created infection-age SIR-X model with  waning immunity, control measur
 ### MAIN ASSUMPTIONS
 
 
-### DYNAMICS
-
-
-### INITIAL CONDITIONS
-
-### REPORTED VS TRUE CASES
-
-### PARAMETER ESTIMATION
-
-### AGE-SPECIFIC DISTRIBUTIONS
-
-### VACCINATIONS  
-
-### TESTING
-
-### SEASONALITY
-
-
-### NOTATION
-
-
-
-
-### PARAMETERS
-
-
-## KEY FINDINGS
-
-
-
-## REFERENCES
-
-
 
 ## DOWNLOAD
 
