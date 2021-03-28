@@ -4,11 +4,11 @@ curr_country : Austria
 
 time_span : mid
 
-endtime : 1192
+endtime : 1200
 
 fast_sim : False
 
-do_ext_analysis : True
+do_ext_analysis : False
 
 new_dbg : False
 
@@ -20,7 +20,7 @@ enddate : 2021-03-17
 
 startdate : 2020-02-26
 
-forcasttill : 2023-06-01
+forcasttill : 2023-06-09
 
 curr_period : 2020-02-26 to 2021-03-17
 
@@ -32,13 +32,13 @@ data_init_dC0_ast : 28.865261024936412
 
 data_init_edC0_ast : 1.7359363313275948
 
-model_init_beta0 : 0.2578910053023474
+model_init_beta0 : 0.26234055881921736
 
-model_init_ebeta0 : 0.014775623324970042
+model_init_ebeta0 : 0.013987176944173165
 
-model_init_I0_ast : 111.92814185626689
+model_init_I0_ast : 110.02973064804623
 
-model_init_eI0_ast : 9.297007691685193
+model_init_eI0_ast : 8.843148204026058
 
 t_infect : -53.24484098000961
 
@@ -132,7 +132,7 @@ THRESHOLD_FOR_min_I_descent : 1e-05
 
 use_con_tracing_cutoff : False
 
-con_tracing_cutoff_tau_pct : 16
+con_tracing_cutoff_tau_pct : -1
 
 use_con_tracing_normalize_pb : False
 
@@ -216,27 +216,25 @@ variant_calculation_v : False
 
 variant_calculation_imm_escape : -1
 
-variant_appear_idx : 192
+variant_appear_idx : 0
 
-variant_appear_pi : 1.5
+variant_appear_pi : 1.0
 
 variant_calculation_debug : False
 
-variant_calculation_dC : [54.86481164 86.31751445 97.91431447 ...  1.97530426  1.9654266
-  1.95581437]
+variant_calculation_dC : None
 
-variant_calculation_S : [67885826.88989383 67885740.56701846 67885642.64516929 ...
- 15303671.17106327 15303598.985641   15303533.38365202]
+variant_calculation_S : None
 
 new_max_nu : 550
 
 R_sinus_osc : False
 
-R_sinus_osc_equil : 1.2
+R_sinus_osc_equil : 1.0
 
-R_sinus_osc_ampl : 0.46672288689471136
+R_sinus_osc_ampl : 0.0
 
-R_sinus_osc_freq : 0.0013698630136986301
+R_sinus_osc_freq : 0.0
 
 R_rect_osc : False
 
