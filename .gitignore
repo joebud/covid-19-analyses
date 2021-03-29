@@ -4,11 +4,23 @@ src/
 bin/
 misc/
 tex/
+examples/
+docker/
+tests/
 
 build/
 debug/
 dist/
 
 LICENSE
+MANIFEST.in
+setup.cfg
+make_sdist.sh
+COVID-19-ANALYSIS-debug.spec
+make_dist_debug.sh
+build.txt
+COVID-19-ANALYSIS.spec
+make_dist.sh
+setup.py
 
  
