@@ -2,5 +2,13 @@
 docs/
 src/
 bin/
+misc/
+tex/
+
+build/
+debug/
+dist/
+
+LICENSE
 
  
