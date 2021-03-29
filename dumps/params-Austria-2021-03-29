@@ -14,15 +14,15 @@ new_dbg : False
 
 countries : ['United Kingdom', 'Austria']
 
-numrows : 386
+numrows : 387
 
-enddate : 2021-03-17
+enddate : 2021-03-18
 
 startdate : 2020-02-26
 
 forcasttill : 2023-06-09
 
-curr_period : 2020-02-26 to 2021-03-17
+curr_period : 2020-02-26 to 2021-03-18
 
 data_init_lam0 : 0.298
 
@@ -68,7 +68,7 @@ idx_start : 35
 
 idx_start1 : 24
 
-numrows1 : 397
+numrows1 : 398
 
 curr_vacc_start : 305
 
@@ -216,17 +216,17 @@ variant_calculation_v : False
 
 variant_calculation_imm_escape : -1
 
-variant_appear_idx : 192
+variant_appear_idx : 193
 
 variant_appear_pi : 1.5
 
 variant_calculation_debug : False
 
-variant_calculation_dC : [54.86481164 86.31751445 97.91431447 ...  1.97530426  1.9654266
-  1.95581437]
+variant_calculation_dC : [54.86481164 86.31751445 97.91431447 ...  2.40731084  2.3958097
+  2.38425976]
 
 variant_calculation_S : [67885826.88989383 67885740.56701846 67885642.64516929 ...
- 15303671.17106327 15303598.985641   15303533.38365202]
+ 15303972.78579016 15303900.18603887 15303834.17155537]
 
 new_max_nu : 550
 
@@ -434,7 +434,7 @@ method_C_min : L-BFGS-B
 
 optim_quants : ['H', 'D']
 
-data_dir_pth : /home/jb/git/covid-19-sird/sim/output/data/
+data_dir_pth : ../data/
 
 tau_lat_flu : 1
 
@@ -450,7 +450,7 @@ PAR_Flu_DR_low_fac : 3.0
 
 PAR_Flu_DR_high_fac : 7.0
 
-curr_rD : 0.007191389229479564
+curr_rD : 0.007127096823218743
 
 dDavg_AT_flu : 5.62591437
 
