@@ -8,11 +8,11 @@ endtime : 1200
 
 fast_sim : False
 
-do_ext_analysis : False
+do_ext_analysis : True
 
 new_dbg : False
 
-countries : ['Austria', 'Germany']
+countries : ['Austria', 'Israel', 'South Africa', 'Germany', 'US']
 
 numrows : 394
 
@@ -32,13 +32,13 @@ data_init_dC0_ast : 36.691204042116034
 
 data_init_edC0_ast : 3.6661600355703143
 
-model_init_beta0 : 0.2578910053023474
+model_init_beta0 : 0.26234055881921736
 
-model_init_ebeta0 : 0.014775623324970042
+model_init_ebeta0 : 0.013987176944173165
 
-model_init_I0_ast : 142.2740742706394
+model_init_I0_ast : 139.86096624655156
 
-model_init_eI0_ast : 16.387156913699812
+model_init_eI0_ast : 15.839869282521423
 
 t_infect : -44.67996081561612
 
@@ -118,7 +118,7 @@ reconstruct_NoL_NoV : True
 
 L_in_dynamics : True
 
-V_in_dynamics : True
+V_in_dynamics : False
 
 V_in_projection : False
 
@@ -132,7 +132,7 @@ THRESHOLD_FOR_min_I_descent : 1e-05
 
 use_con_tracing_cutoff : False
 
-con_tracing_cutoff_tau_pct : -1
+con_tracing_cutoff_tau_pct : 16
 
 use_con_tracing_normalize_pb : False
 
@@ -140,7 +140,7 @@ do_ext_analysis_for_all_countries : False
 
 final_report : True
 
-num_sc_short : 2
+num_sc_short : 7
 
 curr_vacc_rate_est_wind : 14
 
@@ -216,25 +216,27 @@ variant_calculation_v : False
 
 variant_calculation_imm_escape : -1
 
-variant_appear_idx : 0
+variant_appear_idx : 187
 
-variant_appear_pi : 1.0
+variant_appear_pi : 1.5
 
 variant_calculation_debug : False
 
-variant_calculation_dC : None
+variant_calculation_dC : [52.86677843 47.67526603 72.00189173 ...  0.11499843  0.10215018
+  0.08925619]
 
-variant_calculation_S : None
+variant_calculation_S : [9006220.59470324 9006172.91410308 9006100.90563823 ... 1270266.10666809
+ 1309205.8994362  1350219.24404184]
 
 new_max_nu : 550
 
 R_sinus_osc : False
 
-R_sinus_osc_equil : 1.0
+R_sinus_osc_equil : 1.2
 
-R_sinus_osc_ampl : 0.0
+R_sinus_osc_ampl : 0.46672288689471136
 
-R_sinus_osc_freq : 0.0
+R_sinus_osc_freq : 0.0013698630136986301
 
 R_rect_osc : False
 
@@ -458,11 +460,11 @@ rD_mean : 0.00627
 
 tau_distribution : weibull
 
-tau_lat : 3
+tau_lat : 1
 
 tau_inc : 5.95
 
-tau_inf : 9
+tau_inf : 5
 
 tau_test : 9.0
 
@@ -470,11 +472,11 @@ tau_diag : 10.55
 
 tau_cont : 0.0
 
-tau_gamma : 26.05
+tau_gamma : 14
 
 tau_gamma_shape : 1.0
 
-tau_delta : 34.25
+tau_delta : 28
 
 tau_delta_shape : 1.0
 
@@ -518,7 +520,7 @@ udis : lognorm
 
 sig_dflt : 0.4
 
-tau_beta : 7.5
+tau_beta : 3
 
 tau_beta_shape : 0.6666666666666666
 
@@ -538,13 +540,13 @@ ICU_dur : 10
 
 vir_shedding_start : -5.5
 
-tau_inf : 9
+tau_inf : 5
 
 tau_diag : 10.55
 
-tau_lat : 3
+tau_lat : 1
 
-tau_gamma : 26.05
+tau_gamma : 14
 
 tau_gamma_shape : 1.0
 
@@ -554,7 +556,7 @@ tau_gamma_hosp : 34.25
 
 tau_gamma_hosp_shape : 1.0
 
-tau_delta : 34.25
+tau_delta : 28
 
 tau_delta_shape : 1.0
 
@@ -566,23 +568,23 @@ tau_ICU_start : 21
 
 tau_ICU_end : 31
 
-tau_beta : 7.5
+tau_beta : 3
 
 tau_beta_shape : 0.6666666666666666
 
-tau_gamma : 26.05
+tau_gamma : 14
 
 tau_gamma_shape : 1.0
 
-tau_delta : 34.25
+tau_delta : 28
 
-tau_delta : 34.25
+tau_delta : 28
 
 tau_delta_shape : 1.0
 
-tau_lat : 3
+tau_lat : 1
 
-tau_inf : 9
+tau_inf : 5
 
 tau_beta_flu : 3
 
@@ -654,7 +656,7 @@ ALL_scenarios : ['no change in Rt', 'seasonal changes', 'seasonal + lockdowns', 
 
 scenarios : ['no change in Rt', 'seasonal changes', 'seasonal + lockdowns', 'seasonal + vaccination', 'seas. + vacc + variant (w/o imm.esc.)', 'no control measures ever', 'influenza (novel, w/o measures)']
 
-num_sc : 2
+num_sc : 7
 
 scenarios_c_anl : ['no change in Rt', 'seasonal changes', 'seasonal + lockdowns', 'seasonal + vaccination', 'seas. + vacc + variant (w/o imm.esc.)']
 
@@ -662,7 +664,7 @@ scenarios_c_com : ['no change in Rt', 'seasonal changes', 'seasonal + lockdowns'
 
 scenarios_decsr : ['In this scenario, both the projected basic reproduction number and the projected \neffective mortality are assumed constant over the entire projection time period \nand are taken to be equal to the last observed values. No seasonality effects are \ntaken into account. The effect of vaccinations is taken into account, \nthe vaccination rate in the projection is taken to be zero, however. \n', 'This scenario assumes seasonal variations in the basic reproduction number driven \nby variations in outdoor temperature and thus outdoor mobility. The maximum and \nminimum reproduction number is proportional to the corresponding values for \nseasonal influenza. The seasonal variations are then normalized such as to \nreproduce the initially observed, pre-lockdown reproduction number. The projection \nassumes the lockdown factor to remain constant, which is defined as the ratio \nof the seasonal reproduction number to the observed reproduction number. Again, \nthe effect of vaccinations is taken into account based on historical data, \nthe vaccination rate in the projection is taken to be zero, however. \n', "This scenario assumes exactly the same seasonal effects as in scenario \n'seasonal changes'. The effect of vaccinations is taken into account, \nthe vaccination rate in the projection is taken to be zero, however. \nLockdowns are modelled by multiplying the projected reproduction number \nby pulse functions with a quadratic rise and an exponential tail. The maximum \nlockdown factor is estimated from the previously observed data. A lockdown starts \nwhen the number of critical infections approaches the available capacity \nof the health care system (number of ICU beds) and ends when the number of \nall infections falls below a given percent of its initial value. The optimal \nthreshold values have been found by minimizing the total lockdown duration over \na long period of time. The projection does not assume a constant lockdown factor, \nas opposed to the previous scenarios, instead the projected lockdown factor \nrelaxes after a pre-specified time period to a constant terminal value, \nwhich in general does not have to equal one (usually in the range 1 to 3). \nIn lagged simulations, all pre-calculated lockdowns are shifted \nbackwards in time by the specified time lag.  \n", "This scenario assumes exactly the same seasonal effects as in scenario \n'seasonal changes'. Vaccinations are accounted for using historical data \nand the vaccination rate (expressed as the fraction of population vaccinated \nper year) in the projection is set to a non-zero number, usually different \nfrom the currently observed vaccination rate. The projected lockdown factor \nrelaxes after a pre-specified time period to a constant terminal value, \nwhich in general does not have to equal one (usually in the range 1 to 3). \nThe susceptible population gets vaccinated in the first place. Vaccine-induced \nimmunity wanes with a pre-specified age-specific rate, not necessarily equal \nto the duration of immunity after recovery from a natural infection. \n", "This scenario is similar to scenario 'seasonal + vaccination' with the only \ndifference being the appearance of a new virus variant after a given time and \nwith pre-specified multiplicative advantage (usually about 1.5). The projected \nlockdown factor relaxes after a pre-specified time period to a correspondingly \nlower terminal value as in scenarios without the variant. \n", "This scenario assumes no control measures whatsoever (lockdowns, vaccinations, etc.) \nare ever taken. Seasonality effects are accounted for as in 'seasonal changes'. \nLockdown factor in the entire simulation is constant and equals one and \nno vaccinations take place. Mortality is assumed constant and is given by \nthe effective mortality estimated from data. \n", "This scenario assumes a novel hypothetical influenza-like virus with the same \ninfection-age-specific characteristics and mortality as the seasonal influenza. \nSeasonality effects are accounted for similarly as in 'seasonal changes', \nbut with amplitudes scaled to reproduce those observed with seasonal influenza. \nAgain, no control measures are even taken (no lockdowns, no vaccinations). \nLockdown factor in the entire simulation is constant and equals one. \n"]
 
-V_in_dynamics : True
+V_in_dynamics : False
 
 L_in_dynamics : True
 

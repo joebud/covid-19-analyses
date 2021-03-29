@@ -8,7 +8,7 @@ endtime : 1200
 
 fast_sim : False
 
-do_ext_analysis : False
+do_ext_analysis : True
 
 new_dbg : False
 
@@ -132,7 +132,7 @@ THRESHOLD_FOR_min_I_descent : 1e-05
 
 use_con_tracing_cutoff : False
 
-con_tracing_cutoff_tau_pct : -1
+con_tracing_cutoff_tau_pct : 16
 
 use_con_tracing_normalize_pb : False
 
@@ -216,25 +216,27 @@ variant_calculation_v : False
 
 variant_calculation_imm_escape : -1
 
-variant_appear_idx : 0
+variant_appear_idx : 187
 
-variant_appear_pi : 1.0
+variant_appear_pi : 1.5
 
 variant_calculation_debug : False
 
-variant_calculation_dC : None
+variant_calculation_dC : [52.86677843 47.67526603 72.00189173 ...  0.11499843  0.10215018
+  0.08925619]
 
-variant_calculation_S : None
+variant_calculation_S : [9006220.59470324 9006172.91410308 9006100.90563823 ... 1270266.10666809
+ 1309205.8994362  1350219.24404184]
 
 new_max_nu : 550
 
 R_sinus_osc : False
 
-R_sinus_osc_equil : 1.0
+R_sinus_osc_equil : 1.2
 
-R_sinus_osc_ampl : 0.0
+R_sinus_osc_ampl : 0.46672288689471136
 
-R_sinus_osc_freq : 0.0
+R_sinus_osc_freq : 0.0013698630136986301
 
 R_rect_osc : False
 
