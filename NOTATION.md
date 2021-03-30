@@ -187,7 +187,7 @@ $\Delta_{hosp}$ - mean hospitalization duration
 
 $\Delta_{ICU}$ - mean duration of ICU  stay
 
-$\pi$ - variant multiplicative advantage
+$\Pi$ - variant multiplicative advantage
 
 $t_{var}$ - variant appearance time
 
