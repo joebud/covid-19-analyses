@@ -12,7 +12,7 @@ do_ext_analysis : False
 
 new_dbg : False
 
-countries : ['Austria', 'Israel', 'South Africa', 'Germany', 'US']
+countries : ['Germany', 'Italy', 'Portugal', 'Singapore', 'United Kingdom']
 
 numrows : 399
 
@@ -32,13 +32,13 @@ data_init_dC0_ast : 36.691204042116034
 
 data_init_edC0_ast : 3.6661600355703143
 
-model_init_beta0 : 0.26234055881921736
+model_init_beta0 : 0.2578910053023474
 
-model_init_ebeta0 : 0.013987176944173165
+model_init_ebeta0 : 0.014775623324970042
 
-model_init_I0_ast : 139.86096624655156
+model_init_I0_ast : 142.2740742706394
 
-model_init_eI0_ast : 15.839869282521423
+model_init_eI0_ast : 16.387156913699812
 
 t_infect : -44.67996081561612
 
