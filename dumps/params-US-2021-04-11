@@ -72,7 +72,7 @@ numrows1 : 435
 
 curr_vacc_start : 303
 
-curr_vacc_e : 413
+curr_vacc_e : 414
 
 curr_test_start : 9
 
@@ -100,7 +100,7 @@ plot_all_scenarios : False
 
 p_test_given_sym : 1.0
 
-vacc_end_fraction : 1.9533793774283095
+vacc_end_fraction : 1.982225563008298
 
 ld_relax_fraction : 0.42857142857142855
 
@@ -222,11 +222,11 @@ variant_appear_pi : 1.6
 
 variant_calculation_debug : False
 
-variant_calculation_dC : [5.28667784e+01 4.76752660e+01 7.20018917e+01 ... 1.19017488e-02
- 1.02143835e-02 8.78141807e-03]
+variant_calculation_dC : [5.28667784e+01 4.76752660e+01 7.20018917e+01 ... 9.90662271e-03
+ 9.01878523e-03 8.22586763e-03]
 
-variant_calculation_S : [9006220.59470324 9006172.91410308 9006100.90563823 ... 1671535.86513806
- 1701578.39945227 1733238.03264613]
+variant_calculation_S : [9006220.59470324 9006172.91410308 9006100.90563823 ... 2843456.50389752
+ 2905045.97319737 2967558.17928041]
 
 new_max_nu : 550
 
