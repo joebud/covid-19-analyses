@@ -72,7 +72,7 @@ numrows1 : 414
 
 curr_vacc_start : 320
 
-curr_vacc_e : 407
+curr_vacc_e : 408
 
 curr_test_start : 36
 
@@ -100,7 +100,7 @@ plot_all_scenarios : False
 
 p_test_given_sym : 1.0
 
-vacc_end_fraction : 1.017358209044405
+vacc_end_fraction : 1.1513124546219737
 
 ld_relax_fraction : 0.42857142857142855
 
