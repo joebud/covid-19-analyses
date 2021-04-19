@@ -1,6 +1,6 @@
 
 
-curr_country : Germany
+curr_country : Czechia
 
 time_span : mid
 
@@ -12,71 +12,71 @@ do_ext_analysis : False
 
 new_dbg : False
 
-countries : ['Germany', 'Italy', 'Portugal', 'Singapore', 'United Kingdom']
+countries : ['Poland', 'Czechia', 'Slovakia', 'France', 'Norway']
 
-numrows : 415
+numrows : 405
 
 enddate : 2021-04-08
 
-startdate : 2020-02-19
+startdate : 2020-02-29
 
-forcasttill : 2023-06-02
+forcasttill : 2023-06-12
 
-curr_period : 2020-02-19 to 2021-04-08
+curr_period : 2020-02-29 to 2021-04-08
 
 data_init_lam0 : 0.298
 
 data_init_elam0 : 0.02
 
-data_init_dC0_ast : 36.691204042116034
+data_init_dC0_ast : 20.437022997105167
 
-data_init_edC0_ast : 3.6661600355703143
+data_init_edC0_ast : 1.9257377974231784
 
-model_init_beta0 : 0.2578910053023474
+model_init_beta0 : 0.26234055881921736
 
-model_init_ebeta0 : 0.014775623324970042
+model_init_ebeta0 : 0.013987176944173165
 
-model_init_I0_ast : 142.2740742706394
+model_init_I0_ast : 77.90264337733844
 
-model_init_eI0_ast : 16.387156913699812
+model_init_eI0_ast : 8.43422886742839
 
-t_infect : -44.67996081561612
+t_infect : -56.108401451636084
 
-date_inf : 2020-01-06
+date_inf : 2020-01-04
 
 dum_alpha : 0.546
 
-curr_population : 83783942
+curr_population : 10708981
 
-natural_DR : 3.0958904109589045e-05
+natural_DR : 2.8767123287671234e-05
 
-PAR_Flu_DR : [2.45479452e-07]
+PAR_Flu_DR : [4.21369863e-07]
 
-PAR_ICU_beds : [0.000387]
+PAR_ICU_beds : [0.000116]
 
-PAR_hosp_beds : [0.008]
+PAR_hosp_beds : [0.00663]
 
-PAR_ventils : [0.00029839]
+PAR_ventils : [0.00032954]
 
 curr_t_seasonal_min : 15
 
-curr_T_seasonal_max : 20.3
+curr_T_seasonal_max : 18.2
 
-curr_T_seasonal_min : 0.6
+curr_T_seasonal_min : -1.4
 
-idx_start : 28
+idx_start : 38
 
-idx_start1 : 0
+idx_start1 : 29
 
-numrows1 : 443
+numrows1 : 414
 
-curr_vacc_start : 312
+curr_vacc_start : 302
 
-curr_vacc_e : 424
+curr_vacc_e : 414
 
-curr_test_start : 25
+curr_test_start : 185
 
-curr_test_e : 417
+curr_test_e : 411
 
 snew_init_pars_est : True
 
@@ -100,7 +100,7 @@ plot_all_scenarios : False
 
 p_test_given_sym : 1.0
 
-vacc_end_fraction : 1.8048890217445928
+vacc_end_fraction : 0.8821790837455562
 
 ld_relax_fraction : 0.42857142857142855
 
@@ -316,7 +316,7 @@ lambda_decay_period : 22.613
 
 init_fit_from_t_0 : True
 
-R_seasonal_max : 6.384260161239968
+R_seasonal_max : 5.952508438100385
 
 variable_R_seasonal_max : True
 
@@ -334,11 +334,11 @@ ld_relax_lam : 0.04
 
 ld_start_a : 0.03125
 
-max_lockdown_fac : 6.817212189430818
+max_lockdown_fac : 6.8882310730112675
 
-ld_relax_level : 2.707505251552811
+ld_relax_level : 2.604828302345759
 
-LDF_Inf : 1.8952536760869676
+LDF_Inf : 1.8233798116420312
 
 symptomatic_proportion_unc_fac : 1.8
 
@@ -448,7 +448,7 @@ PAR_Flu_DR_low_fac : 3.0
 
 PAR_Flu_DR_high_fac : 7.0
 
-curr_rD : 0.009084542202922817
+curr_rD : 0.006364127603288789
 
 dDavg_AT_flu : 5.62591437
 
@@ -612,7 +612,7 @@ R_seasonal_min_flu : 0.9
 
 pi_0 : 7.619047619047619
 
-R_seasonal_min : 2.736111497674272
+R_seasonal_min : 2.5510750449001653
 
 T_habit_min : -10.0
 
@@ -624,9 +624,9 @@ T_dev0 : 0.45
 
 curr_t_seasonal_min : 15
 
-curr_T_seasonal_max : 20.3
+curr_T_seasonal_max : 18.2
 
-curr_T_seasonal_min : 0.6
+curr_T_seasonal_min : -1.4
 
 curr_R_soc : 1.0
 
@@ -640,7 +640,7 @@ ld_relax_T : 10000000000.0
 
 ICUpN_AT : 0.000218
 
-start_lockdown_IpN_thr : 0.019107095744680856
+start_lockdown_IpN_thr : 0.005727191489361703
 
 ld_zero_dur : False
 
@@ -809,6 +809,6 @@ fig_size : (12, 6)
 
 tInc : 1.0
 
-idx_start : 28
+idx_start : 38
 
 china_eta0_ast0_term : 219200.0
