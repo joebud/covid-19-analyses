@@ -12,17 +12,17 @@ do_ext_analysis : False
 
 new_dbg : False
 
-countries : ['Israel', 'Austria']
+countries : ['Austria', 'Israel', 'South Africa', 'Germany', 'US']
 
-numrows : 412
+numrows : 413
 
-enddate : 2021-04-17
+enddate : 2021-04-18
 
 startdate : 2020-03-02
 
 forcasttill : 2023-06-14
 
-curr_period : 2020-03-02 to 2021-04-17
+curr_period : 2020-03-02 to 2021-04-18
 
 data_init_lam0 : 0.298
 
@@ -32,13 +32,13 @@ data_init_dC0_ast : 24.3398656744051
 
 data_init_edC0_ast : 2.022983159418329
 
-model_init_beta0 : 0.2578910053023474
+model_init_beta0 : 0.26234055881921736
 
-model_init_ebeta0 : 0.014775623324970042
+model_init_ebeta0 : 0.013987176944173165
 
-model_init_I0_ast : 94.38043659517874
+model_init_I0_ast : 92.77965170142849
 
-model_init_eI0_ast : 9.527537297102366
+model_init_eI0_ast : 9.161548977558347
 
 t_infect : -62.46205673273522
 
@@ -68,11 +68,11 @@ idx_start : 40
 
 idx_start1 : 20
 
-numrows1 : 432
+numrows1 : 433
 
 curr_vacc_start : 292
 
-curr_vacc_e : 421
+curr_vacc_e : 422
 
 curr_test_start : -11
 
@@ -100,7 +100,7 @@ plot_all_scenarios : False
 
 p_test_given_sym : 1.0
 
-vacc_end_fraction : 0.17150321957485667
+vacc_end_fraction : 0.17107231074847315
 
 ld_relax_fraction : 0.42857142857142855
 
@@ -334,7 +334,7 @@ ld_relax_lam : 0.04
 
 ld_start_a : 0.03125
 
-max_lockdown_fac : 4.5782261911451485
+max_lockdown_fac : 4.6868031911067805
 
 ld_relax_level : 2.7252759761900607
 
@@ -448,7 +448,7 @@ PAR_Flu_DR_low_fac : 3.0
 
 PAR_Flu_DR_high_fac : 7.0
 
-curr_rD : 0.0030364108827619827
+curr_rD : 0.003904050640853816
 
 dDavg_AT_flu : 5.62591437
 
