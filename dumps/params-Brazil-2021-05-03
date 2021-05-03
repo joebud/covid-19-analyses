@@ -12,7 +12,7 @@ do_ext_analysis : False
 
 new_dbg : False
 
-countries : ['US', 'United Kingdom', 'Brazil', 'China', 'Japan']
+countries : ['Brazil', 'Austria']
 
 numrows : 417
 
@@ -32,13 +32,13 @@ data_init_dC0_ast : 26.38431112035038
 
 data_init_edC0_ast : 1.6957210501516995
 
-model_init_beta0 : 0.26234055881921736
+model_init_beta0 : 0.2578910053023474
 
-model_init_ebeta0 : 0.013987176944173165
+model_init_ebeta0 : 0.014775623324970042
 
-model_init_I0_ast : 100.57274879303809
+model_init_I0_ast : 102.30799282595306
 
-model_init_eI0_ast : 8.39847371056812
+model_init_eI0_ast : 8.808741454778824
 
 t_infect : -58.34933089645336
 
@@ -72,7 +72,7 @@ numrows1 : 432
 
 curr_vacc_start : 320
 
-curr_vacc_e : 425
+curr_vacc_e : 426
 
 curr_test_start : 36
 
@@ -100,7 +100,7 @@ plot_all_scenarios : False
 
 p_test_given_sym : 1.0
 
-vacc_end_fraction : 0.6191595105264143
+vacc_end_fraction : 0.6264576468903953
 
 ld_relax_fraction : 0.42857142857142855
 
