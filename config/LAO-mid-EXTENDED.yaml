@@ -40,4 +40,4 @@ use_fix_lam0: true
 vacc_efficacy: 0.9
 vacc_end_fraction: 1.5
 vacc_end_fraction_comp: 0.7
-var_R_unc_fac: 1.3
+var_R_unc_fac: 1.35

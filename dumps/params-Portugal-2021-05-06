@@ -12,17 +12,17 @@ do_ext_analysis : False
 
 new_dbg : False
 
-countries : ['Germany', 'Italy', 'Portugal', 'Singapore', 'United Kingdom']
+countries : ['Portugal', 'Austria']
 
-numrows : 419
+numrows : 420
 
-enddate : 2021-04-24
+enddate : 2021-04-25
 
 startdate : 2020-03-02
 
 forcasttill : 2023-06-14
 
-curr_period : 2020-03-02 to 2021-04-24
+curr_period : 2020-03-02 to 2021-04-25
 
 data_init_lam0 : 0.298
 
@@ -32,13 +32,13 @@ data_init_dC0_ast : 35.417938553505586
 
 data_init_edC0_ast : 2.8956248810605416
 
-model_init_beta0 : 0.26234055881921736
+model_init_beta0 : 0.2578910053023474
 
-model_init_ebeta0 : 0.013987176944173165
+model_init_ebeta0 : 0.014775623324970042
 
-model_init_I0_ast : 135.0074830705556
+model_init_I0_ast : 137.3368509381789
 
-model_init_eI0_ast : 13.177389464564431
+model_init_eI0_ast : 13.71075415829473
 
 t_infect : -57.05556481382247
 
@@ -68,11 +68,11 @@ idx_start : 40
 
 idx_start1 : 30
 
-numrows1 : 429
+numrows1 : 430
 
 curr_vacc_start : 300
 
-curr_vacc_e : 428
+curr_vacc_e : 429
 
 curr_test_start : -1
 
@@ -100,7 +100,7 @@ plot_all_scenarios : False
 
 p_test_given_sym : 1.0
 
-vacc_end_fraction : 1.3630412436082493
+vacc_end_fraction : 1.4413231579003998
 
 ld_relax_fraction : 0.42857142857142855
 
@@ -122,7 +122,7 @@ V_in_dynamics : False
 
 V_in_projection : False
 
-var_R_unc_fac : 1.3
+var_R_unc_fac : 1.35
 
 vacc_efficacy : 0.9
 
@@ -448,7 +448,7 @@ PAR_Flu_DR_low_fac : 3.0
 
 PAR_Flu_DR_high_fac : 7.0
 
-curr_rD : 0.0021676259860322687
+curr_rD : 0.0027267745517320268
 
 dDavg_AT_flu : 5.62591437
 
