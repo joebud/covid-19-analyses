@@ -12,7 +12,7 @@ endtime: 1200
 fast_sim: false
 fix_elam0_val: 0.02
 fix_lam0_val: 0.298
-fix_vacc_end_fraction: false
+fix_vacc_end_fraction: true
 lam0_est_t_limit: 10
 lam0_est_t_limit_low: 0
 ld_relax_fraction: 0.42857142857142855
