@@ -14,15 +14,15 @@ new_dbg : False
 
 countries : ['Germany', 'Italy', 'Portugal', 'Singapore', 'United Kingdom']
 
-numrows : 447
+numrows : 448
 
-enddate : 2021-05-10
+enddate : 2021-05-11
 
 startdate : 2020-02-19
 
 forcasttill : 2023-06-02
 
-curr_period : 2020-02-19 to 2021-05-10
+curr_period : 2020-02-19 to 2021-05-11
 
 data_init_lam0 : 0.298
 
@@ -68,7 +68,7 @@ idx_start : 28
 
 idx_start1 : 0
 
-numrows1 : 475
+numrows1 : 476
 
 curr_vacc_start : 312
 
@@ -316,7 +316,7 @@ lambda_decay_period : 22.613
 
 init_fit_from_t_0 : True
 
-R_seasonal_max : 6.299069313842033
+R_seasonal_max : 6.384260161239968
 
 variable_R_seasonal_max : True
 
@@ -334,11 +334,11 @@ ld_relax_lam : 0.04
 
 ld_start_a : 0.03125
 
-max_lockdown_fac : 6.721911857314428
+max_lockdown_fac : 6.81708724219453
 
-ld_relax_level : 2.671376606903507
+ld_relax_level : 2.707505251552811
 
-LDF_Inf : 1.869963624832455
+LDF_Inf : 1.8952536760869676
 
 symptomatic_proportion_unc_fac : 1.8
 
@@ -448,7 +448,7 @@ PAR_Flu_DR_low_fac : 3.0
 
 PAR_Flu_DR_high_fac : 7.0
 
-curr_rD : 0.004913034431927829
+curr_rD : 0.0054672093432718925
 
 dDavg_AT_flu : 5.62591437
 
@@ -612,7 +612,7 @@ R_seasonal_min_flu : 0.9
 
 pi_0 : 7.619047619047619
 
-R_seasonal_min : 2.6996011345037285
+R_seasonal_min : 2.736111497674272
 
 T_habit_min : -10.0
 
@@ -660,7 +660,7 @@ scenarios_c_anl : ['no change in Rt', 'seasonal changes', 'seasonal + lockdowns 
 
 scenarios_c_com : ['no change in Rt', 'seasonal changes', 'seasonal + lockdowns + vaccination', 'seasonal + vaccination', 'seas. + vacc + variant (w/o imm.esc.)', 'no control measures ever', 'influenza (novel, w/o measures)']
 
-scenarios_decsr : ['In this scenario, both the projected basic reproduction number and the projected \neffective mortality are assumed constant over the entire projection time period \nand are taken to be equal to the last observed values. No seasonality effects are \ntaken into account. The effect of vaccinations is taken into account, \nthe vaccination rate in the projection is taken to be zero, however. \n', 'This scenario assumes seasonal variations in the basic reproduction number driven \nby variations in outdoor temperature and thus outdoor mobility. The maximum and \nminimum reproduction number is proportional to the corresponding values for \nseasonal influenza. The seasonal variations are then normalized such as to \nreproduce the initially observed, pre-lockdown reproduction number. The projection \nassumes the lockdown factor to remain constant, which is defined as the ratio \nof the seasonal reproduction number to the observed reproduction number. Again, \nthe effect of vaccinations is taken into account based on historical data, \nthe vaccination rate in the projection is taken to be zero, however. \n', "This scenario assumes exactly the same seasonal effects as in scenario \n'seasonal changes'. The effect of vaccinations is taken into account, \nthe vaccination rate in the projection is taken to be zero, however. \nLockdowns are modelled by multiplying the projected reproduction number \nby pulse functions with a quadratic rise and an exponential tail. The maximum \nlockdown factor is estimated from the previously observed data. A lockdown starts \nwhen the number of critical infections approaches the available capacity \nof the health care system (number of ICU beds) and ends when the number of \nall infections falls below a given percent of its initial value. The optimal \nthreshold values have been found by minimizing the total lockdown duration over \na given period of time. The projection does not assume a constant lockdown factor, \nas opposed to the previous scenarios, instead the projected lockdown factor \nrelaxes after a pre-specified time period to a constant terminal value, \nwhich in general does not have to equal one (usually in the range 1 to 3). \nIn lagged simulations, all pre-calculated lockdowns are shifted \nbackwards in time by the specified time lag.  \n", "This scenario assumes exactly the same seasonal effects as in scenario \n'seasonal changes'. Vaccinations are accounted for using historical data \nand the vaccination rate (expressed as the fraction of population vaccinated \nper year) in the projection is set to a non-zero number, usually different \nfrom the currently observed vaccination rate. The projected lockdown factor \nrelaxes after a pre-specified time period to a constant terminal value, \nwhich in general does not have to equal one (usually in the range 1 to 3). \nThe susceptible population gets vaccinated in the first place. Vaccine-induced \nimmunity wanes with a pre-specified age-specific rate, not necessarily equal \nto the duration of immunity after recovery from a natural infection. \n", "This scenario is similar to scenario 'seasonal + vaccination' with the only \ndifference being the appearance of a new virus variant after a given time and \nwith pre-specified multiplicative advantage (usually about 1.5). The projected \nlockdown factor relaxes after a pre-specified time period to a correspondingly \nlower terminal value as in scenarios without the variant. \n", "This scenario assumes no control measures whatsoever (lockdowns, vaccinations, etc.) \nare ever taken. Seasonality effects are accounted for as in 'seasonal changes'. \nLockdown factor in the entire simulation is constant and equals one and \nno vaccinations take place. Mortality is assumed constant and is given by \nthe effective mortality estimated from data. \n", "This scenario assumes a novel hypothetical influenza-like virus with the same \ninfection-age-specific characteristics and mortality as the seasonal influenza. \nSeasonality effects are accounted for similarly as in 'seasonal changes', \nbut with amplitudes scaled to reproduce those observed with seasonal influenza. \nAgain, no control measures are even taken (no lockdowns, no vaccinations). \nLockdown factor in the entire simulation is constant and equals one. \n"]
+scenarios_decsr : ['In this scenario, both the projected basic reproduction number and the projected \neffective mortality are assumed constant over the entire projection time period \nand are taken to be equal to the last observed values. No seasonality effects are \ntaken into account. The effect of vaccinations is taken into account, \nthe vaccination rate in the projection is taken to be zero, however. \n', 'This scenario assumes seasonal variations in the basic reproduction number driven \nby variations in outdoor temperature and thus outdoor mobility. The maximum and \nminimum reproduction number is proportional to the corresponding values for \nseasonal influenza. The seasonal variations are then normalized such as to \nreproduce the initially observed, pre-lockdown reproduction number. The projection \nassumes the lockdown factor to remain constant, which is defined as the ratio \nof the seasonal reproduction number to the observed reproduction number. Again, \nthe effect of vaccinations is taken into account based on historical data, \nthe vaccination rate in the projection is taken to be zero, however. \n', "This scenario assumes exactly the same seasonal effects as in scenario \n'seasonal changes'. The effect of vaccinations is taken into account, \nthe vaccination rate in the projection is taken to be zero, however. \nLockdowns are modelled by multiplying the projected reproduction number \nby pulse functions with a quadratic rise and an exponential tail. The maximum \nlockdown factor is estimated from the previously observed data. A lockdown starts \nwhen the number of critical infections approaches the available capacity \nof the health care system (number of ICU beds) and ends when the number of \nall infections falls below a given percent of its initial value. The optimal \nthreshold values have been found by minimizing the total lockdown duration over \na given period of time. The projection does not assume a constant lockdown factor, \nas opposed to the previous scenarios, instead the projected lockdown factor \nrelaxes after a pre-specified time period to a constant terminal value, \nwhich in general does not have to equal one (usually in the range 1 to 3). \nIn lagged simulations, all pre-calculated lockdowns are shifted \nbackwards in time by the specified time lag.  \n", "This scenario assumes exactly the same seasonal effects as in scenario \n'seasonal changes'. Vaccinations (single dose) are accounted for using historical data \nand the vaccination rate (expressed as the fraction of population vaccinated \nper year) in the projection is set to a non-zero number, usually different \nfrom the currently observed vaccination rate. The projected lockdown factor \nrelaxes after a pre-specified time period to a constant terminal value, \nwhich in general does not have to equal one (usually in the range 1 to 3). \nThe susceptible population gets vaccinated in the first place. Vaccine-induced \nimmunity wanes with a pre-specified age-specific rate, not necessarily equal \nto the duration of immunity after recovery from a natural infection. \n", "This scenario is similar to scenario 'seasonal + vaccination' with the only \ndifference being the appearance of a new virus variant after a given time and \nwith pre-specified multiplicative advantage (usually about 1.5). The projected \nlockdown factor relaxes after a pre-specified time period to a correspondingly \nlower terminal value as in scenarios without the variant. \n", "This scenario assumes no control measures whatsoever (lockdowns, vaccinations, etc.) \nare ever taken. Seasonality effects are accounted for as in 'seasonal changes'. \nLockdown factor in the entire simulation is constant and equals one and \nno vaccinations take place. Mortality is assumed constant and is given by \nthe effective mortality estimated from data. \n", "This scenario assumes a novel hypothetical influenza-like virus with the same \ninfection-age-specific characteristics and mortality as the seasonal influenza. \nSeasonality effects are accounted for similarly as in 'seasonal changes', \nbut with amplitudes scaled to reproduce those observed with seasonal influenza. \nAgain, no control measures are even taken (no lockdowns, no vaccinations). \nLockdown factor in the entire simulation is constant and equals one. \n"]
 
 V_in_dynamics : False
 
