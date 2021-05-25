@@ -12,7 +12,7 @@ do_ext_analysis : False
 
 new_dbg : False
 
-countries : ['Austria', 'Germany']
+countries : ['Russia', 'Austria']
 
 numrows : 443
 
@@ -32,13 +32,13 @@ data_init_dC0_ast : 28.865261024936412
 
 data_init_edC0_ast : 1.7359363313275948
 
-model_init_beta0 : 0.2578910053023474
+model_init_beta0 : 0.26234055881921736
 
-model_init_ebeta0 : 0.014775623324970042
+model_init_ebeta0 : 0.013987176944173165
 
-model_init_I0_ast : 111.92814185626689
+model_init_I0_ast : 110.02973064804623
 
-model_init_eI0_ast : 9.297007691685193
+model_init_eI0_ast : 8.843148204026058
 
 t_infect : -53.24484098000961
 
