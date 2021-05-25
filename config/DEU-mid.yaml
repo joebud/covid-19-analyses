@@ -3,7 +3,7 @@ control_measures_add_time: 130
 cost_lockd: 23.80952380952381
 cost_test: 5.0
 cost_vacc: 15.0
-countries: [Germany, Italy, Portugal, Singapore, United Kingdom]
+countries: [Germany, Austria]
 default_ICU_beds_per_N: 0.000218
 do_ext_analysis: false
 do_save_html: false
