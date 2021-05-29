@@ -1,0 +1,814 @@
+
+
+curr_country : Latvia
+
+time_span : mid
+
+endtime : 1200
+
+fast_sim : False
+
+do_ext_analysis : False
+
+new_dbg : False
+
+countries : ['Latvia', 'Austria']
+
+numrows : 435
+
+enddate : 2021-05-17
+
+startdate : 2020-03-09
+
+forcasttill : 2023-06-21
+
+curr_period : 2020-03-09 to 2021-05-17
+
+data_init_lam0 : 0.298
+
+data_init_elam0 : 0.02
+
+data_init_dC0_ast : 15.909079566020042
+
+data_init_edC0_ast : 2.400999630071226
+
+model_init_beta0 : 0.2578910053023474
+
+model_init_ebeta0 : 0.014775623324970042
+
+model_init_I0_ast : 61.689160299982106
+
+model_init_eI0_ast : 9.958449913957647
+
+t_infect : -87.84149006922291
+
+date_inf : 2019-12-13
+
+dum_alpha : 0.546
+
+curr_population : 1886198
+
+natural_DR : 4.0547945205479454e-05
+
+PAR_Flu_DR : [3.2e-07]
+
+PAR_ICU_beds : [9.7e-05]
+
+PAR_hosp_beds : [0.00557]
+
+PAR_ventils : []
+
+curr_t_seasonal_min : 15
+
+curr_T_seasonal_max : 16.9
+
+curr_T_seasonal_min : -4.7
+
+idx_start : 47
+
+idx_start1 : 30
+
+numrows1 : 452
+
+curr_vacc_start : 294
+
+curr_vacc_e : 443
+
+curr_test_start : -9
+
+curr_test_e : 445
+
+snew_init_pars_est : True
+
+lam0_est_t_limit_low : 0
+
+lam0_est_t_limit : 10
+
+upper_lim_on_r_proj_in_model : True
+
+print_I_hosp_I_sev_I_crit : False
+
+reinfections_based_on_C : True
+
+THRESHOLD_FOR_min_I : True
+
+THRESHOLD_FOR_min_I_value : 1e-06
+
+use_new_init_params_estimation : True
+
+plot_all_scenarios : False
+
+p_test_given_sym : 1.0
+
+vacc_end_fraction : 1.5
+
+ld_relax_fraction : 0.42857142857142855
+
+ldf_inf_fraction : 0.3
+
+start_lockdown_safety_fac : 2.55
+
+end_lockdown_I_thr : 0.99
+
+use_fix_lam0 : True
+
+fix_lam0_val : 0.298
+
+reconstruct_NoL_NoV : True
+
+L_in_dynamics : True
+
+V_in_dynamics : False
+
+V_in_projection : False
+
+var_R_unc_fac : 1.35
+
+vacc_efficacy : 0.9
+
+THRESHOLD_FOR_min_I_in_kermack_comp : False
+
+THRESHOLD_FOR_min_I_descent : 1e-05
+
+use_con_tracing_cutoff : False
+
+con_tracing_cutoff_tau_pct : -1
+
+use_con_tracing_normalize_pb : False
+
+do_ext_analysis_for_all_countries : False
+
+final_report : True
+
+num_sc_short : 7
+
+curr_vacc_rate_est_wind : 14
+
+p_asym : 0.4
+
+scen_variant_appear_idx : 15
+
+scen_variant_appear_pi : 1.3
+
+minors_frac : 0.2
+
+lowest_possible_S : 1.0
+
+full_ld_factor : 10.0
+
+ld_fatigue_fac : 0.9
+
+default_ICU_beds_per_N : 0.000218
+
+new_rep_dynamics : True
+
+lambda0_ast_est_window : 7
+
+show_EARLY_STAGES : True
+
+show_AGE_AVERAGED_PARAMETERS : True
+
+show_LOG_GROWTH_RATE : True
+
+show_CONTROL_MEASURES : True
+
+show_PHASE_EFFECTS : False
+
+show_EIGENFREQUENCY : True
+
+show_SPEC : True
+
+show_KAPITZA_OSC : True
+
+show_KAPITZA_OSC_RECT : False
+
+show_SEASONAL_FORCING : True
+
+show_LOCKDOWNS : True
+
+show_VACCINATIONS : True
+
+show_TESTING : True
+
+show_SENSITIVITY : False
+
+show_KERMACK : True
+
+show_INFECTION_AGE : True
+
+show_VALIDITY : True
+
+show_MODEL_CHECKS : False
+
+show_VARIANTS : True
+
+show_CONTACT_TRACING : True
+
+show_WANING_IMMUNITY : True
+
+show_MIN_I : True
+
+vacc_data_from_file : True
+
+variant_calculation_o : False
+
+variant_calculation_v : False
+
+variant_calculation_imm_escape : -1
+
+variant_appear_idx : 0
+
+variant_appear_pi : 1.0
+
+variant_calculation_debug : False
+
+variant_calculation_dC : None
+
+variant_calculation_S : None
+
+new_max_nu : 550
+
+R_sinus_osc : False
+
+R_sinus_osc_equil : 1.0
+
+R_sinus_osc_ampl : 0.0
+
+R_sinus_osc_freq : 0.0
+
+R_rect_osc : False
+
+R_seas_forcing : False
+
+var_R_unc_bands : True
+
+R_impulse_response : False
+
+R_step_response : False
+
+R_ramp_response : False
+
+R_impulse_response_time : 150
+
+R_impulse_response_ampl : 5.5
+
+R_ramp_response_shape : 5.0
+
+minors_testing : False
+
+show_rep_I : False
+
+reconstruct_NoL_NoV : True
+
+V_in_projection : False
+
+endtime_for_vacc_playground : 3600
+
+endtime_for_ld_playground : 3000
+
+endtime_for_variant_playground : 1200
+
+endtime_for_tracing_playground : 3600
+
+merge_1day_lds : True
+
+LDF_max_time_window : 180
+
+start_thresh_min : 0.1
+
+start_thresh_max : 5.0
+
+start_thresh_lin_space_size : 3
+
+exit_thresh_min : 0.1
+
+exit_thresh_max : 0.99
+
+exit_thresh_lin_space_size : 3
+
+ld_sinus_LDF : False
+
+ld_sinus_LDF_in_sync : False
+
+ld_sinus_LDF_scaling : 0.8
+
+print_plain_results : True
+
+print_sim_results_max_t : 60
+
+print_sim_results_min_t : -15
+
+more_results_for_country : True
+
+lam0_est_dCx_limit_low : 20
+
+lam0_est_dCx_limit : 200
+
+show_playground : False
+
+lam0_est_Cx_limit_low : 600
+
+lam0_est_Cx_limit : 10000.0
+
+lag_recov_report : 0
+
+lambda_decay_period : 22.613
+
+init_fit_from_t_0 : True
+
+R_seasonal_max : 4.055296947817963
+
+variable_R_seasonal_max : True
+
+new_variable_R_seasonal_max : False
+
+use_mean_params : False
+
+use_MA_on_data : True
+
+LDF_relax_tau : 180.0
+
+LDF_relax_shape : 3.0
+
+ld_relax_lam : 0.04
+
+ld_start_a : 0.03125
+
+max_lockdown_fac : 4.125370365410971
+
+ld_relax_level : 1.8333796313508688
+
+LDF_Inf : 1.2833657419456082
+
+symptomatic_proportion_unc_fac : 1.8
+
+max_tau : 60
+
+max_nu : 250
+
+vacc_recurr_max_years : 35
+
+cost_vacc : 15.0
+
+cost_test : 5.0
+
+cost_lockd : 23.80952380952381
+
+use_new_p_beta : True
+
+do_est_taus_from_data : False
+
+taus_from_data_verbose : True
+
+min_tg_shape : 1e-05
+
+change_N_in_simul : False
+
+actual_alpha_band : True
+
+shw_time_axis : True
+
+max_months_on_plot : 10
+
+avg_base_R_for_proj : True
+
+avg_vals_for_lbls : False
+
+use_tau_loc : False
+
+init_params_from_dC : False
+
+use_dC_neg : 1
+
+I0_threshold : 20
+
+plot_old_I : False
+
+plot_old_R : False
+
+max_ld_dur : 1000000.0
+
+full_report : False
+
+verbose_rep : False
+
+verbose_rep_2 : False
+
+I01_threshold : 1.0
+
+use_lag_Cx_on_data_read : True
+
+use_MA_on_data_geom : False
+
+sims_in_the_past : True
+
+sims_in_the_past_tstep : 30
+
+dont_calc_lockdowns : False
+
+y_scale : log
+
+new_lin_plots : True
+
+new_lam0_est_t_span : 70
+
+lambda_est_win_len : 7
+
+initial_lambda_max_t : 100
+
+lam0_for_model_plots : 0.298
+
+clip_nonpos_incidence_val : 0.1
+
+clip_incidences_to_0 : True
+
+plot_noL : False
+
+D_last_idx : 110
+
+tau_shape_min : 1.001
+
+method_C_min : L-BFGS-B
+
+optim_quants : ['H', 'D']
+
+data_dir_pth : ../data/
+
+tau_lat_flu : 1
+
+tau_inf_flu : 5
+
+tau_gamma_flu : 14
+
+tau_delta_flu : 28
+
+influenza_mort_rate : 0.0015
+
+PAR_Flu_DR_low_fac : 3.0
+
+PAR_Flu_DR_high_fac : 7.0
+
+curr_rD : 0.006462725270618267
+
+dDavg_AT_flu : 5.62591437
+
+rDavg_AT_flu : 0.0015
+
+rD_mean : 0.00627
+
+tau_distribution : weibull
+
+tau_lat : 1
+
+tau_inc : 5.95
+
+tau_inf : 5
+
+tau_test : 9.0
+
+tau_diag : 10.55
+
+tau_cont : 0.0
+
+tau_gamma : 14
+
+tau_gamma_shape : 1.0
+
+tau_delta : 28
+
+tau_delta_shape : 1.0
+
+tau_loc : 0
+
+lag_Cx_on_data_read : 10
+
+retarded_Cx_timestamps : True
+
+lag_t_axis : False
+
+nu_distribution : weibull
+
+tau_nu : 135
+
+tau_nu_shape : 0.3
+
+p_fever_given_sym : 0.91
+
+p_sev_given_sym : 0.138
+
+p_crit_given_sym : 0.047
+
+p_sym : 0.6
+
+p_sym_fev : 0.546
+
+p_sev : 0.0828
+
+p_crit : 0.0282
+
+p_hosp : 0.111
+
+p_mild : 0.489
+
+symptomatic_proportion : 0.546
+
+use_new_conv_pdfs : False
+
+udis : lognorm
+
+sig_dflt : 0.4
+
+tau_beta : 3
+
+tau_beta_shape : 0.6666666666666666
+
+tau_inc : 5.95
+
+time_to_recov : 20.1
+
+time_to_death : 20.2
+
+time_to_hosp : 9.7
+
+time_to_diag : 4.6
+
+hosp_dur : 16
+
+ICU_dur : 10
+
+vir_shedding_start : -5.5
+
+tau_inf : 5
+
+tau_diag : 10.55
+
+tau_lat : 1
+
+tau_gamma : 14
+
+tau_gamma_shape : 1.0
+
+f_gamma_hosp : 1.3147792706333972
+
+tau_gamma_hosp : 34.25
+
+tau_gamma_hosp_shape : 1.0
+
+tau_delta : 28
+
+tau_delta_shape : 1.0
+
+tau_hosp_start : 15
+
+tau_hosp_end : 31
+
+tau_ICU_start : 21
+
+tau_ICU_end : 31
+
+tau_beta : 3
+
+tau_beta_shape : 0.6666666666666666
+
+tau_gamma : 14
+
+tau_gamma_shape : 1.0
+
+tau_delta : 28
+
+tau_delta : 28
+
+tau_delta_shape : 1.0
+
+tau_lat : 1
+
+tau_inf : 5
+
+tau_beta_flu : 3
+
+tau_beta_shape_flu : 1.5
+
+tau_gamma_flu : 14
+
+tau_gamma_shape_flu : 1.0
+
+tau_delta_flu : 28
+
+tau_delta_shape_flu : 1.0
+
+tau_nu_shape : 0.3
+
+tau_nu : 135
+
+tau_nu_shape_vacc : 0.3
+
+tau_nu_vacc : 135.0
+
+sin_power_season : 2
+
+R_seasonal_max_flu : 2.1
+
+R_seasonal_min_flu : 0.9
+
+pi_0 : 7.619047619047619
+
+R_seasonal_min : 1.7379844062076983
+
+T_habit_min : -10.0
+
+T_habit_max : 45.0
+
+T_room : 25.0
+
+T_dev0 : 0.45
+
+curr_t_seasonal_min : 15
+
+curr_T_seasonal_max : 16.9
+
+curr_T_seasonal_min : -4.7
+
+curr_R_soc : 1.0
+
+dynamical_lockdowns : True
+
+ld_fraction_of_full : 1.0
+
+ld_exp_rise : False
+
+ld_relax_T : 10000000000.0
+
+ICUpN_AT : 0.000218
+
+start_lockdown_IpN_thr : 0.004789117021276596
+
+ld_zero_dur : False
+
+ld_min_t_betw_lockdowns : 42.0
+
+ld_start_lam : 0.03
+
+ld_start_slope : 0.2
+
+ALL_scenarios : ['no change in Rt', 'seasonal changes', 'seasonal + lockdowns', 'seasonal + vaccination', 'seasonal + lockdowns + vaccination', 'seas. + vacc + variant (w/o imm.esc.)', 'no control measures ever', 'influenza (novel, w/o measures)']
+
+scenarios : ['no change in Rt', 'no change + vaccination', 'seasonal + vaccination', 'no control measures ever', 'influenza (novel, w/o measures)']
+
+num_sc : 5
+
+scenarios_c_anl : ['no change in Rt', 'no change + vaccination', 'seasonal + vaccination']
+
+scenarios_c_com : ['no change in Rt', 'no change + vaccination', 'seasonal + vaccination', 'no control measures ever', 'influenza (novel, w/o measures)']
+
+scenarios_decsr : ['In this scenario, both the projected basic reproduction number and the projected \neffective mortality are assumed constant over the entire projection time period \nand are taken to be equal to the last observed values. No seasonality effects are \ntaken into account. The effect of vaccinations is taken into account, \nthe vaccination rate in the projection is taken to be zero, however. \n', 'In this scenario, both the projected basic reproduction number and the projected \neffective mortality are assumed constant over the entire projection time period \nand are taken to be equal to the last observed values. No seasonality effects are \ntaken into account.  The projected lockdown factor relaxes after a pre-specified time period \nto a constant terminal value, which in general does not have to equal one (usually \nin the range 1 to 3). Vaccinations (single dose) are accounted for. \nThe vaccination rate (expressed as the fraction of population vaccinated \nper year) in the projection is set to a non-zero number, usually different \nfrom the current vaccination rate. The susceptible population gets vaccinated \nin the first place. Vaccine-induced immunity wanes with a pre-specified age-specific rate, \nnot necessarily equal to the duration of immunity after recovery from a natural infection.  \n', "This scenario assumes exactly the same seasonal effects as in scenario \n'seasonal changes'. The effect of vaccinations is taken into account. \nLockdowns are modelled by multiplying the projected reproduction number \nby pulse functions with a quadratic rise and an exponential tail. The maximum \nlockdown factor is estimated from the previously observed data. A lockdown starts \nwhen the number of critical infections approaches the available capacity \nof the health care system (number of ICU beds) and ends when the number of \nall infections falls below a given percent of its initial value. The optimal \nthreshold values have been found by minimizing the total lockdown duration over \na long period of time. The projection does not assume a constant lockdown factor, \nas opposed to the previous scenarios, instead the projected lockdown factor \nrelaxes after a pre-specified time period to a constant terminal value, \nwhich in general does not have to equal one (usually in the range 1 to 3). \nIn lagged simulations, all pre-calculated lockdowns are shifted \nbackwards in time by the specified time lag.  \n", "This scenario assumes exactly the same seasonal effects as in scenario \n'seasonal changes'. Vaccinations (single dose) are accounted for using historical data \nand the vaccination rate (expressed as the fraction of population vaccinated \nper year) in the projection is set to a non-zero number, usually different \nfrom the currently observed vaccination rate. The projected lockdown factor \nrelaxes after a pre-specified time period to a constant terminal value, \nwhich in general does not have to equal one (usually in the range 1 to 3). \nThe susceptible population gets vaccinated in the first place. Vaccine-induced \nimmunity wanes with a pre-specified age-specific rate, not necessarily equal \nto the duration of immunity after recovery from a natural infection. \n", "This scenario assumes no control measures whatsoever (lockdowns, vaccinations, etc.) \nare ever taken. Seasonality effects are accounted for as in 'seasonal changes'. \nLockdown factor in the entire simulation is constant and equals one and \nno vaccinations take place. Mortality is assumed constant and is given by \nthe effective mortality estimated from data. \n", "This scenario assumes a novel hypothetical influenza-like virus with the same \ninfection-age-specific characteristics and mortality as the seasonal influenza. \nSeasonality effects are accounted for similarly as in 'seasonal changes', \nbut with amplitudes scaled to reproduce those observed with seasonal influenza. \nAgain, no control measures are even taken (no lockdowns, no vaccinations). \nLockdown factor in the entire simulation is constant and equals one. \n"]
+
+V_in_dynamics : False
+
+L_in_dynamics : True
+
+Iend1_threshold : 10000.0
+
+show_lin_plots : False
+
+time_span_lbl : mid-term
+
+age_model_w_uni_dis : False
+
+use_kermack_model : False
+
+plt_models : False
+
+reset_cache : True
+
+do_compare_scenarios : True
+
+use_my_LAMBDA_tau : True
+
+new_removal_probabs : True
+
+warn_str : ignore
+
+plot_old_params : False
+
+use_covid_only_rD : False
+
+skip_data_load : False
+
+nonstationary_p_gd : False
+
+initial_I_true_factor : 1.0
+
+tau_lag2 : 0
+
+scalar_alpha : True
+
+use_incidence_alpha : False
+
+Itilde_normalize : False
+
+tau_lag : 0
+
+use_alpha_avg : True
+
+use_diff_alpha : False
+
+use_diff_alpha_sg : False
+
+diff_alpha_sg_window_length : 55
+
+smooth_alpha_in_diff : False
+
+smooth_alpha_window : 51
+
+time_lbl : Days since confirmed new daily cases first exceeded 20
+ (results wrt infection date - add 10 days to all dates for results wrt diagnosis date as commonly reported)
+
+time_lbl_wo_lag : Days since confirmed new daily cases first exceeded 20
+
+Itilde_uniform : False
+
+rD_min : 0.0001
+
+rD_max : 0.01
+
+ode_method : LSODA
+
+use_analyt_jac : True
+
+heav_in_eqs : True
+
+fac : 3.0
+
+alpha_center : 0.3333333333333333
+
+debug : False
+
+second_order_diff : True
+
+pois_err_asymm : False
+
+x_scale : linear
+
+lambda_k : 1.0
+
+lambda_c : 0.1
+
+extrapol_splines : raise
+
+n_points_skip_in_avg : 1
+
+npoints_for_par0_est : 10
+
+n_points_skip_in_ll : 3
+
+time_resol : 10
+
+spline_smooth : False
+
+show_spline_smooth : False
+
+use_last_gamma : True
+
+use_last_delta : True
+
+integr_iters : 10
+
+dynamics_v2 : False
+
+compute_slowly_var_model : False
+
+heav_in_ide : True
+
+interp_params : True
+
+set_params_const : False
+
+gamma_const_model : 0.0154
+
+beta_const_model : 0.0467
+
+delta_const_model : 0.00082
+
+use_sg_filter : False
+
+window_length : -1
+
+polyorder : 2
+
+beta_fit_last_pts : 14
+
+eta0_w_history : False
+
+fit_models : False
+
+calc_alpha3 : False
+
+modify_eta_data : False
+
+fig_size : (12, 6)
+
+tInc : 1.0
+
+idx_start : 47
+
+china_eta0_ast0_term : 219200.0
