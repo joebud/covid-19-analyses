@@ -14,15 +14,15 @@ new_dbg : False
 
 countries : ['Austria', 'Germany']
 
-numrows : 456
+numrows : 457
 
-enddate : 2021-05-19
+enddate : 2021-05-20
 
 startdate : 2020-02-19
 
 forcasttill : 2023-06-02
 
-curr_period : 2020-02-19 to 2021-05-19
+curr_period : 2020-02-19 to 2021-05-20
 
 data_init_lam0 : 0.298
 
@@ -68,7 +68,7 @@ idx_start : 28
 
 idx_start1 : 0
 
-numrows1 : 484
+numrows1 : 485
 
 curr_vacc_start : 312
 
@@ -122,7 +122,7 @@ V_in_dynamics : False
 
 V_in_projection : False
 
-var_R_unc_fac : 1.35
+var_R_unc_fac : 6.807725612365535
 
 vacc_efficacy : 0.9
 
@@ -334,7 +334,7 @@ ld_relax_lam : 0.04
 
 ld_start_a : 0.03125
 
-max_lockdown_fac : 6.8348364377929975
+max_lockdown_fac : 6.817062657422943
 
 ld_relax_level : 2.707505251552811
 
@@ -448,7 +448,7 @@ PAR_Flu_DR_low_fac : 3.0
 
 PAR_Flu_DR_high_fac : 7.0
 
-curr_rD : 0.0051958521847293646
+curr_rD : 0.016075900058325092
 
 dDavg_AT_flu : 5.62591437
 
