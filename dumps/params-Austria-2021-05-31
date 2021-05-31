@@ -122,7 +122,7 @@ V_in_dynamics : False
 
 V_in_projection : False
 
-var_R_unc_fac : 7.4961016307320865
+var_R_unc_fac : 1.2508462781526077
 
 vacc_efficacy : 0.9
 
