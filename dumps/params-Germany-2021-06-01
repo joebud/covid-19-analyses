@@ -334,7 +334,7 @@ ld_relax_lam : 0.04
 
 ld_start_a : 0.03125
 
-max_lockdown_fac : 6.817063232602095
+max_lockdown_fac : 6.823728304377674
 
 ld_relax_level : 2.707505251552811
 
