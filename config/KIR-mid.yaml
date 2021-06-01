@@ -7,6 +7,7 @@ countries: [Kiribati, Austria]
 default_ICU_beds_per_N: 0.000218
 do_ext_analysis: false
 do_save_html: false
+do_use_plotly: false
 end_lockdown_I_thr: 0.99
 endtime: 1200
 fast_sim: false
