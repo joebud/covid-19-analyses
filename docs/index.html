@@ -16,7 +16,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="COVID-19 Simulations" />
 <script type="application/ld+json">
-&#123;"name":"covid-19-analyses","description":"Simulating COVID-19 projections for various scenarios and countries.","url":"https://joebud.github.io/covid-19-analyses/","@type":"WebSite","headline":"COVID-19 Analyses","@context":"https://schema.org"&#125;</script>
+{"name":"covid-19-analyses","description":"Simulating COVID-19 projections for various scenarios and countries.","url":"https://joebud.github.io/covid-19-analyses/","@type":"WebSite","headline":"COVID-19 Analyses","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,14 +30,57 @@
       
         <a href="https://github.com/joebud/covid-19-analyses" class="btn">View on GitHub</a>
       
-        {}
+        
+      <h2 class="project-tagline">Select a country and scenario to view projections:</h2>
+
+        <script>
+        function newwin() {       
+            var tmp = 'scenarios/' + document.getElementById('country').value + '-' + document.getElementById('scenario').value + '.html';
+            //alert(tmp);
+            if (document.getElementById('country').value != '' && document.getElementById('scenario').value != '') {
+                myWindow=window.open(tmp);
+                }
+        }
+        </script>
+        
+        <section  >
+        <select id="country" name="country" class="btn">
+        
+                <option value="AUT" class="page-header">Austria</option>
+        
+                <option value="CHN" class="page-header">China</option>
+        
+                <option value="DEU" class="page-header">Germany</option>
+        
+        <option value="" selected="selected"  class="page-header">Select country...</option>
+        </select>
+        
+        <select id="scenario" name="scenario"   class="btn">
+        
+                <option value="high-vaccination" class="page-header">scenario comparison</option>
+        
+                <option value="low-vaccination" class="page-header">scenario comparison</option>
+        
+                <option value="no-vaccination" class="page-header">scenario comparison</option>
+        
+                <option value="scenario-comparison" class="page-header">scenario comparison</option>
+        
+        <option value="" selected="selected" class="page-header">Select scenario...</option>
+        </select>
+        </section>
+   
+        <section   class="main-content">
+        <a href="#" onclick="javascript:newwin();" class="btn">View projections</a>
+        </section>
+        
+
       
       
     </section>
 
     <section class="main-content">
  
-        {}
+        
 
       <footer class="site-footer">
         
