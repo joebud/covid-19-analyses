@@ -35,11 +35,16 @@
 
         <script>
         function newwin() {       
-            var tmp = 'scenarios/' + document.getElementById('country').value + '-' + document.getElementById('scenario').value + '.html';
-            //alert(tmp);
             if (document.getElementById('country').value != '' && document.getElementById('scenario').value != '') {
-                myWindow=window.open(tmp);
+                if (document.getElementById('country').value != 'country-comparison') {
+                    var tmp = 'scenarios/' + document.getElementById('country').value + '-' + document.getElementById('scenario').value + '.html';
+                    }
+                else {
+                    var tmp = 'scenarios/' + document.getElementById('country').value + '.html#' + document.getElementById('scenario').value ;
+                    }
                 }
+            //alert(tmp);
+            myWindow=window.open(tmp);
         }
         </script>
         
@@ -47,6 +52,8 @@
         <select id="country" name="country" class="btn">
         
                 <option value="AUT" class="page-header">Austria</option>
+        
+                <option value="DEU" class="page-header">Germany</option>
         
         <option value="" selected="selected"  class="page-header">Select country...</option>
         </select>
@@ -61,6 +68,7 @@
         
                 <option value="scenario-comparison" class="page-header">scenario comparison</option>
         
+        <option value="country-comparison" class="page-header">Country comparison</option>
         <option value="" selected="selected" class="page-header">Select scenario...</option>
         </select>
         </section>
