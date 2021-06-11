@@ -38,13 +38,13 @@
             if (document.getElementById('country').value != '' && document.getElementById('scenario').value != '') {
                 if (document.getElementById('country').value != 'country-comparison') {
                     var tmp = 'scenarios/' + document.getElementById('country').value + '-' + document.getElementById('scenario').value + '.html';
-                    }
+                }
                 else {
                     var tmp = 'scenarios/' + document.getElementById('country').value + '.html#' + document.getElementById('scenario').value ;
-                    }
                 }
-            //alert(tmp);
-            myWindow=window.open(tmp);
+                //alert(tmp);
+                myWindow=window.open(tmp);
+            }
         }
         </script>
         
