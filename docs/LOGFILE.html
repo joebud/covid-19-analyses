@@ -44,7 +44,7 @@
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -143,7 +143,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -248,7 +248,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -353,7 +353,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -452,7 +452,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -523,14 +523,6 @@ END OF ANALYSIS
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputPrompt jp-InputArea-prompt">
-
-</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput celltag_papermill-error-cell-tag" data-mime-type="text/markdown">
-<p><span style="color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;">An Exception was encountered at '<a href="#papermill-error-cell">In [11]</a>'.</span></p>
-</div>
-</div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput celltag_parameters">
 
 </div>
@@ -559,7 +551,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -576,14 +568,6 @@ END OF ANALYSIS
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputPrompt jp-InputArea-prompt">
-
-</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput celltag_papermill-error-cell-tag" data-mime-type="text/markdown">
-<p><span id="papermill-error-cell" style="color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;">Execution using papermill encountered an exception here and stopped:</span></p>
-</div>
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
 <div class="jp-Cell-outputWrapper">
@@ -603,69 +587,69 @@ END OF ANALYSIS
 /home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:223: RuntimeWarning: invalid value encountered in true_divide
   subok=False)
 /home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:254: RuntimeWarning: invalid value encountered in double_scalars
-  ret = ret.dtype.type(ret / rcount)</code></pre>
+  ret = ret.dtype.type(ret / rcount)
+/home/jb/git/covid-19-sird/sim/output/src/utils.py:74: RuntimeWarning: invalid value encountered in true_divide
+  return x/norm</code></pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>total number of sim calls: 27.0
+*** INFO: INVALID (NEGATIVE) RECOVERY RATE DATA ***
+    Clipping to 0.0
+*** INFO: INVALID (NEGATIVE) DEATH RATE DATA ***
+    Clipping to 0.0</code></pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre><code>---------------------------------------------------------------------------
-StopIteration                             Traceback (most recent call last)
-~/.local/lib/python3.7/site-packages/holidays/utils.py in CountryHoliday(country, years, prov, state, expand, observed)
-     36         )
----&gt; 37         country = next(obj for name, obj in country_classes if name == country)
-     38         country_holiday = country(
-
-StopIteration: 
-
-During handling of the above exception, another exception occurred:
-
-KeyError                                  Traceback (most recent call last)
-&lt;ipython-input-11-a061950a7d0e&gt; in &lt;module&gt;
-     18 
-     19 for s in simulation.kwargs[&quot;scenarios&quot;]:
----&gt; 20     sim.Countries[cname].run_scenario(s)
-     21 
-     22 #scen_name = scname +  &#39; (%0.0f%% p.a.)&#39;%(100*sim.Countries[cname].params[&#39;vacc_end_fraction&#39;])
-
-~/git/covid-19-sird/sim/output/src/simulation.py in run_scenario(self, scenario)
-    670 #        C19_load_cdata(self.name)
-    671 
---&gt; 672         self.load_data()
-    673 
-    674         for p in self.scenarios[scenario]:
-
-~/git/covid-19-sird/sim/output/src/simulation.py in load_data(self)
-    603 
-    604         # load data
---&gt; 605         C19_load_cdata(self.name)
-    606 
-    607         for r in self.params:
-
-~/git/covid-19-sird/sim/output/src/simulation.py in C19_load_cdata(cname)
-    365                 ii=0
-    366                 dum = np.zeros(C19.numrows)
---&gt; 367                 c_holidays = holidays.CountryHoliday(ccodes_2to3.ct_ccodes_2to3_inv[cname])[C19.startdate:C19.enddate]
-    368                 dt_range = date_range(start=C19.startdate, periods=C19.numrows).tolist()
-    369                 for dt in dt_range:
-
-~/.local/lib/python3.7/site-packages/holidays/utils.py in CountryHoliday(country, years, prov, state, expand, observed)
-     44         )
-     45     except StopIteration:
----&gt; 46         raise KeyError(&quot;Country %s not available&quot; % country)
-     47     return country_holiday
-     48 
-
-KeyError: &#39;Country CN not available&#39;</code></pre>
+<pre><code>/home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:263: RuntimeWarning: Degrees of freedom &lt;= 0 for slice
+  keepdims=keepdims, where=where)
+/home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:223: RuntimeWarning: invalid value encountered in true_divide
+  subok=False)
+/home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:254: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/jb/git/covid-19-sird/sim/output/src/utils.py:74: RuntimeWarning: invalid value encountered in true_divide
+  return x/norm</code></pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>total number of sim calls: 54.0
+*** INFO: INVALID (NEGATIVE) RECOVERY RATE DATA ***
+    Clipping to 0.0
+*** INFO: INVALID (NEGATIVE) DEATH RATE DATA ***
+    Clipping to 0.0
+total number of sim calls: 81.0</code></pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
-
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>Dumping results...</code></pre>
 </div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>
+END OF ANALYSIS
 
+</code></pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
@@ -704,7 +688,7 @@ KeyError: &#39;Country CN not available&#39;</code></pre>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -803,7 +787,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -920,7 +904,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -1031,7 +1015,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -1068,11 +1052,11 @@ END OF ANALYSIS
   subok=False)
 /home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:254: RuntimeWarning: invalid value encountered in double_scalars
   ret = ret.dtype.type(ret / rcount)
-/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:16985: RuntimeWarning: divide by zero encountered in true_divide
+/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:17003: RuntimeWarning: divide by zero encountered in true_divide
   return seasonal_R(om)/om
-/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:52438: RuntimeWarning: invalid value encountered in true_divide
+/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:52473: RuntimeWarning: invalid value encountered in true_divide
   residu = 100*(tsim_dC - (tsim_om/tau_inf)*(tsim_S*tsim_F/N))/tsim_dC   # %
-/home/jb/git/covid-19-sird/sim/output/src/simulation.py:427: RuntimeWarning: invalid value encountered in true_divide
+/home/jb/git/covid-19-sird/sim/output/src/simulation.py:429: RuntimeWarning: invalid value encountered in true_divide
   tsim_Reff_to_tsim_Reff_noV = tsim_Reff / tsim_Reff_noV
 /home/jb/git/covid-19-sird/sim/output/src/utils.py:12: RuntimeWarning: invalid value encountered in double_scalars
   out[i]=.5*x[i+1]-.5*x[i-1]
@@ -1174,7 +1158,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -1285,7 +1269,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -1318,11 +1302,11 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre><code>/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:16985: RuntimeWarning: divide by zero encountered in true_divide
+<pre><code>/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:17003: RuntimeWarning: divide by zero encountered in true_divide
   return seasonal_R(om)/om
-/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:52438: RuntimeWarning: invalid value encountered in true_divide
+/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:52473: RuntimeWarning: invalid value encountered in true_divide
   residu = 100*(tsim_dC - (tsim_om/tau_inf)*(tsim_S*tsim_F/N))/tsim_dC   # %
-/home/jb/git/covid-19-sird/sim/output/src/simulation.py:427: RuntimeWarning: invalid value encountered in true_divide
+/home/jb/git/covid-19-sird/sim/output/src/simulation.py:429: RuntimeWarning: invalid value encountered in true_divide
   tsim_Reff_to_tsim_Reff_noV = tsim_Reff / tsim_Reff_noV
 /home/jb/git/covid-19-sird/sim/output/src/utils.py:12: RuntimeWarning: invalid value encountered in double_scalars
   out[i]=.5*x[i+1]-.5*x[i-1]
@@ -1414,7 +1398,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -1519,7 +1503,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -1612,7 +1596,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -1635,18 +1619,8 @@ END OF ANALYSIS
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre><code>total number of sim calls: 27.0</code></pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre><code>/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:52368: RuntimeWarning: divide by zero encountered in true_divide
-  b_ = (N/tsim_S) * (tsim_dC/tsim_I)</code></pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre><code>total number of sim calls: 54.0
+<pre><code>total number of sim calls: 27.0
+total number of sim calls: 54.0
 total number of sim calls: 81.0</code></pre>
 </div>
 </div>
@@ -1715,7 +1689,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -1811,7 +1785,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -1910,14 +1884,6 @@ END OF ANALYSIS
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputPrompt jp-InputArea-prompt">
-
-</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput celltag_papermill-error-cell-tag" data-mime-type="text/markdown">
-<p><span style="color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;">An Exception was encountered at '<a href="#papermill-error-cell">In [11]</a>'.</span></p>
-</div>
-</div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput celltag_parameters">
 
 </div>
@@ -1946,7 +1912,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -1963,14 +1929,6 @@ END OF ANALYSIS
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputPrompt jp-InputArea-prompt">
-
-</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput celltag_papermill-error-cell-tag" data-mime-type="text/markdown">
-<p><span id="papermill-error-cell" style="color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;">Execution using papermill encountered an exception here and stopped:</span></p>
-</div>
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
 <div class="jp-Cell-outputWrapper">
@@ -1988,69 +1946,65 @@ END OF ANALYSIS
 /home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:223: RuntimeWarning: invalid value encountered in true_divide
   subok=False)
 /home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:254: RuntimeWarning: invalid value encountered in double_scalars
-  ret = ret.dtype.type(ret / rcount)</code></pre>
+  ret = ret.dtype.type(ret / rcount)
+/home/jb/git/covid-19-sird/sim/output/src/utils.py:74: RuntimeWarning: invalid value encountered in true_divide
+  return x/norm</code></pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>total number of sim calls: 27.0
+*** INFO: NO DATA ON ICU BEDS AVAILABLE ***
+*** INFO: NO DATA ON HOSPITAL BEDS AVAILABLE ***</code></pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre><code>---------------------------------------------------------------------------
-StopIteration                             Traceback (most recent call last)
-~/.local/lib/python3.7/site-packages/holidays/utils.py in CountryHoliday(country, years, prov, state, expand, observed)
-     36         )
----&gt; 37         country = next(obj for name, obj in country_classes if name == country)
-     38         country_holiday = country(
-
-StopIteration: 
-
-During handling of the above exception, another exception occurred:
-
-KeyError                                  Traceback (most recent call last)
-&lt;ipython-input-11-a061950a7d0e&gt; in &lt;module&gt;
-     18 
-     19 for s in simulation.kwargs[&quot;scenarios&quot;]:
----&gt; 20     sim.Countries[cname].run_scenario(s)
-     21 
-     22 #scen_name = scname +  &#39; (%0.0f%% p.a.)&#39;%(100*sim.Countries[cname].params[&#39;vacc_end_fraction&#39;])
-
-~/git/covid-19-sird/sim/output/src/simulation.py in run_scenario(self, scenario)
-    670 #        C19_load_cdata(self.name)
-    671 
---&gt; 672         self.load_data()
-    673 
-    674         for p in self.scenarios[scenario]:
-
-~/git/covid-19-sird/sim/output/src/simulation.py in load_data(self)
-    603 
-    604         # load data
---&gt; 605         C19_load_cdata(self.name)
-    606 
-    607         for r in self.params:
-
-~/git/covid-19-sird/sim/output/src/simulation.py in C19_load_cdata(cname)
-    365                 ii=0
-    366                 dum = np.zeros(C19.numrows)
---&gt; 367                 c_holidays = holidays.CountryHoliday(ccodes_2to3.ct_ccodes_2to3_inv[cname])[C19.startdate:C19.enddate]
-    368                 dt_range = date_range(start=C19.startdate, periods=C19.numrows).tolist()
-    369                 for dt in dt_range:
-
-~/.local/lib/python3.7/site-packages/holidays/utils.py in CountryHoliday(country, years, prov, state, expand, observed)
-     44         )
-     45     except StopIteration:
----&gt; 46         raise KeyError(&quot;Country %s not available&quot; % country)
-     47     return country_holiday
-     48 
-
-KeyError: &#39;Country IR not available&#39;</code></pre>
+<pre><code>/home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:263: RuntimeWarning: Degrees of freedom &lt;= 0 for slice
+  keepdims=keepdims, where=where)
+/home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:223: RuntimeWarning: invalid value encountered in true_divide
+  subok=False)
+/home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:254: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/jb/git/covid-19-sird/sim/output/src/utils.py:74: RuntimeWarning: invalid value encountered in true_divide
+  return x/norm</code></pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>total number of sim calls: 54.0
+*** INFO: NO DATA ON ICU BEDS AVAILABLE ***
+*** INFO: NO DATA ON HOSPITAL BEDS AVAILABLE ***
+total number of sim calls: 81.0</code></pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
-
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>Dumping results...</code></pre>
 </div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>
+END OF ANALYSIS
 
+</code></pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
@@ -2089,7 +2043,7 @@ KeyError: &#39;Country IR not available&#39;</code></pre>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -2115,18 +2069,8 @@ KeyError: &#39;Country IR not available&#39;</code></pre>
 <pre><code>*** INFO: INVALID (NEGATIVE) INCIDENCE DATA ***
     Clipping to 0.0
 *** INFO: INVALID (NEGATIVE) DEATH RATE DATA ***
-    Clipping to 0.0</code></pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre><code>/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:52368: RuntimeWarning: divide by zero encountered in true_divide
-  b_ = (N/tsim_S) * (tsim_dC/tsim_I)</code></pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre><code>total number of sim calls: 27.0
+    Clipping to 0.0
+total number of sim calls: 27.0
 *** INFO: INVALID (NEGATIVE) INCIDENCE DATA ***
     Clipping to 0.0
 *** INFO: INVALID (NEGATIVE) DEATH RATE DATA ***
@@ -2204,7 +2148,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -2309,7 +2253,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -2408,7 +2352,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -2479,14 +2423,6 @@ END OF ANALYSIS
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputPrompt jp-InputArea-prompt">
-
-</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput celltag_papermill-error-cell-tag" data-mime-type="text/markdown">
-<p><span style="color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;">An Exception was encountered at '<a href="#papermill-error-cell">In [11]</a>'.</span></p>
-</div>
-</div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput celltag_parameters">
 
 </div>
@@ -2515,7 +2451,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -2532,14 +2468,6 @@ END OF ANALYSIS
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputPrompt jp-InputArea-prompt">
-
-</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput celltag_papermill-error-cell-tag" data-mime-type="text/markdown">
-<p><span id="papermill-error-cell" style="color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;">Execution using papermill encountered an exception here and stopped:</span></p>
-</div>
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
 <div class="jp-Cell-outputWrapper">
@@ -2559,65 +2487,55 @@ END OF ANALYSIS
 </div>
 </div>
 <div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>total number of sim calls: 27.0
+*** INFO: NO DATA ON ICU BEDS AVAILABLE ***
+*** INFO: NO DATA ON HOSPITAL BEDS AVAILABLE ***</code></pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre><code>---------------------------------------------------------------------------
-StopIteration                             Traceback (most recent call last)
-~/.local/lib/python3.7/site-packages/holidays/utils.py in CountryHoliday(country, years, prov, state, expand, observed)
-     36         )
----&gt; 37         country = next(obj for name, obj in country_classes if name == country)
-     38         country_holiday = country(
-
-StopIteration: 
-
-During handling of the above exception, another exception occurred:
-
-KeyError                                  Traceback (most recent call last)
-&lt;ipython-input-11-a061950a7d0e&gt; in &lt;module&gt;
-     18 
-     19 for s in simulation.kwargs[&quot;scenarios&quot;]:
----&gt; 20     sim.Countries[cname].run_scenario(s)
-     21 
-     22 #scen_name = scname +  &#39; (%0.0f%% p.a.)&#39;%(100*sim.Countries[cname].params[&#39;vacc_end_fraction&#39;])
-
-~/git/covid-19-sird/sim/output/src/simulation.py in run_scenario(self, scenario)
-    670 #        C19_load_cdata(self.name)
-    671 
---&gt; 672         self.load_data()
-    673 
-    674         for p in self.scenarios[scenario]:
-
-~/git/covid-19-sird/sim/output/src/simulation.py in load_data(self)
-    603 
-    604         # load data
---&gt; 605         C19_load_cdata(self.name)
-    606 
-    607         for r in self.params:
-
-~/git/covid-19-sird/sim/output/src/simulation.py in C19_load_cdata(cname)
-    365                 ii=0
-    366                 dum = np.zeros(C19.numrows)
---&gt; 367                 c_holidays = holidays.CountryHoliday(ccodes_2to3.ct_ccodes_2to3_inv[cname])[C19.startdate:C19.enddate]
-    368                 dt_range = date_range(start=C19.startdate, periods=C19.numrows).tolist()
-    369                 for dt in dt_range:
-
-~/.local/lib/python3.7/site-packages/holidays/utils.py in CountryHoliday(country, years, prov, state, expand, observed)
-     44         )
-     45     except StopIteration:
----&gt; 46         raise KeyError(&quot;Country %s not available&quot; % country)
-     47     return country_holiday
-     48 
-
-KeyError: &#39;Country KW not available&#39;</code></pre>
+<pre><code>/home/jb/git/covid-19-sird/sim/output/src/utils.py:74: RuntimeWarning: divide by zero encountered in true_divide
+  return x/norm
+/home/jb/git/covid-19-sird/sim/output/src/utils.py:74: RuntimeWarning: invalid value encountered in true_divide
+  return x/norm</code></pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>total number of sim calls: 54.0
+*** INFO: NO DATA ON ICU BEDS AVAILABLE ***
+*** INFO: NO DATA ON HOSPITAL BEDS AVAILABLE ***
+total number of sim calls: 81.0</code></pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
-
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>Dumping results...</code></pre>
 </div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>
+END OF ANALYSIS
 
+</code></pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
@@ -2656,7 +2574,7 @@ KeyError: &#39;Country KW not available&#39;</code></pre>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -2755,7 +2673,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -2854,7 +2772,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -2953,14 +2871,6 @@ END OF ANALYSIS
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputPrompt jp-InputArea-prompt">
-
-</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput celltag_papermill-error-cell-tag" data-mime-type="text/markdown">
-<p><span style="color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;">An Exception was encountered at '<a href="#papermill-error-cell">In [11]</a>'.</span></p>
-</div>
-</div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput celltag_parameters">
 
 </div>
@@ -2989,7 +2899,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -3006,14 +2916,6 @@ END OF ANALYSIS
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputPrompt jp-InputArea-prompt">
-
-</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput celltag_papermill-error-cell-tag" data-mime-type="text/markdown">
-<p><span id="papermill-error-cell" style="color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;">Execution using papermill encountered an exception here and stopped:</span></p>
-</div>
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
 <div class="jp-Cell-outputWrapper">
@@ -3026,64 +2928,58 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre><code>---------------------------------------------------------------------------
-StopIteration                             Traceback (most recent call last)
-~/.local/lib/python3.7/site-packages/holidays/utils.py in CountryHoliday(country, years, prov, state, expand, observed)
-     36         )
----&gt; 37         country = next(obj for name, obj in country_classes if name == country)
-     38         country_holiday = country(
-
-StopIteration: 
-
-During handling of the above exception, another exception occurred:
-
-KeyError                                  Traceback (most recent call last)
-&lt;ipython-input-11-a061950a7d0e&gt; in &lt;module&gt;
-     18 
-     19 for s in simulation.kwargs[&quot;scenarios&quot;]:
----&gt; 20     sim.Countries[cname].run_scenario(s)
-     21 
-     22 #scen_name = scname +  &#39; (%0.0f%% p.a.)&#39;%(100*sim.Countries[cname].params[&#39;vacc_end_fraction&#39;])
-
-~/git/covid-19-sird/sim/output/src/simulation.py in run_scenario(self, scenario)
-    670 #        C19_load_cdata(self.name)
-    671 
---&gt; 672         self.load_data()
-    673 
-    674         for p in self.scenarios[scenario]:
-
-~/git/covid-19-sird/sim/output/src/simulation.py in load_data(self)
-    603 
-    604         # load data
---&gt; 605         C19_load_cdata(self.name)
-    606 
-    607         for r in self.params:
-
-~/git/covid-19-sird/sim/output/src/simulation.py in C19_load_cdata(cname)
-    365                 ii=0
-    366                 dum = np.zeros(C19.numrows)
---&gt; 367                 c_holidays = holidays.CountryHoliday(ccodes_2to3.ct_ccodes_2to3_inv[cname])[C19.startdate:C19.enddate]
-    368                 dt_range = date_range(start=C19.startdate, periods=C19.numrows).tolist()
-    369                 for dt in dt_range:
-
-~/.local/lib/python3.7/site-packages/holidays/utils.py in CountryHoliday(country, years, prov, state, expand, observed)
-     44         )
-     45     except StopIteration:
----&gt; 46         raise KeyError(&quot;Country %s not available&quot; % country)
-     47     return country_holiday
-     48 
-
-KeyError: &#39;Country MY not available&#39;</code></pre>
+<pre><code>/home/jb/git/covid-19-sird/sim/output/src/utils.py:74: RuntimeWarning: invalid value encountered in true_divide
+  return x/norm</code></pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>total number of sim calls: 27.0
+*** INFO: NO DATA ON ICU BEDS AVAILABLE ***
+*** INFO: NO DATA ON HOSPITAL BEDS AVAILABLE ***</code></pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre><code>/home/jb/git/covid-19-sird/sim/output/src/utils.py:74: RuntimeWarning: invalid value encountered in true_divide
+  return x/norm</code></pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>total number of sim calls: 54.0
+*** INFO: NO DATA ON ICU BEDS AVAILABLE ***
+*** INFO: NO DATA ON HOSPITAL BEDS AVAILABLE ***
+total number of sim calls: 81.0</code></pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
-
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>Dumping results...</code></pre>
 </div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>
+END OF ANALYSIS
 
+</code></pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
@@ -3122,7 +3018,7 @@ KeyError: &#39;Country MY not available&#39;</code></pre>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -3158,7 +3054,9 @@ KeyError: &#39;Country MY not available&#39;</code></pre>
 /home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:223: RuntimeWarning: invalid value encountered in true_divide
   subok=False)
 /home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:254: RuntimeWarning: invalid value encountered in double_scalars
-  ret = ret.dtype.type(ret / rcount)</code></pre>
+  ret = ret.dtype.type(ret / rcount)
+/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:52403: RuntimeWarning: divide by zero encountered in true_divide
+  b_ = (N/tsim_S) * (tsim_dC/tsim_I)</code></pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
@@ -3255,7 +3153,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -3354,7 +3252,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -3385,14 +3283,16 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre><code>/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:16985: RuntimeWarning: divide by zero encountered in true_divide
+<pre><code>/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:17003: RuntimeWarning: divide by zero encountered in true_divide
   return seasonal_R(om)/om
-/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:52438: RuntimeWarning: invalid value encountered in true_divide
+/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:52473: RuntimeWarning: invalid value encountered in true_divide
   residu = 100*(tsim_dC - (tsim_om/tau_inf)*(tsim_S*tsim_F/N))/tsim_dC   # %
-/home/jb/git/covid-19-sird/sim/output/src/simulation.py:427: RuntimeWarning: invalid value encountered in true_divide
+/home/jb/git/covid-19-sird/sim/output/src/simulation.py:429: RuntimeWarning: invalid value encountered in true_divide
   tsim_Reff_to_tsim_Reff_noV = tsim_Reff / tsim_Reff_noV
 /home/jb/git/covid-19-sird/sim/output/src/utils.py:12: RuntimeWarning: invalid value encountered in double_scalars
   out[i]=.5*x[i+1]-.5*x[i-1]
+/home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:179: RuntimeWarning: invalid value encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
 /home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:212: RuntimeWarning: invalid value encountered in reduce
   arrmean = umr_sum(arr, axis, dtype, keepdims=True, where=where)</code></pre>
 </div>
@@ -3449,14 +3349,6 @@ END OF ANALYSIS
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputPrompt jp-InputArea-prompt">
-
-</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput celltag_papermill-error-cell-tag" data-mime-type="text/markdown">
-<p><span style="color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;">An Exception was encountered at '<a href="#papermill-error-cell">In [11]</a>'.</span></p>
-</div>
-</div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput celltag_parameters">
 
 </div>
@@ -3485,7 +3377,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -3502,14 +3394,6 @@ END OF ANALYSIS
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputPrompt jp-InputArea-prompt">
-
-</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput celltag_papermill-error-cell-tag" data-mime-type="text/markdown">
-<p><span id="papermill-error-cell" style="color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;">Execution using papermill encountered an exception here and stopped:</span></p>
-</div>
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
 <div class="jp-Cell-outputWrapper">
@@ -3529,65 +3413,55 @@ END OF ANALYSIS
 </div>
 </div>
 <div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>total number of sim calls: 27.0
+*** INFO: NO DATA ON ICU BEDS AVAILABLE ***
+*** INFO: NO DATA ON HOSPITAL BEDS AVAILABLE ***</code></pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre><code>---------------------------------------------------------------------------
-StopIteration                             Traceback (most recent call last)
-~/.local/lib/python3.7/site-packages/holidays/utils.py in CountryHoliday(country, years, prov, state, expand, observed)
-     36         )
----&gt; 37         country = next(obj for name, obj in country_classes if name == country)
-     38         country_holiday = country(
-
-StopIteration: 
-
-During handling of the above exception, another exception occurred:
-
-KeyError                                  Traceback (most recent call last)
-&lt;ipython-input-11-a061950a7d0e&gt; in &lt;module&gt;
-     18 
-     19 for s in simulation.kwargs[&quot;scenarios&quot;]:
----&gt; 20     sim.Countries[cname].run_scenario(s)
-     21 
-     22 #scen_name = scname +  &#39; (%0.0f%% p.a.)&#39;%(100*sim.Countries[cname].params[&#39;vacc_end_fraction&#39;])
-
-~/git/covid-19-sird/sim/output/src/simulation.py in run_scenario(self, scenario)
-    670 #        C19_load_cdata(self.name)
-    671 
---&gt; 672         self.load_data()
-    673 
-    674         for p in self.scenarios[scenario]:
-
-~/git/covid-19-sird/sim/output/src/simulation.py in load_data(self)
-    603 
-    604         # load data
---&gt; 605         C19_load_cdata(self.name)
-    606 
-    607         for r in self.params:
-
-~/git/covid-19-sird/sim/output/src/simulation.py in C19_load_cdata(cname)
-    365                 ii=0
-    366                 dum = np.zeros(C19.numrows)
---&gt; 367                 c_holidays = holidays.CountryHoliday(ccodes_2to3.ct_ccodes_2to3_inv[cname])[C19.startdate:C19.enddate]
-    368                 dt_range = date_range(start=C19.startdate, periods=C19.numrows).tolist()
-    369                 for dt in dt_range:
-
-~/.local/lib/python3.7/site-packages/holidays/utils.py in CountryHoliday(country, years, prov, state, expand, observed)
-     44         )
-     45     except StopIteration:
----&gt; 46         raise KeyError(&quot;Country %s not available&quot; % country)
-     47     return country_holiday
-     48 
-
-KeyError: &#39;Country PA not available&#39;</code></pre>
+<pre><code>/home/jb/git/covid-19-sird/sim/output/src/utils.py:74: RuntimeWarning: divide by zero encountered in true_divide
+  return x/norm
+/home/jb/git/covid-19-sird/sim/output/src/utils.py:74: RuntimeWarning: invalid value encountered in true_divide
+  return x/norm</code></pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>total number of sim calls: 54.0
+*** INFO: NO DATA ON ICU BEDS AVAILABLE ***
+*** INFO: NO DATA ON HOSPITAL BEDS AVAILABLE ***
+total number of sim calls: 81.0</code></pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
-
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>Dumping results...</code></pre>
 </div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>
+END OF ANALYSIS
 
+</code></pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
@@ -3626,7 +3500,7 @@ KeyError: &#39;Country PA not available&#39;</code></pre>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -3725,7 +3599,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -3824,7 +3698,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -3917,7 +3791,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -4040,7 +3914,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -4064,7 +3938,9 @@ END OF ANALYSIS
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre><code>*** INFO: NO DATA ON ICU BEDS AVAILABLE ***
-*** INFO: NO DATA ON HOSPITAL BEDS AVAILABLE ***</code></pre>
+*** INFO: NO DATA ON HOSPITAL BEDS AVAILABLE ***
+*** INFO: INVALID (NEGATIVE) RECOVERY RATE DATA ***
+    Clipping to 0.0</code></pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
@@ -4081,7 +3957,9 @@ END OF ANALYSIS
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre><code>total number of sim calls: 27.0
 *** INFO: NO DATA ON ICU BEDS AVAILABLE ***
-*** INFO: NO DATA ON HOSPITAL BEDS AVAILABLE ***</code></pre>
+*** INFO: NO DATA ON HOSPITAL BEDS AVAILABLE ***
+*** INFO: INVALID (NEGATIVE) RECOVERY RATE DATA ***
+    Clipping to 0.0</code></pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
@@ -4099,6 +3977,8 @@ END OF ANALYSIS
 <pre><code>total number of sim calls: 54.0
 *** INFO: NO DATA ON ICU BEDS AVAILABLE ***
 *** INFO: NO DATA ON HOSPITAL BEDS AVAILABLE ***
+*** INFO: INVALID (NEGATIVE) RECOVERY RATE DATA ***
+    Clipping to 0.0
 total number of sim calls: 81.0</code></pre>
 </div>
 </div>
@@ -4167,7 +4047,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -4272,7 +4152,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -4365,7 +4245,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -4400,7 +4280,17 @@ END OF ANALYSIS
 /home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:223: RuntimeWarning: invalid value encountered in true_divide
   subok=False)
 /home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:254: RuntimeWarning: invalid value encountered in double_scalars
-  ret = ret.dtype.type(ret / rcount)</code></pre>
+  ret = ret.dtype.type(ret / rcount)
+/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:17003: RuntimeWarning: divide by zero encountered in true_divide
+  return seasonal_R(om)/om
+/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:52473: RuntimeWarning: invalid value encountered in true_divide
+  residu = 100*(tsim_dC - (tsim_om/tau_inf)*(tsim_S*tsim_F/N))/tsim_dC   # %
+/home/jb/git/covid-19-sird/sim/output/src/simulation.py:429: RuntimeWarning: invalid value encountered in true_divide
+  tsim_Reff_to_tsim_Reff_noV = tsim_Reff / tsim_Reff_noV
+/home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:179: RuntimeWarning: invalid value encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:212: RuntimeWarning: invalid value encountered in reduce
+  arrmean = umr_sum(arr, axis, dtype, keepdims=True, where=where)</code></pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
@@ -4495,7 +4385,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
@@ -4597,7 +4487,7 @@ END OF ANALYSIS
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-09</p>
+<p>Analysis performed on 2021-07-14</p>
 </div>
 </div>
 </div>
