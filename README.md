@@ -1,7 +1,5 @@
 # COVID-19 Analyses
 
-Generating COVID-19 projections for various scenarios and countries
-
 The main   repository for https://joebud.github.io/covid-19-analyses, created by  [joebud](https://joebud.github.io/).
 
 
