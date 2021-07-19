@@ -1,6 +1,6 @@
 # COVID-19 Analyses
 
-The main   repository for https://joebud.github.io/covid-19-analyses, created by  [joebud](https://joebud.github.io/).
+The main   repository for <a href="https://joebud.github.io/covid-19-analyses" target="_blank">https://joebud.github.io/covid-19-analyses</a>, created by  [joebud](https://joebud.github.io/).
 
 
 
