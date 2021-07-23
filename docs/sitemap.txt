@@ -1,3 +1,8 @@
+https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination.html
+https://joebud.github.io/covid-19-analyses/scenarios/AUT-low-vaccination.html
+https://joebud.github.io/covid-19-analyses/scenarios/AUT-no-vaccination.html
+https://joebud.github.io/covid-19-analyses/scenarios/AUT-scenario-comparison.html
+https://joebud.github.io/covid-19-analyses/scenarios/AUT-scenario-comparison.html
 https://joebud.github.io/covid-19-analyses/scenarios/DNK-high-vaccination.html
 https://joebud.github.io/covid-19-analyses/scenarios/DNK-low-vaccination.html
 https://joebud.github.io/covid-19-analyses/scenarios/DNK-no-vaccination.html
