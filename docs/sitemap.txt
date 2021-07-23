@@ -1,3 +1,7 @@
+https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination-&amp;-short-immunity.html
+https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination-&amp;-long-immunity.html
+https://joebud.github.io/covid-19-analyses/scenarios/AUT-scenario-comparison.html
+https://joebud.github.io/covid-19-analyses/scenarios/AUT-scenario-comparison.html
 https://joebud.github.io/covid-19-analyses/scenarios/DNK-high-vaccination-&amp;-short-immunity.html
 https://joebud.github.io/covid-19-analyses/scenarios/DNK-high-vaccination-&amp;-long-immunity.html
 https://joebud.github.io/covid-19-analyses/scenarios/DNK-scenario-comparison.html
