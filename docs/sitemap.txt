@@ -1,9 +1,3 @@
-https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination.html
-https://joebud.github.io/covid-19-analyses/scenarios/AUT-scenario-comparison.html
-https://joebud.github.io/covid-19-analyses/scenarios/AUT-scenario-comparison.html
-https://joebud.github.io/covid-19-analyses/scenarios/CHN-high-vaccination.html
-https://joebud.github.io/covid-19-analyses/scenarios/CHN-scenario-comparison.html
-https://joebud.github.io/covid-19-analyses/scenarios/CHN-scenario-comparison.html
 https://joebud.github.io/covid-19-analyses/scenarios/GBR-high-vaccination.html
 https://joebud.github.io/covid-19-analyses/scenarios/GBR-scenario-comparison.html
 https://joebud.github.io/covid-19-analyses/scenarios/GBR-scenario-comparison.html
