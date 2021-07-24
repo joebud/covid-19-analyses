@@ -7951,3 +7951,59 @@ END OF ANALYSIS (WEB)
  
 RUNTIME: 15260 s (4 h)
  
+[main 40ee6056] 2021_07_24
+ 636 files changed, 41235 insertions(+), 31355 deletions(-)
+ rewrite docs/scenarios/ARG-scenario-comparison.html (75%)
+ rewrite docs/scenarios/AUS-scenario-comparison.html (77%)
+ rewrite docs/scenarios/BRA-scenario-comparison.html (72%)
+ rewrite docs/scenarios/CAN-scenario-comparison.html (65%)
+ rewrite docs/scenarios/CHN-scenario-comparison.html (76%)
+ rewrite docs/scenarios/CZE-scenario-comparison.html (78%)
+ rewrite docs/scenarios/DEU-scenario-comparison.html (80%)
+ rewrite docs/scenarios/ESP-scenario-comparison.html (71%)
+ rewrite docs/scenarios/FIN-scenario-comparison.html (76%)
+ rewrite docs/scenarios/GBR-scenario-comparison.html (82%)
+ rewrite docs/scenarios/GRC-scenario-comparison.html (75%)
+ rewrite docs/scenarios/HUN-scenario-comparison.html (72%)
+ create mode 100644 docs/scenarios/IDN-low-vaccination-p.html
+ create mode 100644 docs/scenarios/IDN-low-vaccination.html
+ create mode 100644 docs/scenarios/IDN-no-vaccination-p.html
+ create mode 100644 docs/scenarios/IDN-no-vaccination.html
+ rewrite docs/scenarios/IDN-scenario-comparison.html (77%)
+ rewrite docs/scenarios/IND-scenario-comparison.html (73%)
+ rewrite docs/scenarios/IRL-scenario-comparison.html (67%)
+ rewrite docs/scenarios/IRN-scenario-comparison.html (74%)
+ rewrite docs/scenarios/ISR-scenario-comparison.html (72%)
+ rewrite docs/scenarios/ITA-scenario-comparison.html (76%)
+ rewrite docs/scenarios/JPN-scenario-comparison.html (72%)
+ rewrite docs/scenarios/KOR-scenario-comparison.html (71%)
+ rewrite docs/scenarios/KWT-scenario-comparison.html (69%)
+ rewrite docs/scenarios/LTU-scenario-comparison.html (69%)
+ rewrite docs/scenarios/LVA-scenario-comparison.html (74%)
+ rewrite docs/scenarios/MEX-scenario-comparison.html (77%)
+ rewrite docs/scenarios/MYS-scenario-comparison.html (76%)
+ rewrite docs/scenarios/NLD-scenario-comparison.html (78%)
+ rewrite docs/scenarios/NOR-scenario-comparison.html (74%)
+ rewrite docs/scenarios/NZL-scenario-comparison.html (70%)
+ rewrite docs/scenarios/PAN-scenario-comparison.html (76%)
+ create mode 100644 docs/scenarios/PER-high-vaccination-p.html
+ create mode 100644 docs/scenarios/PER-high-vaccination.html
+ create mode 100644 docs/scenarios/PER-low-vaccination-p.html
+ create mode 100644 docs/scenarios/PER-low-vaccination.html
+ create mode 100644 docs/scenarios/PER-no-vaccination-p.html
+ create mode 100644 docs/scenarios/PER-no-vaccination.html
+ create mode 100644 docs/scenarios/PER-scenario-comparison-p.html
+ create mode 100644 docs/scenarios/PER-scenario-comparison.html
+ rewrite docs/scenarios/POL-scenario-comparison.html (75%)
+ rewrite docs/scenarios/PRT-scenario-comparison.html (69%)
+ rewrite docs/scenarios/RUS-scenario-comparison.html (76%)
+ rewrite docs/scenarios/SAU-scenario-comparison.html (73%)
+ rewrite docs/scenarios/SGP-scenario-comparison.html (73%)
+ rewrite docs/scenarios/SVK-scenario-comparison.html (72%)
+ rewrite docs/scenarios/SVN-scenario-comparison.html (80%)
+ rewrite docs/scenarios/SWE-scenario-comparison.html (74%)
+ rewrite docs/scenarios/USA-scenario-comparison.html (76%)
+ rewrite docs/scenarios/ZAF-scenario-comparison.html (79%)
+ create mode 100644 dumps/web/sim-PER.pickle
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/joebud/covid-19-analyses.git/'
