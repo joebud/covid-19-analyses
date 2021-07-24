@@ -16,14 +16,6 @@
 <header>
 <h1 class="title">web-run-sim_</h1>
 </header>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputPrompt jp-InputArea-prompt">
-
-</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput celltag_papermill-error-cell-tag" data-mime-type="text/markdown">
-<p><span style="color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;">An Exception was encountered at '<a href="#papermill-error-cell">In [11]</a>'.</span></p>
-</div>
-</div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput celltag_parameters">
 
 </div>
@@ -70,14 +62,6 @@
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputPrompt jp-InputArea-prompt">
-
-</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput celltag_papermill-error-cell-tag" data-mime-type="text/markdown">
-<p><span id="papermill-error-cell" style="color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;">Execution using papermill encountered an exception here and stopped:</span></p>
-</div>
-</div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
 <div class="jp-Cell-outputWrapper">
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -100,7 +84,7 @@
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre><code>*** ERROR *** (NaN in 7d average):  0 [inf inf inf inf inf inf inf]
+<pre><code>*** ERROR *** (NaN in 7d average): n= 0 [inf inf inf inf inf inf inf]
 -&gt;          File &quot;/usr/lib/python3.7/runpy.py&quot;, line 193, in _run_module_as_main
     &quot;__main__&quot;, mod_spec)
 -&gt;          File &quot;/usr/lib/python3.7/runpy.py&quot;, line 85, in _run_code
@@ -177,68 +161,50 @@
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre><code>---------------------------------------------------------------------------
-ZeroDivisionError                         Traceback (most recent call last)
-&lt;ipython-input-11-f1bd21ccb0a9&gt; in &lt;module&gt;
-     19 for s in simulation.kwargs[&quot;scenarios&quot;]:
-     20     print(&#39;Running model for scenario: {}...&#39;.format(s) )
----&gt; 21     sim.Countries[cname].run_scenario(s)
-     22 
-     23 #scen_name = scname +  &#39; (%0.0f%% p.a.)&#39;%(100*sim.Countries[cname].params[&#39;vacc_end_fraction&#39;])
-
-~/git/covid-19-sird/sim/output/src/simulation.py in run_scenario(self, scenario)
-    739         ###print(&#39;############### &#39;, params_tup, self.scenarios[&#39;Low vaccination&#39;][p])
-    740 
---&gt; 741         out = run_model_set(self.name, *params_tup)    # **self.params
-    742 
-    743 #        self.results[scenario] = out
-
-~/git/covid-19-sird/sim/output/src/simulation.py in run_model_set(cname, *params_tup)
-    418                                         tsim_dV_lockd,tsim_V_lockd,tsim_om_lockd,tsim_rD_lockd,tsim_C_lockd,tsim_dC_lockd,tsim_I_lockd,tsim_dI_lockd,tsim_F_lockd,tsim_dF_lockd,tsim_H_lockd,tsim_dH_lockd,tsim_D_lockd,tsim_dD_lockd,tsim_D_nat_lockd,tsim_dD_nat_lockd,tsim_L_lockd,tsim_dL_lockd,tsim_J_lockd,tsim_dJ_lockd,tsim_S_lockd,tsim_dS_lockd,tsim_r_cov_lockd,tsim_K_lockd,tsim_dK_lockd,tsim_U_lockd,tsim_dU_lockd,tsim_D_all_lockd,tsim_dD_all_lockd, \
-    419                                             tsim_dV_ptest1,tsim_V_ptest1,tsim_om_ptest1,tsim_rD_ptest1,tsim_C_ptest1,tsim_dC_ptest1,tsim_I_ptest1,tsim_dI_ptest1,tsim_F_ptest1,tsim_dF_ptest1,tsim_H_ptest1,tsim_dH_ptest1,tsim_D_ptest1,tsim_dD_ptest1,tsim_D_nat_ptest1,tsim_dD_nat_ptest1,tsim_L_ptest1,tsim_dL_ptest1,tsim_J_ptest1,tsim_dJ_ptest1,tsim_S_ptest1,tsim_dS_ptest1,tsim_r_cov_ptest1,tsim_K_ptest1,tsim_dK_ptest1,tsim_U_ptest1,tsim_dU_ptest1,tsim_D_all_ptest1,tsim_dD_all_ptest1,tsim_dV_ptest2,tsim_V_ptest2,tsim_om_ptest2,tsim_rD_ptest2,tsim_C_ptest2,tsim_dC_ptest2,tsim_I_ptest2,tsim_dI_ptest2,tsim_F_ptest2,tsim_dF_ptest2,tsim_H_ptest2,tsim_dH_ptest2,tsim_D_ptest2,tsim_dD_ptest2,tsim_D_nat_ptest2,tsim_dD_nat_ptest2,tsim_L_ptest2,tsim_dL_ptest2,tsim_J_ptest2,tsim_dJ_ptest2,tsim_S_ptest2,tsim_dS_ptest2,tsim_r_cov_ptest2,tsim_K_ptest2,tsim_dK_ptest2,tsim_U_ptest2,tsim_dU_ptest2,tsim_D_all_ptest2,tsim_dD_all_ptest2 \
---&gt; 420                                                                                                                 = C19.model_wrapper (cc, *params_tup)
-    421 
-    422     #########################################
-
-~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in model_wrapper(curr_country_, endtime_, curr_scenario_, tau_inf_, tau_beta_, use_fix_lam0_, var_R_unc_fac_, V_in_dynamics_, V_in_projection_, vacc_efficacy_, vacc_efficacy_single_, vacc_end_fraction_, vacc_end_fraction_comp_, vacc_transmission_efficiency_, L_in_dynamics_, tau_nu_, tau_nu_vacc_, webapp_sim_seasonality_, symptomatic_proportion_, p_test_given_sym_, webapp_sim_lockdowns_, start_lockdown_IpN_thr_, end_lockdown_I_thr_, ld_fraction_of_full_, dont_calc_lockdowns_, dynamical_lockdowns_, lockdowns_, ld_relax_level_, webapp_sim_LDF_relax_, LDF_Inf_, LDF_relax_tau_, webapp_sim_variant_, scen_variant_appear_idx_, scen_variant_appear_shape_, scen_variant_appear_pi_, minors_testing_, minors_frac_, use_con_tracing_cutoff_, con_tracing_cutoff_tau_pct_, use_con_tracing_normalize_pb_, use_my_LAMBDA_tau_, new_removal_probabs_, THRESHOLD_FOR_min_I_, THRESHOLD_FOR_min_I_value_, max_nu_, max_tau_, reestimate_params_in_model_, sims_in_the_past_tstep_, compute_sird_model_)
-  52602                 #SIMULATION true (past)
-  52603                 tpower =  0 #, -1, 1
-&gt; 52604                 tsim_dV_p2,tsim_V_p2,tsim_om_p2,tsim_rD_p2,tsim_C_p2,tsim_dC_p2,tsim_I_p2,tsim_dI_p2,tsim_F_p2,tsim_dF_p2,tsim_H_p2,tsim_dH_p2,tsim_D_p2,tsim_dD_p2,tsim_D_nat_p2,tsim_dD_nat_p2,tsim_L_p2,tsim_dL_p2,                tsim_J_p2,tsim_dJ_p2,tsim_S_p2,tsim_dS_p2,                  tsim_r_cov_p2, tsim_K_p2,tsim_dK_p2, tsim_U_p2,tsim_dU_p2, tsim_D_all_p2, tsim_dD_all_p2     = comp_model(true=1,power=0,simul=True)
-  52605 
-  52606                 numrows = numrows - sims_in_the_past_tstep
-
-~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in comp_model(true, power, simul, params_only, Vproj, doVL, data)
-  19985         else:
-  19986             r = r_cov #r_all
-&gt; 19987         R_proj = get_R_projection(R, true,power, Vproj=Vproj, doVL=doVL)
-  19988 
-  19989         if variant_calculation_debug:
-
-~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in get_R_projection(om1, true, power, Vproj, doVL)
-  17397             om2 = om_season(t,base,om1)
-  17398             #
-&gt; 17399             om2 /= get_R_relax_fac(om1)
-  17400 
-  17401         if curr_scenario == &#39;seasonal + lockdowns + vaccination&#39; :
-
-~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in get_R_relax_fac(om1)
-  17231 
-  17232     dum = weibull_distr_tau(tt,LDF_relax_tau,LDF_relax_shape)
-&gt; 17233     R_relax_fac = (1.-(1./LDF0))*(1.-integ(dum))+(1./LDF0)
-  17234     return R_relax_fac
-  17235 
-
-ZeroDivisionError: float division by zero</code></pre>
+<pre><code>/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:20341: RuntimeWarning: divide by zero encountered in true_divide
+  start_lockdown_IpN_thr *=  (5.94/2.) / reff_   #
+/home/jb/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py:52735: RuntimeWarning: invalid value encountered in true_divide
+  residu = 100*(tsim_dC - (tsim_om/tau_inf)*(tsim_S*tsim_F/N))/tsim_dC   # %
+/home/jb/git/covid-19-sird/sim/output/src/simulation.py:435: RuntimeWarning: invalid value encountered in true_divide
+  tsim_Reff_to_tsim_Reff_noV = tsim_Reff / tsim_Reff_noV
+/home/jb/git/covid-19-sird/sim/output/src/utils.py:12: RuntimeWarning: invalid value encountered in double_scalars
+  out[i]=.5*x[i+1]-.5*x[i-1]
+/home/jb/.local/lib/python3.7/site-packages/numpy/core/_methods.py:212: RuntimeWarning: invalid value encountered in reduce
+  arrmean = umr_sum(arr, axis, dtype, keepdims=True, where=where)</code></pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>total number of sim calls: 31.0</code></pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
-
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>Dumping results...</code></pre>
 </div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>
+END OF ANALYSIS
 
+</code></pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 

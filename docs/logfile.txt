@@ -36,89 +36,14 @@ Input Notebook:  ./web-run-sim_.ipynb
 Output Notebook: ./web-run-sim_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpjoamhvz4'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp6ushvyzk'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmprb936b_7'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpg1bsh3q3'
 Executing:   0%|          | 0/17 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   6%|▌         | 1/17 [00:00<00:14,  1.12cell/s]Executing:  35%|███▌      | 6/17 [00:02<00:07,  1.39cell/s]Executing:  59%|█████▉    | 10/17 [00:02<00:03,  1.95cell/s]Executing:  65%|██████▍   | 11/17 [00:20<00:03,  1.95cell/s]Executing:  71%|███████   | 12/17 [00:32<00:23,  4.79s/cell]Executing:  71%|███████   | 12/17 [00:33<00:13,  2.77s/cell]
-Traceback (most recent call last):
-  File "/home/jb/.local/bin/papermill", line 8, in <module>
-    sys.exit(papermill())
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1137, in __call__
-    return self.main(*args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1062, in main
-    rv = self.invoke(ctx)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
-    return ctx.invoke(self.callback, **ctx.params)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 763, in invoke
-    return __callback(*args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/decorators.py", line 26, in new_func
-    return f(get_current_context(), *args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/cli.py", line 267, in papermill
-    execution_timeout=execution_timeout,
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/execute.py", line 122, in execute_notebook
-    raise_for_execution_errors(nb, output_path)
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/execute.py", line 234, in raise_for_execution_errors
-    raise error
-papermill.exceptions.PapermillExecutionError: 
----------------------------------------------------------------------------
-Exception encountered at "In [11]":
----------------------------------------------------------------------------
-ZeroDivisionError                         Traceback (most recent call last)
-<ipython-input-11-f1bd21ccb0a9> in <module>
-     19 for s in simulation.kwargs["scenarios"]:
-     20     print('Running model for scenario: {}...'.format(s) )
----> 21     sim.Countries[cname].run_scenario(s)
-     22 
-     23 #scen_name = scname +  ' (%0.0f%% p.a.)'%(100*sim.Countries[cname].params['vacc_end_fraction'])
-
-~/git/covid-19-sird/sim/output/src/simulation.py in run_scenario(self, scenario)
-    739         ###print('############### ', params_tup, self.scenarios['Low vaccination'][p])
-    740 
---> 741         out = run_model_set(self.name, *params_tup)    # **self.params
-    742 
-    743 #        self.results[scenario] = out
-
-~/git/covid-19-sird/sim/output/src/simulation.py in run_model_set(cname, *params_tup)
-    418                                         tsim_dV_lockd,tsim_V_lockd,tsim_om_lockd,tsim_rD_lockd,tsim_C_lockd,tsim_dC_lockd,tsim_I_lockd,tsim_dI_lockd,tsim_F_lockd,tsim_dF_lockd,tsim_H_lockd,tsim_dH_lockd,tsim_D_lockd,tsim_dD_lockd,tsim_D_nat_lockd,tsim_dD_nat_lockd,tsim_L_lockd,tsim_dL_lockd,tsim_J_lockd,tsim_dJ_lockd,tsim_S_lockd,tsim_dS_lockd,tsim_r_cov_lockd,tsim_K_lockd,tsim_dK_lockd,tsim_U_lockd,tsim_dU_lockd,tsim_D_all_lockd,tsim_dD_all_lockd, \
-    419                                             tsim_dV_ptest1,tsim_V_ptest1,tsim_om_ptest1,tsim_rD_ptest1,tsim_C_ptest1,tsim_dC_ptest1,tsim_I_ptest1,tsim_dI_ptest1,tsim_F_ptest1,tsim_dF_ptest1,tsim_H_ptest1,tsim_dH_ptest1,tsim_D_ptest1,tsim_dD_ptest1,tsim_D_nat_ptest1,tsim_dD_nat_ptest1,tsim_L_ptest1,tsim_dL_ptest1,tsim_J_ptest1,tsim_dJ_ptest1,tsim_S_ptest1,tsim_dS_ptest1,tsim_r_cov_ptest1,tsim_K_ptest1,tsim_dK_ptest1,tsim_U_ptest1,tsim_dU_ptest1,tsim_D_all_ptest1,tsim_dD_all_ptest1,tsim_dV_ptest2,tsim_V_ptest2,tsim_om_ptest2,tsim_rD_ptest2,tsim_C_ptest2,tsim_dC_ptest2,tsim_I_ptest2,tsim_dI_ptest2,tsim_F_ptest2,tsim_dF_ptest2,tsim_H_ptest2,tsim_dH_ptest2,tsim_D_ptest2,tsim_dD_ptest2,tsim_D_nat_ptest2,tsim_dD_nat_ptest2,tsim_L_ptest2,tsim_dL_ptest2,tsim_J_ptest2,tsim_dJ_ptest2,tsim_S_ptest2,tsim_dS_ptest2,tsim_r_cov_ptest2,tsim_K_ptest2,tsim_dK_ptest2,tsim_U_ptest2,tsim_dU_ptest2,tsim_D_all_ptest2,tsim_dD_all_ptest2 \
---> 420                                                                                                                 = C19.model_wrapper (cc, *params_tup)
-    421 
-    422     #########################################
-
-~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in model_wrapper(curr_country_, endtime_, curr_scenario_, tau_inf_, tau_beta_, use_fix_lam0_, var_R_unc_fac_, V_in_dynamics_, V_in_projection_, vacc_efficacy_, vacc_efficacy_single_, vacc_end_fraction_, vacc_end_fraction_comp_, vacc_transmission_efficiency_, L_in_dynamics_, tau_nu_, tau_nu_vacc_, webapp_sim_seasonality_, symptomatic_proportion_, p_test_given_sym_, webapp_sim_lockdowns_, start_lockdown_IpN_thr_, end_lockdown_I_thr_, ld_fraction_of_full_, dont_calc_lockdowns_, dynamical_lockdowns_, lockdowns_, ld_relax_level_, webapp_sim_LDF_relax_, LDF_Inf_, LDF_relax_tau_, webapp_sim_variant_, scen_variant_appear_idx_, scen_variant_appear_shape_, scen_variant_appear_pi_, minors_testing_, minors_frac_, use_con_tracing_cutoff_, con_tracing_cutoff_tau_pct_, use_con_tracing_normalize_pb_, use_my_LAMBDA_tau_, new_removal_probabs_, THRESHOLD_FOR_min_I_, THRESHOLD_FOR_min_I_value_, max_nu_, max_tau_, reestimate_params_in_model_, sims_in_the_past_tstep_, compute_sird_model_)
-  52602                 #SIMULATION true (past)
-  52603                 tpower =  0 #, -1, 1
-> 52604                 tsim_dV_p2,tsim_V_p2,tsim_om_p2,tsim_rD_p2,tsim_C_p2,tsim_dC_p2,tsim_I_p2,tsim_dI_p2,tsim_F_p2,tsim_dF_p2,tsim_H_p2,tsim_dH_p2,tsim_D_p2,tsim_dD_p2,tsim_D_nat_p2,tsim_dD_nat_p2,tsim_L_p2,tsim_dL_p2,                tsim_J_p2,tsim_dJ_p2,tsim_S_p2,tsim_dS_p2,                  tsim_r_cov_p2, tsim_K_p2,tsim_dK_p2, tsim_U_p2,tsim_dU_p2, tsim_D_all_p2, tsim_dD_all_p2     = comp_model(true=1,power=0,simul=True)
-  52605 
-  52606                 numrows = numrows - sims_in_the_past_tstep
-
-~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in comp_model(true, power, simul, params_only, Vproj, doVL, data)
-  19985         else:
-  19986             r = r_cov #r_all
-> 19987         R_proj = get_R_projection(R, true,power, Vproj=Vproj, doVL=doVL)
-  19988 
-  19989         if variant_calculation_debug:
-
-~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in get_R_projection(om1, true, power, Vproj, doVL)
-  17397             om2 = om_season(t,base,om1)
-  17398             #
-> 17399             om2 /= get_R_relax_fac(om1)
-  17400 
-  17401         if curr_scenario == 'seasonal + lockdowns + vaccination' :
-
-~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in get_R_relax_fac(om1)
-  17231 
-  17232     dum = weibull_distr_tau(tt,LDF_relax_tau,LDF_relax_shape)
-> 17233     R_relax_fac = (1.-(1./LDF0))*(1.-integ(dum))+(1./LDF0)
-  17234     return R_relax_fac
-  17235 
-
-ZeroDivisionError: float division by zero
-
+Executing:   6%|▌         | 1/17 [00:00<00:13,  1.15cell/s]Executing:  35%|███▌      | 6/17 [00:02<00:07,  1.43cell/s]Executing:  59%|█████▉    | 10/17 [00:02<00:03,  2.01cell/s]Executing:  65%|██████▍   | 11/17 [00:20<00:02,  2.01cell/s]Executing:  71%|███████   | 12/17 [00:44<00:33,  6.68s/cell]Executing:  76%|███████▋  | 13/17 [00:44<00:18,  4.71s/cell]Executing: 100%|██████████| 17/17 [00:44<00:00,  3.31s/cell]Executing: 100%|██████████| 17/17 [00:46<00:00,  2.72s/cell]
 [NbConvertApp] Converting notebook ./web-run-sim_.ipynb to html
-[NbConvertApp] Writing 592379 bytes to web-run-sim_.html
+[NbConvertApp] Writing 577463 bytes to web-run-sim_.html
  
 SCENARIO: high-vaccination...
  
@@ -126,45 +51,12 @@ Input Notebook:  ./web-country-scen_.ipynb
 Output Notebook: ./web-country-scen_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp3zuxqbvj'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpn_qdmeno'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpeviaseqh'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpd2_kptmq'
 Executing:   0%|          | 0/41 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   2%|▏         | 1/41 [00:00<00:39,  1.01cell/s]Executing:   7%|▋         | 3/41 [00:01<00:26,  1.41cell/s]Executing:  12%|█▏        | 5/41 [00:01<00:18,  1.96cell/s]Executing:  17%|█▋        | 7/41 [00:01<00:13,  2.54cell/s]Executing:  22%|██▏       | 9/41 [00:01<00:09,  3.41cell/s]Executing:  27%|██▋       | 11/41 [00:01<00:06,  4.48cell/s]Executing:  32%|███▏      | 13/41 [00:02<00:07,  3.57cell/s]Executing:  37%|███▋      | 15/41 [00:02<00:05,  4.68cell/s]Executing:  41%|████▏     | 17/41 [00:02<00:04,  5.99cell/s]Executing:  46%|████▋     | 19/41 [00:03<00:06,  3.53cell/s]Executing:  51%|█████     | 21/41 [00:03<00:04,  4.65cell/s]Executing:  56%|█████▌    | 23/41 [00:04<00:02,  6.03cell/s]Executing:  59%|█████▊    | 24/41 [00:05<00:03,  4.79cell/s]
-Traceback (most recent call last):
-  File "/home/jb/.local/bin/papermill", line 8, in <module>
-    sys.exit(papermill())
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1137, in __call__
-    return self.main(*args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1062, in main
-    rv = self.invoke(ctx)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
-    return ctx.invoke(self.callback, **ctx.params)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 763, in invoke
-    return __callback(*args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/decorators.py", line 26, in new_func
-    return f(get_current_context(), *args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/cli.py", line 267, in papermill
-    execution_timeout=execution_timeout,
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/execute.py", line 122, in execute_notebook
-    raise_for_execution_errors(nb, output_path)
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/execute.py", line 234, in raise_for_execution_errors
-    raise error
-papermill.exceptions.PapermillExecutionError: 
----------------------------------------------------------------------------
-Exception encountered at "In [20]":
----------------------------------------------------------------------------
-KeyError                                  Traceback (most recent call last)
-<ipython-input-20-0e100ac3100d> in <module>
-    895 
-    896 
---> 897 r_proj_with_nat_mort = sim_Countries_cname.data['r_proj_with_nat_mort']
-    898 
-    899 if 1:
-
-KeyError: 'r_proj_with_nat_mort'
-
+Executing:   2%|▏         | 1/41 [00:00<00:39,  1.01cell/s]Executing:   7%|▋         | 3/41 [00:01<00:27,  1.41cell/s]Executing:  12%|█▏        | 5/41 [00:01<00:18,  1.94cell/s]Executing:  17%|█▋        | 7/41 [00:01<00:13,  2.52cell/s]Executing:  22%|██▏       | 9/41 [00:01<00:09,  3.40cell/s]Executing:  27%|██▋       | 11/41 [00:01<00:06,  4.48cell/s]Executing:  32%|███▏      | 13/41 [00:02<00:07,  3.61cell/s]Executing:  37%|███▋      | 15/41 [00:02<00:05,  4.73cell/s]Executing:  41%|████▏     | 17/41 [00:02<00:03,  6.02cell/s]Executing:  46%|████▋     | 19/41 [00:03<00:06,  3.56cell/s]Executing:  51%|█████     | 21/41 [00:03<00:04,  4.68cell/s]Executing:  56%|█████▌    | 23/41 [00:04<00:02,  6.05cell/s]Executing:  56%|█████▌    | 23/41 [00:20<00:02,  6.05cell/s]Executing:  59%|█████▊    | 24/41 [00:20<01:25,  5.01s/cell]Executing:  61%|██████    | 25/41 [00:22<01:08,  4.27s/cell]Executing:  63%|██████▎   | 26/41 [00:25<00:56,  3.74s/cell]Executing:  66%|██████▌   | 27/41 [00:27<00:46,  3.35s/cell]Executing:  68%|██████▊   | 28/41 [00:30<00:40,  3.11s/cell]Executing:  71%|███████   | 29/41 [00:32<00:35,  2.92s/cell]Executing:  73%|███████▎  | 30/41 [00:35<00:31,  2.84s/cell]Executing:  76%|███████▌  | 31/41 [00:38<00:27,  2.76s/cell]Executing:  78%|███████▊  | 32/41 [00:40<00:24,  2.73s/cell]Executing:  80%|████████  | 33/41 [00:43<00:21,  2.69s/cell]Executing:  83%|████████▎ | 34/41 [00:45<00:18,  2.67s/cell]Executing:  85%|████████▌ | 35/41 [00:48<00:16,  2.69s/cell]Executing:  88%|████████▊ | 36/41 [00:51<00:13,  2.65s/cell]Executing:  90%|█████████ | 37/41 [00:53<00:10,  2.66s/cell]Executing:  93%|█████████▎| 38/41 [00:56<00:07,  2.65s/cell]Executing:  95%|█████████▌| 39/41 [00:59<00:05,  2.66s/cell]Executing:  98%|█████████▊| 40/41 [01:01<00:02,  2.65s/cell]Executing: 100%|██████████| 41/41 [01:04<00:00,  2.64s/cell]Executing: 100%|██████████| 41/41 [01:05<00:00,  1.60s/cell]
  
 SCENARIO: scenario-comparison...
  
@@ -172,45 +64,12 @@ Input Notebook:  ./web-country-scen_.ipynb
 Output Notebook: ./web-country-scen_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpbpp5h87c'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpuq0by2ym'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpsbp933di'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpa9ter0yu'
 Executing:   0%|          | 0/41 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   2%|▏         | 1/41 [00:00<00:36,  1.09cell/s]Executing:   7%|▋         | 3/41 [00:01<00:25,  1.52cell/s]Executing:  12%|█▏        | 5/41 [00:01<00:17,  2.09cell/s]Executing:  17%|█▋        | 7/41 [00:01<00:12,  2.70cell/s]Executing:  22%|██▏       | 9/41 [00:01<00:08,  3.61cell/s]Executing:  27%|██▋       | 11/41 [00:01<00:06,  4.71cell/s]Executing:  32%|███▏      | 13/41 [00:02<00:07,  3.71cell/s]Executing:  37%|███▋      | 15/41 [00:02<00:05,  4.85cell/s]Executing:  41%|████▏     | 17/41 [00:02<00:03,  6.15cell/s]Executing:  46%|████▋     | 19/41 [00:03<00:06,  3.59cell/s]Executing:  51%|█████     | 21/41 [00:03<00:04,  4.72cell/s]Executing:  56%|█████▌    | 23/41 [00:03<00:02,  6.10cell/s]Executing:  59%|█████▊    | 24/41 [00:04<00:03,  4.87cell/s]
-Traceback (most recent call last):
-  File "/home/jb/.local/bin/papermill", line 8, in <module>
-    sys.exit(papermill())
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1137, in __call__
-    return self.main(*args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1062, in main
-    rv = self.invoke(ctx)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
-    return ctx.invoke(self.callback, **ctx.params)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 763, in invoke
-    return __callback(*args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/decorators.py", line 26, in new_func
-    return f(get_current_context(), *args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/cli.py", line 267, in papermill
-    execution_timeout=execution_timeout,
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/execute.py", line 122, in execute_notebook
-    raise_for_execution_errors(nb, output_path)
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/execute.py", line 234, in raise_for_execution_errors
-    raise error
-papermill.exceptions.PapermillExecutionError: 
----------------------------------------------------------------------------
-Exception encountered at "In [20]":
----------------------------------------------------------------------------
-KeyError                                  Traceback (most recent call last)
-<ipython-input-20-0e100ac3100d> in <module>
-    895 
-    896 
---> 897 r_proj_with_nat_mort = sim_Countries_cname.data['r_proj_with_nat_mort']
-    898 
-    899 if 1:
-
-KeyError: 'r_proj_with_nat_mort'
-
+Executing:   2%|▏         | 1/41 [00:00<00:37,  1.08cell/s]Executing:   7%|▋         | 3/41 [00:01<00:25,  1.50cell/s]Executing:  12%|█▏        | 5/41 [00:01<00:17,  2.06cell/s]Executing:  17%|█▋        | 7/41 [00:01<00:12,  2.65cell/s]Executing:  22%|██▏       | 9/41 [00:01<00:09,  3.54cell/s]Executing:  27%|██▋       | 11/41 [00:01<00:06,  4.50cell/s]Executing:  32%|███▏      | 13/41 [00:02<00:07,  3.61cell/s]Executing:  37%|███▋      | 15/41 [00:02<00:05,  4.70cell/s]Executing:  41%|████▏     | 17/41 [00:02<00:04,  6.00cell/s]Executing:  46%|████▋     | 19/41 [00:03<00:06,  3.56cell/s]Executing:  51%|█████     | 21/41 [00:03<00:04,  4.66cell/s]Executing:  56%|█████▌    | 23/41 [00:04<00:03,  6.00cell/s]Executing:  61%|██████    | 25/41 [00:06<00:07,  2.18cell/s]Executing:  63%|██████▎   | 26/41 [00:06<00:06,  2.27cell/s]Executing:  66%|██████▌   | 27/41 [00:07<00:05,  2.34cell/s]Executing:  68%|██████▊   | 28/41 [00:07<00:05,  2.39cell/s]Executing:  71%|███████   | 29/41 [00:07<00:04,  2.45cell/s]Executing:  73%|███████▎  | 30/41 [00:08<00:04,  2.50cell/s]Executing:  76%|███████▌  | 31/41 [00:08<00:04,  2.47cell/s]Executing:  78%|███████▊  | 32/41 [00:09<00:03,  2.48cell/s]Executing:  80%|████████  | 33/41 [00:09<00:03,  2.51cell/s]Executing:  83%|████████▎ | 34/41 [00:09<00:02,  2.51cell/s]Executing:  85%|████████▌ | 35/41 [00:10<00:02,  2.50cell/s]Executing:  88%|████████▊ | 36/41 [00:10<00:01,  2.53cell/s]Executing:  90%|█████████ | 37/41 [00:11<00:01,  2.51cell/s]Executing:  93%|█████████▎| 38/41 [00:11<00:01,  2.50cell/s]Executing:  95%|█████████▌| 39/41 [00:11<00:00,  2.52cell/s]Executing:  98%|█████████▊| 40/41 [00:12<00:00,  2.52cell/s]Executing: 100%|██████████| 41/41 [00:12<00:00,  2.54cell/s]Executing: 100%|██████████| 41/41 [00:13<00:00,  3.10cell/s]
  
 CREATING COUNTRY COMPARISONS...
  
@@ -218,45 +77,12 @@ Input Notebook:  ./web-country-comp_.ipynb
 Output Notebook: ./web-country-comp_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpttnft3u6'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpgxmqzbl5'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpz1bsqtkh'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmprtgm0to3'
 Executing:   0%|          | 0/41 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   2%|▏         | 1/41 [00:00<00:38,  1.05cell/s]Executing:   7%|▋         | 3/41 [00:01<00:25,  1.46cell/s]Executing:  12%|█▏        | 5/41 [00:01<00:18,  1.94cell/s]Executing:  20%|█▉        | 8/41 [00:01<00:12,  2.66cell/s]Executing:  27%|██▋       | 11/41 [00:02<00:10,  2.88cell/s]Executing:  29%|██▉       | 12/41 [00:02<00:12,  2.35cell/s]Executing:  32%|███▏      | 13/41 [00:03<00:10,  2.80cell/s]Executing:  34%|███▍      | 14/41 [00:03<00:08,  3.26cell/s]Executing:  37%|███▋      | 15/41 [00:03<00:07,  3.68cell/s]Executing:  39%|███▉      | 16/41 [00:03<00:06,  4.04cell/s]Executing:  41%|████▏     | 17/41 [00:03<00:05,  4.39cell/s]Executing:  44%|████▍     | 18/41 [00:04<00:04,  4.63cell/s]Executing:  46%|████▋     | 19/41 [00:04<00:04,  4.80cell/s]Executing:  49%|████▉     | 20/41 [00:04<00:04,  4.91cell/s]Executing:  51%|█████     | 21/41 [00:05<00:10,  1.97cell/s]Executing:  54%|█████▎    | 22/41 [00:05<00:07,  2.43cell/s]Executing:  56%|█████▌    | 23/41 [00:06<00:06,  2.93cell/s]Executing:  59%|█████▊    | 24/41 [00:06<00:05,  3.40cell/s]Executing:  61%|██████    | 25/41 [00:06<00:05,  3.07cell/s]Executing:  61%|██████    | 25/41 [00:07<00:04,  3.51cell/s]
-Traceback (most recent call last):
-  File "/home/jb/.local/bin/papermill", line 8, in <module>
-    sys.exit(papermill())
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1137, in __call__
-    return self.main(*args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1062, in main
-    rv = self.invoke(ctx)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
-    return ctx.invoke(self.callback, **ctx.params)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 763, in invoke
-    return __callback(*args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/decorators.py", line 26, in new_func
-    return f(get_current_context(), *args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/cli.py", line 267, in papermill
-    execution_timeout=execution_timeout,
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/execute.py", line 122, in execute_notebook
-    raise_for_execution_errors(nb, output_path)
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/execute.py", line 234, in raise_for_execution_errors
-    raise error
-papermill.exceptions.PapermillExecutionError: 
----------------------------------------------------------------------------
-Exception encountered at "In [19]":
----------------------------------------------------------------------------
-KeyError                                  Traceback (most recent call last)
-<ipython-input-19-6fa2d19c4e2a> in <module>
-    448 
-    449 
---> 450 r_proj_with_nat_mort = sim_Countries_cname[countries_[0]].data['r_proj_with_nat_mort']
-    451 
-    452 if 1:
-
-KeyError: 'r_proj_with_nat_mort'
-
+Executing:   2%|▏         | 1/41 [00:00<00:37,  1.07cell/s]Executing:  10%|▉         | 4/41 [00:01<00:24,  1.49cell/s]Executing:  12%|█▏        | 5/41 [00:01<00:18,  1.91cell/s]Executing:  17%|█▋        | 7/41 [00:01<00:12,  2.62cell/s]Executing:  22%|██▏       | 9/41 [00:01<00:09,  3.55cell/s]Executing:  27%|██▋       | 11/41 [00:02<00:09,  3.17cell/s]Executing:  29%|██▉       | 12/41 [00:02<00:11,  2.53cell/s]Executing:  32%|███▏      | 13/41 [00:03<00:09,  2.98cell/s]Executing:  34%|███▍      | 14/41 [00:03<00:07,  3.43cell/s]Executing:  37%|███▋      | 15/41 [00:03<00:06,  3.83cell/s]Executing:  39%|███▉      | 16/41 [00:03<00:06,  4.16cell/s]Executing:  41%|████▏     | 17/41 [00:03<00:05,  4.46cell/s]Executing:  44%|████▍     | 18/41 [00:03<00:04,  4.61cell/s]Executing:  46%|████▋     | 19/41 [00:04<00:04,  4.78cell/s]Executing:  49%|████▉     | 20/41 [00:04<00:04,  4.92cell/s]Executing:  51%|█████     | 21/41 [00:05<00:09,  2.01cell/s]Executing:  54%|█████▎    | 22/41 [00:05<00:07,  2.46cell/s]Executing:  56%|█████▌    | 23/41 [00:05<00:06,  2.94cell/s]Executing:  59%|█████▊    | 24/41 [00:06<00:05,  3.39cell/s]Executing:  61%|██████    | 25/41 [00:08<00:14,  1.13cell/s]Executing:  63%|██████▎   | 26/41 [00:08<00:11,  1.27cell/s]Executing:  66%|██████▌   | 27/41 [00:09<00:10,  1.37cell/s]Executing:  68%|██████▊   | 28/41 [00:10<00:08,  1.50cell/s]Executing:  71%|███████   | 29/41 [00:10<00:07,  1.60cell/s]Executing:  73%|███████▎  | 30/41 [00:11<00:06,  1.68cell/s]Executing:  76%|███████▌  | 31/41 [00:11<00:05,  1.70cell/s]Executing:  78%|███████▊  | 32/41 [00:12<00:05,  1.75cell/s]Executing:  80%|████████  | 33/41 [00:12<00:04,  1.79cell/s]Executing:  83%|████████▎ | 34/41 [00:13<00:03,  1.82cell/s]Executing:  85%|████████▌ | 35/41 [00:13<00:03,  1.84cell/s]Executing:  88%|████████▊ | 36/41 [00:14<00:02,  1.82cell/s]Executing:  90%|█████████ | 37/41 [00:14<00:02,  1.83cell/s]Executing:  93%|█████████▎| 38/41 [00:15<00:01,  1.83cell/s]Executing:  95%|█████████▌| 39/41 [00:15<00:01,  1.84cell/s]Executing:  98%|█████████▊| 40/41 [00:16<00:00,  1.82cell/s]Executing: 100%|██████████| 41/41 [00:17<00:00,  1.83cell/s]Executing: 100%|██████████| 41/41 [00:18<00:00,  2.22cell/s]
  
 CREATING INDEX...
  
@@ -264,16 +90,16 @@ Input Notebook:  ./web-index_.ipynb
 Output Notebook: ./web-index_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpxfxgjexs'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpwf_bya8r'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp3gt_kxzh'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpsvx4ajd7'
 Executing:   0%|          | 0/20 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   5%|▌         | 1/20 [00:00<00:16,  1.17cell/s]Executing:  25%|██▌       | 5/20 [00:00<00:09,  1.64cell/s]Executing:  45%|████▌     | 9/20 [00:01<00:04,  2.29cell/s]Executing:  65%|██████▌   | 13/20 [00:01<00:02,  3.18cell/s]Executing:  80%|████████  | 16/20 [00:01<00:00,  4.32cell/s]Executing: 100%|██████████| 20/20 [00:01<00:00,  5.85cell/s]Executing: 100%|██████████| 20/20 [00:01<00:00, 11.32cell/s]
+Executing:   5%|▌         | 1/20 [00:00<00:16,  1.18cell/s]Executing:  25%|██▌       | 5/20 [00:00<00:09,  1.66cell/s]Executing:  45%|████▌     | 9/20 [00:01<00:04,  2.31cell/s]Executing:  65%|██████▌   | 13/20 [00:01<00:02,  3.21cell/s]Executing:  85%|████████▌ | 17/20 [00:01<00:00,  4.40cell/s]Executing: 100%|██████████| 20/20 [00:01<00:00,  5.90cell/s]Executing: 100%|██████████| 20/20 [00:01<00:00, 11.41cell/s]
 [NbConvertApp] Converting notebook web-index_.ipynb to notebook
-[NbConvertApp] Writing 24868 bytes to web-index_.ipynb
+[NbConvertApp] Writing 24866 bytes to web-index_.ipynb
 [NbConvertApp] Converting notebook web-country-scen_.ipynb to notebook
-[NbConvertApp] Writing 151764 bytes to web-country-scen_.ipynb
+[NbConvertApp] Writing 154559 bytes to web-country-scen_.ipynb
  
  
 ############################################################################
@@ -282,5 +108,5 @@ END OF ANALYSIS (WEB)
  
  
  
-RUNTIME: 73 s (0 h)
+RUNTIME: 171 s (0 h)
  
