@@ -16,6 +16,14 @@
 <header>
 <h1 class="title">web-run-sim_</h1>
 </header>
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputPrompt jp-InputArea-prompt">
+
+</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput celltag_papermill-error-cell-tag" data-mime-type="text/markdown">
+<p><span style="color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;">An Exception was encountered at '<a href="#papermill-error-cell">In [5]</a>'.</span></p>
+</div>
+</div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput celltag_parameters">
 
 </div>
@@ -31,89 +39,71 @@
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
 </div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputPrompt jp-InputArea-prompt">
 
 </div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
-<div class="jp-Cell-outputWrapper">
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<h1 id="Austria">Austria<a href="#Austria" class="anchor-link">¶</a></h1>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
-<p>Analysis performed on 2021-07-24</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
-
-</div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
-
-</div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
-
-</div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
-
-</div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
-<div class="jp-Cell-outputWrapper">
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre><code>Running model for scenario: high-vaccination...
-*** INFO: INVALID (NEGATIVE) RECOVERY RATE DATA ***
-    Clipping to 0.0
-*** INFO: INVALID (NEGATIVE) DEATH RATE DATA ***
-    Clipping to 0.0
-total number of sim calls: 31.0
-Running model for scenario: low-vaccination...
-*** INFO: INVALID (NEGATIVE) RECOVERY RATE DATA ***
-    Clipping to 0.0
-*** INFO: INVALID (NEGATIVE) DEATH RATE DATA ***
-    Clipping to 0.0
-total number of sim calls: 62.0
-Running model for scenario: no-vaccination...
-*** INFO: INVALID (NEGATIVE) RECOVERY RATE DATA ***
-    Clipping to 0.0
-*** INFO: INVALID (NEGATIVE) DEATH RATE DATA ***
-    Clipping to 0.0
-total number of sim calls: 93.0</code></pre>
-</div>
-</div>
-</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput celltag_papermill-error-cell-tag" data-mime-type="text/markdown">
+<p><span id="papermill-error-cell" style="color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;">Execution using papermill encountered an exception here and stopped:</span></p>
 </div>
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
 <div class="jp-Cell-outputWrapper">
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre><code>Dumping results...</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
-<div class="jp-Cell-outputWrapper">
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre><code>
-END OF ANALYSIS
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre><code>---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+&lt;ipython-input-5-77a8edef756d&gt; in &lt;module&gt;
+----&gt; 1 import simulation
+      2 
+      3 import ccodes
+      4 
+      5 cname_f = ccodes.ct_codes[cname]
 
-</code></pre>
+~/git/covid-19-sird/sim/output/src/simulation.py in &lt;module&gt;
+     11 # run_model_set.cache_clear()
+     12 
+---&gt; 13 import inputs
+     14 
+     15 
+
+~/git/covid-19-sird/sim/output/src/inputs.py in &lt;module&gt;
+    147 
+    148 if dbg_scen:
+--&gt; 149     scenarios_ = scenarios_[:1]
+    150 
+    151 cc = (&#39;{} &#39;*len(countries_)).format(*countries_)
+
+TypeError: unhashable type: &#39;slice&#39;</code></pre>
 </div>
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
