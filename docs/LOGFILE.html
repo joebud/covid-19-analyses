@@ -99,13 +99,49 @@ date
 2021-02-19                   0
 2021-02-26                   0
 2021-03-05                   0
-2021-03-12                   0</code></pre>
+2021-03-12                   0
+            total_vaccinations
+date                          
+2021-01-08                   0
+2021-01-15                  88
+2021-01-22                 302
+2021-01-29                4178
+2021-02-05                5863
+2021-02-12                9937
+2021-02-19               14057
+2021-02-26               22353
+2021-03-05               31633
+2021-03-12               46954
+            total_vaccinations
+date                          
+2021-01-08                   0
+2021-01-15                   0
+2021-01-22                   0
+2021-01-29                   0
+2021-02-05                   2
+2021-02-12               10772
+2021-02-19               43497
+2021-02-26              101218
+2021-03-05              155968
+2021-03-12              234407
+            total_vaccinations
+date                          
+2021-01-08               30986
+2021-01-15              115605
+2021-01-22              212957
+2021-01-29              257607
+2021-02-05              353007
+2021-02-12              454271
+2021-02-19              519833
+2021-02-26              580865
+2021-03-05              685064
+2021-03-12              847531</code></pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
 <pre><code>---------------------------------------------------------------------------
-TypeError                                 Traceback (most recent call last)
+NameError                                 Traceback (most recent call last)
 &lt;ipython-input-11-f1bd21ccb0a9&gt; in &lt;module&gt;
      19 for s in simulation.kwargs[&quot;scenarios&quot;]:
      20     print(&#39;Running model for scenario: {}...&#39;.format(s) )
@@ -114,62 +150,27 @@ TypeError                                 Traceback (most recent call last)
      23 #scen_name = scname +  &#39; (%0.0f%% p.a.)&#39;%(100*sim.Countries[cname].params[&#39;vacc_end_fraction&#39;])
 
 ~/git/covid-19-sird/sim/output/src/simulation.py in run_scenario(self, scenario)
-    764 #        C19_load_cdata(self.name)
-    765 
---&gt; 766         self.load_data()
-    767 
-    768         for p in self.scenarios[scenario]:
+    765 #        C19_load_cdata(self.name)
+    766 
+--&gt; 767         self.load_data()
+    768 
+    769         for p in self.scenarios[scenario]:
 
 ~/git/covid-19-sird/sim/output/src/simulation.py in load_data(self)
-    697 
-    698         # load data
---&gt; 699         C19_load_cdata(self.name)
-    700 
-    701         for r in self.params:
+    698 
+    699         # load data
+--&gt; 700         C19_load_cdata(self.name)
+    701 
+    702         for r in self.params:
 
 ~/git/covid-19-sird/sim/output/src/simulation.py in C19_load_cdata(cname)
-    387                     #total_vaccinations
-    388                     vaccinations_by_manufacturer = C19.get_owid_group_data(C19.curr_country, c_start_date=stdate, fyle = &#39;vaccinations-by-manufacturer.csv&#39;, colname=&#39;total_vaccinations&#39;, group_colname=&#39;vaccine&#39;, \
---&gt; 389                                         data_dir_pth=C19.data_dir_pth, endtime=C19.endtime)
-    390 
-    391                     print(out)
+    390                                         data_dir_pth=C19.data_dir_pth, endtime=C19.endtime)
+    391 
+--&gt; 392                     print(out)
+    393 
+    394                     # people_vaccinated_per_hundred (at least one dose)
 
-~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in get_owid_group_data(cname, c_start_date, fyle, colname, group_colname, data_dir_pth, endtime)
-  52979         dum3 = dum_df_Confirmed_.index.date
-  52980         #print(dum3)
-&gt; 52981         dum_arr_[vdate_to_t_gen(dum3,c_start_date).reshape((numrows_, 1))] = np.asarray(dum_df_Confirmed_)
-  52982         out[str(le)] = 1.*dum_arr_
-  52983         if 0:
-
-~/.local/lib/python3.7/site-packages/numpy/lib/function_base.py in __call__(self, *args, **kwargs)
-   2161             vargs.extend([kwargs[_n] for _n in names])
-   2162 
--&gt; 2163         return self._vectorize_call(func=func, args=vargs)
-   2164 
-   2165     def _get_ufunc_and_otypes(self, func, args):
-
-~/.local/lib/python3.7/site-packages/numpy/lib/function_base.py in _vectorize_call(self, func, args)
-   2239             res = func()
-   2240         else:
--&gt; 2241             ufunc, otypes = self._get_ufunc_and_otypes(func=func, args=args)
-   2242 
-   2243             # Convert args to object arrays first
-
-~/.local/lib/python3.7/site-packages/numpy/lib/function_base.py in _get_ufunc_and_otypes(self, func, args)
-   2199 
-   2200             inputs = [arg.flat[0] for arg in args]
--&gt; 2201             outputs = func(*inputs)
-   2202 
-   2203             # Performance note: profiling indicates that -- for simple
-
-~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in date_to_t_gen(date, startdate)
-  52909 
-  52910 #    startdate=parse_date(df_Italy.index.values[0])
-&gt; 52911     delta=date-startdate
-  52912     t= delta.days
-  52913     return int(t)
-
-TypeError: unsupported operand type(s) for -: &#39;datetime.date&#39; and &#39;numpy.str_&#39;</code></pre>
+NameError: name &#39;out&#39; is not defined</code></pre>
 </div>
 </div>
 </div>
