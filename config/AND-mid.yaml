@@ -16,7 +16,7 @@ fix_lam0_val: 0.298
 fix_vacc_end_fraction: true
 lam0_est_t_limit: 10
 lam0_est_t_limit_low: 0
-ld_relax_fraction: 0.42857142857142855
+ld_relax_fraction: 1.0
 ldf_inf_fraction: 0.3
 minors_frac: 0.2
 new_dbg: false
@@ -31,7 +31,7 @@ show_MODEL_CHECKS: false
 show_VALIDITY: true
 sims_in_the_past_tstep: 30
 snew_init_pars_est: true
-start_lockdown_safety_fac: 2.55
+start_lockdown_safety_fac: 5.0
 tau_nu: 135.0
 tau_nu_vacc: 135.0
 time_span: mid
