@@ -93,7 +93,7 @@
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
 <pre><code>---------------------------------------------------------------------------
-KeyError                                  Traceback (most recent call last)
+NameError                                 Traceback (most recent call last)
 &lt;ipython-input-11-f1bd21ccb0a9&gt; in &lt;module&gt;
      19 for s in simulation.kwargs[&quot;scenarios&quot;]:
      20     print(&#39;Running model for scenario: {}...&#39;.format(s) )
@@ -109,13 +109,20 @@ KeyError                                  Traceback (most recent call last)
     767         for p in self.scenarios[scenario]:
 
 ~/git/covid-19-sird/sim/output/src/simulation.py in load_data(self)
-    711 
-    712 #            self.data[r] = C19.__dict__[inputs_dict_inv[r]]
---&gt; 713             self.data[r] = C19.__dict__[r]
-    714 
-    715 #            elif r == &#39;Total deaths (data)&#39;:   # shifted
+    696 
+    697         # load data
+--&gt; 698         C19_load_cdata(self.name)
+    699 
+    700         for r in self.params:
 
-KeyError: &#39;vaccinations_by_age&#39;</code></pre>
+~/git/covid-19-sird/sim/output/src/simulation.py in C19_load_cdata(cname)
+    393                     C19.vaccinations_by_age = C19.get_owid_group_data(C19.curr_country, c_start_date=stdate_, fyle = &#39;vaccinations-by-age-group.csv&#39;, colname=&#39;people_vaccinated_per_hundred&#39;, group_colname=&#39;age_group&#39;, \
+    394                                         data_dir_pth=C19.data_dir_pth, endtime=C19.endtime)
+--&gt; 395                     for kk in vaccinations_by_age:
+    396                         vaccinations_by_age[kk] *= 100.
+    397 
+
+NameError: name &#39;vaccinations_by_age&#39; is not defined</code></pre>
 </div>
 </div>
 </div>
