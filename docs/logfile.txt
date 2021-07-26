@@ -1,6 +1,6 @@
  
 No internet connection... Press any key to resume ... 
-COUNTRIES=AUT
+COUNTRIES=AUT POL
 SCENARIOS=high-vaccination scenario-comparison
  
  
@@ -36,12 +36,12 @@ Input Notebook:  ./web-run-sim_.ipynb
 Output Notebook: ./web-run-sim_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp6faa022u'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp09cbjy9l'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp25qq2slr'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpbz_xddnd'
 Executing:   0%|          | 0/17 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   6%|▌         | 1/17 [00:00<00:13,  1.18cell/s]Executing:  35%|███▌      | 6/17 [00:02<00:07,  1.45cell/s]Executing:  59%|█████▉    | 10/17 [00:02<00:03,  2.04cell/s]Executing:  65%|██████▍   | 11/17 [00:20<00:02,  2.04cell/s]Executing:  71%|███████   | 12/17 [00:43<00:32,  6.50s/cell]Executing:  76%|███████▋  | 13/17 [00:43<00:18,  4.59s/cell]Executing: 100%|██████████| 17/17 [00:43<00:00,  3.22s/cell]Executing: 100%|██████████| 17/17 [00:45<00:00,  2.66s/cell]
+Executing:   6%|▌         | 1/17 [00:01<00:18,  1.13s/cell]Executing:  35%|███▌      | 6/17 [00:02<00:09,  1.12cell/s]Executing:  53%|█████▎    | 9/17 [00:03<00:05,  1.57cell/s]Executing:  65%|██████▍   | 11/17 [00:03<00:03,  1.98cell/s]Executing:  71%|███████   | 12/17 [00:41<00:58, 11.68s/cell]Executing:  82%|████████▏ | 14/17 [00:41<00:24,  8.19s/cell]Executing: 100%|██████████| 17/17 [00:41<00:00,  2.47s/cell]
 [NbConvertApp] Converting notebook ./web-run-sim_.ipynb to html
 [NbConvertApp] Writing 569610 bytes to web-run-sim_.html
  
@@ -51,12 +51,12 @@ Input Notebook:  ./web-country-scen_.ipynb
 Output Notebook: ./web-country-scen_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp5l9es3dj'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpbrl2s0g1'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmptnux2dwc'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp5brp_r3_'
 Executing:   0%|          | 0/42 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   2%|▏         | 1/42 [00:01<00:46,  1.14s/cell]Executing:   7%|▋         | 3/42 [00:01<00:31,  1.22cell/s]Executing:  12%|█▏        | 5/42 [00:01<00:21,  1.69cell/s]Executing:  17%|█▋        | 7/42 [00:01<00:16,  2.19cell/s]Executing:  21%|██▏       | 9/42 [00:01<00:11,  2.92cell/s]Executing:  24%|██▍       | 10/42 [00:01<00:08,  3.70cell/s]Executing:  26%|██▌       | 11/42 [00:02<00:07,  4.37cell/s]Executing:  29%|██▊       | 12/42 [00:02<00:05,  5.09cell/s]Executing:  31%|███       | 13/42 [00:03<00:11,  2.58cell/s]Executing:  36%|███▌      | 15/42 [00:03<00:07,  3.41cell/s]Executing:  40%|████      | 17/42 [00:03<00:05,  4.48cell/s]Executing:  45%|████▌     | 19/42 [00:04<00:07,  3.13cell/s]Executing:  50%|█████     | 21/42 [00:04<00:05,  4.15cell/s]Executing:  55%|█████▍    | 23/42 [00:04<00:03,  5.42cell/s]Executing:  55%|█████▍    | 23/42 [00:20<00:03,  5.42cell/s]Executing:  57%|█████▋    | 24/42 [00:24<01:50,  6.15s/cell]Executing:  60%|█████▉    | 25/42 [00:27<01:29,  5.25s/cell]Executing:  62%|██████▏   | 26/42 [00:30<01:13,  4.59s/cell]Executing:  64%|██████▍   | 27/42 [00:33<01:01,  4.11s/cell]Executing:  67%|██████▋   | 28/42 [00:36<00:53,  3.80s/cell]Executing:  69%|██████▉   | 29/42 [00:39<00:45,  3.52s/cell]Executing:  71%|███████▏  | 30/42 [00:42<00:40,  3.41s/cell]Executing:  74%|███████▍  | 31/42 [00:45<00:36,  3.28s/cell]Executing:  76%|███████▌  | 32/42 [00:48<00:31,  3.16s/cell]Executing:  79%|███████▊  | 33/42 [00:51<00:27,  3.11s/cell]Executing:  81%|████████  | 34/42 [00:54<00:24,  3.08s/cell]Executing:  83%|████████▎ | 35/42 [00:57<00:21,  3.05s/cell]Executing:  86%|████████▌ | 36/42 [01:00<00:18,  3.01s/cell]Executing:  88%|████████▊ | 37/42 [01:03<00:14,  2.98s/cell]Executing:  90%|█████████ | 38/42 [01:06<00:12,  3.01s/cell]Executing:  93%|█████████▎| 39/42 [01:09<00:08,  2.98s/cell]Executing:  95%|█████████▌| 40/42 [01:12<00:05,  2.97s/cell]Executing:  98%|█████████▊| 41/42 [01:15<00:02,  2.97s/cell]Executing: 100%|██████████| 42/42 [01:18<00:00,  2.98s/cell]Executing: 100%|██████████| 42/42 [01:19<00:00,  1.90s/cell]
+Executing:   2%|▏         | 1/42 [00:00<00:40,  1.00cell/s]Executing:   7%|▋         | 3/42 [00:01<00:27,  1.40cell/s]Executing:  12%|█▏        | 5/42 [00:01<00:19,  1.93cell/s]Executing:  17%|█▋        | 7/42 [00:01<00:13,  2.51cell/s]Executing:  21%|██▏       | 9/42 [00:01<00:09,  3.38cell/s]Executing:  26%|██▌       | 11/42 [00:01<00:07,  4.42cell/s]Executing:  31%|███       | 13/42 [00:02<00:08,  3.25cell/s]Executing:  36%|███▌      | 15/42 [00:02<00:06,  4.26cell/s]Executing:  40%|████      | 17/42 [00:02<00:04,  5.48cell/s]Executing:  45%|████▌     | 19/42 [00:04<00:08,  2.79cell/s]Executing:  50%|█████     | 21/42 [00:04<00:05,  3.64cell/s]Executing:  55%|█████▍    | 23/42 [00:04<00:04,  4.70cell/s]Executing:  55%|█████▍    | 23/42 [00:20<00:04,  4.70cell/s]Executing:  57%|█████▋    | 24/42 [00:30<02:19,  7.77s/cell]Executing:  60%|█████▉    | 25/42 [00:33<01:48,  6.40s/cell]Executing:  62%|██████▏   | 26/42 [00:36<01:27,  5.45s/cell]Executing:  64%|██████▍   | 27/42 [00:39<01:12,  4.81s/cell]Executing:  67%|██████▋   | 28/42 [00:43<01:00,  4.32s/cell]Executing:  69%|██████▉   | 29/42 [00:46<00:52,  4.07s/cell]Executing:  71%|███████▏  | 30/42 [00:49<00:45,  3.83s/cell]Executing:  74%|███████▍  | 31/42 [00:52<00:39,  3.61s/cell]Executing:  76%|███████▌  | 32/42 [00:56<00:34,  3.46s/cell]Executing:  79%|███████▊  | 33/42 [00:59<00:30,  3.34s/cell]Executing:  81%|████████  | 34/42 [01:02<00:26,  3.25s/cell]Executing:  83%|████████▎ | 35/42 [01:05<00:22,  3.20s/cell]Executing:  86%|████████▌ | 36/42 [01:08<00:18,  3.16s/cell]Executing:  88%|████████▊ | 37/42 [01:11<00:15,  3.15s/cell]Executing:  90%|█████████ | 38/42 [01:15<00:13,  3.34s/cell]Executing:  93%|█████████▎| 39/42 [01:18<00:10,  3.39s/cell]Executing:  95%|█████████▌| 40/42 [01:22<00:06,  3.39s/cell]Executing:  98%|█████████▊| 41/42 [01:25<00:03,  3.36s/cell]Executing: 100%|██████████| 42/42 [01:28<00:00,  3.27s/cell]Executing: 100%|██████████| 42/42 [01:28<00:00,  2.12s/cell]
  
 SCENARIO: scenario-comparison...
  
@@ -64,12 +64,53 @@ Input Notebook:  ./web-country-scen_.ipynb
 Output Notebook: ./web-country-scen_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpp_ac729j'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpn4frqjvp'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp20g9nz8j'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp5xa6o8h9'
 Executing:   0%|          | 0/42 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   2%|▏         | 1/42 [00:00<00:39,  1.05cell/s]Executing:   7%|▋         | 3/42 [00:01<00:26,  1.45cell/s]Executing:  12%|█▏        | 5/42 [00:01<00:18,  2.01cell/s]Executing:  17%|█▋        | 7/42 [00:01<00:13,  2.60cell/s]Executing:  21%|██▏       | 9/42 [00:01<00:09,  3.47cell/s]Executing:  26%|██▌       | 11/42 [00:01<00:06,  4.53cell/s]Executing:  31%|███       | 13/42 [00:02<00:07,  3.64cell/s]Executing:  36%|███▌      | 15/42 [00:02<00:05,  4.75cell/s]Executing:  40%|████      | 17/42 [00:02<00:04,  6.02cell/s]Executing:  45%|████▌     | 19/42 [00:03<00:06,  3.59cell/s]Executing:  50%|█████     | 21/42 [00:03<00:04,  4.70cell/s]Executing:  55%|█████▍    | 23/42 [00:04<00:03,  6.05cell/s]Executing:  60%|█████▉    | 25/42 [00:06<00:07,  2.21cell/s]Executing:  62%|██████▏   | 26/42 [00:06<00:06,  2.31cell/s]Executing:  64%|██████▍   | 27/42 [00:07<00:06,  2.39cell/s]Executing:  67%|██████▋   | 28/42 [00:07<00:05,  2.45cell/s]Executing:  69%|██████▉   | 29/42 [00:07<00:05,  2.50cell/s]Executing:  71%|███████▏  | 30/42 [00:08<00:04,  2.53cell/s]Executing:  74%|███████▍  | 31/42 [00:08<00:04,  2.55cell/s]Executing:  76%|███████▌  | 32/42 [00:08<00:03,  2.56cell/s]Executing:  79%|███████▊  | 33/42 [00:09<00:03,  2.48cell/s]Executing:  81%|████████  | 34/42 [00:09<00:03,  2.49cell/s]Executing:  83%|████████▎ | 35/42 [00:10<00:02,  2.42cell/s]Executing:  86%|████████▌ | 36/42 [00:10<00:02,  2.43cell/s]Executing:  88%|████████▊ | 37/42 [00:11<00:02,  2.44cell/s]Executing:  90%|█████████ | 38/42 [00:11<00:01,  2.47cell/s]Executing:  93%|█████████▎| 39/42 [00:11<00:01,  2.49cell/s]Executing:  95%|█████████▌| 40/42 [00:12<00:00,  2.47cell/s]Executing:  98%|█████████▊| 41/42 [00:12<00:00,  2.42cell/s]Executing: 100%|██████████| 42/42 [00:13<00:00,  2.47cell/s]Executing: 100%|██████████| 42/42 [00:14<00:00,  2.92cell/s]
+Executing:   2%|▏         | 1/42 [00:01<00:51,  1.26s/cell]Executing:   7%|▋         | 3/42 [00:01<00:35,  1.11cell/s]Executing:  12%|█▏        | 5/42 [00:01<00:23,  1.55cell/s]Executing:  17%|█▋        | 7/42 [00:01<00:17,  2.00cell/s]Executing:  21%|██▏       | 9/42 [00:01<00:12,  2.67cell/s]Executing:  26%|██▌       | 11/42 [00:02<00:08,  3.55cell/s]Executing:  31%|███       | 13/42 [00:03<00:09,  2.97cell/s]Executing:  36%|███▌      | 15/42 [00:03<00:06,  3.92cell/s]Executing:  40%|████      | 17/42 [00:03<00:04,  5.07cell/s]Executing:  45%|████▌     | 19/42 [00:04<00:06,  3.33cell/s]Executing:  50%|█████     | 21/42 [00:04<00:04,  4.40cell/s]Executing:  55%|█████▍    | 23/42 [00:04<00:03,  5.64cell/s]Executing:  60%|█████▉    | 25/42 [00:07<00:08,  1.89cell/s]Executing:  62%|██████▏   | 26/42 [00:07<00:07,  2.05cell/s]Executing:  64%|██████▍   | 27/42 [00:08<00:06,  2.17cell/s]Executing:  67%|██████▋   | 28/42 [00:08<00:06,  2.22cell/s]Executing:  69%|██████▉   | 29/42 [00:08<00:05,  2.33cell/s]Executing:  71%|███████▏  | 30/42 [00:09<00:05,  2.39cell/s]Executing:  74%|███████▍  | 31/42 [00:09<00:04,  2.46cell/s]Executing:  76%|███████▌  | 32/42 [00:10<00:04,  2.49cell/s]Executing:  79%|███████▊  | 33/42 [00:10<00:03,  2.43cell/s]Executing:  81%|████████  | 34/42 [00:10<00:03,  2.46cell/s]Executing:  83%|████████▎ | 35/42 [00:11<00:02,  2.47cell/s]Executing:  86%|████████▌ | 36/42 [00:11<00:02,  2.51cell/s]Executing:  88%|████████▊ | 37/42 [00:12<00:01,  2.52cell/s]Executing:  90%|█████████ | 38/42 [00:12<00:01,  2.52cell/s]Executing:  93%|█████████▎| 39/42 [00:12<00:01,  2.39cell/s]Executing:  95%|█████████▌| 40/42 [00:13<00:00,  2.12cell/s]Executing:  98%|█████████▊| 41/42 [00:14<00:00,  2.13cell/s]Executing: 100%|██████████| 42/42 [00:14<00:00,  2.10cell/s]Executing: 100%|██████████| 42/42 [00:14<00:00,  2.80cell/s]
+ 
+RUNNING ANALYSIS FOR COUNTRY: POL...
+ 
+Input Notebook:  ./web-run-sim_.ipynb
+Output Notebook: ./web-run-sim_.ipynb
+Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
+Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmprw455177'
+Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpya0s881b'
+Executing:   0%|          | 0/17 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   6%|▌         | 1/17 [00:01<00:16,  1.03s/cell]Executing:  35%|███▌      | 6/17 [00:02<00:08,  1.23cell/s]Executing:  59%|█████▉    | 10/17 [00:02<00:04,  1.73cell/s]Executing:  65%|██████▍   | 11/17 [00:20<00:03,  1.73cell/s]Executing:  71%|███████   | 12/17 [00:42<00:32,  6.40s/cell]Executing:  76%|███████▋  | 13/17 [00:42<00:18,  4.52s/cell]Executing: 100%|██████████| 17/17 [00:42<00:00,  3.17s/cell]Executing: 100%|██████████| 17/17 [00:44<00:00,  2.60s/cell]
+[NbConvertApp] Converting notebook ./web-run-sim_.ipynb to html
+[NbConvertApp] Writing 569538 bytes to web-run-sim_.html
+ 
+SCENARIO: high-vaccination...
+ 
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
+Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp99m57ht9'
+Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmptf4qn4z0'
+Executing:   0%|          | 0/42 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/42 [00:00<00:38,  1.08cell/s]Executing:   7%|▋         | 3/42 [00:01<00:26,  1.49cell/s]Executing:  12%|█▏        | 5/42 [00:01<00:17,  2.06cell/s]Executing:  17%|█▋        | 7/42 [00:01<00:13,  2.65cell/s]Executing:  21%|██▏       | 9/42 [00:01<00:09,  3.54cell/s]Executing:  26%|██▌       | 11/42 [00:01<00:06,  4.59cell/s]Executing:  31%|███       | 13/42 [00:02<00:08,  3.61cell/s]Executing:  36%|███▌      | 15/42 [00:02<00:05,  4.71cell/s]Executing:  40%|████      | 17/42 [00:02<00:04,  5.91cell/s]Executing:  45%|████▌     | 19/42 [00:03<00:06,  3.42cell/s]Executing:  50%|█████     | 21/42 [00:04<00:04,  4.50cell/s]Executing:  55%|█████▍    | 23/42 [00:04<00:03,  5.82cell/s]Executing:  55%|█████▍    | 23/42 [00:19<00:03,  5.82cell/s]Executing:  57%|█████▋    | 24/42 [00:24<01:54,  6.36s/cell]Executing:  60%|█████▉    | 25/42 [00:28<01:32,  5.42s/cell]Executing:  62%|██████▏   | 26/42 [00:31<01:16,  4.75s/cell]Executing:  64%|██████▍   | 27/42 [00:34<01:03,  4.26s/cell]Executing:  67%|██████▋   | 28/42 [00:37<00:54,  3.89s/cell]Executing:  69%|██████▉   | 29/42 [00:40<00:47,  3.64s/cell]Executing:  71%|███████▏  | 30/42 [00:43<00:42,  3.50s/cell]Executing:  74%|███████▍  | 31/42 [00:46<00:37,  3.37s/cell]Executing:  76%|███████▌  | 32/42 [00:49<00:33,  3.31s/cell]Executing:  79%|███████▊  | 33/42 [00:53<00:29,  3.23s/cell]Executing:  81%|████████  | 34/42 [00:56<00:25,  3.20s/cell]Executing:  83%|████████▎ | 35/42 [00:59<00:22,  3.17s/cell]Executing:  86%|████████▌ | 36/42 [01:02<00:19,  3.18s/cell]Executing:  88%|████████▊ | 37/42 [01:05<00:15,  3.15s/cell]Executing:  90%|█████████ | 38/42 [01:08<00:12,  3.14s/cell]Executing:  93%|█████████▎| 39/42 [01:11<00:09,  3.11s/cell]Executing:  95%|█████████▌| 40/42 [01:14<00:06,  3.10s/cell]Executing:  98%|█████████▊| 41/42 [01:17<00:03,  3.10s/cell]Executing: 100%|██████████| 42/42 [01:20<00:00,  3.11s/cell]Executing: 100%|██████████| 42/42 [01:21<00:00,  1.94s/cell]
+ 
+SCENARIO: scenario-comparison...
+ 
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
+Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpx_ghc498'
+Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp3pt_qass'
+Executing:   0%|          | 0/42 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/42 [00:00<00:38,  1.05cell/s]Executing:   7%|▋         | 3/42 [00:01<00:26,  1.46cell/s]Executing:  12%|█▏        | 5/42 [00:01<00:18,  2.02cell/s]Executing:  17%|█▋        | 7/42 [00:01<00:13,  2.60cell/s]Executing:  21%|██▏       | 9/42 [00:01<00:09,  3.48cell/s]Executing:  26%|██▌       | 11/42 [00:01<00:06,  4.55cell/s]Executing:  31%|███       | 13/42 [00:02<00:08,  3.62cell/s]Executing:  36%|███▌      | 15/42 [00:02<00:05,  4.72cell/s]Executing:  40%|████      | 17/42 [00:02<00:04,  6.01cell/s]Executing:  45%|████▌     | 19/42 [00:04<00:07,  3.21cell/s]Executing:  50%|█████     | 21/42 [00:04<00:04,  4.25cell/s]Executing:  55%|█████▍    | 23/42 [00:04<00:03,  5.51cell/s]Executing:  60%|█████▉    | 25/42 [00:06<00:07,  2.18cell/s]Executing:  62%|██████▏   | 26/42 [00:06<00:06,  2.29cell/s]Executing:  64%|██████▍   | 27/42 [00:07<00:06,  2.36cell/s]Executing:  67%|██████▋   | 28/42 [00:07<00:05,  2.43cell/s]Executing:  69%|██████▉   | 29/42 [00:08<00:05,  2.44cell/s]Executing:  71%|███████▏  | 30/42 [00:08<00:04,  2.44cell/s]Executing:  74%|███████▍  | 31/42 [00:08<00:04,  2.50cell/s]Executing:  76%|███████▌  | 32/42 [00:09<00:03,  2.51cell/s]Executing:  79%|███████▊  | 33/42 [00:09<00:03,  2.45cell/s]Executing:  81%|████████  | 34/42 [00:10<00:03,  2.46cell/s]Executing:  83%|████████▎ | 35/42 [00:10<00:02,  2.45cell/s]Executing:  86%|████████▌ | 36/42 [00:10<00:02,  2.47cell/s]Executing:  88%|████████▊ | 37/42 [00:11<00:02,  2.48cell/s]Executing:  90%|█████████ | 38/42 [00:11<00:01,  2.47cell/s]Executing:  93%|█████████▎| 39/42 [00:12<00:01,  2.48cell/s]Executing:  95%|█████████▌| 40/42 [00:12<00:00,  2.47cell/s]Executing:  98%|█████████▊| 41/42 [00:12<00:00,  2.45cell/s]Executing: 100%|██████████| 42/42 [00:13<00:00,  2.49cell/s]Executing: 100%|██████████| 42/42 [00:13<00:00,  3.04cell/s]
  
 CREATING COUNTRY COMPARISONS...
  
@@ -77,12 +118,12 @@ Input Notebook:  ./web-country-comp_.ipynb
 Output Notebook: ./web-country-comp_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpov1ndcts'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpby13d8m4'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpqo6np0cu'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpsokqzsfs'
 Executing:   0%|          | 0/41 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   2%|▏         | 1/41 [00:00<00:37,  1.06cell/s]Executing:   7%|▋         | 3/41 [00:01<00:25,  1.48cell/s]Executing:  12%|█▏        | 5/41 [00:01<00:18,  1.98cell/s]Executing:  17%|█▋        | 7/41 [00:01<00:12,  2.70cell/s]Executing:  24%|██▍       | 10/41 [00:01<00:08,  3.66cell/s]Executing:  29%|██▉       | 12/41 [00:02<00:11,  2.60cell/s]Executing:  32%|███▏      | 13/41 [00:03<00:09,  3.06cell/s]Executing:  34%|███▍      | 14/41 [00:03<00:07,  3.51cell/s]Executing:  37%|███▋      | 15/41 [00:03<00:06,  3.90cell/s]Executing:  39%|███▉      | 16/41 [00:03<00:05,  4.25cell/s]Executing:  41%|████▏     | 17/41 [00:03<00:05,  4.56cell/s]Executing:  44%|████▍     | 18/41 [00:03<00:04,  4.76cell/s]Executing:  46%|████▋     | 19/41 [00:04<00:04,  4.88cell/s]Executing:  49%|████▉     | 20/41 [00:04<00:04,  4.98cell/s]Executing:  51%|█████     | 21/41 [00:05<00:09,  2.00cell/s]Executing:  54%|█████▎    | 22/41 [00:05<00:07,  2.47cell/s]Executing:  56%|█████▌    | 23/41 [00:05<00:06,  2.96cell/s]Executing:  59%|█████▊    | 24/41 [00:06<00:04,  3.43cell/s]Executing:  61%|██████    | 25/41 [00:08<00:14,  1.13cell/s]Executing:  63%|██████▎   | 26/41 [00:08<00:11,  1.29cell/s]Executing:  66%|██████▌   | 27/41 [00:09<00:10,  1.40cell/s]Executing:  68%|██████▊   | 28/41 [00:09<00:08,  1.52cell/s]Executing:  71%|███████   | 29/41 [00:10<00:07,  1.62cell/s]Executing:  73%|███████▎  | 30/41 [00:10<00:06,  1.70cell/s]Executing:  76%|███████▌  | 31/41 [00:11<00:05,  1.72cell/s]Executing:  78%|███████▊  | 32/41 [00:12<00:05,  1.78cell/s]Executing:  80%|████████  | 33/41 [00:12<00:04,  1.81cell/s]Executing:  83%|████████▎ | 34/41 [00:13<00:03,  1.85cell/s]Executing:  85%|████████▌ | 35/41 [00:13<00:03,  1.87cell/s]Executing:  88%|████████▊ | 36/41 [00:14<00:02,  1.84cell/s]Executing:  90%|█████████ | 37/41 [00:14<00:02,  1.86cell/s]Executing:  93%|█████████▎| 38/41 [00:15<00:01,  1.87cell/s]Executing:  95%|█████████▌| 39/41 [00:15<00:01,  1.87cell/s]Executing:  98%|█████████▊| 40/41 [00:16<00:00,  1.83cell/s]Executing: 100%|██████████| 41/41 [00:16<00:00,  1.86cell/s]Executing: 100%|██████████| 41/41 [00:17<00:00,  2.36cell/s]
+Executing:   2%|▏         | 1/41 [00:01<00:53,  1.33s/cell]Executing:   7%|▋         | 3/41 [00:01<00:36,  1.04cell/s]Executing:  12%|█▏        | 5/41 [00:01<00:25,  1.40cell/s]Executing:  20%|█▉        | 8/41 [00:01<00:16,  1.95cell/s]Executing:  27%|██▋       | 11/41 [00:03<00:14,  2.11cell/s]Executing:  29%|██▉       | 12/41 [00:03<00:14,  1.94cell/s]Executing:  32%|███▏      | 13/41 [00:03<00:12,  2.31cell/s]Executing:  34%|███▍      | 14/41 [00:04<00:09,  2.76cell/s]Executing:  37%|███▋      | 15/41 [00:04<00:08,  3.22cell/s]Executing:  39%|███▉      | 16/41 [00:04<00:06,  3.68cell/s]Executing:  41%|████▏     | 17/41 [00:04<00:05,  4.10cell/s]Executing:  44%|████▍     | 18/41 [00:04<00:05,  4.19cell/s]Executing:  46%|████▋     | 19/41 [00:05<00:05,  4.20cell/s]Executing:  49%|████▉     | 20/41 [00:05<00:04,  4.38cell/s]Executing:  51%|█████     | 21/41 [00:06<00:10,  1.82cell/s]Executing:  54%|█████▎    | 22/41 [00:06<00:08,  2.28cell/s]Executing:  56%|█████▌    | 23/41 [00:07<00:06,  2.73cell/s]Executing:  59%|█████▊    | 24/41 [00:07<00:05,  3.22cell/s]Executing:  61%|██████    | 25/41 [00:11<00:22,  1.43s/cell]Executing:  63%|██████▎   | 26/41 [00:12<00:18,  1.24s/cell]Executing:  66%|██████▌   | 27/41 [00:12<00:15,  1.10s/cell]Executing:  68%|██████▊   | 28/41 [00:13<00:12,  1.01cell/s]Executing:  71%|███████   | 29/41 [00:14<00:11,  1.06cell/s]Executing:  73%|███████▎  | 30/41 [00:15<00:09,  1.12cell/s]Executing:  76%|███████▌  | 31/41 [00:16<00:08,  1.12cell/s]Executing:  78%|███████▊  | 32/41 [00:16<00:07,  1.18cell/s]Executing:  80%|████████  | 33/41 [00:17<00:06,  1.22cell/s]Executing:  83%|████████▎ | 34/41 [00:18<00:05,  1.17cell/s]Executing:  85%|████████▌ | 35/41 [00:19<00:05,  1.15cell/s]Executing:  88%|████████▊ | 36/41 [00:20<00:04,  1.12cell/s]Executing:  90%|█████████ | 37/41 [00:21<00:03,  1.18cell/s]Executing:  93%|█████████▎| 38/41 [00:21<00:02,  1.22cell/s]Executing:  95%|█████████▌| 39/41 [00:22<00:01,  1.25cell/s]Executing:  98%|█████████▊| 40/41 [00:23<00:00,  1.25cell/s]Executing: 100%|██████████| 41/41 [00:24<00:00,  1.24cell/s]Executing: 100%|██████████| 41/41 [00:25<00:00,  1.59cell/s]
  
 CREATING INDEX...
  
@@ -90,16 +131,16 @@ Input Notebook:  ./web-index_.ipynb
 Output Notebook: ./web-index_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpft_jbl3m'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpsizm2t36'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp7shliru9'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpumfkfp2a'
 Executing:   0%|          | 0/20 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   5%|▌         | 1/20 [00:00<00:16,  1.17cell/s]Executing:  25%|██▌       | 5/20 [00:00<00:09,  1.65cell/s]Executing:  40%|████      | 8/20 [00:01<00:05,  2.30cell/s]Executing:  60%|██████    | 12/20 [00:01<00:02,  3.19cell/s]Executing:  80%|████████  | 16/20 [00:01<00:00,  4.38cell/s]Executing: 100%|██████████| 20/20 [00:01<00:00,  5.94cell/s]Executing: 100%|██████████| 20/20 [00:01<00:00, 11.53cell/s]
+Executing:   5%|▌         | 1/20 [00:01<00:19,  1.03s/cell]Executing:  25%|██▌       | 5/20 [00:01<00:10,  1.37cell/s]Executing:  40%|████      | 8/20 [00:01<00:06,  1.89cell/s]Executing:  50%|█████     | 10/20 [00:01<00:03,  2.58cell/s]Executing:  65%|██████▌   | 13/20 [00:01<00:01,  3.53cell/s]Executing:  80%|████████  | 16/20 [00:01<00:00,  4.79cell/s]Executing: 100%|██████████| 20/20 [00:01<00:00,  6.43cell/s]Executing: 100%|██████████| 20/20 [00:02<00:00,  9.51cell/s]
 [NbConvertApp] Converting notebook web-index_.ipynb to notebook
-[NbConvertApp] Writing 24949 bytes to web-index_.ipynb
+[NbConvertApp] Writing 24957 bytes to web-index_.ipynb
 [NbConvertApp] Converting notebook web-country-scen_.ipynb to notebook
-[NbConvertApp] Writing 157680 bytes to web-country-scen_.ipynb
+[NbConvertApp] Writing 157710 bytes to web-country-scen_.ipynb
  
  
 ############################################################################
@@ -108,5 +149,5 @@ END OF ANALYSIS (WEB)
  
  
  
-RUNTIME: 186 s (3 m)
+RUNTIME: 352 s (5 m)
  
