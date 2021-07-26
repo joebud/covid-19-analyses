@@ -10,16 +10,24 @@ RUNNING ANALYSIS (WEB)
  
  
 [jupytext] Reading web-run-sim.ipynb in format ipynb
+[jupytext] Loading 'web-run-sim.py'
+[jupytext] Updating 'web-run-sim.ipynb'
 [jupytext] Updating 'web-run-sim.py'
 [jupytext] Reading web-meta.ipynb in format ipynb
 [jupytext] Loading 'web-meta.py'
 [jupytext] Updating 'web-meta.ipynb'
 [jupytext] Updating 'web-meta.py'
 [jupytext] Reading web-index.ipynb in format ipynb
+[jupytext] Loading 'web-index.py'
+[jupytext] Updating 'web-index.ipynb'
 [jupytext] Updating 'web-index.py'
 [jupytext] Reading web-country-scen.ipynb in format ipynb
+[jupytext] Loading 'web-country-scen.py'
+[jupytext] Updating 'web-country-scen.ipynb'
 [jupytext] Updating 'web-country-scen.py'
 [jupytext] Reading web-country-comp.ipynb in format ipynb
+[jupytext] Loading 'web-country-comp.py'
+[jupytext] Updating 'web-country-comp.ipynb'
 [jupytext] Updating 'web-country-comp.py'
  
 RUNNING ANALYSIS FOR COUNTRY: AUT...
@@ -28,12 +36,12 @@ Input Notebook:  ./web-run-sim_.ipynb
 Output Notebook: ./web-run-sim_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpjht9ahu0'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpxqfakwj3'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpgpn57yre'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp1nvh86do'
 Executing:   0%|          | 0/17 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   6%|▌         | 1/17 [00:00<00:14,  1.13cell/s]Executing:  24%|██▎       | 4/17 [00:00<00:08,  1.59cell/s]Executing:  35%|███▌      | 6/17 [00:05<00:11,  1.07s/cell]Executing:  35%|███▌      | 6/17 [00:05<00:10,  1.06cell/s]
+Executing:   6%|▌         | 1/17 [00:01<00:18,  1.14s/cell]Executing:  35%|███▌      | 6/17 [00:03<00:10,  1.10cell/s]Executing:  53%|█████▎    | 9/17 [00:03<00:05,  1.54cell/s]Executing:  65%|██████▍   | 11/17 [00:03<00:03,  1.95cell/s]Executing:  71%|███████   | 12/17 [00:04<00:02,  1.68cell/s]Executing:  71%|███████   | 12/17 [00:04<00:02,  2.42cell/s]
 Traceback (most recent call last):
   File "/home/jb/.local/bin/papermill", line 8, in <module>
     sys.exit(papermill())
@@ -55,34 +63,76 @@ Traceback (most recent call last):
     raise error
 papermill.exceptions.PapermillExecutionError: 
 ---------------------------------------------------------------------------
-Exception encountered at "In [5]":
+Exception encountered at "In [11]":
 ---------------------------------------------------------------------------
-NameError                                 Traceback (most recent call last)
-<ipython-input-5-77a8edef756d> in <module>
-----> 1 import simulation
-      2 
-      3 import ccodes
-      4 
-      5 cname_f = ccodes.ct_codes[cname]
+TypeError                                 Traceback (most recent call last)
+<ipython-input-11-f1bd21ccb0a9> in <module>
+     19 for s in simulation.kwargs["scenarios"]:
+     20     print('Running model for scenario: {}...'.format(s) )
+---> 21     sim.Countries[cname].run_scenario(s)
+     22 
+     23 #scen_name = scname +  ' (%0.0f%% p.a.)'%(100*sim.Countries[cname].params['vacc_end_fraction'])
 
-~/git/covid-19-sird/sim/output/src/simulation.py in <module>
-    202 
-    203 import models
---> 204 import COVID_19_ANALYSIS as C19
-    205 import COVID_19_ANALYSIS_incl as C19_incl   # not used
-    206 import ccodes
+~/git/covid-19-sird/sim/output/src/simulation.py in run_scenario(self, scenario)
+    764 #        C19_load_cdata(self.name)
+    765 
+--> 766         self.load_data()
+    767 
+    768         for p in self.scenarios[scenario]:
 
-~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in <module>
-  52924 
-  52925 
-> 52926 def get_owid_group_data(cname, c_start_date=date(2021,1,1), fyle = '', colname='', group_colname='', data_dir_pth='', endtime=0):
-  52927 
-  52928     dbg = 1
+~/git/covid-19-sird/sim/output/src/simulation.py in load_data(self)
+    697 
+    698         # load data
+--> 699         C19_load_cdata(self.name)
+    700 
+    701         for r in self.params:
 
-NameError: name 'date' is not defined
+~/git/covid-19-sird/sim/output/src/simulation.py in C19_load_cdata(cname)
+    387                     #total_vaccinations
+    388                     vaccinations_by_manufacturer = C19.get_owid_group_data(C19.curr_country, c_start_date=stdate, fyle = 'vaccinations-by-manufacturer.csv', colname='total_vaccinations', group_colname='vaccine', \
+--> 389                                         data_dir_pth=C19.data_dir_pth, endtime=C19.endtime)
+    390 
+    391                     print(out)
+
+~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in get_owid_group_data(cname, c_start_date, fyle, colname, group_colname, data_dir_pth, endtime)
+  52979         dum3 = dum_df_Confirmed_.index.date
+  52980         #print(dum3)
+> 52981         dum_arr_[vdate_to_t_gen(dum3,c_start_date).reshape((numrows_, 1))] = np.asarray(dum_df_Confirmed_)
+  52982         out[str(le)] = 1.*dum_arr_
+  52983         if 0:
+
+~/.local/lib/python3.7/site-packages/numpy/lib/function_base.py in __call__(self, *args, **kwargs)
+   2161             vargs.extend([kwargs[_n] for _n in names])
+   2162 
+-> 2163         return self._vectorize_call(func=func, args=vargs)
+   2164 
+   2165     def _get_ufunc_and_otypes(self, func, args):
+
+~/.local/lib/python3.7/site-packages/numpy/lib/function_base.py in _vectorize_call(self, func, args)
+   2239             res = func()
+   2240         else:
+-> 2241             ufunc, otypes = self._get_ufunc_and_otypes(func=func, args=args)
+   2242 
+   2243             # Convert args to object arrays first
+
+~/.local/lib/python3.7/site-packages/numpy/lib/function_base.py in _get_ufunc_and_otypes(self, func, args)
+   2199 
+   2200             inputs = [arg.flat[0] for arg in args]
+-> 2201             outputs = func(*inputs)
+   2202 
+   2203             # Performance note: profiling indicates that -- for simple
+
+~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in date_to_t_gen(date, startdate)
+  52909 
+  52910 #    startdate=parse_date(df_Italy.index.values[0])
+> 52911     delta=date-startdate
+  52912     t= delta.days
+  52913     return int(t)
+
+TypeError: unsupported operand type(s) for -: 'datetime.date' and 'numpy.str_'
 
 [NbConvertApp] Converting notebook ./web-run-sim_.ipynb to html
-[NbConvertApp] Writing 572776 bytes to web-run-sim_.html
+[NbConvertApp] Writing 581570 bytes to web-run-sim_.html
  
 SCENARIO: high-vaccination...
  
@@ -90,12 +140,12 @@ Input Notebook:  ./web-country-scen_.ipynb
 Output Notebook: ./web-country-scen_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp0unyq8wv'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpgxr0a7yz'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp8iwqkspm'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpjp98zkzf'
 Executing:   0%|          | 0/42 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   2%|▏         | 1/42 [00:00<00:40,  1.01cell/s]Executing:   7%|▋         | 3/42 [00:01<00:27,  1.41cell/s]Executing:  12%|█▏        | 5/42 [00:01<00:19,  1.94cell/s]Executing:  17%|█▋        | 7/42 [00:01<00:13,  2.50cell/s]Executing:  21%|██▏       | 9/42 [00:01<00:09,  3.36cell/s]Executing:  26%|██▌       | 11/42 [00:01<00:07,  4.38cell/s]Executing:  31%|███       | 13/42 [00:02<00:09,  3.22cell/s]Executing:  36%|███▌      | 15/42 [00:02<00:06,  4.24cell/s]Executing:  40%|████      | 17/42 [00:02<00:04,  5.45cell/s]Executing:  45%|████▌     | 19/42 [00:04<00:07,  3.21cell/s]Executing:  45%|████▌     | 19/42 [00:04<00:05,  4.02cell/s]
+Executing:   2%|▏         | 1/42 [00:00<00:38,  1.06cell/s]Executing:   7%|▋         | 3/42 [00:01<00:26,  1.46cell/s]Executing:  12%|█▏        | 5/42 [00:01<00:18,  2.02cell/s]Executing:  17%|█▋        | 7/42 [00:01<00:13,  2.58cell/s]Executing:  21%|██▏       | 9/42 [00:01<00:09,  3.44cell/s]Executing:  26%|██▌       | 11/42 [00:01<00:06,  4.51cell/s]Executing:  31%|███       | 13/42 [00:02<00:08,  3.59cell/s]Executing:  36%|███▌      | 15/42 [00:02<00:05,  4.69cell/s]Executing:  40%|████      | 17/42 [00:02<00:04,  5.97cell/s]Executing:  45%|████▌     | 19/42 [00:04<00:07,  3.22cell/s]Executing:  50%|█████     | 21/42 [00:04<00:04,  4.27cell/s]Executing:  55%|█████▍    | 23/42 [00:04<00:03,  5.32cell/s]Executing:  57%|█████▋    | 24/42 [00:07<00:05,  3.29cell/s]
 Traceback (most recent call last):
   File "/home/jb/.local/bin/papermill", line 8, in <module>
     sys.exit(papermill())
@@ -117,31 +167,17 @@ Traceback (most recent call last):
     raise error
 papermill.exceptions.PapermillExecutionError: 
 ---------------------------------------------------------------------------
-Exception encountered at "In [18]":
+Exception encountered at "In [20]":
 ---------------------------------------------------------------------------
 NameError                                 Traceback (most recent call last)
-<ipython-input-18-d2153f43af6d> in <module>
-     20             # The protocol version used is detected automatically, so we do not
-     21             # have to specify it.
----> 22             sim_Countries_cname = pickle.load(f)
-     23 
-     24 
+<ipython-input-20-67b101fdbdca> in <module>
+   1100 
+   1101 #    ddic = sim_Countries_cname.data['vaccinations_by_manufacturer']
+-> 1102     if len(ddic)>0:
+   1103 
+   1104 #        add_plots_free = {}
 
-~/git/covid-19-sird/sim/output/src/simulation.py in <module>
-    202 
-    203 import models
---> 204 import COVID_19_ANALYSIS as C19
-    205 import COVID_19_ANALYSIS_incl as C19_incl   # not used
-    206 import ccodes
-
-~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in <module>
-  52924 
-  52925 
-> 52926 def get_owid_group_data(cname, c_start_date=date(2021,1,1), fyle = '', colname='', group_colname='', data_dir_pth='', endtime=0):
-  52927 
-  52928     dbg = 1
-
-NameError: name 'date' is not defined
+NameError: name 'ddic' is not defined
 
  
 SCENARIO: scenario-comparison...
@@ -150,59 +186,12 @@ Input Notebook:  ./web-country-scen_.ipynb
 Output Notebook: ./web-country-scen_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpr3q_gluf'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp7819jp3p'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp7ndy8c19'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpr0wwa2j0'
 Executing:   0%|          | 0/42 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   2%|▏         | 1/42 [00:00<00:37,  1.11cell/s]Executing:   7%|▋         | 3/42 [00:01<00:25,  1.53cell/s]Executing:  12%|█▏        | 5/42 [00:01<00:17,  2.11cell/s]Executing:  17%|█▋        | 7/42 [00:01<00:13,  2.69cell/s]Executing:  21%|██▏       | 9/42 [00:01<00:09,  3.56cell/s]Executing:  26%|██▌       | 11/42 [00:01<00:06,  4.62cell/s]Executing:  31%|███       | 13/42 [00:02<00:08,  3.50cell/s]Executing:  36%|███▌      | 15/42 [00:02<00:05,  4.53cell/s]Executing:  40%|████      | 17/42 [00:02<00:04,  5.71cell/s]Executing:  45%|████▌     | 19/42 [00:04<00:07,  3.05cell/s]Executing:  45%|████▌     | 19/42 [00:04<00:05,  4.02cell/s]
-Traceback (most recent call last):
-  File "/home/jb/.local/bin/papermill", line 8, in <module>
-    sys.exit(papermill())
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1137, in __call__
-    return self.main(*args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1062, in main
-    rv = self.invoke(ctx)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
-    return ctx.invoke(self.callback, **ctx.params)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 763, in invoke
-    return __callback(*args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/decorators.py", line 26, in new_func
-    return f(get_current_context(), *args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/cli.py", line 267, in papermill
-    execution_timeout=execution_timeout,
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/execute.py", line 122, in execute_notebook
-    raise_for_execution_errors(nb, output_path)
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/execute.py", line 234, in raise_for_execution_errors
-    raise error
-papermill.exceptions.PapermillExecutionError: 
----------------------------------------------------------------------------
-Exception encountered at "In [18]":
----------------------------------------------------------------------------
-NameError                                 Traceback (most recent call last)
-<ipython-input-18-d2153f43af6d> in <module>
-     20             # The protocol version used is detected automatically, so we do not
-     21             # have to specify it.
----> 22             sim_Countries_cname = pickle.load(f)
-     23 
-     24 
-
-~/git/covid-19-sird/sim/output/src/simulation.py in <module>
-    202 
-    203 import models
---> 204 import COVID_19_ANALYSIS as C19
-    205 import COVID_19_ANALYSIS_incl as C19_incl   # not used
-    206 import ccodes
-
-~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in <module>
-  52924 
-  52925 
-> 52926 def get_owid_group_data(cname, c_start_date=date(2021,1,1), fyle = '', colname='', group_colname='', data_dir_pth='', endtime=0):
-  52927 
-  52928     dbg = 1
-
-NameError: name 'date' is not defined
-
+Executing:   2%|▏         | 1/42 [00:00<00:36,  1.12cell/s]Executing:   7%|▋         | 3/42 [00:01<00:25,  1.55cell/s]Executing:  12%|█▏        | 5/42 [00:01<00:17,  2.14cell/s]Executing:  17%|█▋        | 7/42 [00:01<00:12,  2.75cell/s]Executing:  21%|██▏       | 9/42 [00:01<00:09,  3.67cell/s]Executing:  26%|██▌       | 11/42 [00:01<00:06,  4.77cell/s]Executing:  31%|███       | 13/42 [00:02<00:07,  3.76cell/s]Executing:  36%|███▌      | 15/42 [00:02<00:05,  4.88cell/s]Executing:  40%|████      | 17/42 [00:02<00:04,  6.21cell/s]Executing:  45%|████▌     | 19/42 [00:03<00:06,  3.45cell/s]Executing:  50%|█████     | 21/42 [00:03<00:04,  4.53cell/s]Executing:  55%|█████▍    | 23/42 [00:04<00:03,  5.82cell/s]Executing:  60%|█████▉    | 25/42 [00:08<00:14,  1.21cell/s]Executing:  62%|██████▏   | 26/42 [00:09<00:12,  1.27cell/s]Executing:  64%|██████▍   | 27/42 [00:10<00:11,  1.33cell/s]Executing:  67%|██████▋   | 28/42 [00:10<00:10,  1.35cell/s]Executing:  69%|██████▉   | 29/42 [00:11<00:09,  1.33cell/s]Executing:  71%|███████▏  | 30/42 [00:12<00:08,  1.41cell/s]Executing:  74%|███████▍  | 31/42 [00:12<00:07,  1.45cell/s]Executing:  76%|███████▌  | 32/42 [00:13<00:07,  1.33cell/s]Executing:  79%|███████▊  | 33/42 [00:14<00:06,  1.31cell/s]Executing:  81%|████████  | 34/42 [00:15<00:05,  1.35cell/s]Executing:  83%|████████▎ | 35/42 [00:16<00:05,  1.28cell/s]Executing:  86%|████████▌ | 36/42 [00:16<00:04,  1.29cell/s]Executing:  88%|████████▊ | 37/42 [00:17<00:03,  1.26cell/s]Executing:  90%|█████████ | 38/42 [00:18<00:03,  1.29cell/s]Executing:  93%|█████████▎| 39/42 [00:19<00:02,  1.24cell/s]Executing:  95%|█████████▌| 40/42 [00:20<00:01,  1.24cell/s]Executing:  98%|█████████▊| 41/42 [00:20<00:00,  1.27cell/s]Executing: 100%|██████████| 42/42 [00:21<00:00,  1.29cell/s]Executing: 100%|██████████| 42/42 [00:22<00:00,  1.90cell/s]
  
 CREATING COUNTRY COMPARISONS...
  
@@ -210,59 +199,12 @@ Input Notebook:  ./web-country-comp_.ipynb
 Output Notebook: ./web-country-comp_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpyct6oi3d'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpk2jwu6vt'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpxijl15ns'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpbo6oysr_'
 Executing:   0%|          | 0/41 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   2%|▏         | 1/41 [00:00<00:37,  1.06cell/s]Executing:   7%|▋         | 3/41 [00:01<00:25,  1.48cell/s]Executing:  12%|█▏        | 5/41 [00:01<00:18,  1.96cell/s]Executing:  17%|█▋        | 7/41 [00:01<00:12,  2.68cell/s]Executing:  22%|██▏       | 9/41 [00:01<00:08,  3.60cell/s]Executing:  27%|██▋       | 11/41 [00:02<00:09,  3.16cell/s]Executing:  29%|██▉       | 12/41 [00:02<00:11,  2.45cell/s]Executing:  32%|███▏      | 13/41 [00:03<00:09,  2.89cell/s]Executing:  34%|███▍      | 14/41 [00:03<00:08,  3.31cell/s]Executing:  37%|███▋      | 15/41 [00:03<00:07,  3.64cell/s]Executing:  39%|███▉      | 16/41 [00:03<00:06,  4.02cell/s]Executing:  41%|████▏     | 17/41 [00:03<00:05,  4.34cell/s]Executing:  44%|████▍     | 18/41 [00:04<00:05,  4.58cell/s]Executing:  46%|████▋     | 19/41 [00:04<00:04,  4.76cell/s]Executing:  49%|████▉     | 20/41 [00:04<00:04,  4.88cell/s]Executing:  51%|█████     | 21/41 [00:05<00:10,  1.82cell/s]Executing:  51%|█████     | 21/41 [00:07<00:06,  2.87cell/s]
-Traceback (most recent call last):
-  File "/home/jb/.local/bin/papermill", line 8, in <module>
-    sys.exit(papermill())
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1137, in __call__
-    return self.main(*args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1062, in main
-    rv = self.invoke(ctx)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
-    return ctx.invoke(self.callback, **ctx.params)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 763, in invoke
-    return __callback(*args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/decorators.py", line 26, in new_func
-    return f(get_current_context(), *args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/cli.py", line 267, in papermill
-    execution_timeout=execution_timeout,
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/execute.py", line 122, in execute_notebook
-    raise_for_execution_errors(nb, output_path)
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/execute.py", line 234, in raise_for_execution_errors
-    raise error
-papermill.exceptions.PapermillExecutionError: 
----------------------------------------------------------------------------
-Exception encountered at "In [18]":
----------------------------------------------------------------------------
-NameError                                 Traceback (most recent call last)
-<ipython-input-18-93c0b62bde6b> in <module>
-     27             # The protocol version used is detected automatically, so we do not
-     28             # have to specify it.
----> 29             sim_Countries_cname[c] = pickle.load(f)
-     30 
-     31 
-
-~/git/covid-19-sird/sim/output/src/simulation.py in <module>
-    202 
-    203 import models
---> 204 import COVID_19_ANALYSIS as C19
-    205 import COVID_19_ANALYSIS_incl as C19_incl   # not used
-    206 import ccodes
-
-~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in <module>
-  52924 
-  52925 
-> 52926 def get_owid_group_data(cname, c_start_date=date(2021,1,1), fyle = '', colname='', group_colname='', data_dir_pth='', endtime=0):
-  52927 
-  52928     dbg = 1
-
-NameError: name 'date' is not defined
-
+Executing:   2%|▏         | 1/41 [00:01<00:46,  1.17s/cell]Executing:   7%|▋         | 3/41 [00:01<00:31,  1.20cell/s]Executing:  12%|█▏        | 5/41 [00:01<00:22,  1.60cell/s]Executing:  17%|█▋        | 7/41 [00:01<00:15,  2.20cell/s]Executing:  24%|██▍       | 10/41 [00:01<00:10,  3.01cell/s]Executing:  29%|██▉       | 12/41 [00:03<00:13,  2.23cell/s]Executing:  32%|███▏      | 13/41 [00:03<00:10,  2.68cell/s]Executing:  34%|███▍      | 14/41 [00:03<00:08,  3.13cell/s]Executing:  37%|███▋      | 15/41 [00:03<00:07,  3.46cell/s]Executing:  39%|███▉      | 16/41 [00:04<00:06,  3.83cell/s]Executing:  41%|████▏     | 17/41 [00:04<00:05,  4.07cell/s]Executing:  44%|████▍     | 18/41 [00:04<00:05,  4.22cell/s]Executing:  46%|████▋     | 19/41 [00:04<00:05,  4.26cell/s]Executing:  49%|████▉     | 20/41 [00:04<00:04,  4.51cell/s]Executing:  51%|█████     | 21/41 [00:06<00:10,  1.93cell/s]Executing:  54%|█████▎    | 22/41 [00:06<00:07,  2.39cell/s]Executing:  56%|█████▌    | 23/41 [00:06<00:06,  2.82cell/s]Executing:  59%|█████▊    | 24/41 [00:06<00:05,  3.24cell/s]Executing:  61%|██████    | 25/41 [00:14<00:41,  2.59s/cell]Executing:  63%|██████▎   | 26/41 [00:16<00:34,  2.29s/cell]Executing:  66%|██████▌   | 27/41 [00:17<00:29,  2.12s/cell]Executing:  68%|██████▊   | 28/41 [00:19<00:25,  1.99s/cell]Executing:  71%|███████   | 29/41 [00:21<00:22,  1.84s/cell]Executing:  73%|███████▎  | 30/41 [00:22<00:19,  1.78s/cell]Executing:  76%|███████▌  | 31/41 [00:24<00:16,  1.65s/cell]Executing:  78%|███████▊  | 32/41 [00:25<00:14,  1.57s/cell]Executing:  80%|████████  | 33/41 [00:26<00:12,  1.53s/cell]Executing:  83%|████████▎ | 34/41 [00:28<00:10,  1.45s/cell]Executing:  85%|████████▌ | 35/41 [00:29<00:08,  1.43s/cell]Executing:  88%|████████▊ | 36/41 [00:31<00:07,  1.45s/cell]Executing:  90%|█████████ | 37/41 [00:32<00:05,  1.41s/cell]Executing:  93%|█████████▎| 38/41 [00:33<00:04,  1.42s/cell]Executing:  95%|█████████▌| 39/41 [00:35<00:02,  1.42s/cell]Executing:  98%|█████████▊| 40/41 [00:36<00:01,  1.39s/cell]Executing: 100%|██████████| 41/41 [00:38<00:00,  1.42s/cell]Executing: 100%|██████████| 41/41 [00:38<00:00,  1.06cell/s]
  
 CREATING INDEX...
  
@@ -270,16 +212,16 @@ Input Notebook:  ./web-index_.ipynb
 Output Notebook: ./web-index_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpuasm7qug'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpie9cyz5w'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpsg2aagsj'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpvns7ovjs'
 Executing:   0%|          | 0/20 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   5%|▌         | 1/20 [00:00<00:16,  1.16cell/s]Executing:  25%|██▌       | 5/20 [00:00<00:09,  1.64cell/s]Executing:  40%|████      | 8/20 [00:01<00:05,  2.29cell/s]Executing:  60%|██████    | 12/20 [00:01<00:02,  3.17cell/s]Executing:  80%|████████  | 16/20 [00:01<00:00,  4.35cell/s]Executing: 100%|██████████| 20/20 [00:01<00:00,  5.88cell/s]Executing: 100%|██████████| 20/20 [00:01<00:00, 11.43cell/s]
+Executing:   5%|▌         | 1/20 [00:00<00:16,  1.16cell/s]Executing:  25%|██▌       | 5/20 [00:00<00:09,  1.64cell/s]Executing:  40%|████      | 8/20 [00:01<00:05,  2.28cell/s]Executing:  60%|██████    | 12/20 [00:01<00:02,  3.17cell/s]Executing:  80%|████████  | 16/20 [00:01<00:00,  4.35cell/s]Executing: 100%|██████████| 20/20 [00:01<00:00,  5.91cell/s]Executing: 100%|██████████| 20/20 [00:01<00:00, 11.44cell/s]
 [NbConvertApp] Converting notebook web-index_.ipynb to notebook
-[NbConvertApp] Writing 24925 bytes to web-index_.ipynb
+[NbConvertApp] Writing 24950 bytes to web-index_.ipynb
 [NbConvertApp] Converting notebook web-country-scen_.ipynb to notebook
-[NbConvertApp] Writing 153601 bytes to web-country-scen_.ipynb
+[NbConvertApp] Writing 157635 bytes to web-country-scen_.ipynb
  
  
 ############################################################################
@@ -288,5 +230,5 @@ END OF ANALYSIS (WEB)
  
  
  
-RUNTIME: 48 s (0 m)
+RUNTIME: 97 s (1 m)
  

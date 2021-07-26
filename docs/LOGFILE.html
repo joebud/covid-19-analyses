@@ -21,13 +21,44 @@
 
 </div>
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput celltag_papermill-error-cell-tag" data-mime-type="text/markdown">
-<p><span style="color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;">An Exception was encountered at '<a href="#papermill-error-cell">In [5]</a>'.</span></p>
+<p><span style="color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;">An Exception was encountered at '<a href="#papermill-error-cell">In [11]</a>'.</span></p>
 </div>
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput celltag_parameters">
 
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput celltag_injected-parameters">
+
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
+<h1 id="Austria">Austria<a href="#Austria" class="anchor-link">¶</a></h1>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown">
+<p>Analysis performed on 2021-07-26</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
@@ -51,53 +82,98 @@
 <div class="jp-Cell-outputWrapper">
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><code>Running model for scenario: high-vaccination...
+*** INFO: INVALID (NEGATIVE) RECOVERY RATE DATA ***
+    Clipping to 0.0
+*** INFO: INVALID (NEGATIVE) DEATH RATE DATA ***
+    Clipping to 0.0
+            total_vaccinations
+date                          
+2021-01-08                   0
+2021-01-15                   0
+2021-01-22                   0
+2021-01-29                   0
+2021-02-05                   0
+2021-02-12                   0
+2021-02-19                   0
+2021-02-26                   0
+2021-03-05                   0
+2021-03-12                   0</code></pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
 <pre><code>---------------------------------------------------------------------------
-NameError                                 Traceback (most recent call last)
-&lt;ipython-input-5-77a8edef756d&gt; in &lt;module&gt;
-----&gt; 1 import simulation
-      2 
-      3 import ccodes
-      4 
-      5 cname_f = ccodes.ct_codes[cname]
+TypeError                                 Traceback (most recent call last)
+&lt;ipython-input-11-f1bd21ccb0a9&gt; in &lt;module&gt;
+     19 for s in simulation.kwargs[&quot;scenarios&quot;]:
+     20     print(&#39;Running model for scenario: {}...&#39;.format(s) )
+---&gt; 21     sim.Countries[cname].run_scenario(s)
+     22 
+     23 #scen_name = scname +  &#39; (%0.0f%% p.a.)&#39;%(100*sim.Countries[cname].params[&#39;vacc_end_fraction&#39;])
 
-~/git/covid-19-sird/sim/output/src/simulation.py in &lt;module&gt;
-    202 
-    203 import models
---&gt; 204 import COVID_19_ANALYSIS as C19
-    205 import COVID_19_ANALYSIS_incl as C19_incl   # not used
-    206 import ccodes
+~/git/covid-19-sird/sim/output/src/simulation.py in run_scenario(self, scenario)
+    764 #        C19_load_cdata(self.name)
+    765 
+--&gt; 766         self.load_data()
+    767 
+    768         for p in self.scenarios[scenario]:
 
-~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in &lt;module&gt;
-  52924 
-  52925 
-&gt; 52926 def get_owid_group_data(cname, c_start_date=date(2021,1,1), fyle = &#39;&#39;, colname=&#39;&#39;, group_colname=&#39;&#39;, data_dir_pth=&#39;&#39;, endtime=0):
-  52927 
-  52928     dbg = 1
+~/git/covid-19-sird/sim/output/src/simulation.py in load_data(self)
+    697 
+    698         # load data
+--&gt; 699         C19_load_cdata(self.name)
+    700 
+    701         for r in self.params:
 
-NameError: name &#39;date&#39; is not defined</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+~/git/covid-19-sird/sim/output/src/simulation.py in C19_load_cdata(cname)
+    387                     #total_vaccinations
+    388                     vaccinations_by_manufacturer = C19.get_owid_group_data(C19.curr_country, c_start_date=stdate, fyle = &#39;vaccinations-by-manufacturer.csv&#39;, colname=&#39;total_vaccinations&#39;, group_colname=&#39;vaccine&#39;, \
+--&gt; 389                                         data_dir_pth=C19.data_dir_pth, endtime=C19.endtime)
+    390 
+    391                     print(out)
 
-</div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in get_owid_group_data(cname, c_start_date, fyle, colname, group_colname, data_dir_pth, endtime)
+  52979         dum3 = dum_df_Confirmed_.index.date
+  52980         #print(dum3)
+&gt; 52981         dum_arr_[vdate_to_t_gen(dum3,c_start_date).reshape((numrows_, 1))] = np.asarray(dum_df_Confirmed_)
+  52982         out[str(le)] = 1.*dum_arr_
+  52983         if 0:
 
-</div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+~/.local/lib/python3.7/site-packages/numpy/lib/function_base.py in __call__(self, *args, **kwargs)
+   2161             vargs.extend([kwargs[_n] for _n in names])
+   2162 
+-&gt; 2163         return self._vectorize_call(func=func, args=vargs)
+   2164 
+   2165     def _get_ufunc_and_otypes(self, func, args):
 
-</div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+~/.local/lib/python3.7/site-packages/numpy/lib/function_base.py in _vectorize_call(self, func, args)
+   2239             res = func()
+   2240         else:
+-&gt; 2241             ufunc, otypes = self._get_ufunc_and_otypes(func=func, args=args)
+   2242 
+   2243             # Convert args to object arrays first
 
-</div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+~/.local/lib/python3.7/site-packages/numpy/lib/function_base.py in _get_ufunc_and_otypes(self, func, args)
+   2199 
+   2200             inputs = [arg.flat[0] for arg in args]
+-&gt; 2201             outputs = func(*inputs)
+   2202 
+   2203             # Performance note: profiling indicates that -- for simple
 
-</div>
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+~/git/covid-19-sird/sim/output/src/COVID_19_ANALYSIS.py in date_to_t_gen(date, startdate)
+  52909 
+  52910 #    startdate=parse_date(df_Italy.index.values[0])
+&gt; 52911     delta=date-startdate
+  52912     t= delta.days
+  52913     return int(t)
 
+TypeError: unsupported operand type(s) for -: &#39;datetime.date&#39; and &#39;numpy.str_&#39;</code></pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 
