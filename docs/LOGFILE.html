@@ -87,61 +87,13 @@
 *** INFO: INVALID (NEGATIVE) RECOVERY RATE DATA ***
     Clipping to 0.0
 *** INFO: INVALID (NEGATIVE) DEATH RATE DATA ***
-    Clipping to 0.0
-            total_vaccinations
-date                          
-2021-01-08                   0
-2021-01-15                   0
-2021-01-22                   0
-2021-01-29                   0
-2021-02-05                   0
-2021-02-12                   0
-2021-02-19                   0
-2021-02-26                   0
-2021-03-05                   0
-2021-03-12                   0
-            total_vaccinations
-date                          
-2021-01-08                   0
-2021-01-15                  88
-2021-01-22                 302
-2021-01-29                4178
-2021-02-05                5863
-2021-02-12                9937
-2021-02-19               14057
-2021-02-26               22353
-2021-03-05               31633
-2021-03-12               46954
-            total_vaccinations
-date                          
-2021-01-08                   0
-2021-01-15                   0
-2021-01-22                   0
-2021-01-29                   0
-2021-02-05                   2
-2021-02-12               10772
-2021-02-19               43497
-2021-02-26              101218
-2021-03-05              155968
-2021-03-12              234407
-            total_vaccinations
-date                          
-2021-01-08               30986
-2021-01-15              115605
-2021-01-22              212957
-2021-01-29              257607
-2021-02-05              353007
-2021-02-12              454271
-2021-02-19              519833
-2021-02-26              580865
-2021-03-05              685064
-2021-03-12              847531</code></pre>
+    Clipping to 0.0</code></pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
 <pre><code>---------------------------------------------------------------------------
-NameError                                 Traceback (most recent call last)
+KeyError                                  Traceback (most recent call last)
 &lt;ipython-input-11-f1bd21ccb0a9&gt; in &lt;module&gt;
      19 for s in simulation.kwargs[&quot;scenarios&quot;]:
      20     print(&#39;Running model for scenario: {}...&#39;.format(s) )
@@ -150,27 +102,20 @@ NameError                                 Traceback (most recent call last)
      23 #scen_name = scname +  &#39; (%0.0f%% p.a.)&#39;%(100*sim.Countries[cname].params[&#39;vacc_end_fraction&#39;])
 
 ~/git/covid-19-sird/sim/output/src/simulation.py in run_scenario(self, scenario)
-    765 #        C19_load_cdata(self.name)
+    763 #        C19_load_cdata(self.name)
+    764 
+--&gt; 765         self.load_data()
     766 
---&gt; 767         self.load_data()
-    768 
-    769         for p in self.scenarios[scenario]:
+    767         for p in self.scenarios[scenario]:
 
 ~/git/covid-19-sird/sim/output/src/simulation.py in load_data(self)
-    698 
-    699         # load data
---&gt; 700         C19_load_cdata(self.name)
-    701 
-    702         for r in self.params:
+    711 
+    712 #            self.data[r] = C19.__dict__[inputs_dict_inv[r]]
+--&gt; 713             self.data[r] = C19.__dict__[r]
+    714 
+    715 #            elif r == &#39;Total deaths (data)&#39;:   # shifted
 
-~/git/covid-19-sird/sim/output/src/simulation.py in C19_load_cdata(cname)
-    390                                         data_dir_pth=C19.data_dir_pth, endtime=C19.endtime)
-    391 
---&gt; 392                     print(out)
-    393 
-    394                     # people_vaccinated_per_hundred (at least one dose)
-
-NameError: name &#39;out&#39; is not defined</code></pre>
+KeyError: &#39;vaccinations_by_age&#39;</code></pre>
 </div>
 </div>
 </div>
