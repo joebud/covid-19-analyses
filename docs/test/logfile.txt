@@ -4869,3 +4869,141 @@ END OF ANALYSIS (WEB)
  
 RUNTIME: 371 s (6 m)
  
+[main fef0eda9] 2021_07_27
+ 769 files changed, 20564 insertions(+), 12522 deletions(-)
+ create mode 100644 data/.~lock.vaccinations-by-age-group.csv#
+ create mode 100644 data/.~lock.vaccinations-by-manufacturer.csv#
+ rewrite docs/LOGFILE.html (80%)
+ create mode 100644 docs/logfile-rex.txt
+ rewrite docs/logfile.txt (95%)
+ rewrite docs/scenarios/country-comparison-high-vaccination.html (93%)
+ rewrite docs/scenarios/country-comparison-low-vaccination.html (89%)
+ rewrite docs/scenarios/country-comparison-no-vaccination.html (88%)
+ create mode 100644 docs/test/LOGFILE.html
+ create mode 100644 docs/test/custom.css
+ create mode 100644 docs/test/index.html
+ create mode 100644 docs/test/logfile.txt
+ create mode 100644 docs/test/scenarios/GBR-high-vaccination-p.html
+ create mode 100644 docs/test/scenarios/GBR-high-vaccination.html
+ create mode 100644 docs/test/scenarios/GBR-scenario-comparison-p.html
+ create mode 100644 docs/test/scenarios/GBR-scenario-comparison.html
+ create mode 100644 docs/test/scenarios/MathJax.js
+ create mode 100644 docs/test/scenarios/USA-scenario-comparison-p.html
+ create mode 100644 docs/test/scenarios/USA-scenario-comparison.html
+ create mode 100644 docs/test/scenarios/extensions/AssistiveMML.js
+ create mode 100644 docs/test/scenarios/extensions/CHTML-preview.js
+ create mode 100644 docs/test/scenarios/extensions/FontWarnings.js
+ create mode 100644 docs/test/scenarios/extensions/HTML-CSS/handle-floats.js
+ create mode 100644 docs/test/scenarios/extensions/HelpDialog.js
+ create mode 100644 docs/test/scenarios/extensions/MatchWebFonts.js
+ create mode 100644 docs/test/scenarios/extensions/MathEvents.js
+ create mode 100644 docs/test/scenarios/extensions/MathML/content-mathml.js
+ create mode 100644 docs/test/scenarios/extensions/MathML/mml3.js
+ create mode 100644 docs/test/scenarios/extensions/MathMenu.js
+ create mode 100644 docs/test/scenarios/extensions/MathZoom.js
+ create mode 100644 docs/test/scenarios/extensions/Safe.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/AMScd.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/AMSmath.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/AMSsymbols.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/HTML.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/action.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/autobold.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/autoload-all.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/bbox.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/begingroup.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/boldsymbol.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/cancel.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/color.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/enclose.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/extpfeil.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/mathchoice.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/mediawiki-texvc.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/mhchem.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/mhchem3/mhchem.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/newcommand.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/noErrors.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/noUndefined.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/unicode.js
+ create mode 100644 docs/test/scenarios/extensions/TeX/verb.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/accessibility-menu.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/auto-collapse.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/collapsible.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/explorer.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/invalid_keypress.mp3
+ create mode 100755 docs/test/scenarios/extensions/a11y/invalid_keypress.ogg
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathjax-sre.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/.htaccess
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/functions/algebra.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/functions/elementary.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/functions/functions_spanish.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/functions/hyperbolic.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/functions/trigonometry.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/mathmaps_ie.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/greek-capital.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/greek-mathfonts.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/greek-scripts.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/greek-small.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/greek-symbols.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/hebrew_letters.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/latin-lower-double-accent.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/latin-lower-normal.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/latin-lower-phonetic.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/latin-lower-single-accent.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/latin-mathfonts.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/latin-rest.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/latin-upper-double-accent.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/latin-upper-normal.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/latin-upper-single-accent.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/math_angles.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/math_arrows.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/math_characters.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/math_delimiters.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/math_digits.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/math_geometry.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/math_harpoons.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/math_non_characters.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/math_symbols.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/math_whitespace.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/other_stars.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/spanish.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/symbols/spanish_mathfonts.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/units/energy.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/units/length.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/units/memory.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/units/other.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/units/speed.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/units/temperature.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/units/time.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/units/units_spanish.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/units/volume.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/mathmaps/units/weight.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/semantic-enrich.js
+ create mode 100644 docs/test/scenarios/extensions/a11y/wgxpath.install.js
+ create mode 100644 docs/test/scenarios/extensions/asciimath2jax.js
+ create mode 100644 docs/test/scenarios/extensions/fast-preview.js
+ create mode 100644 docs/test/scenarios/extensions/jsMath2jax.js
+ create mode 100644 docs/test/scenarios/extensions/mml2jax.js
+ create mode 100644 docs/test/scenarios/extensions/tex2jax.js
+ create mode 100644 docs/test/scenarios/extensions/toMathML.js
+ create mode 100644 docs/test/scenarios/plotly.min.js
+ create mode 100644 docs/test/sitemap.html
+ create mode 100644 docs/test/sitemap.txt
+ create mode 100644 dumps/cresults-China-mid-EXTENDED-2021-07-26.pickle
+ create mode 100644 dumps/web/test/sim-GBR.pickle
+ create mode 100644 dumps/web/test/sim-USA.pickle
+ create mode 100644 figs/AUT/I-cc-influenza (novel, w-o measures)-short-Austria-2021-07-26.jpg
+ create mode 100644 figs/AUT/I-cc-no control measures ever-short-Austria-2021-07-26.jpg
+ create mode 100644 figs/AUT/I-cc-seasonal + vaccination-short-Austria-2021-07-26.jpg
+ create mode 100644 figs/CHN/I-ca-seasonal + vaccination-long-China-2021-07-26.jpg
+ create mode 100644 figs/CHN/I-ca-seasonal + vaccination-short-China-2021-07-26.jpg
+ create mode 100644 figs/CHN/I-ca-seasonal + vaccination-short-past-China-2021-07-26.jpg
+ create mode 100644 figs/CHN/I-sc-short-China-2021-07-26.jpg
+ create mode 100644 figs/CHN/R-ca-seasonal + vaccination-long-China-2021-07-26.jpg
+ create mode 100644 figs/CHN/dD-ca-seasonal + vaccination-long-China-2021-07-26.jpg
+ create mode 100644 figs/CHN/r-ca-seasonal + vaccination-long-China-2021-07-26.jpg
+ create mode 100644 latest/CHN/COVID-19-ANALYSIS-CHN-mid-term-EXTENDED-latest.pdf
+ create mode 100644 past/CHN/COVID-19-ANALYSIS-CHN-mid-term-EXTENDED-2021_07_26.pdf
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/joebud/covid-19-analyses.git/'
+RUN-WEB.sh: line 398: syntax error near unexpected token `fi'
+RUN-WEB.sh: line 398: `fi'
