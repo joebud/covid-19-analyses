@@ -1,4 +1,4 @@
-# COVID-19 Analyses
+# COVID-19 Projections
 
 The main   repository for <a href="https://joebud.github.io/covid-19-analyses" target="_blank">https://joebud.github.io/covid-19-analyses</a>.
 
@@ -33,16 +33,6 @@ The data produced by third parties and made available by this repository is subj
 
 Please consult these licenses before using these data to ensure that you follow the terms under which these data were released.
 
-
-## DOWNLOAD
-
-### Latest analyses
-
-COVID-19-ANALYSIS-{COUNTRY-CODE}-{TIME-SPAN}-{EXTENDED-ANALYSIS?}-latest.pdf
-
-### Past analyses
-
-COVID-19-ANALYSIS-{COUNTRY-CODE}-{TIME-SPAN}-{EXTENDED-ANALYSIS?}-{DATE}.pdf
 
 
 ## Recommended citation

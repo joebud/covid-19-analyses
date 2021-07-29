@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>COVID-19 Country Reports</title>
+
+<script type="text/javascript">
+window.onload = function() {
+  var imgs = document.getElementsByTagName('img'), i, img;
+  for (i = 0; i < imgs.length; i++) {
+    img = imgs[i];
+    // center an image if it is the only element of its parent
+    if (img.parentElement.childElementCount === 1)
+      img.parentElement.style.textAlign = 'center';
+  }
+};
+</script>
+
+
+
+
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 13px;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  line-height: 20px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 {
+   font-size:2.2em;
+}
+
+h2 {
+   font-size:1.8em;
+}
+
+h3 {
+   font-size:1.4em;
+}
+
+h4 {
+   font-size:1.0em;
+}
+
+h5 {
+   font-size:0.9em;
+}
+
+h6 {
+   font-size:0.8em;
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre, img {
+  max-width: 100%;
+}
+pre {
+  overflow-x: auto;
+}
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code {
+  font-size: 92%;
+  border: 1px solid #ccc;
+}
+
+code[class] {
+  background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * {
+      background: transparent !important;
+      color: black !important;
+      filter:none !important;
+      -ms-filter: none !important;
+   }
+
+   body {
+      font-size:12pt;
+      max-width:100%;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+
+   hr {
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote {
+      padding-right: 1em;
+      page-break-inside: avoid;
+   }
+
+   tr, img {
+      page-break-inside: avoid;
+   }
+
+   img {
+      max-width: 100% !important;
+   }
+
+   @page :left {
+      margin: 15mm 20mm 15mm 10mm;
+   }
+
+   @page :right {
+      margin: 15mm 10mm 15mm 20mm;
+   }
+
+   p, h2, h3 {
+      orphans: 3; widows: 3;
+   }
+
+   h2, h3 {
+      page-break-after: avoid;
+   }
+}
+</style>
+
+
+
+</head>
+
+<body>
+<h1>COVID-19 Country Reports</h1>
+
+<p>Generating COVID-19 projections for various scenarios and countries</p>
+
+<h2>DOWNLOAD</h2>
+
+<h3>Latest analyses</h3>
+
+<p>COVID-19-ANALYSIS-{COUNTRY-CODE}-{TIME-SPAN}-{EXTENDED-ANALYSIS?}-latest.pdf</p>
+
+<h3>Past analyses</h3>
+
+<p>COVID-19-ANALYSIS-{COUNTRY-CODE}-{TIME-SPAN}-{EXTENDED-ANALYSIS?}-{DATE}.pdf</p>
+
+<h2>COUNTRY ANALYSIS</h2>
+
+<ul>
+<li>DATA AND PROJECTION PERIODS</li>
+<li>REFERENCE FRAME WRT INFECTION DATE</li>
+<li><p>UNCERTAINTY BANDS ON PLOTS OF TRUE CASES DENOTE MULTIPLICATIVE VARIATION OF R</p></li>
+<li><p>POPULATION</p></li>
+<li><p>NATURAL MORTALITY RATE</p></li>
+<li><p>INITIAL LOGARITHMIC GROWTH RATE </p></li>
+<li><p>INITIAL INCIDENCE</p></li>
+<li><p>INITIALLY INFECTED POPULATION </p></li>
+<li><p>APPROX. DATE OF FIRST INFECTION </p></li>
+<li><p>INITIAL REPRODUCTION NUMBER (EXACT)</p></li>
+<li><p>INITIAL REPRODUCTION NUMBER (EXP. GROWTH)</p></li>
+<li><p>DURATION OF VIRAL SHEDDING</p></li>
+<li><p>AVG. CASE DURATION</p></li>
+<li><p>AVG. TIME TO RECOVERY</p></li>
+<li><p>AVG. TIME TO RECOVERY (MILD CASES)</p></li>
+<li><p>AVG. TIME TO RECOVERY (SEVERE CASES)</p></li>
+<li><p>AVG. TIME TO DEATH</p></li>
+</ul>
+
+<h3>FIGURES</h3>
+
+<ul>
+<li>VACCINATED</li>
+<li>REPRODUCTION NUMBER</li>
+<li>MORTALITY</li>
+<li>INFECTED</li>
+<li>INFECTIOUS</li>
+<li>INCIDENCE</li>
+<li>TOTAL CASES</li>
+<li>RECOVERED</li>
+<li>SUSCEPTIBLE</li>
+<li>IMMUNE</li>
+<li>REINFECTIONS</li>
+<li>DEATH RATE</li>
+<li>DEATHS</li>
+<li><p>FORECAST FIGURES</p></li>
+<li><p>EFFECTIVELY VACCINATED</p></li>
+<li><p>INFECTED AND DEATHS FOR VARIOUS VACCINATION RATES </p></li>
+<li><p>CRITICAL AND SEVERE INFECTIONS</p></li>
+<li><p>HOSPITAL AND ICU BEDS</p></li>
+<li><p>R SEASONAL</p></li>
+<li><p>LOCKDOWN FACTOR</p></li>
+<li><p>DEATH RATE DUE TO SEASONAL INFLUENZA</p></li>
+<li><p>AVG. DEATH RATE OVER LAST PROJECTION YEAR</p></li>
+<li><p>DEATHS INCL. CONTRIBUTION DUE TO NATURAL MORTALITY</p></li>
+<li><p>NATURAL DAILY DEATH RATE</p></li>
+<li><p>COMPARISON WITH SIMULATIONS USING A GIVEN SUBSET OF DATA ONLY</p></li>
+</ul>
+
+<h2>EXTENDED ANALYSIS</h2>
+
+<h3>EARLY STAGES</h3>
+
+<ul>
+<li>INITIAL LOGARITHMIC GROWTH RATE</li>
+<li>INITIAL INCIDENCE</li>
+<li>R0 SENSITIVITY</li>
+</ul>
+
+<h3>AGE-AVERAGED PARAMETERS</h3>
+
+<ul>
+<li>AGE-AVERAGED BETA, GAMMA, DELTA, AND R PARAMETERS</li>
+</ul>
+
+<h3>LOG GROWTH RATE</h3>
+
+<ul>
+<li>LOG GROWTH RATE</li>
+<li>MIN. ACHIEVABLE LAMBDA AT TIME T</li>
+</ul>
+
+<h3>CONTROL MEASURES</h3>
+
+<ul>
+<li>APPROX. TIME TO HALF I</li>
+<li>APPROX. TIME TO FLATTEN I </li>
+<li>LOCKDOWN FACTOR</li>
+<li>STRINGENCY INDEX</li>
+<li>SCHOOL CLOSING</li>
+<li>WORKSPACE CLOSING</li>
+<li>STAY-AT-HOME REQUIREMENTS</li>
+<li>FACIAL COVERINGS</li>
+<li>EFFECTIVENESS OF MEASURES</li>
+<li>FATIGUE FACTOR</li>
+</ul>
+
+<h3>SELF-OSCILLATIONS</h3>
+
+<ul>
+<li>IMPULSE RESPONSE</li>
+<li>STEP RESPONSE</li>
+<li>RAMP RESPONSE</li>
+<li>VARIOUS CONSTANT PROJECTION REPRODUCTION NUMBERS </li>
+<li>VARIOUS NATURAL IMMUNITY DURATIONS (AT CONSTANT PROJECTION R)</li>
+<li>VARIOUS SCALES OF INFECTIOUSNESS DISTRIBUTION (AT CONSTANT PROJECTION R)</li>
+<li>LONG-TERM INFECTION PREVALENCE</li>
+<li>PHASE SPACE TRAJECTORIES</li>
+<li>AVG. FREQUENCY OF PEAKS IN INFECTION PREVALENCE</li>
+<li>AVG. FREQUENCY OF PEAKS ABOVE CAPACITY THRESHOLD</li>
+<li>LINEAR SPECTRUM (AT CONSTANT PROJECTION R)</li>
+</ul>
+
+<h3>FORCED OSCILLATIONS</h3>
+
+<ul>
+<li>VARIOUS FREQUENCIES OF FORCING (ABOUT A CONSTANT PROJECTION R)</li>
+<li>LONG-TERM INFECTION PREVALENCE</li>
+<li>PHASE SPACE TRAJECTORIES</li>
+<li>AVG. FREQUENCY OF PEAKS IN INFECTION PREVALENCE</li>
+<li>AVG. FREQUENCY OF PEAKS ABOVE CAPACITY THRESHOLD</li>
+</ul>
+
+<h3>SEASONAL FORCING</h3>
+
+<ul>
+<li>VARIOUS NATURAL IMMUNITY DURATIONS (WITH SAESONAL FORCING ON R)</li>
+<li>VARIOUS SCALES OF INFECTIOUSNESS DISTRIBUTION (WITH SAESONAL FORCING ON R)</li>
+<li>LONG-TERM RELAXATION OF LOCKDOWN FACTOR (BACK TO NORMAL)</li>
+<li>LONG-TERM INFECTION PREVALENCE</li>
+<li>PHASE SPACE TRAJECTORIES</li>
+<li>AVG. FREQUENCY OF PEAKS IN INFECTION PREVALENCE</li>
+<li>AVG. FREQUENCY OF PEAKS ABOVE CAPACITY THRESHOLD</li>
+<li>HYPOTHETICAL CASE OF PERSISTENT IMMUNITY</li>
+<li>CRITICAL AND SEVERE INFECTIONS</li>
+<li>HOSPITAL AND ICU BEDS</li>
+</ul>
+
+<h3>LOCKDOWNS</h3>
+
+<ul>
+<li>VARIOUS START/EXIT THRESHOLDS FOR LOCKDOWNS </li>
+<li>LONG-TERM INFECTION PREVALENCE WITH LOCKDOWNS</li>
+<li>PHASE SPACE TRAJECTORIES</li>
+<li>AVG. FREQUENCY OF PEAKS IN INFECTION PREVALENCE</li>
+<li>AVG. FREQUENCY OF PEAKS ABOVE CAPACITY THRESHOLD</li>
+<li>LOCKDOWN START AND END DATES</li>
+<li>TOTAL LOCKDOWN DURATION AND COST </li>
+<li>OPTIMAL THRESHOLDS</li>
+<li>CRITICAL AND SEVERE INFECTIONS</li>
+<li>HOSPITAL AND ICU BEDS</li>
+</ul>
+
+<h3>VACCINATIONS</h3>
+
+<ul>
+<li>VARIOUS PROJECTION VACCINATION RATES</li>
+<li>VARIOUS VACCINE-INDUCED IMMUNITY DURATIONS </li>
+<li>VARIOUS NATURAL IMMUNITY DURATIONS </li>
+<li>VARIOUS LONG-TERM LOCKDOWN RELAXATION FACTORS (NEW NORMAL)</li>
+<li>LONG-TERM INFECTION PREVALENCE WITH VACCINATIONS </li>
+<li>VACCINE-INDUCED AND NATURAL IMMUNITIES</li>
+<li>EFFECTIVE REPRODUCTION NUMBER</li>
+<li>PHASE SPACE TRAJECTORIES</li>
+<li>AVG. FREQUENCY OF PEAKS IN INFECTION PREVALENCE</li>
+<li>AVG. FREQUENCY OF PEAKS ABOVE CAPACITY THRESHOLD</li>
+<li>TOTAL COST </li>
+<li>HYPOTHETICAL CASE OF NO VACCINATIONS</li>
+<li>CRITICAL AND SEVERE INFECTIONS</li>
+<li>HOSPITAL AND ICU BEDS</li>
+</ul>
+
+<h3>MINORS TESTING + VACCINATIONS</h3>
+
+<ul>
+<li>EVERYDAY ANTIGEN TESTING OF MINORS </li>
+<li>VARIOUS PROJECTION VACCINATION RATES</li>
+<li>LONG-TERM INFECTION PREVALENCE WITH VACCINATIONS AND MINORS&#39; TESTING </li>
+<li>VACCINE-INDUCED AND NATURAL IMMUNITIES</li>
+<li>EFFECTIVE REPRODUCTION NUMBER</li>
+<li>PHASE SPACE TRAJECTORIES</li>
+<li>AVG. FREQUENCY OF PEAKS IN INFECTION PREVALENCE</li>
+<li>AVG. FREQUENCY OF PEAKS ABOVE CAPACITY THRESHOLD</li>
+<li>TOTAL COST </li>
+<li>HYPOTHETICAL CASE OF NO VACCINATIONS NOR TESTING</li>
+<li>CRITICAL AND SEVERE INFECTIONS</li>
+<li>HOSPITAL AND ICU BEDS</li>
+<li>CURRENT TESTING RATE AND POSITIVITY RATE</li>
+</ul>
+
+<h3>REMOVAL DENSITIES</h3>
+
+<ul>
+<li>REMOVAL DENSITIES DUE TO KERMACK VS. NOVEL REMOVAL DENSITIES </li>
+<li>DIFFERENCES IN LONG-TERM INFECTION PREVALENCE AND MORTALITY</li>
+</ul>
+
+<h3>INFECTION AGE</h3>
+
+<ul>
+<li>AGELESS MODEL VS. INFECTION AGE MODEL (W/O WANING IMMUNITY AND VACCINATIONS)</li>
+<li>DIFFERENCES IN LONG-TERM INFECTION PREVALENCE AND MORTALITY</li>
+<li>COMPARISON WITH THEORETICAL LIMIT ON INFECTION PREVALENCE</li>
+</ul>
+
+<h3>WANING IMMUNITY</h3>
+
+<ul>
+<li>VARIOUS NATURAL IMMUNITY DURATIONS </li>
+<li>COMPARISON WITH PERSISTENT IMMUNITY MODEL </li>
+<li>DIFFERENCES IN LONG-TERM INFECTION PREVALENCE AND NUMBER OF REINFECTION CASES</li>
+<li>DECLINE IN RECOVERED AND IMMUNE FOR COMPARISON WITH EXPERIMENTAL STUDIES</li>
+</ul>
+
+<h3>MINIMUM PREVALENCE</h3>
+
+<ul>
+<li>LOWER LIMIT ON INFECTION PREVALENCE </li>
+<li>COMPARISON WITH MODEL W/O LIMIT</li>
+<li>DIFFERENCES IN LONG-TERM INFECTION PREVALENCE AND NUMBER OF REINFECTION CASES</li>
+</ul>
+
+<h3>DETECTION PROBABILITY</h3>
+
+<ul>
+<li>VARIOUS PROBABILITIES OF DIAGNOSIS GIVEN SYMPTOMS</li>
+<li>DIFFERENCES IN LONG-TERM INFECTION PREVALENCE </li>
+</ul>
+
+<h3>CONTACT TRACING</h3>
+
+<ul>
+<li>VARIOUS CUTOFFS ON INFECTIOUSNESS DISTRIBUTION </li>
+<li>WITH AND W/O RELAXING THE LOCKDOWN FACTOR (NEW NORMAL)</li>
+<li>DIFFERENCES IN LONG-TERM INFECTION PREVALENCE </li>
+<li>PERFECT CONTACT TRACING</li>
+</ul>
+
+<h3>VARIANTS</h3>
+
+<ul>
+<li>VARIOUS DATES OF FIRST APPEARANCE OF VARIANT (W/O IMMUNITY ESCAPE)</li>
+<li>VARIOUS MULTIPLICATIVE ADVANTAGES </li>
+<li>FIXED MULTIPLICATIVE ADVANTAGE</li>
+<li>DIFFERENCES IN LONG-TERM INFECTION PREVALENCE FOR VARIANT AND ORIGINAL STRAIN </li>
+</ul>
+
+<h3>VALIDITY</h3>
+
+<ul>
+<li>COMPARISON WITH THEORETICAL FINAL SIZE (FOR PERSISTENT IMMUNITY AND W/O VACCINATIONS)</li>
+<li>VARIOUS MODEL CHECKSUMS AND DISCREPANCY WITH OBSERVED DATA </li>
+</ul>
+
+<h2>COUNTRY COMPARISONS</h2>
+
+<h3>SCENARIOS</h3>
+
+<ul>
+<li>COUNTRY COMPARISONS FOR EACH SCENARIO</li>
+</ul>
+
+<h3>EARLY STAGES</h3>
+
+<ul>
+<li>INITIAL LOGARITHMIC GROWTH RATE</li>
+<li>INITIAL INCIDENCE</li>
+<li>INITIAL REPRODUCTION NUMBER</li>
+</ul>
+
+<h2>SCENARIO COMPARISONS</h2>
+
+<h3>CURRENT COUNTRY</h3>
+
+<ul>
+<li>SCENARIO COMPARISONS FOR CURRENT COUNTRY</li>
+</ul>
+
+</body>
+
+</html>

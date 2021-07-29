@@ -5,4 +5,17 @@ _site
 vendor
 bak
 template-c19.html
+tmp/
 
+#/MODEL.md
+#/MODEL.html
+
+/MODEL_all.md
+
+# 
+/FEATURES.md
+/ASSUMPTIONS.md
+/PARAMETERS.md
+/FEATURES.html
+/ASSUMPTIONS.html
+/PARAMETERS.html

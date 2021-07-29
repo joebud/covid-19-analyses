@@ -1,5 +1,5 @@
  
-# COVID-19 Analyses
+# COVID-19 Projections
 
 Generating COVID-19 projections for various scenarios and countries
 

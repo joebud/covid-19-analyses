@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title></title>
+
+<script type="text/javascript">
+window.onload = function() {
+  var imgs = document.getElementsByTagName('img'), i, img;
+  for (i = 0; i < imgs.length; i++) {
+    img = imgs[i];
+    // center an image if it is the only element of its parent
+    if (img.parentElement.childElementCount === 1)
+      img.parentElement.style.textAlign = 'center';
+  }
+};
+</script>
+
+
+
+
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 13px;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  line-height: 20px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 {
+   font-size:2.2em;
+}
+
+h2 {
+   font-size:1.8em;
+}
+
+h3 {
+   font-size:1.4em;
+}
+
+h4 {
+   font-size:1.0em;
+}
+
+h5 {
+   font-size:0.9em;
+}
+
+h6 {
+   font-size:0.8em;
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre, img {
+  max-width: 100%;
+}
+pre {
+  overflow-x: auto;
+}
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code {
+  font-size: 92%;
+  border: 1px solid #ccc;
+}
+
+code[class] {
+  background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * {
+      background: transparent !important;
+      color: black !important;
+      filter:none !important;
+      -ms-filter: none !important;
+   }
+
+   body {
+      font-size:12pt;
+      max-width:100%;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+
+   hr {
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote {
+      padding-right: 1em;
+      page-break-inside: avoid;
+   }
+
+   tr, img {
+      page-break-inside: avoid;
+   }
+
+   img {
+      max-width: 100% !important;
+   }
+
+   @page :left {
+      margin: 15mm 20mm 15mm 10mm;
+   }
+
+   @page :right {
+      margin: 15mm 10mm 15mm 20mm;
+   }
+
+   p, h2, h3 {
+      orphans: 3; widows: 3;
+   }
+
+   h2, h3 {
+      page-break-after: avoid;
+   }
+}
+</style>
+
+
+
+</head>
+
+<body>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Version</th>
+<th>License</th>
+<th>Author</th>
+<th>URL</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>simplejson</td>
+<td>3.16.0</td>
+<td>Academic Free License (AFL); MIT License</td>
+<td>Bob Ippolito</td>
+<td><a href="https://github.com/simplejson/simplejson">https://github.com/simplejson/simplejson</a></td>
+<td>Simple, fast, extensible JSON encoder/decoder for Python</td>
+</tr>
+<tr>
+<td>asttokens</td>
+<td>2.0.4</td>
+<td>Apache 2.0</td>
+<td>Dmitry Sagalovskiy, Grist Labs</td>
+<td><a href="https://github.com/gristlabs/asttokens">https://github.com/gristlabs/asttokens</a></td>
+<td>Annotate AST trees with source code positions</td>
+</tr>
+<tr>
+<td>rjsmin</td>
+<td>1.1.0</td>
+<td>Apache License, Version 2.0</td>
+<td>André Malo</td>
+<td><a href="http://opensource.perlig.de/rjsmin/">http://opensource.perlig.de/rjsmin/</a></td>
+<td>Javascript Minifier</td>
+</tr>
+<tr>
+<td>bcrypt</td>
+<td>3.1.6</td>
+<td>Apache Software License</td>
+<td>The Python Cryptographic Authority developers</td>
+<td><a href="https://github.com/pyca/bcrypt/">https://github.com/pyca/bcrypt/</a></td>
+<td>Modern password hashing for your software and your servers</td>
+</tr>
+<tr>
+<td>dataclasses</td>
+<td>0.6</td>
+<td>Apache Software License</td>
+<td>Eric V. Smith</td>
+<td><a href="https://github.com/ericvsmith/dataclasses">https://github.com/ericvsmith/dataclasses</a></td>
+<td>A backport of the dataclasses module for Python 3.6</td>
+</tr>
+<tr>
+<td>monotonic</td>
+<td>1.5</td>
+<td>Apache Software License</td>
+<td>Ori Livneh</td>
+<td><a href="https://github.com/atdt/monotonic">https://github.com/atdt/monotonic</a></td>
+<td>An implementation of time.monotonic() for Python 2 &amp; &lt; 3.3</td>
+</tr>
+<tr>
+<td>regex</td>
+<td>2020.10.28</td>
+<td>Apache Software License</td>
+<td>Matthew Barnett</td>
+<td><a href="https://bitbucket.org/mrabarnett/mrab-regex">https://bitbucket.org/mrabarnett/mrab-regex</a></td>
+<td>Alternative regular expression module, to replace re.</td>
+</tr>
+<tr>
+<td>requests</td>
+<td>2.21.0</td>
+<td>Apache Software License</td>
+<td>Kenneth Reitz</td>
+<td><a href="http://python-requests.org">http://python-requests.org</a></td>
+<td>Python HTTP for Humans.</td>
+</tr>
+<tr>
+<td>tenacity</td>
+<td>6.2.0</td>
+<td>Apache Software License</td>
+<td>Julien Danjou</td>
+<td><a href="https://github.com/jd/tenacity">https://github.com/jd/tenacity</a></td>
+<td>Retry code until it succeeds</td>
+</tr>
+<tr>
+<td>tornado</td>
+<td>6.1</td>
+<td>Apache Software License</td>
+<td>Facebook</td>
+<td><a href="http://www.tornadoweb.org/">http://www.tornadoweb.org/</a></td>
+<td>Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed.</td>
+</tr>
+<tr>
+<td>cryptography</td>
+<td>2.6.1</td>
+<td>Apache Software License; BSD License</td>
+<td>The cryptography developers</td>
+<td><a href="https://github.com/pyca/cryptography">https://github.com/pyca/cryptography</a></td>
+<td>cryptography is a package which provides cryptographic recipes and primitives to Python developers.</td>
+</tr>
+<tr>
+<td>cycler</td>
+<td>0.10.0</td>
+<td>BSD</td>
+<td>Thomas A Caswell</td>
+<td><a href="http://github.com/matplotlib/cycler">http://github.com/matplotlib/cycler</a></td>
+<td>Composable style cycles</td>
+</tr>
+<tr>
+<td>llvmlite</td>
+<td>0.36.0</td>
+<td>BSD</td>
+<td>Continuum Analytics, Inc.</td>
+<td><a href="http://llvmlite.pydata.org">http://llvmlite.pydata.org</a></td>
+<td>lightweight wrapper around basic LLVM functionality</td>
+</tr>
+<tr>
+<td>mpmath</td>
+<td>1.1.0</td>
+<td>BSD</td>
+<td>Fredrik Johansson</td>
+<td><a href="http://mpmath.org">http://mpmath.org</a></td>
+<td>Python library for arbitrary-precision floating-point arithmetic</td>
+</tr>
+<tr>
+<td>pandas</td>
+<td>1.2.5</td>
+<td>BSD</td>
+<td>UNKNOWN</td>
+<td><a href="https://pandas.pydata.org">https://pandas.pydata.org</a></td>
+<td>Powerful data structures for data analysis, time series, and statistics</td>
+</tr>
+<tr>
+<td>Flask</td>
+<td>2.0.1</td>
+<td>BSD License</td>
+<td>Armin Ronacher</td>
+<td><a href="https://palletsprojects.com/p/flask">https://palletsprojects.com/p/flask</a></td>
+<td>A simple framework for building complex web applications.</td>
+</tr>
+<tr>
+<td>Jinja2</td>
+<td>3.0.1</td>
+<td>BSD License</td>
+<td>Armin Ronacher</td>
+<td><a href="https://palletsprojects.com/p/jinja/">https://palletsprojects.com/p/jinja/</a></td>
+<td>A very fast and expressive template engine.</td>
+</tr>
+<tr>
+<td>MarkupSafe</td>
+<td>2.0.1</td>
+<td>BSD License</td>
+<td>Armin Ronacher</td>
+<td><a href="https://palletsprojects.com/p/markupsafe/">https://palletsprojects.com/p/markupsafe/</a></td>
+<td>Safely add untrusted strings to HTML/XML markup.</td>
+</tr>
+<tr>
+<td>Pygments</td>
+<td>2.8.1</td>
+<td>BSD License</td>
+<td>Georg Brandl</td>
+<td><a href="https://pygments.org/">https://pygments.org/</a></td>
+<td>Pygments is a syntax highlighting package written in Python.</td>
+</tr>
+<tr>
+<td>Send2Trash</td>
+<td>1.5.0</td>
+<td>BSD License</td>
+<td>Virgil Dupras</td>
+<td><a href="https://github.com/hsoft/send2trash">https://github.com/hsoft/send2trash</a></td>
+<td>Send file to trash natively under Mac OS X, Windows and Linux.</td>
+</tr>
+<tr>
+<td>Werkzeug</td>
+<td>2.0.1</td>
+<td>BSD License</td>
+<td>Armin Ronacher</td>
+<td><a href="https://palletsprojects.com/p/werkzeug/">https://palletsprojects.com/p/werkzeug/</a></td>
+<td>The comprehensive WSGI web application library.</td>
+</tr>
+<tr>
+<td>backcall</td>
+<td>0.2.0</td>
+<td>BSD License</td>
+<td>Thomas Kluyver</td>
+<td><a href="https://github.com/takluyver/backcall">https://github.com/takluyver/backcall</a></td>
+<td>Specifications for callback functions passed in to an API</td>
+</tr>
+<tr>
+<td>click</td>
+<td>8.0.1</td>
+<td>BSD License</td>
+<td>Armin Ronacher</td>
+<td><a href="https://palletsprojects.com/p/click/">https://palletsprojects.com/p/click/</a></td>
+<td>Composable command line interface toolkit</td>
+</tr>
+<tr>
+<td>cloudpickle</td>
+<td>1.6.0</td>
+<td>BSD License</td>
+<td>Cloudpipe</td>
+<td><a href="https://github.com/cloudpipe/cloudpickle">https://github.com/cloudpipe/cloudpickle</a></td>
+<td>Extended pickling support for Python objects</td>
+</tr>
+<tr>
+<td>colorama</td>
+<td>0.4.4</td>
+<td>BSD License</td>
+<td>Jonathan Hartley</td>
+<td><a href="https://github.com/tartley/colorama">https://github.com/tartley/colorama</a></td>
+<td>Cross-platform colored terminal text.</td>
+</tr>
+<tr>
+<td>decorator</td>
+<td>4.3.0</td>
+<td>BSD License</td>
+<td>Michele Simionato</td>
+<td><a href="https://github.com/micheles/decorator">https://github.com/micheles/decorator</a></td>
+<td>Better living through Python with decorators</td>
+</tr>
+<tr>
+<td>gitdb</td>
+<td>4.0.7</td>
+<td>BSD License</td>
+<td>Sebastian Thiel</td>
+<td><a href="https://github.com/gitpython-developers/gitdb">https://github.com/gitpython-developers/gitdb</a></td>
+<td>Git Object Database</td>
+</tr>
+<tr>
+<td>idna</td>
+<td>3.2</td>
+<td>BSD License</td>
+<td>Kim Davies</td>
+<td><a href="https://github.com/kjd/idna">https://github.com/kjd/idna</a></td>
+<td>Internationalized Domain Names in Applications (IDNA)</td>
+</tr>
+<tr>
+<td>ipykernel</td>
+<td>5.5.5</td>
+<td>BSD License</td>
+<td>IPython Development Team</td>
+<td><a href="https://ipython.org">https://ipython.org</a></td>
+<td>IPython Kernel for Jupyter</td>
+</tr>
+<tr>
+<td>ipython</td>
+<td>7.24.1</td>
+<td>BSD License</td>
+<td>The IPython Development Team</td>
+<td><a href="https://ipython.org">https://ipython.org</a></td>
+<td>IPython: Productive Interactive Computing</td>
+</tr>
+<tr>
+<td>ipywidgets</td>
+<td>7.5.1</td>
+<td>BSD License</td>
+<td>IPython Development Team</td>
+<td><a href="http://ipython.org">http://ipython.org</a></td>
+<td>IPython HTML widgets for Jupyter</td>
+</tr>
+<tr>
+<td>itsdangerous</td>
+<td>2.0.1</td>
+<td>BSD License</td>
+<td>Armin Ronacher</td>
+<td><a href="https://palletsprojects.com/p/itsdangerous/">https://palletsprojects.com/p/itsdangerous/</a></td>
+<td>Safely pass data to untrusted environments and back.</td>
+</tr>
+<tr>
+<td>joblib</td>
+<td>0.13.0</td>
+<td>BSD License</td>
+<td>Gael Varoquaux</td>
+<td><a href="https://joblib.readthedocs.io">https://joblib.readthedocs.io</a></td>
+<td>Lightweight pipelining: using Python functions as pipeline jobs.</td>
+</tr>
+<tr>
+<td>jsonpointer</td>
+<td>2.1</td>
+<td>BSD License</td>
+<td>Stefan Kögl</td>
+<td><a href="https://github.com/stefankoegl/python-json-pointer">https://github.com/stefankoegl/python-json-pointer</a></td>
+<td>Identify specific nodes in a JSON document (RFC 6901)</td>
+</tr>
+<tr>
+<td>lxml</td>
+<td>4.3.2</td>
+<td>BSD License</td>
+<td>lxml dev team</td>
+<td><a href="http://lxml.de/">http://lxml.de/</a></td>
+<td>Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.</td>
+</tr>
+<tr>
+<td>mistune</td>
+<td>0.8.4</td>
+<td>BSD License</td>
+<td>Hsiaoming Yang</td>
+<td><a href="https://github.com/lepture/mistune">https://github.com/lepture/mistune</a></td>
+<td>The fastest markdown parser in pure Python</td>
+</tr>
+<tr>
+<td>mpld3</td>
+<td>0.5.1</td>
+<td>BSD License</td>
+<td>Jake VanderPlas</td>
+<td><a href="http://mpld3.github.com">http://mpld3.github.com</a></td>
+<td>D3 Viewer for Matplotlib</td>
+</tr>
+<tr>
+<td>nbclient</td>
+<td>0.5.1</td>
+<td>BSD License</td>
+<td>Jupyter Development Team</td>
+<td><a href="https://jupyter.org">https://jupyter.org</a></td>
+<td>A client library for executing notebooks. Formerly nbconvert&#39;s ExecutePreprocessor.</td>
+</tr>
+<tr>
+<td>nbconvert</td>
+<td>6.0.7</td>
+<td>BSD License</td>
+<td>Jupyter Development Team</td>
+<td><a href="https://jupyter.org">https://jupyter.org</a></td>
+<td>Converting Jupyter Notebooks</td>
+</tr>
+<tr>
+<td>nbformat</td>
+<td>5.1.3</td>
+<td>BSD License</td>
+<td>Jupyter Development Team</td>
+<td><a href="http://jupyter.org">http://jupyter.org</a></td>
+<td>The Jupyter Notebook format</td>
+</tr>
+<tr>
+<td>notebook</td>
+<td>6.4.0</td>
+<td>BSD License</td>
+<td>Jupyter Development Team</td>
+<td><a href="http://jupyter.org">http://jupyter.org</a></td>
+<td>A web-based notebook environment for interactive computing</td>
+</tr>
+<tr>
+<td>numba</td>
+<td>0.53.1</td>
+<td>BSD License</td>
+<td>Anaconda, Inc.</td>
+<td><a href="https://numba.pydata.org">https://numba.pydata.org</a></td>
+<td>compiling Python code using LLVM</td>
+</tr>
+<tr>
+<td>numpy</td>
+<td>1.21.0</td>
+<td>BSD License</td>
+<td>Travis E. Oliphant et al.</td>
+<td><a href="https://www.numpy.org">https://www.numpy.org</a></td>
+<td>NumPy is the fundamental package for array computing with Python.</td>
+</tr>
+<tr>
+<td>pandocfilters</td>
+<td>1.4.2</td>
+<td>BSD License</td>
+<td>John MacFarlane</td>
+<td><a href="http://github.com/jgm/pandocfilters">http://github.com/jgm/pandocfilters</a></td>
+<td>Utilities for writing pandoc filters in python</td>
+</tr>
+<tr>
+<td>papermill</td>
+<td>2.3.3</td>
+<td>BSD License</td>
+<td>nteract contributors</td>
+<td><a href="https://github.com/nteract/papermill">https://github.com/nteract/papermill</a></td>
+<td>Parametrize and run Jupyter and nteract Notebooks</td>
+</tr>
+<tr>
+<td>patsy</td>
+<td>0.5.0+dev</td>
+<td>BSD License</td>
+<td>Nathaniel J. Smith</td>
+<td><a href="https://github.com/pydata/patsy">https://github.com/pydata/patsy</a></td>
+<td>A Python package for describing statistical models and for building design matrices.</td>
+</tr>
+<tr>
+<td>psutil</td>
+<td>5.5.1</td>
+<td>BSD License</td>
+<td>Giampaolo Rodola</td>
+<td><a href="https://github.com/giampaolo/psutil">https://github.com/giampaolo/psutil</a></td>
+<td>Cross-platform lib for process and system monitoring in Python.</td>
+</tr>
+<tr>
+<td>pyasn1</td>
+<td>0.4.2</td>
+<td>BSD License</td>
+<td>Ilya Etingof <a href="mailto:etingof@gmail.com">etingof@gmail.com</a></td>
+<td><a href="https://github.com/etingof/pyasn1">https://github.com/etingof/pyasn1</a></td>
+<td>ASN.1 types and codecs</td>
+</tr>
+<tr>
+<td>pycparser</td>
+<td>2.20</td>
+<td>BSD License</td>
+<td>Eli Bendersky</td>
+<td><a href="https://github.com/eliben/pycparser">https://github.com/eliben/pycparser</a></td>
+<td>C parser in Python</td>
+</tr>
+<tr>
+<td>pyglet</td>
+<td>1.5.15</td>
+<td>BSD License</td>
+<td>Alex Holkner</td>
+<td><a href="http://pyglet.readthedocs.org/en/latest/">http://pyglet.readthedocs.org/en/latest/</a></td>
+<td>Cross-platform windowing and multimedia library</td>
+</tr>
+<tr>
+<td>scipy</td>
+<td>1.7.0</td>
+<td>BSD License</td>
+<td>UNKNOWN</td>
+<td><a href="https://www.scipy.org">https://www.scipy.org</a></td>
+<td>SciPy: Scientific Library for Python</td>
+</tr>
+<tr>
+<td>smmap</td>
+<td>4.0.0</td>
+<td>BSD License</td>
+<td>Sebastian Thiel</td>
+<td><a href="https://github.com/gitpython-developers/smmap">https://github.com/gitpython-developers/smmap</a></td>
+<td>A pure Python implementation of a sliding window memory map manager</td>
+</tr>
+<tr>
+<td>statsmodels</td>
+<td>0.12.2</td>
+<td>BSD License</td>
+<td>UNKNOWN</td>
+<td><a href="https://www.statsmodels.org/">https://www.statsmodels.org/</a></td>
+<td>Statistical computations and models for Python</td>
+</tr>
+<tr>
+<td>sympy</td>
+<td>1.5.1</td>
+<td>BSD License</td>
+<td>SymPy development team</td>
+<td><a href="https://sympy.org">https://sympy.org</a></td>
+<td>Computer algebra system (CAS) in Python</td>
+</tr>
+<tr>
+<td>tables</td>
+<td>3.4.4</td>
+<td>BSD License</td>
+<td>Francesc Alted, Ivan Vilata,Antonio Valentino, Anthony Scopatz et al.</td>
+<td><a href="http://www.pytables.org/">http://www.pytables.org/</a></td>
+<td>Hierarchical datasets for Python</td>
+</tr>
+<tr>
+<td>terminado</td>
+<td>0.10.1</td>
+<td>BSD License</td>
+<td>Jupyter Development Team</td>
+<td><a href="https://github.com/jupyter/terminado">https://github.com/jupyter/terminado</a></td>
+<td>Tornado websocket backend for the Xterm.js Javascript terminal emulator library.</td>
+</tr>
+<tr>
+<td>traitlets</td>
+<td>4.3.2</td>
+<td>BSD License</td>
+<td>IPython Development Team</td>
+<td><a href="http://ipython.org">http://ipython.org</a></td>
+<td>Traitlets Python config system</td>
+</tr>
+<tr>
+<td>uarray</td>
+<td>0.6.0</td>
+<td>BSD License</td>
+<td>UNKNOWN</td>
+<td><a href="https://github.com/Quansight-Labs/uarray/">https://github.com/Quansight-Labs/uarray/</a></td>
+<td>Array interface object for Python with pluggable backends and a multiple-dispatchmechanism for defining down-stream functions</td>
+</tr>
+<tr>
+<td>uncertainties</td>
+<td>3.1.5</td>
+<td>BSD License</td>
+<td>Eric O. LEBIGOT (EOL)</td>
+<td><a href="http://uncertainties-python-package.readthedocs.io/">http://uncertainties-python-package.readthedocs.io/</a></td>
+<td>Transparent calculations with uncertainties on the quantities involved (aka error propagation); fast calculation of derivatives</td>
+</tr>
+<tr>
+<td>webcolors</td>
+<td>1.11.1</td>
+<td>BSD License</td>
+<td>James Bennett</td>
+<td><a href="https://github.com/ubernostrum/webcolors">https://github.com/ubernostrum/webcolors</a></td>
+<td>A library for working with color names and color values formats defined by HTML and CSS.</td>
+</tr>
+<tr>
+<td>webencodings</td>
+<td>0.5.1</td>
+<td>BSD License</td>
+<td>Simon Sapin</td>
+<td><a href="https://github.com/SimonSapin/python-webencodings">https://github.com/SimonSapin/python-webencodings</a></td>
+<td>Character encoding aliases for legacy web content</td>
+</tr>
+<tr>
+<td>xlrd</td>
+<td>2.0.1</td>
+<td>BSD License</td>
+<td>Chris Withers</td>
+<td><a href="http://www.python-excel.org/">http://www.python-excel.org/</a></td>
+<td>Library for developers to extract data from Microsoft Excel &trade; .xls spreadsheet files</td>
+</tr>
+<tr>
+<td>pyinstaller</td>
+<td>4.3</td>
+<td>GNU General Public License v2 (GPLv2)</td>
+<td>Hartmut Goebel, Giovanni Bajo, David Vierra, David Cortesi, Martin Zibricky</td>
+<td><a href="http://www.pyinstaller.org/">http://www.pyinstaller.org/</a></td>
+<td>PyInstaller bundles a Python application and all its dependencies into a single package.</td>
+</tr>
+<tr>
+<td>idesolver</td>
+<td>1.0.4</td>
+<td>GNU General Public License v3 (GPLv3)</td>
+<td>Josh Karpel</td>
+<td><a href="https://github.com/JoshKarpel/idesolver">https://github.com/JoshKarpel/idesolver</a></td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>rfc3987</td>
+<td>1.3.8</td>
+<td>GNU General Public License v3 or later (GPLv3+)</td>
+<td>Daniel Gerber</td>
+<td><a href="http://pypi.python.org/pypi/rfc3987">http://pypi.python.org/pypi/rfc3987</a></td>
+<td>Parsing and validation of URIs (RFC 3986) and IRIs (RFC 3987)</td>
+</tr>
+<tr>
+<td>PyMeeus</td>
+<td>0.5.11</td>
+<td>GNU Lesser General Public License v3 (LGPLv3)</td>
+<td>Dagoberto Salazar</td>
+<td><a href="https://github.com/architest/pymeeus">https://github.com/architest/pymeeus</a></td>
+<td>Python implementation of Jean Meeus astronomical routines</td>
+</tr>
+<tr>
+<td>chardet</td>
+<td>3.0.4</td>
+<td>GNU Library or Lesser General Public License (LGPL)</td>
+<td>Mark Pilgrim</td>
+<td><a href="https://github.com/chardet/chardet">https://github.com/chardet/chardet</a></td>
+<td>Universal encoding detector for Python 2 and 3</td>
+</tr>
+<tr>
+<td>nose</td>
+<td>1.3.7</td>
+<td>GNU Library or Lesser General Public License (LGPL)</td>
+<td>Jason Pellerin</td>
+<td><a href="http://readthedocs.org/docs/nose/">http://readthedocs.org/docs/nose/</a></td>
+<td>nose extends unittest to make testing easier</td>
+</tr>
+<tr>
+<td>paramiko</td>
+<td>2.4.2</td>
+<td>GNU Library or Lesser General Public License (LGPL)</td>
+<td>Jeff Forcier</td>
+<td><a href="https://github.com/paramiko/paramiko/">https://github.com/paramiko/paramiko/</a></td>
+<td>SSH2 protocol library</td>
+</tr>
+<tr>
+<td>shiboken2</td>
+<td>5.15.2</td>
+<td>GNU Library or Lesser General Public License (LGPL); Other/Proprietary License</td>
+<td>Qt for Python Team</td>
+<td><a href="https://www.pyside.org">https://www.pyside.org</a></td>
+<td>Python / C++ bindings helper module</td>
+</tr>
+<tr>
+<td>pexpect</td>
+<td>4.6.0</td>
+<td>ISC License (ISCL)</td>
+<td>Noah Spurrier; Thomas Kluyver; Jeff Quast</td>
+<td><a href="https://pexpect.readthedocs.io/">https://pexpect.readthedocs.io/</a></td>
+<td>Pexpect allows easy control of interactive console applications.</td>
+</tr>
+<tr>
+<td>ptyprocess</td>
+<td>0.7.0</td>
+<td>ISC License (ISCL)</td>
+<td>Thomas Kluyver</td>
+<td><a href="https://github.com/pexpect/ptyprocess">https://github.com/pexpect/ptyprocess</a></td>
+<td>Run a subprocess in a pseudo terminal</td>
+</tr>
+<tr>
+<td>atomicwrites</td>
+<td>1.1.5</td>
+<td>MIT</td>
+<td>Markus Unterwaditzer</td>
+<td><a href="https://github.com/untitaker/python-atomicwrites">https://github.com/untitaker/python-atomicwrites</a></td>
+<td>Atomic file writes.</td>
+</tr>
+<tr>
+<td>numexpr</td>
+<td>2.6.9</td>
+<td>MIT</td>
+<td>David M. Cooke, Francesc Alted and others</td>
+<td><a href="https://github.com/pydata/numexpr">https://github.com/pydata/numexpr</a></td>
+<td>Fast numerical expression evaluator for NumPy</td>
+</tr>
+<tr>
+<td>plotly</td>
+<td>5.0.0</td>
+<td>MIT</td>
+<td>Chris P</td>
+<td><a href="https://plotly.com/python/">https://plotly.com/python/</a></td>
+<td>An open-source, interactive data visualization library for Python</td>
+</tr>
+<tr>
+<td>testpath</td>
+<td>0.4.2</td>
+<td>MIT</td>
+<td>Jupyter Development Team</td>
+<td><a href="https://github.com/jupyter/testpath">https://github.com/jupyter/testpath</a></td>
+<td>Test utilities for code working with files and commands</td>
+</tr>
+<tr>
+<td>Brotli</td>
+<td>1.0.9</td>
+<td>MIT License</td>
+<td>The Brotli Authors</td>
+<td><a href="https://github.com/google/brotli">https://github.com/google/brotli</a></td>
+<td>Python bindings for the Brotli compression library</td>
+</tr>
+<tr>
+<td>SQLAlchemy</td>
+<td>1.4.9</td>
+<td>MIT License</td>
+<td>Mike Bayer</td>
+<td><a href="http://www.sqlalchemy.org">http://www.sqlalchemy.org</a></td>
+<td>Database Abstraction Library</td>
+</tr>
+<tr>
+<td>appdirs</td>
+<td>1.4.3</td>
+<td>MIT License</td>
+<td>Trent Mick; Sridhar Ratnakumar; Jeff Rouse</td>
+<td><a href="http://github.com/ActiveState/appdirs">http://github.com/ActiveState/appdirs</a></td>
+<td>A small Python module for determining appropriate platform-specific dirs, e.g. a &ldquo;user data dir&rdquo;.</td>
+</tr>
+<tr>
+<td>asn1crypto</td>
+<td>0.24.0</td>
+<td>MIT License</td>
+<td>wbond</td>
+<td><a href="https://github.com/wbond/asn1crypto">https://github.com/wbond/asn1crypto</a></td>
+<td>Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP</td>
+</tr>
+<tr>
+<td>black</td>
+<td>20.8b1</td>
+<td>MIT License</td>
+<td>Łukasz Langa</td>
+<td><a href="https://github.com/psf/black">https://github.com/psf/black</a></td>
+<td>The uncompromising code formatter.</td>
+</tr>
+<tr>
+<td>bs4</td>
+<td>0.0.1</td>
+<td>MIT License</td>
+<td>Leonard Richardson</td>
+<td><a href="https://pypi.python.org/pypi/beautifulsoup4">https://pypi.python.org/pypi/beautifulsoup4</a></td>
+<td>Screen-scraping library</td>
+</tr>
+<tr>
+<td>cffi</td>
+<td>1.14.5</td>
+<td>MIT License</td>
+<td>Armin Rigo, Maciej Fijalkowski</td>
+<td><a href="http://cffi.readthedocs.org">http://cffi.readthedocs.org</a></td>
+<td>Foreign Function Interface for Python calling C code.</td>
+</tr>
+<tr>
+<td>convertdate</td>
+<td>2.3.2</td>
+<td>MIT License</td>
+<td>Neil Freeman</td>
+<td><a href="https://github.com/fitnr/convertdate">https://github.com/fitnr/convertdate</a></td>
+<td>Converts between Gregorian dates and other calendar systems.Calendars included: Baha&#39;i, French Republican, Hebrew, Indian Civil, Islamic, ISO, Julian, Mayan and Persian.</td>
+</tr>
+<tr>
+<td>dash</td>
+<td>1.20.0</td>
+<td>MIT License</td>
+<td>Chris Parmer</td>
+<td><a href="https://plotly.com/dash">https://plotly.com/dash</a></td>
+<td>A Python framework for building reactive web-apps. Developed by Plotly.</td>
+</tr>
+<tr>
+<td>entrypoints</td>
+<td>0.3</td>
+<td>MIT License</td>
+<td>Thomas Kluyver</td>
+<td>UNKNOWN</td>
+<td>Discover and load entry points from installed packages</td>
+</tr>
+<tr>
+<td>executing</td>
+<td>0.5.4</td>
+<td>MIT License</td>
+<td>Alex Hall</td>
+<td><a href="https://github.com/alexmojaki/executing">https://github.com/alexmojaki/executing</a></td>
+<td>Get the currently executing AST node of a frame, and other information</td>
+</tr>
+<tr>
+<td>findiff</td>
+<td>0.8.0</td>
+<td>MIT License</td>
+<td>Matthias Baer</td>
+<td><a href="https://github.com/maroba/findiff">https://github.com/maroba/findiff</a></td>
+<td>A Python package for finite difference derivatives in any number of dimensions.</td>
+</tr>
+<tr>
+<td>future</td>
+<td>0.18.2</td>
+<td>MIT License</td>
+<td>Ed Schofield</td>
+<td><a href="https://python-future.org">https://python-future.org</a></td>
+<td>Clean single-source support for Python 3 and 2</td>
+</tr>
+<tr>
+<td>greenlet</td>
+<td>1.0.0</td>
+<td>MIT License</td>
+<td>UNKNOWN</td>
+<td><a href="https://greenlet.readthedocs.io/">https://greenlet.readthedocs.io/</a></td>
+<td>Lightweight in-process concurrent programming</td>
+</tr>
+<tr>
+<td>holidays</td>
+<td>0.11.1</td>
+<td>MIT License</td>
+<td>ryanss</td>
+<td><a href="https://github.com/dr-prodigy/python-holidays">https://github.com/dr-prodigy/python-holidays</a></td>
+<td>Generate and work with holidays in Python</td>
+</tr>
+<tr>
+<td>html5lib</td>
+<td>1.0.1</td>
+<td>MIT License</td>
+<td>UNKNOWN</td>
+<td><a href="https://github.com/html5lib/html5lib-python">https://github.com/html5lib/html5lib-python</a></td>
+<td>HTML parser based on the WHATWG HTML specification</td>
+</tr>
+<tr>
+<td>jedi</td>
+<td>0.18.0</td>
+<td>MIT License</td>
+<td>David Halter</td>
+<td><a href="https://github.com/davidhalter/jedi">https://github.com/davidhalter/jedi</a></td>
+<td>An autocompletion tool for Python that can be used for text editors.</td>
+</tr>
+<tr>
+<td>jsonschema</td>
+<td>3.2.0</td>
+<td>MIT License</td>
+<td>Julian Berman</td>
+<td><a href="https://github.com/Julian/jsonschema">https://github.com/Julian/jsonschema</a></td>
+<td>An implementation of JSON Schema validation for Python</td>
+</tr>
+<tr>
+<td>jupytext</td>
+<td>1.11.1</td>
+<td>MIT License</td>
+<td>Marc Wouts</td>
+<td><a href="https://github.com/mwouts/jupytext">https://github.com/mwouts/jupytext</a></td>
+<td>Jupyter notebooks as Markdown documents, Julia, Python or R scripts</td>
+</tr>
+<tr>
+<td>openpyxl</td>
+<td>3.0.7</td>
+<td>MIT License</td>
+<td>See AUTHORS</td>
+<td><a href="https://openpyxl.readthedocs.io">https://openpyxl.readthedocs.io</a></td>
+<td>A Python library to read/write Excel 2010 xlsx/xlsm files</td>
+</tr>
+<tr>
+<td>pandoc</td>
+<td>1.0.2</td>
+<td>MIT License</td>
+<td>Sébastien Boisgérault</td>
+<td><a href="https://github.com/boisgera/pandoc">https://github.com/boisgera/pandoc</a></td>
+<td>Pandoc Documents for Python</td>
+</tr>
+<tr>
+<td>parso</td>
+<td>0.8.2</td>
+<td>MIT License</td>
+<td>David Halter</td>
+<td><a href="https://github.com/davidhalter/parso">https://github.com/davidhalter/parso</a></td>
+<td>A Python Parser</td>
+</tr>
+<tr>
+<td>pathlib</td>
+<td>1.0.1</td>
+<td>MIT License</td>
+<td>Antoine Pitrou</td>
+<td><a href="https://pathlib.readthedocs.org/">https://pathlib.readthedocs.org/</a></td>
+<td>Object-oriented filesystem paths</td>
+</tr>
+<tr>
+<td>pep517</td>
+<td>0.10.0</td>
+<td>MIT License</td>
+<td>Thomas Kluyver</td>
+<td><a href="https://github.com/pypa/pep517">https://github.com/pypa/pep517</a></td>
+<td>Wrappers to build Python packages using PEP 517 hooks</td>
+</tr>
+<tr>
+<td>pickleshare</td>
+<td>0.7.5</td>
+<td>MIT License</td>
+<td>Ville Vainio</td>
+<td><a href="https://github.com/pickleshare/pickleshare">https://github.com/pickleshare/pickleshare</a></td>
+<td>Tiny &#39;shelve&#39;-like database with concurrency support</td>
+</tr>
+<tr>
+<td>pluggy</td>
+<td>0.8.0</td>
+<td>MIT License</td>
+<td>Holger Krekel</td>
+<td><a href="https://github.com/pytest-dev/pluggy">https://github.com/pytest-dev/pluggy</a></td>
+<td>plugin and hook calling mechanisms for python</td>
+</tr>
+<tr>
+<td>py</td>
+<td>1.7.0</td>
+<td>MIT License</td>
+<td>holger krekel, Ronny Pfannschmidt, Benjamin Peterson and others</td>
+<td><a href="http://py.readthedocs.io/">http://py.readthedocs.io/</a></td>
+<td>library with cross-python path, ini-parsing, io, code, log facilities</td>
+</tr>
+<tr>
+<td>pyparsing</td>
+<td>2.4.7</td>
+<td>MIT License</td>
+<td>Paul McGuire</td>
+<td><a href="https://github.com/pyparsing/pyparsing/">https://github.com/pyparsing/pyparsing/</a></td>
+<td>Python parsing module</td>
+</tr>
+<tr>
+<td>pyrsistent</td>
+<td>0.17.3</td>
+<td>MIT License</td>
+<td>Tobias Gustafsson</td>
+<td><a href="http://github.com/tobgu/pyrsistent/">http://github.com/tobgu/pyrsistent/</a></td>
+<td>Persistent/Functional/Immutable data structures</td>
+</tr>
+<tr>
+<td>pytest</td>
+<td>3.10.1</td>
+<td>MIT License</td>
+<td>Holger Krekel, Bruno Oliveira, Ronny Pfannschmidt, Floris Bruynooghe, Brianna Laugher, Florian Bruhin and others</td>
+<td><a href="https://docs.pytest.org/en/latest/">https://docs.pytest.org/en/latest/</a></td>
+<td>pytest: simple powerful testing with Python</td>
+</tr>
+<tr>
+<td>pytz</td>
+<td>2019.1</td>
+<td>MIT License</td>
+<td>Stuart Bishop</td>
+<td><a href="http://pythonhosted.org/pytz">http://pythonhosted.org/pytz</a></td>
+<td>World timezone definitions, modern and historical</td>
+</tr>
+<tr>
+<td>six</td>
+<td>1.12.0</td>
+<td>MIT License</td>
+<td>Benjamin Peterson</td>
+<td><a href="https://github.com/benjaminp/six">https://github.com/benjaminp/six</a></td>
+<td>Python 2 and 3 compatibility utilities</td>
+</tr>
+<tr>
+<td>soupsieve</td>
+<td>1.8</td>
+<td>MIT License</td>
+<td>Isaac Muse</td>
+<td><a href="https://github.com/facelessuser/soupsieve">https://github.com/facelessuser/soupsieve</a></td>
+<td>A CSS4 selector implementation for Beautiful Soup.</td>
+</tr>
+<tr>
+<td>toml</td>
+<td>0.10.2</td>
+<td>MIT License</td>
+<td>William Pearson</td>
+<td><a href="https://github.com/uiri/toml">https://github.com/uiri/toml</a></td>
+<td>Python Library for Tom&#39;s Obvious, Minimal Language</td>
+</tr>
+<tr>
+<td>urllib3</td>
+<td>1.24.1</td>
+<td>MIT License</td>
+<td>Andrey Petrov</td>
+<td><a href="https://urllib3.readthedocs.io/">https://urllib3.readthedocs.io/</a></td>
+<td>HTTP library with thread-safe connection pooling, file post, and more.</td>
+</tr>
+<tr>
+<td>varname</td>
+<td>0.6.3</td>
+<td>MIT License</td>
+<td>pwwang</td>
+<td><a href="https://github.com/pwwang/python-varname">https://github.com/pwwang/python-varname</a></td>
+<td>Dark magics about variable names in python.</td>
+</tr>
+<tr>
+<td>virtualenv</td>
+<td>20.4.7</td>
+<td>MIT License</td>
+<td>Bernat Gabor</td>
+<td><a href="https://virtualenv.pypa.io/">https://virtualenv.pypa.io/</a></td>
+<td>Virtual Python Environment builder</td>
+</tr>
+<tr>
+<td>wcwidth</td>
+<td>0.1.7</td>
+<td>MIT License</td>
+<td>Jeff Quast</td>
+<td><a href="https://github.com/jquast/wcwidth">https://github.com/jquast/wcwidth</a></td>
+<td>Measures number of Terminal column cells of wide-character codes</td>
+</tr>
+<tr>
+<td>zipp</td>
+<td>3.3.1</td>
+<td>MIT License</td>
+<td>Jason R. Coombs</td>
+<td><a href="https://github.com/jaraco/zipp">https://github.com/jaraco/zipp</a></td>
+<td>Backport of pathlib-compatible object wrapper for zip files</td>
+</tr>
+<tr>
+<td>certifi</td>
+<td>2018.8.24</td>
+<td>Mozilla Public License 2.0 (MPL 2.0)</td>
+<td>Kenneth Reitz</td>
+<td><a href="http://certifi.io/">http://certifi.io/</a></td>
+<td>Python package for providing Mozilla&#39;s CA Bundle.</td>
+</tr>
+<tr>
+<td>pathspec</td>
+<td>0.8.1</td>
+<td>Mozilla Public License 2.0 (MPL 2.0)</td>
+<td>Caleb P. Burns</td>
+<td><a href="https://github.com/cpburnz/python-path-specification">https://github.com/cpburnz/python-path-specification</a></td>
+<td>Utility library for gitignore style pattern matching of file paths.</td>
+</tr>
+<tr>
+<td>filelock</td>
+<td>3.0.12</td>
+<td>Public Domain</td>
+<td>Benedikt Schmitt</td>
+<td><a href="https://github.com/benediktschmitt/py-filelock">https://github.com/benediktschmitt/py-filelock</a></td>
+<td>A platform independent file lock.</td>
+</tr>
+<tr>
+<td>defusedxml</td>
+<td>0.5.0</td>
+<td>Python Software Foundation License</td>
+<td>Christian Heimes</td>
+<td><a href="https://github.com/tiran/defusedxml">https://github.com/tiran/defusedxml</a></td>
+<td>XML bomb protection for Python stdlib modules</td>
+</tr>
+<tr>
+<td>matplotlib</td>
+<td>3.4.2</td>
+<td>Python Software Foundation License</td>
+<td>John D. Hunter, Michael Droettboom</td>
+<td><a href="https://matplotlib.org">https://matplotlib.org</a></td>
+<td>Python plotting package</td>
+</tr>
+<tr>
+<td>sip</td>
+<td>6.0.3</td>
+<td>SIP</td>
+<td>Riverbank Computing Limited</td>
+<td><a href="https://www.riverbankcomputing.com/software/sip/">https://www.riverbankcomputing.com/software/sip/</a></td>
+<td>A Python bindings generator for C/C++ libraries</td>
+</tr>
+<tr>
+<td>kiwisolver</td>
+<td>1.0.1</td>
+<td>UNKNOWN</td>
+<td>The Nucleic Development Team</td>
+<td><a href="https://github.com/nucleic/kiwi">https://github.com/nucleic/kiwi</a></td>
+<td>A fast implementation of the Cassowary constraint solver</td>
+</tr>
+<tr>
+<td>pip-check</td>
+<td>2.6</td>
+<td>UNKNOWN</td>
+<td>Martin Mahner</td>
+<td><a href="https://github.com/bartTC/pip-check/">https://github.com/bartTC/pip-check/</a></td>
+<td>Display installed pip packages and their update status..</td>
+</tr>
+</tbody></table>
+
+</body>
+
+</html>
