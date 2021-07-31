@@ -1,0 +1,14 @@
+https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination.html
+https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination-p.html
+https://joebud.github.io/covid-19-analyses/scenarios/AUT-scenario-comparison.html
+https://joebud.github.io/covid-19-analyses/scenarios/POL-high-vaccination.html
+https://joebud.github.io/covid-19-analyses/scenarios/POL-high-vaccination-p.html
+https://joebud.github.io/covid-19-analyses/scenarios/POL-scenario-comparison.html
+https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-high-vaccination.html
+https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-scenario-comparison.html
+https://joebud.github.io/covid-19-analyses/README.html
+https://joebud.github.io/covid-19-analyses/README-REPORTS.html
+https://joebud.github.io/covid-19-analyses/SCENARIOS-REPORTS.html
+https://joebud.github.io/covid-19-analyses/MODEL.html
+https://joebud.github.io/covid-19-analyses/NOTATION.html
+https://joebud.github.io/covid-19-analyses/index.html
