@@ -1,3 +1,13 @@
+---
+output: 
+  html_document: 
+    theme: paper
+    toc: true
+    toc_float: 
+      collapsed: true
+    toc_depth: 3
+    mathjax: https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+---
 
 # COVID-19 Country Reports
 

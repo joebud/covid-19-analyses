@@ -1,4 +1,15 @@
- 
+---
+output: 
+  html_document: 
+    theme: paper
+    toc: true
+    toc_float: 
+      collapsed: true
+    toc_depth: 3
+    self_contained: yes
+    mathjax: https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+---
+
 # COVID-19 Projections
 
 Generating COVID-19 projections for various scenarios and countries
