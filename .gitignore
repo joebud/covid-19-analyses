@@ -18,6 +18,8 @@ build/
 debug/
 dist/
 
+data/raw/
+
 #/LICENSE
 /LICENSE-MIT
 /LICENSE-PRIV
