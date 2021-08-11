@@ -830,3 +830,4 @@ https://joebud.github.io/covid-19-analyses/SCENARIOS-REPORTS.html
 https://joebud.github.io/covid-19-analyses/MODEL.html
 https://joebud.github.io/covid-19-analyses/NOTATION.html
 https://joebud.github.io/covid-19-analyses/index.html
+https://joebud.github.io/covid-19-analyses/sitemap3.html

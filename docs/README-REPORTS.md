@@ -271,3 +271,14 @@ COVID-19-ANALYSIS-{COUNTRY-CODE}-{TIME-SPAN}-{EXTENDED-ANALYSIS?}-{DATE}.pdf
 ### CURRENT COUNTRY
 
 - SCENARIO COMPARISONS FOR CURRENT COUNTRY
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CTEQ2C7JBB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CTEQ2C7JBB');
+</script> 
+  

@@ -1,11 +1,11 @@
  
-No internet connection... Press any key to resume ...COUNTRIES=AUT USA
-SCENARIOS=high-vaccination-&-short-immunity scenario-comparison
+No internet connection... Press any key to resume ...COUNTRIES=ISR
+SCENARIOS=high-vaccination-&-long-immunity-(optimal) scenario-comparison
 DEBUG=1
  
 ############################################################################
 RUNNING ANALYSIS (WEB)
-[2021_08_02]
+[2021_08_11]
 ############################################################################
  
 [jupytext] Reading web-run-sim.ipynb in format ipynb
@@ -21,146 +21,100 @@ RUNNING ANALYSIS (WEB)
 [jupytext] Updating 'web-index.ipynb'
 [jupytext] Updating 'web-index.py'
 [jupytext] Reading web-country-scen.ipynb in format ipynb
+[jupytext] Loading 'web-country-scen.py'
+[jupytext] Updating 'web-country-scen.ipynb'
 [jupytext] Updating 'web-country-scen.py'
 [jupytext] Reading web-country-comp.ipynb in format ipynb
 [jupytext] Loading 'web-country-comp.py'
 [jupytext] Updating 'web-country-comp.ipynb'
 [jupytext] Updating 'web-country-comp.py'
  
-RUNNING ANALYSIS FOR COUNTRY: AUT...
+RUNNING ANALYSIS FOR COUNTRY: ISR...
  
+[NbConvertApp] Converting notebook ./web-run-sim_.ipynb to notebook
+[NbConvertApp] Writing 5910 bytes to web-run-sim_.ipynb
 Input Notebook:  ./web-run-sim_.ipynb
 Output Notebook: ./web-run-sim_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmppd5_9gf6'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpjim402fa'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpnglos4xj'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpvl_yuha5'
 Executing:   0%|          | 0/18 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   6%|▌         | 1/18 [00:01<00:18,  1.11s/cell]Executing:  28%|██▊       | 5/18 [00:01<00:10,  1.27cell/s]2021-08-02 11:28:56.554970: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
-2021-08-02 11:28:56.555001: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-Executing:  39%|███▉      | 7/18 [00:05<00:12,  1.12s/cell]Executing:  56%|█████▌    | 10/18 [00:05<00:06,  1.26cell/s]Executing:  67%|██████▋   | 12/18 [00:05<00:03,  1.57cell/s]Executing:  67%|██████▋   | 12/18 [00:19<00:03,  1.57cell/s]Executing:  72%|███████▏  | 13/18 [00:56<01:18, 15.69s/cell]Executing:  78%|███████▊  | 14/18 [00:56<00:44, 11.02s/cell]Executing: 100%|██████████| 18/18 [00:56<00:00,  7.72s/cell]Executing: 100%|██████████| 18/18 [00:58<00:00,  3.24s/cell]
+Executing:   6%|▌         | 1/18 [00:00<00:14,  1.18cell/s]Executing:  33%|███▎      | 6/18 [00:00<00:07,  1.66cell/s]Executing:  44%|████▍     | 8/18 [00:04<00:09,  1.00cell/s]Executing:  67%|██████▋   | 12/18 [00:05<00:04,  1.34cell/s]Executing:  72%|███████▏  | 13/18 [01:04<01:31, 18.25s/cell]Executing:  78%|███████▊  | 14/18 [01:04<00:51, 12.85s/cell]Executing: 100%|██████████| 18/18 [01:04<00:00,  9.00s/cell]Executing: 100%|██████████| 18/18 [01:06<00:00,  3.68s/cell]
 [NbConvertApp] Converting notebook ./web-run-sim_.ipynb to html
-[NbConvertApp] Writing 569722 bytes to web-run-sim_.html
+[NbConvertApp] Writing 570797 bytes to web-run-sim_.html
  
-SCENARIO: high-vaccination-&-short-immunity...
+SCENARIO: high-vaccination-&-long-immunity-(optimal)...
  
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 154914 bytes to web-country-scen_.ipynb
 Input Notebook:  ./web-country-scen_.ipynb
 Output Notebook: ./web-country-scen_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmptrk2clev'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmplif8_hlo'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp1l_pefgw'
-Executing:   0%|          | 0/43 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   2%|▏         | 1/43 [00:00<00:39,  1.06cell/s]Executing:   7%|▋         | 3/43 [00:01<00:27,  1.47cell/s]Executing:  12%|█▏        | 5/43 [00:01<00:18,  2.03cell/s]Executing:  16%|█▋        | 7/43 [00:01<00:13,  2.75cell/s]Executing:  21%|██        | 9/43 [00:01<00:09,  3.45cell/s]Executing:  26%|██▌       | 11/43 [00:01<00:07,  4.51cell/s]Executing:  30%|███       | 13/43 [00:01<00:05,  5.77cell/s]Executing:  35%|███▍      | 15/43 [00:02<00:07,  3.94cell/s]Executing:  40%|███▉      | 17/43 [00:02<00:05,  5.11cell/s]Executing:  44%|████▍     | 19/43 [00:02<00:03,  6.45cell/s]2021-08-02 11:30:00.381769: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
-2021-08-02 11:30:00.381795: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-Executing:  49%|████▉     | 21/43 [00:05<00:10,  2.09cell/s]Executing:  53%|█████▎    | 23/43 [00:05<00:07,  2.85cell/s]Executing:  56%|█████▌    | 24/43 [00:20<00:06,  2.85cell/s]Executing:  58%|█████▊    | 25/43 [00:26<01:01,  3.42s/cell]Executing:  60%|██████    | 26/43 [00:29<00:57,  3.36s/cell]Executing:  63%|██████▎   | 27/43 [00:33<00:52,  3.30s/cell]Executing:  65%|██████▌   | 28/43 [00:36<00:48,  3.26s/cell]Executing:  67%|██████▋   | 29/43 [00:39<00:44,  3.21s/cell]Executing:  70%|██████▉   | 30/43 [00:42<00:41,  3.19s/cell]Executing:  72%|███████▏  | 31/43 [00:45<00:38,  3.17s/cell]Executing:  74%|███████▍  | 32/43 [00:48<00:34,  3.16s/cell]Executing:  77%|███████▋  | 33/43 [00:51<00:31,  3.15s/cell]Executing:  79%|███████▉  | 34/43 [00:55<00:28,  3.18s/cell]Executing:  81%|████████▏ | 35/43 [00:58<00:25,  3.17s/cell]Executing:  84%|████████▎ | 36/43 [01:01<00:22,  3.17s/cell]Executing:  86%|████████▌ | 37/43 [01:04<00:18,  3.12s/cell]Executing:  88%|████████▊ | 38/43 [01:07<00:15,  3.14s/cell]Executing:  91%|█████████ | 39/43 [01:10<00:12,  3.13s/cell]Executing:  93%|█████████▎| 40/43 [01:13<00:09,  3.16s/cell]Executing:  95%|█████████▌| 41/43 [01:17<00:06,  3.15s/cell]Executing:  98%|█████████▊| 42/43 [01:20<00:03,  3.18s/cell]Executing: 100%|██████████| 43/43 [01:23<00:00,  3.17s/cell]Executing: 100%|██████████| 43/43 [01:24<00:00,  1.97s/cell]
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpt6_2r2rm'
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.09cell/s]Executing:   7%|▋         | 3/44 [00:01<00:27,  1.51cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.08cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.80cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.43cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.40cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.56cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:08,  3.54cell/s]Executing:  39%|███▊      | 17/44 [00:03<00:05,  4.57cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  5.79cell/s]Executing:  48%|████▊     | 21/44 [00:06<00:12,  1.79cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.45cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:34,  1.84s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:22,  1.31s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:14,  1.06cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.48cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  2.04cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.77cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.64cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.73cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  5.95cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.32cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.28cell/s]
  
 SCENARIO: scenario-comparison...
  
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174121 bytes to web-country-scen_.ipynb
 Input Notebook:  ./web-country-scen_.ipynb
 Output Notebook: ./web-country-scen_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp2vkgqzyg'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpzpqirxpq'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpniak15lr'
-Executing:   0%|          | 0/43 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   2%|▏         | 1/43 [00:00<00:40,  1.04cell/s]Executing:   7%|▋         | 3/43 [00:01<00:27,  1.44cell/s]Executing:  12%|█▏        | 5/43 [00:01<00:19,  1.98cell/s]Executing:  16%|█▋        | 7/43 [00:01<00:13,  2.68cell/s]Executing:  21%|██        | 9/43 [00:01<00:10,  3.35cell/s]Executing:  26%|██▌       | 11/43 [00:01<00:07,  4.38cell/s]Executing:  30%|███       | 13/43 [00:01<00:05,  5.59cell/s]Executing:  35%|███▍      | 15/43 [00:02<00:07,  3.82cell/s]Executing:  40%|███▉      | 17/43 [00:02<00:05,  4.94cell/s]Executing:  44%|████▍     | 19/43 [00:03<00:03,  6.18cell/s]2021-08-02 11:31:32.267510: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
-2021-08-02 11:31:32.267547: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-Executing:  49%|████▉     | 21/43 [00:05<00:10,  2.08cell/s]Executing:  53%|█████▎    | 23/43 [00:05<00:07,  2.83cell/s]Executing:  58%|█████▊    | 25/43 [00:07<00:09,  1.88cell/s]Executing:  60%|██████    | 26/43 [00:07<00:08,  2.03cell/s]Executing:  63%|██████▎   | 27/43 [00:08<00:07,  2.15cell/s]Executing:  65%|██████▌   | 28/43 [00:08<00:06,  2.27cell/s]Executing:  67%|██████▋   | 29/43 [00:09<00:05,  2.35cell/s]Executing:  70%|██████▉   | 30/43 [00:09<00:05,  2.41cell/s]Executing:  72%|███████▏  | 31/43 [00:09<00:05,  2.27cell/s]Executing:  74%|███████▍  | 32/43 [00:10<00:04,  2.35cell/s]Executing:  77%|███████▋  | 33/43 [00:10<00:04,  2.34cell/s]Executing:  79%|███████▉  | 34/43 [00:11<00:03,  2.39cell/s]Executing:  81%|████████▏ | 35/43 [00:11<00:03,  2.42cell/s]Executing:  84%|████████▎ | 36/43 [00:11<00:02,  2.44cell/s]Executing:  86%|████████▌ | 37/43 [00:12<00:02,  2.48cell/s]Executing:  88%|████████▊ | 38/43 [00:12<00:02,  2.49cell/s]Executing:  91%|█████████ | 39/43 [00:13<00:01,  2.49cell/s]Executing:  93%|█████████▎| 40/43 [00:13<00:01,  2.50cell/s]Executing:  95%|█████████▌| 41/43 [00:13<00:00,  2.51cell/s]Executing:  98%|█████████▊| 42/43 [00:14<00:00,  2.52cell/s]Executing: 100%|██████████| 43/43 [00:14<00:00,  2.52cell/s]Executing: 100%|██████████| 43/43 [00:16<00:00,  2.61cell/s]
- 
-RUNNING ANALYSIS FOR COUNTRY: USA...
- 
-Input Notebook:  ./web-run-sim_.ipynb
-Output Notebook: ./web-run-sim_.ipynb
-Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
-Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp6dsp0buw'
-Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
-Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp_i126fzb'
-Executing:   0%|          | 0/18 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   6%|▌         | 1/18 [00:00<00:14,  1.16cell/s]Executing:  28%|██▊       | 5/18 [00:00<00:07,  1.63cell/s]2021-08-02 11:31:48.455682: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
-2021-08-02 11:31:48.455718: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-Executing:  39%|███▉      | 7/18 [00:03<00:09,  1.15cell/s]Executing:  61%|██████    | 11/18 [00:04<00:04,  1.62cell/s]Executing:  67%|██████▋   | 12/18 [00:20<00:03,  1.62cell/s]Executing:  72%|███████▏  | 13/18 [00:55<00:40,  8.16s/cell]Executing:  78%|███████▊  | 14/18 [00:55<00:22,  5.74s/cell]Executing: 100%|██████████| 18/18 [00:55<00:00,  4.03s/cell]Executing: 100%|██████████| 18/18 [00:57<00:00,  3.18s/cell]
-[NbConvertApp] Converting notebook ./web-run-sim_.ipynb to html
-[NbConvertApp] Writing 569759 bytes to web-run-sim_.html
- 
-SCENARIO: high-vaccination-&-short-immunity...
- 
-Input Notebook:  ./web-country-scen_.ipynb
-Output Notebook: ./web-country-scen_.ipynb
-Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
-Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpe9npur95'
-Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
-Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmprk83g80x'
-Executing:   0%|          | 0/43 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   2%|▏         | 1/43 [00:00<00:39,  1.08cell/s]Executing:   7%|▋         | 3/43 [00:01<00:26,  1.49cell/s]Executing:  12%|█▏        | 5/43 [00:01<00:18,  2.05cell/s]Executing:  16%|█▋        | 7/43 [00:01<00:12,  2.77cell/s]Executing:  21%|██        | 9/43 [00:01<00:09,  3.45cell/s]Executing:  26%|██▌       | 11/43 [00:01<00:07,  4.51cell/s]Executing:  30%|███       | 13/43 [00:01<00:05,  5.75cell/s]Executing:  35%|███▍      | 15/43 [00:02<00:07,  3.89cell/s]Executing:  40%|███▉      | 17/43 [00:02<00:05,  5.02cell/s]Executing:  44%|████▍     | 19/43 [00:02<00:03,  6.30cell/s]2021-08-02 11:32:49.722865: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
-2021-08-02 11:32:49.722902: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-Executing:  49%|████▉     | 21/43 [00:05<00:10,  2.10cell/s]Executing:  53%|█████▎    | 23/43 [00:05<00:07,  2.85cell/s]Executing:  56%|█████▌    | 24/43 [00:20<00:06,  2.85cell/s]Executing:  58%|█████▊    | 25/43 [00:26<00:59,  3.33s/cell]Executing:  60%|██████    | 26/43 [00:29<00:55,  3.29s/cell]Executing:  63%|██████▎   | 27/43 [00:32<00:51,  3.20s/cell]Executing:  65%|██████▌   | 28/43 [00:35<00:47,  3.15s/cell]Executing:  67%|██████▋   | 29/43 [00:38<00:43,  3.09s/cell]Executing:  70%|██████▉   | 30/43 [00:41<00:39,  3.06s/cell]Executing:  72%|███████▏  | 31/43 [00:44<00:36,  3.03s/cell]Executing:  74%|███████▍  | 32/43 [00:47<00:33,  3.02s/cell]Executing:  77%|███████▋  | 33/43 [00:50<00:30,  3.01s/cell]Executing:  79%|███████▉  | 34/43 [00:53<00:27,  3.06s/cell]Executing:  81%|████████▏ | 35/43 [00:56<00:24,  3.04s/cell]Executing:  84%|████████▎ | 36/43 [00:59<00:21,  3.05s/cell]Executing:  86%|████████▌ | 37/43 [01:02<00:18,  3.01s/cell]Executing:  88%|████████▊ | 38/43 [01:05<00:15,  3.03s/cell]Executing:  91%|█████████ | 39/43 [01:08<00:12,  3.00s/cell]Executing:  93%|█████████▎| 40/43 [01:11<00:09,  3.04s/cell]Executing:  95%|█████████▌| 41/43 [01:14<00:06,  3.05s/cell]Executing:  98%|█████████▊| 42/43 [01:17<00:03,  3.06s/cell]Executing: 100%|██████████| 43/43 [01:20<00:00,  3.06s/cell]Executing: 100%|██████████| 43/43 [01:21<00:00,  1.90s/cell]
- 
-SCENARIO: scenario-comparison...
- 
-Input Notebook:  ./web-country-scen_.ipynb
-Output Notebook: ./web-country-scen_.ipynb
-Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
-Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpsdtbfhib'
-Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
-Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp6_v50kws'
-Executing:   0%|          | 0/43 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   2%|▏         | 1/43 [00:00<00:40,  1.05cell/s]Executing:   7%|▋         | 3/43 [00:01<00:27,  1.45cell/s]Executing:  12%|█▏        | 5/43 [00:01<00:19,  2.00cell/s]Executing:  16%|█▋        | 7/43 [00:01<00:13,  2.70cell/s]Executing:  21%|██        | 9/43 [00:01<00:10,  3.37cell/s]Executing:  26%|██▌       | 11/43 [00:01<00:07,  4.40cell/s]Executing:  30%|███       | 13/43 [00:01<00:05,  5.61cell/s]Executing:  35%|███▍      | 15/43 [00:02<00:07,  3.87cell/s]Executing:  40%|███▉      | 17/43 [00:02<00:05,  5.01cell/s]Executing:  44%|████▍     | 19/43 [00:02<00:03,  6.32cell/s]2021-08-02 11:34:17.122054: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
-2021-08-02 11:34:17.122091: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-Executing:  49%|████▉     | 21/43 [00:05<00:10,  2.08cell/s]Executing:  53%|█████▎    | 23/43 [00:05<00:07,  2.82cell/s]Executing:  58%|█████▊    | 25/43 [00:07<00:09,  1.88cell/s]Executing:  60%|██████    | 26/43 [00:07<00:08,  2.00cell/s]Executing:  63%|██████▎   | 27/43 [00:08<00:07,  2.14cell/s]Executing:  65%|██████▌   | 28/43 [00:08<00:06,  2.25cell/s]Executing:  67%|██████▋   | 29/43 [00:09<00:05,  2.34cell/s]Executing:  70%|██████▉   | 30/43 [00:09<00:05,  2.40cell/s]Executing:  72%|███████▏  | 31/43 [00:09<00:04,  2.46cell/s]Executing:  74%|███████▍  | 32/43 [00:10<00:04,  2.42cell/s]Executing:  77%|███████▋  | 33/43 [00:10<00:04,  2.42cell/s]Executing:  79%|███████▉  | 34/43 [00:11<00:03,  2.45cell/s]Executing:  81%|████████▏ | 35/43 [00:11<00:03,  2.46cell/s]Executing:  84%|████████▎ | 36/43 [00:11<00:02,  2.47cell/s]Executing:  86%|████████▌ | 37/43 [00:12<00:02,  2.47cell/s]Executing:  88%|████████▊ | 38/43 [00:12<00:02,  2.47cell/s]Executing:  91%|█████████ | 39/43 [00:13<00:01,  2.49cell/s]Executing:  93%|█████████▎| 40/43 [00:13<00:01,  2.43cell/s]Executing:  95%|█████████▌| 41/43 [00:13<00:00,  2.46cell/s]Executing:  98%|█████████▊| 42/43 [00:14<00:00,  2.49cell/s]Executing: 100%|██████████| 43/43 [00:14<00:00,  2.51cell/s]Executing: 100%|██████████| 43/43 [00:16<00:00,  2.61cell/s]
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpudf1y7kb'
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:01<00:50,  1.16s/cell]Executing:   7%|▋         | 3/44 [00:01<00:34,  1.19cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:23,  1.63cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:16,  2.21cell/s]Executing:  18%|█▊        | 8/44 [00:01<00:13,  2.68cell/s]Executing:  23%|██▎       | 10/44 [00:01<00:09,  3.56cell/s]Executing:  27%|██▋       | 12/44 [00:02<00:06,  4.60cell/s]Executing:  32%|███▏      | 14/44 [00:03<00:09,  3.07cell/s]Executing:  36%|███▋      | 16/44 [00:03<00:07,  3.92cell/s]Executing:  41%|████      | 18/44 [00:03<00:05,  5.03cell/s]Executing:  45%|████▌     | 20/44 [00:06<00:14,  1.65cell/s]Executing:  50%|█████     | 22/44 [00:06<00:09,  2.26cell/s]Executing:  55%|█████▍    | 24/44 [00:06<00:06,  3.03cell/s]Executing:  59%|█████▉    | 26/44 [00:08<00:08,  2.12cell/s]Executing:  64%|██████▎   | 28/44 [00:08<00:05,  2.85cell/s]Executing:  68%|██████▊   | 30/44 [00:08<00:03,  3.78cell/s]Executing:  73%|███████▎  | 32/44 [00:08<00:02,  4.94cell/s]Executing:  77%|███████▋  | 34/44 [00:09<00:01,  6.21cell/s]Executing:  82%|████████▏ | 36/44 [00:09<00:01,  7.49cell/s]Executing:  86%|████████▋ | 38/44 [00:09<00:00,  8.85cell/s]Executing:  91%|█████████ | 40/44 [00:09<00:00, 10.09cell/s]Executing:  95%|█████████▌| 42/44 [00:09<00:00, 11.23cell/s]Executing: 100%|██████████| 44/44 [00:09<00:00, 12.57cell/s]Executing: 100%|██████████| 44/44 [00:11<00:00,  3.88cell/s]
  
 CREATING COUNTRY COMPARISONS...
  
+[NbConvertApp] Converting notebook ./web-country-comp_.ipynb to notebook
+[NbConvertApp] Writing 70887 bytes to web-country-comp_.ipynb
 Input Notebook:  ./web-country-comp_.ipynb
 Output Notebook: ./web-country-comp_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmph961qp7m'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpumuv9b8p'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmphntb7_kh'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpsqnvuloo'
 Executing:   0%|          | 0/42 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   2%|▏         | 1/42 [00:00<00:37,  1.10cell/s]Executing:   7%|▋         | 3/42 [00:01<00:25,  1.53cell/s]Executing:  12%|█▏        | 5/42 [00:01<00:17,  2.11cell/s]Executing:  14%|█▍        | 6/42 [00:01<00:13,  2.61cell/s]Executing:  19%|█▉        | 8/42 [00:01<00:09,  3.51cell/s]Executing:  26%|██▌       | 11/42 [00:01<00:06,  4.66cell/s]Executing:  31%|███       | 13/42 [00:02<00:10,  2.86cell/s]Executing:  36%|███▌      | 15/42 [00:03<00:08,  3.31cell/s]Executing:  38%|███▊      | 16/42 [00:03<00:07,  3.70cell/s]Executing:  40%|████      | 17/42 [00:03<00:06,  4.07cell/s]Executing:  43%|████▎     | 18/42 [00:03<00:05,  4.39cell/s]Executing:  45%|████▌     | 19/42 [00:04<00:05,  4.59cell/s]Executing:  48%|████▊     | 20/42 [00:04<00:04,  4.75cell/s]Executing:  50%|█████     | 21/42 [00:04<00:04,  4.86cell/s]2021-08-02 11:34:36.585186: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
-2021-08-02 11:34:36.585225: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-Executing:  52%|█████▏    | 22/42 [00:07<00:18,  1.08cell/s]Executing:  55%|█████▍    | 23/42 [00:07<00:13,  1.42cell/s]Executing:  57%|█████▋    | 24/42 [00:07<00:09,  1.82cell/s]Executing:  60%|█████▉    | 25/42 [00:07<00:07,  2.27cell/s]Executing:  62%|██████▏   | 26/42 [00:12<00:26,  1.64s/cell]Executing:  64%|██████▍   | 27/42 [00:12<00:21,  1.40s/cell]Executing:  67%|██████▋   | 28/42 [00:13<00:17,  1.24s/cell]Executing:  69%|██████▉   | 29/42 [00:14<00:15,  1.15s/cell]Executing:  71%|███████▏  | 30/42 [00:15<00:12,  1.06s/cell]Executing:  74%|███████▍  | 31/42 [00:16<00:10,  1.01cell/s]Executing:  76%|███████▌  | 32/42 [00:17<00:09,  1.05cell/s]Executing:  79%|███████▊  | 33/42 [00:18<00:08,  1.10cell/s]Executing:  81%|████████  | 34/42 [00:18<00:07,  1.10cell/s]Executing:  83%|████████▎ | 35/42 [00:19<00:06,  1.13cell/s]Executing:  86%|████████▌ | 36/42 [00:20<00:05,  1.14cell/s]Executing:  88%|████████▊ | 37/42 [00:21<00:04,  1.13cell/s]Executing:  90%|█████████ | 38/42 [00:22<00:03,  1.14cell/s]Executing:  93%|█████████▎| 39/42 [00:23<00:02,  1.13cell/s]Executing:  95%|█████████▌| 40/42 [00:24<00:01,  1.14cell/s]Executing:  98%|█████████▊| 41/42 [00:24<00:00,  1.15cell/s]Executing: 100%|██████████| 42/42 [00:25<00:00,  1.14cell/s]Executing: 100%|██████████| 42/42 [00:27<00:00,  1.53cell/s]
+Executing:   2%|▏         | 1/42 [00:00<00:38,  1.08cell/s]Executing:   7%|▋         | 3/42 [00:01<00:25,  1.50cell/s]Executing:  12%|█▏        | 5/42 [00:01<00:17,  2.08cell/s]Executing:  17%|█▋        | 7/42 [00:01<00:12,  2.70cell/s]Executing:  21%|██▏       | 9/42 [00:01<00:09,  3.64cell/s]Executing:  26%|██▌       | 11/42 [00:01<00:06,  4.81cell/s]Executing:  31%|███       | 13/42 [00:02<00:10,  2.77cell/s]Executing:  36%|███▌      | 15/42 [00:03<00:08,  3.16cell/s]Executing:  38%|███▊      | 16/42 [00:03<00:07,  3.58cell/s]Executing:  40%|████      | 17/42 [00:03<00:06,  3.95cell/s]Executing:  43%|████▎     | 18/42 [00:03<00:05,  4.29cell/s]Executing:  45%|████▌     | 19/42 [00:04<00:05,  4.42cell/s]Executing:  48%|████▊     | 20/42 [00:04<00:04,  4.49cell/s]Executing:  50%|█████     | 21/42 [00:04<00:04,  4.70cell/s]Executing:  52%|█████▏    | 22/42 [00:07<00:21,  1.10s/cell]Executing:  55%|█████▍    | 23/42 [00:08<00:16,  1.19cell/s]Executing:  57%|█████▋    | 24/42 [00:08<00:11,  1.54cell/s]Executing:  60%|█████▉    | 25/42 [00:08<00:09,  1.72cell/s]Executing:  62%|██████▏   | 26/42 [00:10<00:15,  1.03cell/s]Executing:  64%|██████▍   | 27/42 [00:10<00:11,  1.35cell/s]Executing:  67%|██████▋   | 28/42 [00:10<00:08,  1.73cell/s]Executing:  69%|██████▉   | 29/42 [00:11<00:06,  2.13cell/s]Executing:  71%|███████▏  | 30/42 [00:11<00:04,  2.59cell/s]Executing:  74%|███████▍  | 31/42 [00:11<00:03,  3.07cell/s]Executing:  76%|███████▌  | 32/42 [00:11<00:02,  3.54cell/s]Executing:  79%|███████▊  | 33/42 [00:11<00:02,  3.92cell/s]Executing:  81%|████████  | 34/42 [00:12<00:01,  4.26cell/s]Executing:  83%|████████▎ | 35/42 [00:12<00:01,  4.55cell/s]Executing:  86%|████████▌ | 36/42 [00:12<00:01,  4.77cell/s]Executing:  88%|████████▊ | 37/42 [00:12<00:01,  4.96cell/s]Executing:  90%|█████████ | 38/42 [00:12<00:00,  5.08cell/s]Executing:  93%|█████████▎| 39/42 [00:13<00:00,  4.92cell/s]Executing:  95%|█████████▌| 40/42 [00:13<00:00,  4.99cell/s]Executing:  98%|█████████▊| 41/42 [00:13<00:00,  5.09cell/s]Executing: 100%|██████████| 42/42 [00:13<00:00,  5.04cell/s]Executing: 100%|██████████| 42/42 [00:15<00:00,  2.73cell/s]
  
 CREATING INDEX...
  
+[NbConvertApp] Converting notebook ./web-index_.ipynb to notebook
+[NbConvertApp] Writing 18423 bytes to web-index_.ipynb
 Input Notebook:  ./web-index_.ipynb
 Output Notebook: ./web-index_.ipynb
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/Grammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/Grammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp8gbzd5ly'
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmp80g3ghxt'
 Generating grammar tables from /home/jb/.local/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
 Writing grammar tables to /home/jb/.cache/black/20.8b1/PatternGrammar3.7.3.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpx3m1alno'
-Executing:   0%|          | 0/22 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   5%|▍         | 1/22 [00:00<00:18,  1.16cell/s]Executing:  18%|█▊        | 4/22 [00:00<00:11,  1.63cell/s]Executing:  32%|███▏      | 7/22 [00:01<00:06,  2.28cell/s]Executing:  45%|████▌     | 10/22 [00:01<00:03,  3.15cell/s]Executing:  64%|██████▎   | 14/22 [00:01<00:01,  4.33cell/s]Executing:  82%|████████▏ | 18/22 [00:01<00:00,  5.83cell/s]Executing: 100%|██████████| 22/22 [00:01<00:00,  7.73cell/s]Executing: 100%|██████████| 22/22 [00:01<00:00, 11.86cell/s]
-fatal: Unable to mark file docs/test/scenarios/AUT-high-vaccination-&-short-immunity.html
-fatal: Unable to mark file dumps/web/test/sim-USA.pickle
-fatal: Unable to mark file docs/test/scenarios/USA-high-vaccination-&-short-immunity.html
-fatal: Unable to mark file docs/test/scenarios/USA-scenario-comparison.html
+Writing failed: [Errno 2] No such file or directory: '/home/jb/.cache/black/20.8b1/tmpatq7a3p0'
+Executing:   0%|          | 0/23 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   4%|▍         | 1/23 [00:01<00:23,  1.08s/cell]Executing:  22%|██▏       | 5/23 [00:01<00:13,  1.31cell/s]Executing:  35%|███▍      | 8/23 [00:01<00:08,  1.83cell/s]Executing:  48%|████▊     | 11/23 [00:01<00:04,  2.52cell/s]Executing:  61%|██████    | 14/23 [00:01<00:02,  3.47cell/s]Executing:  74%|███████▍  | 17/23 [00:01<00:01,  4.69cell/s]Executing:  87%|████████▋ | 20/23 [00:01<00:00,  6.23cell/s]Executing: 100%|██████████| 23/23 [00:02<00:00, 10.51cell/s]
 [NbConvertApp] Converting notebook web-index_.ipynb to notebook
-[NbConvertApp] Writing 28941 bytes to web-index_.ipynb
+[NbConvertApp] Writing 29804 bytes to web-index_.ipynb
 [NbConvertApp] Converting notebook web-country-scen_.ipynb to notebook
-[NbConvertApp] Writing 165503 bytes to web-country-scen_.ipynb
+[NbConvertApp] Writing 174073 bytes to web-country-scen_.ipynb
  
 ############################################################################
 END OF ANALYSIS (WEB)
 ############################################################################
  
+Logfiles at ../docs/test/LOGFILE.html & ../docs/test/logfile.txt
  
-RUNTIME: 379 s (6 m)
+RUNTIME: 132 s (2 m)
  

@@ -54,3 +54,15 @@ and respective BibTeX entry:
   howpublished = {\url{https://github.com/joebud/covid-19-analyses}}
 }
 
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CTEQ2C7JBB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CTEQ2C7JBB');
+</script> 
+
