@@ -9712,4 +9712,868 @@ RUNNING ANALYSIS FOR COUNTRY: SAU...
 Input Notebook:  ./web-run-sim_.ipynb
 Output Notebook: ./web-run-sim_.ipynb
 Executing:   0%|          | 0/18 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   6%|▌         | 1/18 [00:00<00:14,  1.19cell/s]Executing:  33%|███▎      | 6/18 [00:00<00:07,  1.67cell/s]Executing:  44%|████▍     | 8/18 [00:04<00:08,  1.13cell/s]Executing:  67%|██████▋   | 12/18 [00:04<00:03,  1.53cell/s]
+Executing:   6%|▌         | 1/18 [00:00<00:14,  1.19cell/s]Executing:  33%|███▎      | 6/18 [00:00<00:07,  1.67cell/s]Executing:  44%|████▍     | 8/18 [00:04<00:08,  1.13cell/s]Executing:  67%|██████▋   | 12/18 [00:04<00:03,  1.53cell/s]Executing:  72%|███████▏  | 13/18 [11:51<17:43, 212.63s/cell]Executing:  78%|███████▊  | 14/18 [11:53<09:57, 149.41s/cell]Executing:  89%|████████▉ | 16/18 [11:53<03:29, 104.61s/cell]Executing: 100%|██████████| 18/18 [11:53<00:00, 73.25s/cell] Executing: 100%|██████████| 18/18 [11:55<00:00, 39.74s/cell]
+[NbConvertApp] Converting notebook ./web-run-sim_.ipynb to html
+[NbConvertApp] Writing 584678 bytes to web-run-sim_.html
+ 
+SCENARIO: high-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174078 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:41,  1.03cell/s]Executing:   7%|▋         | 3/44 [00:01<00:28,  1.43cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:19,  1.97cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.66cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.31cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.31cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.51cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:08,  3.50cell/s]Executing:  39%|███▊      | 17/44 [00:03<00:05,  4.56cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  5.79cell/s]Executing:  48%|████▊     | 21/44 [00:06<00:13,  1.71cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:09,  2.32cell/s]Executing:  57%|█████▋    | 25/44 [00:18<00:39,  2.10s/cell]Executing:  61%|██████▏   | 27/44 [00:18<00:25,  1.49s/cell]Executing:  66%|██████▌   | 29/44 [00:18<00:15,  1.06s/cell]Executing:  70%|███████   | 31/44 [00:18<00:09,  1.31cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:06,  1.81cell/s]Executing:  80%|███████▉  | 35/44 [00:19<00:03,  2.46cell/s]Executing:  84%|████████▍ | 37/44 [00:19<00:02,  3.28cell/s]Executing:  89%|████████▊ | 39/44 [00:19<00:01,  4.31cell/s]Executing:  93%|█████████▎| 41/44 [00:19<00:00,  5.47cell/s]Executing:  98%|█████████▊| 43/44 [00:19<00:00,  6.78cell/s]Executing: 100%|██████████| 44/44 [00:21<00:00,  2.07cell/s]
+ 
+SCENARIO: low-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174125 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.11cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.84cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.51cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.57cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.76cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.88cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  4.99cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.27cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.81cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.47cell/s]Executing:  57%|█████▋    | 25/44 [00:18<00:41,  2.18s/cell]Executing:  61%|██████▏   | 27/44 [00:18<00:26,  1.55s/cell]Executing:  66%|██████▌   | 29/44 [00:19<00:16,  1.11s/cell]Executing:  70%|███████   | 31/44 [00:19<00:10,  1.26cell/s]Executing:  75%|███████▌  | 33/44 [00:19<00:06,  1.73cell/s]Executing:  80%|███████▉  | 35/44 [00:19<00:03,  2.35cell/s]Executing:  84%|████████▍ | 37/44 [00:19<00:02,  3.10cell/s]Executing:  89%|████████▊ | 39/44 [00:19<00:01,  4.03cell/s]Executing:  93%|█████████▎| 41/44 [00:19<00:00,  5.10cell/s]Executing:  98%|█████████▊| 43/44 [00:20<00:00,  6.37cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.10cell/s]
+ 
+SCENARIO: no-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174117 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:27,  1.52cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.09cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.81cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.49cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.55cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.74cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:08,  3.59cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  4.67cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  5.91cell/s]Executing:  48%|████▊     | 21/44 [00:06<00:12,  1.79cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.46cell/s]Executing:  57%|█████▋    | 25/44 [00:18<00:40,  2.12s/cell]Executing:  61%|██████▏   | 27/44 [00:18<00:25,  1.51s/cell]Executing:  64%|██████▎   | 28/44 [00:18<00:17,  1.09s/cell]Executing:  66%|██████▌   | 29/44 [00:18<00:11,  1.26cell/s]Executing:  68%|██████▊   | 30/44 [00:18<00:08,  1.70cell/s]Executing:  73%|███████▎  | 32/44 [00:19<00:05,  2.32cell/s]Executing:  77%|███████▋  | 34/44 [00:19<00:03,  3.12cell/s]Executing:  82%|████████▏ | 36/44 [00:19<00:01,  4.10cell/s]Executing:  86%|████████▋ | 38/44 [00:19<00:01,  5.28cell/s]Executing:  91%|█████████ | 40/44 [00:19<00:00,  6.44cell/s]Executing:  95%|█████████▌| 42/44 [00:19<00:00,  7.65cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  8.80cell/s]Executing: 100%|██████████| 44/44 [00:21<00:00,  2.07cell/s]
+ 
+SCENARIO: high-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174118 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:40,  1.07cell/s]Executing:   7%|▋         | 3/44 [00:01<00:27,  1.49cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:19,  2.04cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.76cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.43cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.49cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.69cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:08,  3.62cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  4.65cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  5.85cell/s]Executing:  48%|████▊     | 21/44 [00:06<00:13,  1.74cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.38cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:38,  2.04s/cell]Executing:  61%|██████▏   | 27/44 [00:18<00:24,  1.45s/cell]Executing:  66%|██████▌   | 29/44 [00:18<00:15,  1.03s/cell]Executing:  70%|███████   | 31/44 [00:18<00:09,  1.35cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:05,  1.87cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.54cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.36cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.40cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.59cell/s]Executing:  98%|█████████▊| 43/44 [00:19<00:00,  6.94cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.21cell/s]
+ 
+SCENARIO: low-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174123 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.10cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.84cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.52cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.59cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.80cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.88cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.00cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.28cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.80cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.46cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:38,  2.03s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:24,  1.45s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:15,  1.03s/cell]Executing:  70%|███████   | 31/44 [00:18<00:09,  1.35cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:05,  1.87cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.54cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.36cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.41cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.60cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  6.94cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.17cell/s]
+ 
+SCENARIO: no-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174121 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:41,  1.05cell/s]Executing:   7%|▋         | 3/44 [00:01<00:28,  1.45cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:19,  1.99cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.68cell/s]Executing:  18%|█▊        | 8/44 [00:01<00:11,  3.08cell/s]Executing:  23%|██▎       | 10/44 [00:01<00:08,  4.01cell/s]Executing:  27%|██▋       | 12/44 [00:01<00:06,  5.12cell/s]Executing:  32%|███▏      | 14/44 [00:02<00:08,  3.66cell/s]Executing:  36%|███▋      | 16/44 [00:02<00:06,  4.62cell/s]Executing:  41%|████      | 18/44 [00:03<00:04,  5.66cell/s]Executing:  45%|████▌     | 20/44 [00:06<00:13,  1.76cell/s]Executing:  50%|█████     | 22/44 [00:06<00:09,  2.41cell/s]Executing:  55%|█████▍    | 24/44 [00:06<00:06,  3.24cell/s]Executing:  59%|█████▉    | 26/44 [00:18<00:35,  1.98s/cell]Executing:  64%|██████▎   | 28/44 [00:18<00:22,  1.41s/cell]Executing:  68%|██████▊   | 30/44 [00:18<00:14,  1.01s/cell]Executing:  73%|███████▎  | 32/44 [00:18<00:08,  1.37cell/s]Executing:  77%|███████▋  | 34/44 [00:18<00:05,  1.89cell/s]Executing:  82%|████████▏ | 36/44 [00:18<00:03,  2.56cell/s]Executing:  86%|████████▋ | 38/44 [00:18<00:01,  3.41cell/s]Executing:  91%|█████████ | 40/44 [00:19<00:00,  4.43cell/s]Executing:  95%|█████████▌| 42/44 [00:19<00:00,  5.61cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  7.02cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.18cell/s]
+ 
+SCENARIO: high-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174120 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:01<00:48,  1.12s/cell]Executing:   7%|▋         | 3/44 [00:01<00:32,  1.24cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:22,  1.72cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:15,  2.34cell/s]Executing:  20%|██        | 9/44 [00:01<00:11,  2.92cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:08,  3.83cell/s]Executing:  30%|██▉       | 13/44 [00:02<00:06,  4.89cell/s]Executing:  34%|███▍      | 15/44 [00:03<00:08,  3.51cell/s]Executing:  39%|███▊      | 17/44 [00:03<00:05,  4.54cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  5.66cell/s]Executing:  48%|████▊     | 21/44 [00:06<00:13,  1.74cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.38cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:36,  1.94s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:23,  1.38s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:14,  1.01cell/s]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.41cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  1.95cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.64cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.50cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.55cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.76cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  7.12cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.17cell/s]
+ 
+SCENARIO: low-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174126 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.09cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.82cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.44cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.49cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.69cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:08,  3.54cell/s]Executing:  39%|███▊      | 17/44 [00:03<00:05,  4.59cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  5.82cell/s]Executing:  48%|████▊     | 21/44 [00:06<00:13,  1.76cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.41cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:35,  1.88s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:22,  1.34s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:14,  1.05cell/s]Executing:  70%|███████   | 31/44 [00:17<00:08,  1.45cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  2.01cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.72cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.59cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.67cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  5.87cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  7.25cell/s]Executing: 100%|██████████| 44/44 [00:18<00:00,  2.33cell/s]
+ 
+SCENARIO: no-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174122 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.10cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.82cell/s]Executing:  18%|█▊        | 8/44 [00:01<00:11,  3.26cell/s]Executing:  23%|██▎       | 10/44 [00:01<00:07,  4.27cell/s]Executing:  27%|██▋       | 12/44 [00:01<00:05,  5.46cell/s]Executing:  32%|███▏      | 14/44 [00:02<00:07,  3.76cell/s]Executing:  36%|███▋      | 16/44 [00:02<00:05,  4.86cell/s]Executing:  41%|████      | 18/44 [00:02<00:04,  6.10cell/s]Executing:  45%|████▌     | 20/44 [00:05<00:13,  1.85cell/s]Executing:  50%|█████     | 22/44 [00:05<00:08,  2.52cell/s]Executing:  55%|█████▍    | 24/44 [00:06<00:05,  3.37cell/s]Executing:  59%|█████▉    | 26/44 [00:16<00:32,  1.81s/cell]Executing:  64%|██████▎   | 28/44 [00:16<00:20,  1.29s/cell]Executing:  68%|██████▊   | 30/44 [00:17<00:12,  1.08cell/s]Executing:  73%|███████▎  | 32/44 [00:17<00:07,  1.51cell/s]Executing:  77%|███████▋  | 34/44 [00:17<00:04,  2.07cell/s]Executing:  82%|████████▏ | 36/44 [00:17<00:02,  2.79cell/s]Executing:  86%|████████▋ | 38/44 [00:17<00:01,  3.68cell/s]Executing:  91%|█████████ | 40/44 [00:17<00:00,  4.74cell/s]Executing:  95%|█████████▌| 42/44 [00:17<00:00,  5.98cell/s]Executing: 100%|██████████| 44/44 [00:17<00:00,  7.41cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.28cell/s]
+ 
+SCENARIO: high-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174121 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:41,  1.04cell/s]Executing:   7%|▋         | 3/44 [00:01<00:28,  1.45cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:19,  1.99cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.69cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.36cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.39cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.58cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.79cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  4.89cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  6.18cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.85cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.52cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:34,  1.83s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:22,  1.30s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.07cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.49cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.06cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.78cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.67cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.78cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  5.97cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.38cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.28cell/s]
+ 
+SCENARIO: low-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174126 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.52cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.09cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.82cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.48cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.53cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.77cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.89cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.02cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.31cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.82cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.49cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:35,  1.89s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:22,  1.34s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:14,  1.04cell/s]Executing:  70%|███████   | 31/44 [00:17<00:08,  1.45cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  2.00cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.71cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.58cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.65cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  5.82cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.21cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.28cell/s]
+ 
+SCENARIO: no-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174120 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:01<00:47,  1.10s/cell]Executing:   7%|▋         | 3/44 [00:01<00:32,  1.27cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:22,  1.74cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:15,  2.36cell/s]Executing:  18%|█▊        | 8/44 [00:01<00:12,  2.81cell/s]Executing:  23%|██▎       | 10/44 [00:01<00:09,  3.73cell/s]Executing:  27%|██▋       | 12/44 [00:01<00:06,  4.81cell/s]Executing:  32%|███▏      | 14/44 [00:02<00:08,  3.38cell/s]Executing:  36%|███▋      | 16/44 [00:03<00:06,  4.40cell/s]Executing:  41%|████      | 18/44 [00:03<00:04,  5.61cell/s]Executing:  45%|████▌     | 20/44 [00:06<00:13,  1.76cell/s]Executing:  50%|█████     | 22/44 [00:06<00:09,  2.40cell/s]Executing:  55%|█████▍    | 24/44 [00:06<00:06,  3.23cell/s]Executing:  59%|█████▉    | 26/44 [00:17<00:32,  1.83s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:22,  1.31s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:14,  1.07cell/s]Executing:  70%|███████   | 31/44 [00:17<00:08,  1.48cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  2.04cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.77cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.65cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.73cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.96cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  7.35cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.29cell/s]
+ 
+SCENARIO: scenario-comparison...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174119 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:01<00:48,  1.12s/cell]Executing:   7%|▋         | 3/44 [00:01<00:33,  1.24cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:22,  1.71cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:15,  2.34cell/s]Executing:  20%|██        | 9/44 [00:01<00:11,  2.97cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:08,  3.90cell/s]Executing:  30%|██▉       | 13/44 [00:02<00:06,  4.93cell/s]Executing:  34%|███▍      | 15/44 [00:03<00:08,  3.51cell/s]Executing:  39%|███▊      | 17/44 [00:03<00:05,  4.52cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  5.67cell/s]Executing:  48%|████▊     | 21/44 [00:06<00:13,  1.67cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:09,  2.29cell/s]Executing:  57%|█████▋    | 25/44 [00:13<00:26,  1.40s/cell]Executing:  61%|██████▏   | 27/44 [00:14<00:17,  1.01s/cell]Executing:  66%|██████▌   | 29/44 [00:14<00:10,  1.38cell/s]Executing:  70%|███████   | 31/44 [00:14<00:06,  1.91cell/s]Executing:  75%|███████▌  | 33/44 [00:14<00:04,  2.61cell/s]Executing:  80%|███████▉  | 35/44 [00:14<00:02,  3.48cell/s]Executing:  84%|████████▍ | 37/44 [00:14<00:01,  4.51cell/s]Executing:  89%|████████▊ | 39/44 [00:14<00:00,  5.72cell/s]Executing:  93%|█████████▎| 41/44 [00:14<00:00,  7.00cell/s]Executing:  98%|█████████▊| 43/44 [00:15<00:00,  8.46cell/s]Executing: 100%|██████████| 44/44 [00:15<00:00,  2.76cell/s]
+ 
+RUNNING ANALYSIS FOR COUNTRY: SGP...
+ 
+[NbConvertApp] Converting notebook ./web-run-sim_.ipynb to notebook
+[NbConvertApp] Writing 14635 bytes to web-run-sim_.ipynb
+Input Notebook:  ./web-run-sim_.ipynb
+Output Notebook: ./web-run-sim_.ipynb
+Executing:   0%|          | 0/18 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   6%|▌         | 1/18 [00:00<00:14,  1.15cell/s]Executing:  28%|██▊       | 5/18 [00:00<00:08,  1.62cell/s]Executing:  39%|███▉      | 7/18 [00:04<00:09,  1.11cell/s]Executing:  61%|██████    | 11/18 [00:04<00:04,  1.57cell/s]Executing:  67%|██████▋   | 12/18 [00:20<00:03,  1.57cell/s]Executing:  72%|███████▏  | 13/18 [11:13<08:24, 100.81s/cell]Executing:  78%|███████▊  | 14/18 [11:15<04:44, 71.12s/cell] Executing:  89%|████████▉ | 16/18 [11:15<01:39, 49.81s/cell]Executing: 100%|██████████| 18/18 [11:16<00:00, 37.57s/cell]
+[NbConvertApp] Converting notebook ./web-run-sim_.ipynb to html
+[NbConvertApp] Writing 577649 bytes to web-run-sim_.html
+ 
+SCENARIO: high-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174075 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.12cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.86cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.54cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.62cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.83cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.94cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.06cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.36cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.82cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.50cell/s]Executing:  57%|█████▋    | 25/44 [00:18<00:39,  2.09s/cell]Executing:  61%|██████▏   | 27/44 [00:18<00:25,  1.49s/cell]Executing:  66%|██████▌   | 29/44 [00:18<00:15,  1.06s/cell]Executing:  70%|███████   | 31/44 [00:18<00:09,  1.32cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:06,  1.83cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.49cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.31cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.34cell/s]Executing:  93%|█████████▎| 41/44 [00:19<00:00,  5.54cell/s]Executing:  98%|█████████▊| 43/44 [00:19<00:00,  6.92cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.19cell/s]
+ 
+SCENARIO: low-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174126 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.12cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.86cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.54cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.62cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.84cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.94cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.06cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.36cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.86cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.53cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:37,  1.99s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:24,  1.42s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:15,  1.01s/cell]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.38cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  1.90cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.58cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.42cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.47cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.67cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  7.05cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.17cell/s]
+ 
+SCENARIO: no-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174123 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.11cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.84cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.52cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.57cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.78cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.88cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.00cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.28cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.86cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.54cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:38,  2.01s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:24,  1.43s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:15,  1.02s/cell]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.37cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  1.89cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.56cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.40cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.45cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.63cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  6.98cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.17cell/s]
+ 
+SCENARIO: high-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174120 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.12cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.55cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.13cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.87cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.55cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.63cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.87cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.93cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.07cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.35cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.85cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.52cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:38,  2.01s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:24,  1.43s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:15,  1.02s/cell]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.37cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  1.89cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.56cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.40cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.45cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.64cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  6.98cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.17cell/s]
+ 
+SCENARIO: low-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174125 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.10cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.83cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.50cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.56cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.76cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.88cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.01cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.29cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.85cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.53cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:38,  2.01s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:24,  1.43s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:15,  1.02s/cell]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.37cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:05,  1.89cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.56cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.39cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.43cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.61cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  6.96cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.17cell/s]
+ 
+SCENARIO: no-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174118 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.10cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.83cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.51cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.57cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.79cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.90cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.03cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.32cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.87cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.55cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:38,  2.02s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:24,  1.44s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:15,  1.03s/cell]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.36cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:05,  1.88cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.55cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.38cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.42cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.61cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  6.97cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.17cell/s]
+ 
+SCENARIO: high-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174118 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.08cell/s]Executing:   7%|▋         | 3/44 [00:01<00:27,  1.50cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.06cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.78cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.46cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.50cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.73cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.86cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  4.98cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:04,  6.25cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.82cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.49cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:34,  1.84s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:22,  1.31s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:14,  1.07cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.49cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.05cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.77cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.64cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.74cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  5.95cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.32cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.28cell/s]
+ 
+SCENARIO: low-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174129 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.52cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.09cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.79cell/s]Executing:  18%|█▊        | 8/44 [00:01<00:11,  3.21cell/s]Executing:  23%|██▎       | 10/44 [00:01<00:08,  4.22cell/s]Executing:  27%|██▋       | 12/44 [00:01<00:05,  5.38cell/s]Executing:  32%|███▏      | 14/44 [00:02<00:08,  3.73cell/s]Executing:  36%|███▋      | 16/44 [00:02<00:05,  4.81cell/s]Executing:  41%|████      | 18/44 [00:02<00:04,  6.04cell/s]Executing:  45%|████▌     | 20/44 [00:05<00:13,  1.82cell/s]Executing:  50%|█████     | 22/44 [00:05<00:08,  2.47cell/s]Executing:  55%|█████▍    | 24/44 [00:06<00:06,  3.33cell/s]Executing:  59%|█████▉    | 26/44 [00:16<00:31,  1.77s/cell]Executing:  64%|██████▎   | 28/44 [00:16<00:20,  1.27s/cell]Executing:  68%|██████▊   | 30/44 [00:16<00:12,  1.11cell/s]Executing:  73%|███████▎  | 32/44 [00:16<00:07,  1.54cell/s]Executing:  77%|███████▋  | 34/44 [00:17<00:04,  2.11cell/s]Executing:  82%|████████▏ | 36/44 [00:17<00:02,  2.83cell/s]Executing:  86%|████████▋ | 38/44 [00:17<00:01,  3.74cell/s]Executing:  91%|█████████ | 40/44 [00:17<00:00,  4.81cell/s]Executing:  95%|█████████▌| 42/44 [00:17<00:00,  6.03cell/s]Executing: 100%|██████████| 44/44 [00:17<00:00,  7.45cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.28cell/s]
+ 
+SCENARIO: no-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174121 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.52cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.09cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.82cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.50cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.56cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.76cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.86cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  4.98cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:04,  6.24cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.82cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.48cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:35,  1.85s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:22,  1.32s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:14,  1.06cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.48cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  2.04cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.75cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.63cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.73cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  5.96cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.32cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.28cell/s]
+ 
+SCENARIO: high-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174119 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.12cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.55cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.13cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.87cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.55cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.62cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.80cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.89cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.02cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.30cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.85cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.53cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:34,  1.82s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:22,  1.30s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.08cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.50cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.06cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.79cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.67cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.76cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  5.99cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.38cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.28cell/s]
+ 
+SCENARIO: low-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174120 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.12cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.55cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.12cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.86cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.55cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.62cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.84cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.93cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.06cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.37cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.87cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.55cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:34,  1.82s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:22,  1.30s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.08cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.50cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.06cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.79cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.68cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.78cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  6.00cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.41cell/s]Executing: 100%|██████████| 44/44 [00:18<00:00,  2.41cell/s]
+ 
+SCENARIO: no-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174122 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.52cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.10cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.83cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.51cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.56cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.79cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.90cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.04cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.33cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.85cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.52cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:34,  1.83s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:22,  1.30s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.07cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.50cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.06cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.79cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.68cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.77cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  5.99cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.39cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.28cell/s]
+ 
+SCENARIO: scenario-comparison...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174119 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.12cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.55cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.12cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.86cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.51cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.58cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.79cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.89cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.02cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.30cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.86cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.54cell/s]Executing:  57%|█████▋    | 25/44 [00:12<00:24,  1.31s/cell]Executing:  61%|██████▏   | 27/44 [00:12<00:16,  1.06cell/s]Executing:  66%|██████▌   | 29/44 [00:13<00:10,  1.48cell/s]Executing:  70%|███████   | 31/44 [00:13<00:06,  2.03cell/s]Executing:  75%|███████▌  | 33/44 [00:13<00:03,  2.77cell/s]Executing:  80%|███████▉  | 35/44 [00:13<00:02,  3.66cell/s]Executing:  84%|████████▍ | 37/44 [00:13<00:01,  4.71cell/s]Executing:  89%|████████▊ | 39/44 [00:13<00:00,  5.97cell/s]Executing:  93%|█████████▎| 41/44 [00:13<00:00,  7.27cell/s]Executing:  98%|█████████▊| 43/44 [00:14<00:00,  8.70cell/s]Executing: 100%|██████████| 44/44 [00:14<00:00,  2.96cell/s]
+ 
+RUNNING ANALYSIS FOR COUNTRY: ZAF...
+ 
+[NbConvertApp] Converting notebook ./web-run-sim_.ipynb to notebook
+[NbConvertApp] Writing 14634 bytes to web-run-sim_.ipynb
+Input Notebook:  ./web-run-sim_.ipynb
+Output Notebook: ./web-run-sim_.ipynb
+Executing:   0%|          | 0/18 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   6%|▌         | 1/18 [00:00<00:14,  1.14cell/s]Executing:  28%|██▊       | 5/18 [00:00<00:08,  1.61cell/s]Executing:  39%|███▉      | 7/18 [00:04<00:09,  1.11cell/s]Executing:  61%|██████    | 11/18 [00:04<00:04,  1.57cell/s]Executing:  67%|██████▋   | 12/18 [00:19<00:03,  1.57cell/s]Executing:  72%|███████▏  | 13/18 [11:05<08:18, 99.65s/cell]Executing:  78%|███████▊  | 14/18 [11:07<04:41, 70.29s/cell]Executing:  89%|████████▉ | 16/18 [11:07<01:38, 49.22s/cell]Executing: 100%|██████████| 18/18 [11:08<00:00, 37.13s/cell]
+[NbConvertApp] Converting notebook ./web-run-sim_.ipynb to html
+[NbConvertApp] Writing 575160 bytes to web-run-sim_.html
+ 
+SCENARIO: high-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174078 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.10cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.83cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.50cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.57cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.79cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.88cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.00cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:04,  6.25cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.85cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.53cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:38,  2.04s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:24,  1.45s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:15,  1.03s/cell]Executing:  70%|███████   | 31/44 [00:18<00:09,  1.34cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:05,  1.84cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.48cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.26cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.24cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.34cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  6.59cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.19cell/s]
+ 
+SCENARIO: low-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174124 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:27,  1.52cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.09cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.82cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.51cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.57cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.81cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.79cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  4.90cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  6.17cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.86cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.53cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:38,  2.00s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:24,  1.42s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:15,  1.01s/cell]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.37cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  1.90cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.57cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.41cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.45cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.63cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  6.99cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.17cell/s]
+ 
+SCENARIO: no-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174125 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.12cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.86cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.55cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.62cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.81cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.92cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.05cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.32cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.80cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.46cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:38,  2.03s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:24,  1.44s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:15,  1.03s/cell]Executing:  70%|███████   | 31/44 [00:18<00:09,  1.36cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:05,  1.87cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.54cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.37cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.41cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.60cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  6.93cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.17cell/s]
+ 
+SCENARIO: high-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174122 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.12cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.85cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.53cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.59cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.79cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.90cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.04cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.32cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.86cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.54cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:38,  2.00s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:24,  1.42s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:15,  1.02s/cell]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.36cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  1.88cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.55cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.38cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.43cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.60cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  6.93cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.17cell/s]
+ 
+SCENARIO: low-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174123 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.11cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.84cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.51cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.57cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.79cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.90cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.03cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.31cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.86cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.54cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:37,  1.99s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:24,  1.42s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:15,  1.01s/cell]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.38cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  1.90cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.58cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.43cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.48cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.68cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  7.03cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.17cell/s]
+ 
+SCENARIO: no-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174123 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.09cell/s]Executing:   7%|▋         | 3/44 [00:01<00:27,  1.52cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.08cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.81cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.47cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.53cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.75cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.87cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  4.99cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.26cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.86cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.54cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:39,  2.06s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:24,  1.46s/cell]Executing:  66%|██████▌   | 29/44 [00:18<00:15,  1.04s/cell]Executing:  70%|███████   | 31/44 [00:18<00:09,  1.34cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:05,  1.85cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.51cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.33cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.36cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.53cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  6.87cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.21cell/s]
+ 
+SCENARIO: high-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174118 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.12cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.55cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.13cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.88cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.56cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.62cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.86cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.93cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.06cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.36cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.86cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.55cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:34,  1.83s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:22,  1.31s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.07cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.49cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.05cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.78cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.67cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.77cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  5.99cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.41cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.29cell/s]
+ 
+SCENARIO: low-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174124 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.11cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.85cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.52cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.59cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.82cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.89cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.03cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.33cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.86cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.54cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:34,  1.82s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:22,  1.30s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.08cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.50cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.07cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.79cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.68cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.78cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  6.01cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.42cell/s]Executing: 100%|██████████| 44/44 [00:18<00:00,  2.41cell/s]
+ 
+SCENARIO: no-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174120 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.09cell/s]Executing:   7%|▋         | 3/44 [00:01<00:27,  1.51cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.07cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.80cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.47cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.53cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.76cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.88cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.03cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.32cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.86cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.54cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:34,  1.80s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:21,  1.28s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.09cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.51cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.08cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.82cell/s]Executing:  84%|████████▍ | 37/44 [00:16<00:01,  3.71cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.82cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  6.03cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.43cell/s]Executing: 100%|██████████| 44/44 [00:18<00:00,  2.43cell/s]
+ 
+SCENARIO: high-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174120 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.11cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.84cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.50cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.56cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.79cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.91cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.04cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.32cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.83cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.50cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:34,  1.84s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:22,  1.31s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:14,  1.07cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.49cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.05cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.77cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.66cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.77cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  5.96cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.37cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.29cell/s]
+ 
+SCENARIO: low-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174124 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.12cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.85cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.52cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.58cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.79cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.91cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.05cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.35cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.84cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.52cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:35,  1.85s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:22,  1.32s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:14,  1.06cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.48cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.04cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.75cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.61cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.68cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  5.89cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.28cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.29cell/s]
+ 
+SCENARIO: no-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174125 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.52cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.09cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.82cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.50cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.56cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.79cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.90cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.03cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.32cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.86cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.49cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:34,  1.81s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:21,  1.29s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.08cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.50cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.07cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.80cell/s]Executing:  84%|████████▍ | 37/44 [00:16<00:01,  3.69cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.76cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  5.97cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.36cell/s]Executing: 100%|██████████| 44/44 [00:18<00:00,  2.41cell/s]
+ 
+SCENARIO: scenario-comparison...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174117 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.11cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.85cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.53cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.59cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.83cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.92cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.05cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.30cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.84cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.52cell/s]Executing:  57%|█████▋    | 25/44 [00:12<00:24,  1.31s/cell]Executing:  61%|██████▏   | 27/44 [00:12<00:16,  1.06cell/s]Executing:  66%|██████▌   | 29/44 [00:13<00:10,  1.47cell/s]Executing:  70%|███████   | 31/44 [00:13<00:06,  2.03cell/s]Executing:  75%|███████▌  | 33/44 [00:13<00:03,  2.77cell/s]Executing:  80%|███████▉  | 35/44 [00:13<00:02,  3.67cell/s]Executing:  84%|████████▍ | 37/44 [00:13<00:01,  4.73cell/s]Executing:  89%|████████▊ | 39/44 [00:13<00:00,  6.00cell/s]Executing:  93%|█████████▎| 41/44 [00:13<00:00,  7.33cell/s]Executing:  98%|█████████▊| 43/44 [00:13<00:00,  8.77cell/s]Executing: 100%|██████████| 44/44 [00:14<00:00,  2.96cell/s]
+ 
+RUNNING ANALYSIS FOR COUNTRY: ARG...
+ 
+[NbConvertApp] Converting notebook ./web-run-sim_.ipynb to notebook
+[NbConvertApp] Writing 14636 bytes to web-run-sim_.ipynb
+Input Notebook:  ./web-run-sim_.ipynb
+Output Notebook: ./web-run-sim_.ipynb
+Executing:   0%|          | 0/18 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   6%|▌         | 1/18 [00:00<00:14,  1.17cell/s]Executing:  28%|██▊       | 5/18 [00:00<00:07,  1.65cell/s]Executing:  39%|███▉      | 7/18 [00:04<00:09,  1.12cell/s]Executing:  61%|██████    | 11/18 [00:04<00:04,  1.58cell/s]Executing:  67%|██████▋   | 12/18 [00:20<00:03,  1.58cell/s]Executing:  72%|███████▏  | 13/18 [12:49<09:36, 115.31s/cell]Executing:  78%|███████▊  | 14/18 [12:51<05:24, 81.23s/cell] Executing:  89%|████████▉ | 16/18 [12:51<01:53, 56.88s/cell]Executing: 100%|██████████| 18/18 [12:53<00:00, 42.97s/cell]
+[NbConvertApp] Converting notebook ./web-run-sim_.ipynb to html
+[NbConvertApp] Writing 575151 bytes to web-run-sim_.html
+ 
+SCENARIO: high-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174076 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.52cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.09cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.81cell/s]Executing:  18%|█▊        | 8/44 [00:01<00:10,  3.28cell/s]Executing:  23%|██▎       | 10/44 [00:01<00:07,  4.29cell/s]Executing:  27%|██▋       | 12/44 [00:01<00:05,  5.47cell/s]Executing:  32%|███▏      | 14/44 [00:02<00:08,  3.74cell/s]Executing:  36%|███▋      | 16/44 [00:02<00:05,  4.81cell/s]Executing:  41%|████      | 18/44 [00:02<00:04,  5.92cell/s]Executing:  45%|████▌     | 20/44 [00:05<00:13,  1.78cell/s]Executing:  50%|█████     | 22/44 [00:06<00:09,  2.42cell/s]Executing:  55%|█████▍    | 24/44 [00:06<00:06,  3.25cell/s]Executing:  59%|█████▉    | 26/44 [00:18<00:36,  2.01s/cell]Executing:  64%|██████▎   | 28/44 [00:18<00:22,  1.43s/cell]Executing:  68%|██████▊   | 30/44 [00:18<00:14,  1.02s/cell]Executing:  73%|███████▎  | 32/44 [00:18<00:08,  1.37cell/s]Executing:  77%|███████▋  | 34/44 [00:18<00:05,  1.88cell/s]Executing:  82%|████████▏ | 36/44 [00:18<00:03,  2.55cell/s]Executing:  86%|████████▋ | 38/44 [00:18<00:01,  3.41cell/s]Executing:  91%|█████████ | 40/44 [00:19<00:00,  4.39cell/s]Executing:  95%|█████████▌| 42/44 [00:19<00:00,  5.48cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  6.83cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.18cell/s]
+ 
+SCENARIO: low-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174126 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.08cell/s]Executing:   7%|▋         | 3/44 [00:01<00:27,  1.48cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:19,  2.03cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.74cell/s]Executing:  18%|█▊        | 8/44 [00:01<00:11,  3.20cell/s]Executing:  23%|██▎       | 10/44 [00:01<00:08,  4.20cell/s]Executing:  27%|██▋       | 12/44 [00:01<00:06,  5.25cell/s]Executing:  32%|███▏      | 14/44 [00:02<00:08,  3.60cell/s]Executing:  36%|███▋      | 16/44 [00:02<00:06,  4.67cell/s]Executing:  41%|████      | 18/44 [00:03<00:04,  5.88cell/s]Executing:  45%|████▌     | 20/44 [00:06<00:13,  1.78cell/s]Executing:  50%|█████     | 22/44 [00:06<00:09,  2.43cell/s]Executing:  55%|█████▍    | 24/44 [00:06<00:06,  3.26cell/s]Executing:  59%|█████▉    | 26/44 [00:18<00:35,  1.98s/cell]Executing:  64%|██████▎   | 28/44 [00:18<00:22,  1.41s/cell]Executing:  68%|██████▊   | 30/44 [00:18<00:14,  1.00s/cell]Executing:  73%|███████▎  | 32/44 [00:18<00:08,  1.39cell/s]Executing:  77%|███████▋  | 34/44 [00:18<00:05,  1.91cell/s]Executing:  82%|████████▏ | 36/44 [00:18<00:03,  2.59cell/s]Executing:  86%|████████▋ | 38/44 [00:18<00:01,  3.44cell/s]Executing:  91%|█████████ | 40/44 [00:18<00:00,  4.47cell/s]Executing:  95%|█████████▌| 42/44 [00:19<00:00,  5.65cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  7.04cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.20cell/s]
+ 
+SCENARIO: no-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174122 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.08cell/s]Executing:   7%|▋         | 3/44 [00:01<00:27,  1.50cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:19,  2.05cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.73cell/s]Executing:  18%|█▊        | 8/44 [00:01<00:11,  3.20cell/s]Executing:  23%|██▎       | 10/44 [00:01<00:08,  4.20cell/s]Executing:  27%|██▋       | 12/44 [00:01<00:05,  5.35cell/s]Executing:  32%|███▏      | 14/44 [00:02<00:08,  3.66cell/s]Executing:  36%|███▋      | 16/44 [00:02<00:05,  4.72cell/s]Executing:  41%|████      | 18/44 [00:03<00:04,  5.96cell/s]Executing:  45%|████▌     | 20/44 [00:06<00:13,  1.77cell/s]Executing:  50%|█████     | 22/44 [00:06<00:09,  2.40cell/s]Executing:  55%|█████▍    | 24/44 [00:06<00:06,  3.23cell/s]Executing:  59%|█████▉    | 26/44 [00:18<00:36,  2.04s/cell]Executing:  61%|██████▏   | 27/44 [00:18<00:24,  1.46s/cell]Executing:  66%|██████▌   | 29/44 [00:18<00:15,  1.04s/cell]Executing:  70%|███████   | 31/44 [00:18<00:09,  1.34cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:05,  1.86cell/s]Executing:  80%|███████▉  | 35/44 [00:19<00:03,  2.51cell/s]Executing:  84%|████████▍ | 37/44 [00:19<00:02,  3.33cell/s]Executing:  89%|████████▊ | 39/44 [00:19<00:01,  4.35cell/s]Executing:  93%|█████████▎| 41/44 [00:19<00:00,  5.51cell/s]Executing:  98%|█████████▊| 43/44 [00:19<00:00,  6.74cell/s]Executing: 100%|██████████| 44/44 [00:21<00:00,  2.07cell/s]
+ 
+SCENARIO: high-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174121 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.09cell/s]Executing:   7%|▋         | 3/44 [00:01<00:27,  1.51cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.07cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.80cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.46cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.38cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.55cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.65cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  4.74cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  5.99cell/s]Executing:  48%|████▊     | 21/44 [00:06<00:12,  1.81cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.47cell/s]Executing:  57%|█████▋    | 25/44 [00:18<00:39,  2.08s/cell]Executing:  61%|██████▏   | 27/44 [00:18<00:25,  1.48s/cell]Executing:  66%|██████▌   | 29/44 [00:18<00:15,  1.05s/cell]Executing:  70%|███████   | 31/44 [00:18<00:09,  1.32cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:06,  1.83cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.48cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.30cell/s]Executing:  89%|████████▊ | 39/44 [00:19<00:01,  4.31cell/s]Executing:  93%|█████████▎| 41/44 [00:19<00:00,  5.49cell/s]Executing:  98%|█████████▊| 43/44 [00:19<00:00,  6.85cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.18cell/s]
+ 
+SCENARIO: low-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174123 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.52cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.09cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.81cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.43cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.45cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.62cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.83cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  4.92cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  6.17cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.82cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.47cell/s]Executing:  57%|█████▋    | 25/44 [00:18<00:39,  2.10s/cell]Executing:  61%|██████▏   | 27/44 [00:18<00:25,  1.49s/cell]Executing:  66%|██████▌   | 29/44 [00:18<00:15,  1.07s/cell]Executing:  70%|███████   | 31/44 [00:18<00:09,  1.30cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:06,  1.80cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.45cell/s]Executing:  84%|████████▍ | 37/44 [00:19<00:02,  3.25cell/s]Executing:  89%|████████▊ | 39/44 [00:19<00:01,  4.26cell/s]Executing:  93%|█████████▎| 41/44 [00:19<00:00,  5.40cell/s]Executing:  98%|█████████▊| 43/44 [00:19<00:00,  6.59cell/s]Executing: 100%|██████████| 44/44 [00:21<00:00,  2.07cell/s]
+ 
+SCENARIO: no-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174118 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:40,  1.07cell/s]Executing:   7%|▋         | 3/44 [00:01<00:27,  1.48cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:19,  2.03cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.75cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.39cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.42cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.62cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.68cell/s]Executing:  39%|███▊      | 17/44 [00:03<00:05,  4.64cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  5.78cell/s]Executing:  48%|████▊     | 21/44 [00:06<00:13,  1.74cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.38cell/s]Executing:  57%|█████▋    | 25/44 [00:18<00:39,  2.07s/cell]Executing:  61%|██████▏   | 27/44 [00:18<00:25,  1.47s/cell]Executing:  66%|██████▌   | 29/44 [00:18<00:15,  1.05s/cell]Executing:  70%|███████   | 31/44 [00:18<00:09,  1.32cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:06,  1.83cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.49cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.30cell/s]Executing:  89%|████████▊ | 39/44 [00:19<00:01,  4.30cell/s]Executing:  93%|█████████▎| 41/44 [00:19<00:00,  5.36cell/s]Executing:  98%|█████████▊| 43/44 [00:19<00:00,  6.51cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.17cell/s]
+ 
+SCENARIO: high-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174119 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:42,  1.02cell/s]Executing:   7%|▋         | 3/44 [00:01<00:28,  1.42cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:20,  1.95cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:14,  2.64cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.29cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.28cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.39cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.75cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  4.85cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  6.05cell/s]Executing:  48%|████▊     | 21/44 [00:06<00:13,  1.76cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.41cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:35,  1.86s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:22,  1.32s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:14,  1.06cell/s]Executing:  70%|███████   | 31/44 [00:17<00:08,  1.47cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  2.02cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.72cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.58cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.65cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  5.82cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.19cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.28cell/s]
+ 
+SCENARIO: low-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174126 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:01<00:48,  1.13s/cell]Executing:   7%|▋         | 3/44 [00:01<00:33,  1.23cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:22,  1.70cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:15,  2.31cell/s]Executing:  20%|██        | 9/44 [00:01<00:12,  2.91cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:08,  3.83cell/s]Executing:  30%|██▉       | 13/44 [00:02<00:06,  4.94cell/s]Executing:  34%|███▍      | 15/44 [00:03<00:08,  3.53cell/s]Executing:  39%|███▊      | 17/44 [00:03<00:05,  4.56cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  5.79cell/s]Executing:  48%|████▊     | 21/44 [00:06<00:13,  1.73cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.37cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:35,  1.89s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:22,  1.34s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:14,  1.04cell/s]Executing:  70%|███████   | 31/44 [00:17<00:08,  1.45cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  2.00cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.70cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.57cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.62cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.81cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  7.17cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.29cell/s]
+ 
+SCENARIO: no-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174123 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:41,  1.03cell/s]Executing:   7%|▋         | 3/44 [00:01<00:28,  1.43cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:19,  1.97cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.65cell/s]Executing:  18%|█▊        | 8/44 [00:01<00:11,  3.06cell/s]Executing:  23%|██▎       | 10/44 [00:01<00:08,  4.01cell/s]Executing:  27%|██▋       | 12/44 [00:01<00:06,  5.15cell/s]Executing:  32%|███▏      | 14/44 [00:02<00:08,  3.65cell/s]Executing:  36%|███▋      | 16/44 [00:02<00:05,  4.70cell/s]Executing:  41%|████      | 18/44 [00:03<00:04,  5.94cell/s]Executing:  45%|████▌     | 20/44 [00:05<00:13,  1.80cell/s]Executing:  50%|█████     | 22/44 [00:06<00:09,  2.44cell/s]Executing:  55%|█████▍    | 24/44 [00:06<00:06,  3.26cell/s]Executing:  59%|█████▉    | 26/44 [00:16<00:32,  1.78s/cell]Executing:  64%|██████▎   | 28/44 [00:16<00:20,  1.27s/cell]Executing:  68%|██████▊   | 30/44 [00:16<00:12,  1.10cell/s]Executing:  73%|███████▎  | 32/44 [00:17<00:07,  1.52cell/s]Executing:  77%|███████▋  | 34/44 [00:17<00:04,  2.09cell/s]Executing:  82%|████████▏ | 36/44 [00:17<00:02,  2.80cell/s]Executing:  86%|████████▋ | 38/44 [00:17<00:01,  3.72cell/s]Executing:  91%|█████████ | 40/44 [00:17<00:00,  4.77cell/s]Executing:  95%|█████████▌| 42/44 [00:17<00:00,  5.94cell/s]Executing: 100%|██████████| 44/44 [00:17<00:00,  7.36cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.28cell/s]
+ 
+SCENARIO: high-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174123 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:01<00:48,  1.13s/cell]Executing:   7%|▋         | 3/44 [00:01<00:33,  1.23cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:22,  1.70cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:15,  2.32cell/s]Executing:  20%|██        | 9/44 [00:01<00:11,  2.92cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:08,  3.86cell/s]Executing:  30%|██▉       | 13/44 [00:02<00:06,  4.97cell/s]Executing:  34%|███▍      | 15/44 [00:03<00:08,  3.52cell/s]Executing:  39%|███▊      | 17/44 [00:03<00:05,  4.58cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  5.81cell/s]Executing:  48%|████▊     | 21/44 [00:06<00:12,  1.82cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.49cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:35,  1.87s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:22,  1.33s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:14,  1.05cell/s]Executing:  70%|███████   | 31/44 [00:17<00:08,  1.47cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  2.02cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.73cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.59cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.68cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  5.90cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.28cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.28cell/s]
+ 
+SCENARIO: low-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174124 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.08cell/s]Executing:   7%|▋         | 3/44 [00:01<00:27,  1.49cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.06cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.77cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.45cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.50cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.68cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.67cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  4.75cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  6.00cell/s]Executing:  48%|████▊     | 21/44 [00:06<00:13,  1.72cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.34cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:36,  1.90s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:22,  1.35s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:14,  1.03cell/s]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.44cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  1.98cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.68cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:01,  3.53cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.55cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.75cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  7.13cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.31cell/s]
+ 
+SCENARIO: no-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174124 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:40,  1.06cell/s]Executing:   7%|▋         | 3/44 [00:01<00:27,  1.47cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:19,  2.02cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.70cell/s]Executing:  18%|█▊        | 8/44 [00:01<00:11,  3.16cell/s]Executing:  23%|██▎       | 10/44 [00:01<00:08,  4.15cell/s]Executing:  27%|██▋       | 12/44 [00:01<00:06,  5.24cell/s]Executing:  32%|███▏      | 14/44 [00:02<00:08,  3.64cell/s]Executing:  36%|███▋      | 16/44 [00:02<00:05,  4.72cell/s]Executing:  41%|████      | 18/44 [00:03<00:04,  5.97cell/s]Executing:  45%|████▌     | 20/44 [00:05<00:13,  1.79cell/s]Executing:  50%|█████     | 22/44 [00:06<00:09,  2.44cell/s]Executing:  55%|█████▍    | 24/44 [00:06<00:06,  3.28cell/s]Executing:  59%|█████▉    | 26/44 [00:17<00:34,  1.93s/cell]Executing:  64%|██████▎   | 28/44 [00:17<00:22,  1.38s/cell]Executing:  68%|██████▊   | 30/44 [00:17<00:13,  1.02cell/s]Executing:  73%|███████▎  | 32/44 [00:18<00:08,  1.42cell/s]Executing:  77%|███████▋  | 34/44 [00:18<00:05,  1.94cell/s]Executing:  82%|████████▏ | 36/44 [00:18<00:03,  2.61cell/s]Executing:  86%|████████▋ | 38/44 [00:18<00:01,  3.44cell/s]Executing:  91%|█████████ | 40/44 [00:18<00:00,  4.38cell/s]Executing:  95%|█████████▌| 42/44 [00:18<00:00,  5.47cell/s]Executing: 100%|██████████| 44/44 [00:18<00:00,  6.84cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.17cell/s]
+ 
+SCENARIO: scenario-comparison...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174118 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:40,  1.06cell/s]Executing:   7%|▋         | 3/44 [00:01<00:27,  1.46cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:19,  2.01cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.72cell/s]Executing:  18%|█▊        | 8/44 [00:01<00:11,  3.16cell/s]Executing:  23%|██▎       | 10/44 [00:01<00:08,  4.10cell/s]Executing:  27%|██▋       | 12/44 [00:01<00:06,  5.20cell/s]Executing:  32%|███▏      | 14/44 [00:02<00:08,  3.70cell/s]Executing:  36%|███▋      | 16/44 [00:02<00:05,  4.80cell/s]Executing:  41%|████      | 18/44 [00:03<00:04,  6.00cell/s]Executing:  45%|████▌     | 20/44 [00:06<00:13,  1.76cell/s]Executing:  50%|█████     | 22/44 [00:06<00:09,  2.40cell/s]Executing:  55%|█████▍    | 24/44 [00:06<00:06,  3.23cell/s]Executing:  59%|█████▉    | 26/44 [00:13<00:23,  1.31s/cell]Executing:  64%|██████▎   | 28/44 [00:13<00:15,  1.07cell/s]Executing:  68%|██████▊   | 30/44 [00:13<00:09,  1.48cell/s]Executing:  73%|███████▎  | 32/44 [00:13<00:05,  2.04cell/s]Executing:  77%|███████▋  | 34/44 [00:14<00:03,  2.77cell/s]Executing:  82%|████████▏ | 36/44 [00:14<00:02,  3.66cell/s]Executing:  86%|████████▋ | 38/44 [00:14<00:01,  4.75cell/s]Executing:  91%|█████████ | 40/44 [00:14<00:00,  5.97cell/s]Executing:  95%|█████████▌| 42/44 [00:14<00:00,  7.31cell/s]Executing: 100%|██████████| 44/44 [00:14<00:00,  8.77cell/s]Executing: 100%|██████████| 44/44 [00:16<00:00,  2.70cell/s]
+ 
+RUNNING ANALYSIS FOR COUNTRY: IDN...
+ 
+[NbConvertApp] Converting notebook ./web-run-sim_.ipynb to notebook
+[NbConvertApp] Writing 14633 bytes to web-run-sim_.ipynb
+Input Notebook:  ./web-run-sim_.ipynb
+Output Notebook: ./web-run-sim_.ipynb
+Executing:   0%|          | 0/18 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   6%|▌         | 1/18 [00:00<00:15,  1.13cell/s]Executing:  28%|██▊       | 5/18 [00:00<00:08,  1.60cell/s]Executing:  39%|███▉      | 7/18 [00:04<00:10,  1.08cell/s]Executing:  61%|██████    | 11/18 [00:04<00:04,  1.52cell/s]Executing:  67%|██████▋   | 12/18 [00:20<00:03,  1.52cell/s]Executing:  72%|███████▏  | 13/18 [11:05<08:17, 99.59s/cell]Executing:  78%|███████▊  | 14/18 [11:06<04:40, 70.21s/cell]Executing:  83%|████████▎ | 15/18 [11:07<02:27, 49.20s/cell]Executing: 100%|██████████| 18/18 [11:07<00:00, 34.45s/cell]Executing: 100%|██████████| 18/18 [11:08<00:00, 37.12s/cell]
+[NbConvertApp] Converting notebook ./web-run-sim_.ipynb to html
+[NbConvertApp] Writing 576011 bytes to web-run-sim_.html
+ 
+SCENARIO: high-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174076 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.12cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.86cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.54cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.63cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.88cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.93cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.08cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.36cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.88cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.57cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:39,  2.08s/cell]Executing:  61%|██████▏   | 27/44 [00:18<00:25,  1.48s/cell]Executing:  66%|██████▌   | 29/44 [00:18<00:15,  1.05s/cell]Executing:  70%|███████   | 31/44 [00:18<00:09,  1.33cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:05,  1.84cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.50cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.32cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.36cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.52cell/s]Executing:  98%|█████████▊| 43/44 [00:19<00:00,  6.89cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.21cell/s]
+ 
+SCENARIO: low-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174126 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.11cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.85cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.54cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.61cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.84cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.95cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.09cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.40cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.87cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.56cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:37,  1.98s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:23,  1.41s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:15,  1.00s/cell]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.39cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  1.92cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.60cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.45cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.49cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.70cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  7.08cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.17cell/s]
+ 
+SCENARIO: no-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174121 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.11cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.85cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.53cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.59cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.82cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.94cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.08cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.38cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.90cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.59cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:37,  1.97s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:23,  1.40s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:14,  1.00cell/s]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.40cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  1.93cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.62cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:02,  3.47cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.51cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.71cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  7.08cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.30cell/s]
+ 
+SCENARIO: high-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174121 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.12cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.12cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.86cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.55cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.61cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.85cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.91cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.05cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.34cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.88cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.57cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:37,  1.97s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:23,  1.40s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:14,  1.00cell/s]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.40cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  1.93cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.61cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:02,  3.47cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.52cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.73cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  7.10cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.29cell/s]
+ 
+SCENARIO: low-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174126 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.12cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.55cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.13cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.87cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.56cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.63cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.88cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.94cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.09cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.40cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.89cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.58cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:37,  1.97s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:23,  1.40s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:14,  1.00cell/s]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.40cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  1.93cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.61cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:02,  3.46cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.52cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.73cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  7.10cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.29cell/s]
+ 
+SCENARIO: no-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174121 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.12cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.86cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.55cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.62cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.87cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.95cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.11cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.39cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.88cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.57cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:37,  1.97s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:23,  1.40s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:14,  1.00cell/s]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.40cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  1.93cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.62cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:02,  3.46cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.53cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.73cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  7.13cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.29cell/s]
+ 
+SCENARIO: high-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174118 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.12cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.86cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.55cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.62cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.87cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.97cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.11cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.36cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.88cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.57cell/s]Executing:  57%|█████▋    | 25/44 [00:15<00:33,  1.78s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:21,  1.27s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.11cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.54cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.12cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.86cell/s]Executing:  84%|████████▍ | 37/44 [00:16<00:01,  3.76cell/s]Executing:  89%|████████▊ | 39/44 [00:16<00:01,  4.88cell/s]Executing:  93%|█████████▎| 41/44 [00:16<00:00,  6.11cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.53cell/s]Executing: 100%|██████████| 44/44 [00:17<00:00,  2.46cell/s]
+ 
+SCENARIO: low-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174122 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.11cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.84cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.54cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.61cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.84cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.93cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.07cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.37cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.87cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.56cell/s]Executing:  57%|█████▋    | 25/44 [00:15<00:33,  1.77s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:21,  1.26s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.11cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.54cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.12cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.86cell/s]Executing:  84%|████████▍ | 37/44 [00:16<00:01,  3.76cell/s]Executing:  89%|████████▊ | 39/44 [00:16<00:01,  4.89cell/s]Executing:  93%|█████████▎| 41/44 [00:16<00:00,  6.12cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.53cell/s]Executing: 100%|██████████| 44/44 [00:17<00:00,  2.46cell/s]
+ 
+SCENARIO: no-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174125 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.12cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.86cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.54cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.62cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.86cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.94cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.09cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.39cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.90cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.59cell/s]Executing:  57%|█████▋    | 25/44 [00:15<00:33,  1.78s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:21,  1.27s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.10cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.53cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.11cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.85cell/s]Executing:  84%|████████▍ | 37/44 [00:16<00:01,  3.75cell/s]Executing:  89%|████████▊ | 39/44 [00:16<00:01,  4.88cell/s]Executing:  93%|█████████▎| 41/44 [00:16<00:00,  6.10cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.52cell/s]Executing: 100%|██████████| 44/44 [00:17<00:00,  2.46cell/s]
+ 
+SCENARIO: high-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174121 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.12cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.55cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.12cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.87cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.56cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.62cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.86cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.95cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.10cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.40cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.90cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.59cell/s]Executing:  57%|█████▋    | 25/44 [00:15<00:33,  1.78s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:21,  1.27s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.10cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.53cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.11cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.84cell/s]Executing:  84%|████████▍ | 37/44 [00:16<00:01,  3.74cell/s]Executing:  89%|████████▊ | 39/44 [00:16<00:01,  4.85cell/s]Executing:  93%|█████████▎| 41/44 [00:16<00:00,  6.09cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.51cell/s]Executing: 100%|██████████| 44/44 [00:17<00:00,  2.45cell/s]
+ 
+SCENARIO: low-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174123 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.12cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.56cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.14cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.89cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.58cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.66cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.89cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.97cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.10cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.41cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.89cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.57cell/s]Executing:  57%|█████▋    | 25/44 [00:15<00:34,  1.79s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:21,  1.28s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.10cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.52cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.10cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.83cell/s]Executing:  84%|████████▍ | 37/44 [00:16<00:01,  3.72cell/s]Executing:  89%|████████▊ | 39/44 [00:16<00:01,  4.82cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  6.06cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.48cell/s]Executing: 100%|██████████| 44/44 [00:17<00:00,  2.44cell/s]
+ 
+SCENARIO: no-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174123 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.12cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.55cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.12cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.87cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.56cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.63cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.87cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.96cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.11cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.39cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.90cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.59cell/s]Executing:  57%|█████▋    | 25/44 [00:15<00:33,  1.79s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:21,  1.27s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.10cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.53cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.11cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.84cell/s]Executing:  84%|████████▍ | 37/44 [00:16<00:01,  3.74cell/s]Executing:  89%|████████▊ | 39/44 [00:16<00:01,  4.86cell/s]Executing:  93%|█████████▎| 41/44 [00:16<00:00,  6.07cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.49cell/s]Executing: 100%|██████████| 44/44 [00:17<00:00,  2.45cell/s]
+ 
+SCENARIO: scenario-comparison...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174119 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.12cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.86cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.55cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.62cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.86cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.94cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.08cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.38cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.88cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.57cell/s]Executing:  57%|█████▋    | 25/44 [00:12<00:24,  1.31s/cell]Executing:  61%|██████▏   | 27/44 [00:13<00:16,  1.05cell/s]Executing:  66%|██████▌   | 29/44 [00:13<00:10,  1.45cell/s]Executing:  70%|███████   | 31/44 [00:13<00:06,  2.01cell/s]Executing:  75%|███████▌  | 33/44 [00:13<00:04,  2.73cell/s]Executing:  80%|███████▉  | 35/44 [00:13<00:02,  3.64cell/s]Executing:  84%|████████▍ | 37/44 [00:13<00:01,  4.69cell/s]Executing:  89%|████████▊ | 39/44 [00:13<00:00,  5.96cell/s]Executing:  93%|█████████▎| 41/44 [00:13<00:00,  7.29cell/s]Executing:  98%|█████████▊| 43/44 [00:14<00:00,  8.77cell/s]Executing: 100%|██████████| 44/44 [00:14<00:00,  2.96cell/s]
+ 
+RUNNING ANALYSIS FOR COUNTRY: THA...
+ 
+[NbConvertApp] Converting notebook ./web-run-sim_.ipynb to notebook
+[NbConvertApp] Writing 14635 bytes to web-run-sim_.ipynb
+Input Notebook:  ./web-run-sim_.ipynb
+Output Notebook: ./web-run-sim_.ipynb
+Executing:   0%|          | 0/18 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   6%|▌         | 1/18 [00:00<00:14,  1.18cell/s]Executing:  28%|██▊       | 5/18 [00:00<00:07,  1.67cell/s]Executing:  39%|███▉      | 7/18 [00:04<00:09,  1.13cell/s]Executing:  61%|██████    | 11/18 [00:04<00:04,  1.60cell/s]Executing:  67%|██████▋   | 12/18 [00:20<00:03,  1.60cell/s]Executing:  72%|███████▏  | 13/18 [11:01<08:15, 99.00s/cell]Executing:  78%|███████▊  | 14/18 [11:01<04:37, 69.38s/cell]Executing:  89%|████████▉ | 16/18 [11:01<01:37, 48.58s/cell]Executing: 100%|██████████| 18/18 [11:03<00:00, 36.85s/cell]
+[NbConvertApp] Converting notebook ./web-run-sim_.ipynb to html
+[NbConvertApp] Writing 577976 bytes to web-run-sim_.html
+ 
+SCENARIO: high-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174075 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.10cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.83cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.51cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.57cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.79cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.87cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  4.97cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:04,  6.23cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.86cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.54cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:38,  2.05s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:24,  1.46s/cell]Executing:  66%|██████▌   | 29/44 [00:18<00:15,  1.04s/cell]Executing:  70%|███████   | 31/44 [00:18<00:09,  1.34cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:05,  1.85cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.51cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.34cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.37cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.53cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  6.83cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.22cell/s]
+ 
+SCENARIO: low-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174126 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:40,  1.06cell/s]Executing:   7%|▋         | 3/44 [00:01<00:27,  1.47cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:19,  2.02cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.74cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.40cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.44cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.55cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:08,  3.57cell/s]Executing:  39%|███▊      | 17/44 [00:03<00:05,  4.65cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  5.88cell/s]Executing:  48%|████▊     | 21/44 [00:06<00:12,  1.81cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.48cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:38,  2.05s/cell]Executing:  61%|██████▏   | 27/44 [00:18<00:24,  1.46s/cell]Executing:  66%|██████▌   | 29/44 [00:18<00:15,  1.04s/cell]Executing:  70%|███████   | 31/44 [00:18<00:09,  1.34cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:05,  1.85cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.52cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.34cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.38cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.56cell/s]Executing:  98%|█████████▊| 43/44 [00:19<00:00,  6.92cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.20cell/s]
+ 
+SCENARIO: no-vaccination-&-short-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174123 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.12cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.55cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.13cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.87cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.54cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.60cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.82cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.94cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.08cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.36cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.87cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.55cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:39,  2.05s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:24,  1.46s/cell]Executing:  66%|██████▌   | 29/44 [00:18<00:15,  1.04s/cell]Executing:  70%|███████   | 31/44 [00:18<00:09,  1.34cell/s]Executing:  75%|███████▌  | 33/44 [00:18<00:05,  1.85cell/s]Executing:  80%|███████▉  | 35/44 [00:18<00:03,  2.51cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.34cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.38cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.54cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  6.90cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.17cell/s]
+ 
+SCENARIO: high-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174118 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:39,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.10cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.82cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.49cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.54cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.76cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.91cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.03cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.32cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.87cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.56cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:37,  1.97s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:23,  1.40s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:15,  1.00s/cell]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.39cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  1.92cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.60cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.45cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.50cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.68cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  7.03cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.28cell/s]
+ 
+SCENARIO: low-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174124 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:41,  1.04cell/s]Executing:   7%|▋         | 3/44 [00:01<00:28,  1.45cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:19,  1.99cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.70cell/s]Executing:  20%|██        | 9/44 [00:01<00:10,  3.36cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.39cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.59cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.85cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  4.97cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:03,  6.26cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.83cell/s]Executing:  52%|█████▏    | 23/44 [00:06<00:08,  2.50cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:37,  1.98s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:23,  1.41s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:15,  1.00s/cell]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.39cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  1.92cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.60cell/s]Executing:  84%|████████▍ | 37/44 [00:18<00:02,  3.45cell/s]Executing:  89%|████████▊ | 39/44 [00:18<00:01,  4.51cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.72cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  7.11cell/s]Executing: 100%|██████████| 44/44 [00:20<00:00,  2.17cell/s]
+ 
+SCENARIO: no-vaccination-&-long-immunity-(opening)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174124 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.12cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.55cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.13cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.87cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.56cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.63cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.87cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.94cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.08cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.38cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.87cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.56cell/s]Executing:  57%|█████▋    | 25/44 [00:17<00:37,  1.95s/cell]Executing:  61%|██████▏   | 27/44 [00:17<00:23,  1.39s/cell]Executing:  66%|██████▌   | 29/44 [00:17<00:14,  1.01cell/s]Executing:  70%|███████   | 31/44 [00:17<00:09,  1.41cell/s]Executing:  75%|███████▌  | 33/44 [00:17<00:05,  1.94cell/s]Executing:  80%|███████▉  | 35/44 [00:17<00:03,  2.64cell/s]Executing:  84%|████████▍ | 37/44 [00:17<00:02,  3.49cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.56cell/s]Executing:  93%|█████████▎| 41/44 [00:18<00:00,  5.75cell/s]Executing:  98%|█████████▊| 43/44 [00:18<00:00,  7.13cell/s]Executing: 100%|██████████| 44/44 [00:19<00:00,  2.31cell/s]
+ 
+SCENARIO: high-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174120 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.10cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.83cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.51cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.58cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.81cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.90cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.04cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.29cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.87cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.55cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:34,  1.81s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:21,  1.29s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.09cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.51cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.08cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.80cell/s]Executing:  84%|████████▍ | 37/44 [00:16<00:01,  3.70cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.77cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  5.86cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.22cell/s]Executing: 100%|██████████| 44/44 [00:18<00:00,  2.41cell/s]
+ 
+SCENARIO: low-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174123 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.54cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.11cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:12,  2.85cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.52cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.58cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.81cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.78cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  4.90cell/s]Executing:  43%|████▎     | 19/44 [00:03<00:04,  6.14cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.88cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.57cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:34,  1.80s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:21,  1.28s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.09cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.52cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.09cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.82cell/s]Executing:  84%|████████▍ | 37/44 [00:16<00:01,  3.71cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.81cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  6.02cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.40cell/s]Executing: 100%|██████████| 44/44 [00:18<00:00,  2.43cell/s]
+ 
+SCENARIO: no-vaccination-&-short-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174122 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.10cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.10cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.83cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.51cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.56cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.79cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.93cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.06cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.31cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.86cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.53cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:34,  1.80s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:21,  1.28s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.09cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.52cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.09cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.82cell/s]Executing:  84%|████████▍ | 37/44 [00:16<00:01,  3.71cell/s]Executing:  89%|████████▊ | 39/44 [00:17<00:01,  4.81cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  6.03cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.43cell/s]Executing: 100%|██████████| 44/44 [00:18<00:00,  2.43cell/s]
+ 
+SCENARIO: high-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174119 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.10cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.84cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.51cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.57cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.80cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.93cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.06cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.33cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.87cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.55cell/s]Executing:  57%|█████▋    | 25/44 [00:15<00:33,  1.79s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:21,  1.27s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.10cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.53cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.10cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.84cell/s]Executing:  84%|████████▍ | 37/44 [00:16<00:01,  3.74cell/s]Executing:  89%|████████▊ | 39/44 [00:16<00:01,  4.85cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  5.93cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.22cell/s]Executing: 100%|██████████| 44/44 [00:18<00:00,  2.44cell/s]
+ 
+SCENARIO: low-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174123 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.10cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.84cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.52cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.59cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.81cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.82cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  4.94cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:04,  6.20cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.88cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.56cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:34,  1.80s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:21,  1.28s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.09cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.52cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.09cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.81cell/s]Executing:  84%|████████▍ | 37/44 [00:16<00:01,  3.71cell/s]Executing:  89%|████████▊ | 39/44 [00:16<00:01,  4.80cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  6.00cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.38cell/s]Executing: 100%|██████████| 44/44 [00:18<00:00,  2.43cell/s]
+ 
+SCENARIO: no-vaccination-&-long-immunity-(optimal)...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174119 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.11cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.84cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.52cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.58cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.81cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.90cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.03cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.31cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.88cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.56cell/s]Executing:  57%|█████▋    | 25/44 [00:16<00:34,  1.80s/cell]Executing:  61%|██████▏   | 27/44 [00:16<00:21,  1.28s/cell]Executing:  66%|██████▌   | 29/44 [00:16<00:13,  1.09cell/s]Executing:  70%|███████   | 31/44 [00:16<00:08,  1.52cell/s]Executing:  75%|███████▌  | 33/44 [00:16<00:05,  2.09cell/s]Executing:  80%|███████▉  | 35/44 [00:16<00:03,  2.82cell/s]Executing:  84%|████████▍ | 37/44 [00:16<00:01,  3.72cell/s]Executing:  89%|████████▊ | 39/44 [00:16<00:01,  4.81cell/s]Executing:  93%|█████████▎| 41/44 [00:17<00:00,  6.04cell/s]Executing:  98%|█████████▊| 43/44 [00:17<00:00,  7.41cell/s]Executing: 100%|██████████| 44/44 [00:18<00:00,  2.43cell/s]
+ 
+SCENARIO: scenario-comparison...
+ 
+[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174118 bytes to web-country-scen_.ipynb
+Input Notebook:  ./web-country-scen_.ipynb
+Output Notebook: ./web-country-scen_.ipynb
+Executing:   0%|          | 0/44 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/44 [00:00<00:38,  1.11cell/s]Executing:   7%|▋         | 3/44 [00:01<00:26,  1.53cell/s]Executing:  11%|█▏        | 5/44 [00:01<00:18,  2.10cell/s]Executing:  16%|█▌        | 7/44 [00:01<00:13,  2.84cell/s]Executing:  20%|██        | 9/44 [00:01<00:09,  3.53cell/s]Executing:  25%|██▌       | 11/44 [00:01<00:07,  4.59cell/s]Executing:  30%|██▉       | 13/44 [00:01<00:05,  5.82cell/s]Executing:  34%|███▍      | 15/44 [00:02<00:07,  3.94cell/s]Executing:  39%|███▊      | 17/44 [00:02<00:05,  5.08cell/s]Executing:  43%|████▎     | 19/44 [00:02<00:03,  6.37cell/s]Executing:  48%|████▊     | 21/44 [00:05<00:12,  1.87cell/s]Executing:  52%|█████▏    | 23/44 [00:05<00:08,  2.55cell/s]Executing:  57%|█████▋    | 25/44 [00:12<00:25,  1.32s/cell]Executing:  61%|██████▏   | 27/44 [00:12<00:16,  1.06cell/s]Executing:  66%|██████▌   | 29/44 [00:13<00:10,  1.47cell/s]Executing:  70%|███████   | 31/44 [00:13<00:06,  2.03cell/s]Executing:  75%|███████▌  | 33/44 [00:13<00:03,  2.76cell/s]Executing:  80%|███████▉  | 35/44 [00:13<00:02,  3.67cell/s]Executing:  84%|████████▍ | 37/44 [00:13<00:01,  4.73cell/s]Executing:  89%|████████▊ | 39/44 [00:13<00:00,  6.00cell/s]Executing:  93%|█████████▎| 41/44 [00:13<00:00,  7.34cell/s]Executing:  98%|█████████▊| 43/44 [00:13<00:00,  8.77cell/s]Executing: 100%|██████████| 44/44 [00:14<00:00,  2.96cell/s]
+ 
+CREATING COUNTRY COMPARISONS...
+ 
+[NbConvertApp] Converting notebook ./web-country-comp_.ipynb to notebook
+[NbConvertApp] Writing 70887 bytes to web-country-comp_.ipynb
+Input Notebook:  ./web-country-comp_.ipynb
+Output Notebook: ./web-country-comp_.ipynb
+Executing:   0%|          | 0/42 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   2%|▏         | 1/42 [00:01<00:43,  1.07s/cell]Executing:   7%|▋         | 3/42 [00:01<00:29,  1.31cell/s]Executing:  12%|█▏        | 5/42 [00:01<00:20,  1.82cell/s]Executing:  14%|█▍        | 6/42 [00:01<00:15,  2.29cell/s]Executing:  19%|█▉        | 8/42 [00:01<00:10,  3.11cell/s]Executing:  24%|██▍       | 10/42 [00:01<00:07,  4.16cell/s]Executing:  29%|██▊       | 12/42 [00:02<00:08,  3.47cell/s]Executing:  33%|███▎      | 14/42 [00:04<00:16,  1.72cell/s]Executing:  36%|███▌      | 15/42 [00:05<00:12,  2.16cell/s]Executing:  38%|███▊      | 16/42 [00:05<00:10,  2.57cell/s]Executing:  40%|████      | 17/42 [00:05<00:08,  2.99cell/s]Executing:  43%|████▎     | 18/42 [00:05<00:06,  3.45cell/s]Executing:  45%|████▌     | 19/42 [00:05<00:06,  3.83cell/s]Executing:  48%|████▊     | 20/42 [00:06<00:05,  4.16cell/s]Executing:  50%|█████     | 21/42 [00:06<00:04,  4.41cell/s]Executing:  52%|█████▏    | 22/42 [00:18<01:13,  3.67s/cell]Executing:  55%|█████▍    | 23/42 [00:18<00:49,  2.62s/cell]Executing:  57%|█████▋    | 24/42 [00:18<00:34,  1.89s/cell]Executing:  60%|█████▉    | 25/42 [00:18<00:23,  1.38s/cell]Executing:  62%|██████▏   | 26/42 [09:39<45:08, 169.28s/cell]Executing:  64%|██████▍   | 27/42 [09:40<29:43, 118.87s/cell]Executing:  67%|██████▋   | 28/42 [09:41<19:25, 83.27s/cell] Executing:  69%|██████▉   | 29/42 [09:41<12:38, 58.35s/cell]Executing:  71%|███████▏  | 30/42 [09:41<08:10, 40.90s/cell]Executing:  74%|███████▍  | 31/42 [09:41<05:15, 28.68s/cell]Executing:  76%|███████▌  | 32/42 [09:41<03:21, 20.14s/cell]Executing:  79%|███████▊  | 33/42 [09:42<02:07, 14.15s/cell]Executing:  81%|████████  | 34/42 [09:42<01:19,  9.96s/cell]Executing:  83%|████████▎ | 35/42 [09:42<00:49,  7.03s/cell]Executing:  86%|████████▌ | 36/42 [09:42<00:29,  4.98s/cell]Executing:  88%|████████▊ | 37/42 [09:42<00:17,  3.54s/cell]Executing:  90%|█████████ | 38/42 [09:42<00:10,  2.53s/cell]Executing:  93%|█████████▎| 39/42 [09:43<00:05,  1.83s/cell]Executing:  95%|█████████▌| 40/42 [09:43<00:02,  1.34s/cell]Executing:  98%|█████████▊| 41/42 [09:43<00:00,  1.00cell/s]Executing: 100%|██████████| 42/42 [09:43<00:00,  1.32cell/s]Executing: 100%|██████████| 42/42 [09:45<00:00, 13.94s/cell]
+ 
+CREATING INDEX...
+ 
+[NbConvertApp] Converting notebook ./web-index_.ipynb to notebook
+[NbConvertApp] Writing 18423 bytes to web-index_.ipynb
+Input Notebook:  ./web-index_.ipynb
+Output Notebook: ./web-index_.ipynb
+Executing:   0%|          | 0/23 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   4%|▍         | 1/23 [00:01<00:26,  1.21s/cell]Executing:  17%|█▋        | 4/23 [00:01<00:16,  1.17cell/s]Executing:  30%|███       | 7/23 [00:01<00:09,  1.63cell/s]Executing:  43%|████▎     | 10/23 [00:01<00:05,  2.28cell/s]Executing:  61%|██████    | 14/23 [00:01<00:02,  3.16cell/s]Executing:  74%|███████▍  | 17/23 [00:01<00:01,  4.31cell/s]Executing:  87%|████████▋ | 20/23 [00:01<00:00,  5.48cell/s]Executing: 100%|██████████| 23/23 [00:02<00:00,  9.66cell/s]
+fatal: Unable to mark file docs/scenarios/SAU-high-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/SAU-low-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/SAU-no-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/SAU-high-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/SAU-low-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/SAU-no-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/SAU-high-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/SAU-low-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/SAU-no-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/SAU-high-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/SAU-low-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/SAU-no-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/SGP-high-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/SGP-low-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/SGP-no-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/SGP-high-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/SGP-low-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/SGP-no-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/SGP-high-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/SGP-low-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/SGP-no-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/SGP-high-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/SGP-low-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/SGP-no-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/ZAF-high-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/ZAF-low-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/ZAF-no-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/ZAF-high-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/ZAF-low-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/ZAF-no-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/ZAF-high-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/ZAF-low-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/ZAF-no-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/ZAF-high-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/ZAF-low-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/ZAF-no-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/ARG-high-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/ARG-low-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/ARG-no-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/ARG-high-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/ARG-low-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/ARG-no-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/ARG-high-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/ARG-low-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/ARG-no-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/ARG-high-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/ARG-low-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/ARG-no-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/IDN-high-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/IDN-low-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/IDN-no-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/IDN-high-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/IDN-low-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/IDN-no-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/IDN-high-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/IDN-low-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/IDN-no-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/IDN-high-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/IDN-low-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/IDN-no-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file dumps/web/sim-THA.pickle
+fatal: Unable to mark file docs/scenarios/THA-high-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/THA-low-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/THA-no-vaccination-&-short-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/THA-high-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/THA-low-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/THA-no-vaccination-&-long-immunity-(opening).html
+fatal: Unable to mark file docs/scenarios/THA-high-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/THA-low-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/THA-no-vaccination-&-short-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/THA-high-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/THA-low-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/THA-no-vaccination-&-long-immunity-(optimal).html
+fatal: Unable to mark file docs/scenarios/THA-scenario-comparison.html
+[NbConvertApp] Converting notebook web-index_.ipynb to notebook
+[NbConvertApp] Writing 31082 bytes to web-index_.ipynb
+[NbConvertApp] Converting notebook web-country-scen_.ipynb to notebook
+[NbConvertApp] Writing 174073 bytes to web-country-scen_.ipynb
+ 
+############################################################################
+END OF ANALYSIS (WEB)
+############################################################################
+ 
+Logfiles at ../docs/LOGFILE.html & ../docs/logfile.txt
+ 
+RUNTIME: 43003 s (716 m)
+ 

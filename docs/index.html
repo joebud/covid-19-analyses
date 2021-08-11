@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CTEQ2C7JBB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CTEQ2C7JBB');
+</script>
+
     <meta charset="UTF-8">
 
 <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>COVID-19 Simulations | web visualization</title>
+<title>COVID-19 Simulations | web visualization | Countries: Austria, China, Germany, Israel, Italy, Korea, South, US, United Kingdom, France, Poland, Russia, Czechia, Denmark, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Australia, Brazil, Canada, India, Iran, Japan, Kuwait, Malaysia, Mexico, New Zealand, Panama, Peru, Saudi Arabia, Singapore, South Africa, Argentina, Indonesia, Thailand,  | Scenarios: high vaccination & short immunity (opening), low vaccination & short immunity (opening), no vaccination & short immunity (opening), high vaccination & long immunity (opening), low vaccination & long immunity (opening), no vaccination & long immunity (opening), high vaccination & short immunity (optimal), low vaccination & short immunity (optimal), no vaccination & short immunity (optimal), high vaccination & long immunity (optimal), low vaccination & long immunity (optimal), no vaccination & long immunity (optimal), scenario comparison, </title>
+<meta name="description" content="Simulating COVID-19 projections for various scenarios and countries. Projections for countries: Austria, China, Germany, Israel, Italy, Korea, South, US, United Kingdom, France, Poland, Russia, Czechia, Denmark, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Australia, Brazil, Canada, India, Iran, Japan, Kuwait, Malaysia, Mexico, New Zealand, Panama, Peru, Saudi Arabia, Singapore, South Africa, Argentina, Indonesia, Thailand, . Includes the following scenarios: high vaccination & short immunity (opening), low vaccination & short immunity (opening), no vaccination & short immunity (opening), high vaccination & long immunity (opening), low vaccination & long immunity (opening), no vaccination & long immunity (opening), high vaccination & short immunity (optimal), low vaccination & short immunity (optimal), no vaccination & short immunity (optimal), high vaccination & long immunity (optimal), low vaccination & long immunity (optimal), no vaccination & long immunity (optimal), scenario comparison, . Analysis focuses on: vaccination rate, immunity duration, effective reproduction number, lockdowns, death rate, natural mortality, Vaccine efficacy, Vaccine effectiveness against transmission, Vaccine effectiveness against death, age groups, seasonal reproduction number, outdoor mobility, incidence rate, Symptomatic proportion, Vaccinated, Reproduction number, Mortality, Death rate, Infected, Incidence rate, Susceptible, Immune, Immunity duration, Reinfections, Immunity boosting, Effectiveness against transmission, Detection probability, Log growth rate, Initial reproduction number, Phase space, Spectrum, Mobility, Weather, Control measures, Holidays, Past simulations, latest and historic country reports, GitHub, COVID-19 data." />
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="COVID-19 Simulations" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Simulating COVID-19 projections for various scenarios and countries." />
 <meta property="og:description" content="Simulating COVID-19 projections for various scenarios and countries." />
 <link rel="canonical" href="https://joebud.github.io/covid-19-analyses/" />
 <meta property="og:url" content="https://joebud.github.io/covid-19-analyses/" />
@@ -134,6 +145,8 @@
         
                 <option value="SWE" class="page-header">Sweden</option>
         
+                <option value="THA" class="page-header">Thailand</option>
+        
                 <option value="USA" class="page-header">US</option>
         
                 <option value="ZAF" class="page-header">South Africa</option>
@@ -144,23 +157,29 @@
         
         <select id="scenario" name="scenario"   class="btn">
         
-                <option value="high-vaccination-&-short-immunity" class="page-header">high vaccination & short immunity</option>
+                <option value="high-vaccination-&-short-immunity-(opening)" class="page-header">high vaccination & short immunity (opening)</option>
         
-                <option value="low-vaccination-&-short-immunity" class="page-header">low vaccination & short immunity</option>
+                <option value="low-vaccination-&-short-immunity-(opening)" class="page-header">low vaccination & short immunity (opening)</option>
         
-                <option value="no-vaccination-&-short-immunity" class="page-header">no vaccination & short immunity</option>
+                <option value="no-vaccination-&-short-immunity-(opening)" class="page-header">no vaccination & short immunity (opening)</option>
         
-                <option value="high-vaccination-&-medium-immunity" class="page-header">high vaccination & medium immunity</option>
+                <option value="high-vaccination-&-long-immunity-(opening)" class="page-header">high vaccination & long immunity (opening)</option>
         
-                <option value="low-vaccination-&-medium-immunity" class="page-header">low vaccination & medium immunity</option>
+                <option value="low-vaccination-&-long-immunity-(opening)" class="page-header">low vaccination & long immunity (opening)</option>
         
-                <option value="no-vaccination-&-medium-immunity" class="page-header">no vaccination & medium immunity</option>
+                <option value="no-vaccination-&-long-immunity-(opening)" class="page-header">no vaccination & long immunity (opening)</option>
         
-                <option value="high-vaccination-&-long-immunity" class="page-header">high vaccination & long immunity</option>
+                <option value="high-vaccination-&-short-immunity-(optimal)" class="page-header">high vaccination & short immunity (optimal)</option>
         
-                <option value="low-vaccination-&-long-immunity" class="page-header">low vaccination & long immunity</option>
+                <option value="low-vaccination-&-short-immunity-(optimal)" class="page-header">low vaccination & short immunity (optimal)</option>
         
-                <option value="no-vaccination-&-long-immunity" class="page-header">no vaccination & long immunity</option>
+                <option value="no-vaccination-&-short-immunity-(optimal)" class="page-header">no vaccination & short immunity (optimal)</option>
+        
+                <option value="high-vaccination-&-long-immunity-(optimal)" class="page-header">high vaccination & long immunity (optimal)</option>
+        
+                <option value="low-vaccination-&-long-immunity-(optimal)" class="page-header">low vaccination & long immunity (optimal)</option>
+        
+                <option value="no-vaccination-&-long-immunity-(optimal)" class="page-header">no vaccination & long immunity (optimal)</option>
         
                 <option value="scenario-comparison" class="page-header">scenario comparison</option>
         
