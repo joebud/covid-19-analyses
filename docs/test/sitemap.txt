@@ -1,7 +1,10 @@
-https://joebud.github.io/covid-19-analyses/scenarios/ISR-high-vaccination-&amp;-long-immunity-(optimal).html
-https://joebud.github.io/covid-19-analyses/scenarios/ISR-high-vaccination-&amp;-long-immunity-(optimal)-p.html
-https://joebud.github.io/covid-19-analyses/scenarios/ISR-scenario-comparison.html
-https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-high-vaccination-&amp;-long-immunity-(optimal).html
+https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination-%26-long-immunity-(optimal).html
+https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination-%26-long-immunity-(optimal)-p.html
+https://joebud.github.io/covid-19-analyses/scenarios/AUT-scenario-comparison.html
+https://joebud.github.io/covid-19-analyses/scenarios/SAU-high-vaccination-%26-long-immunity-(optimal).html
+https://joebud.github.io/covid-19-analyses/scenarios/SAU-high-vaccination-%26-long-immunity-(optimal)-p.html
+https://joebud.github.io/covid-19-analyses/scenarios/SAU-scenario-comparison.html
+https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-high-vaccination-%26-long-immunity-(optimal).html
 https://joebud.github.io/covid-19-analyses/README.html
 https://joebud.github.io/covid-19-analyses/README-REPORTS.html
 https://joebud.github.io/covid-19-analyses/SCENARIOS-REPORTS.html
