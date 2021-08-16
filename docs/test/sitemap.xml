@@ -5,12 +5,12 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-   <url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination-%26-long-immunity-(optimal).html
+   <url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination-%26-short-immunity-(opening).html
+</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination-%26-short-immunity-(opening)-p.html
+</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination-%26-long-immunity-(optimal).html
 </loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination-%26-long-immunity-(optimal)-p.html
 </loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-scenario-comparison.html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/SAU-high-vaccination-%26-long-immunity-(optimal).html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/SAU-high-vaccination-%26-long-immunity-(optimal)-p.html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/SAU-scenario-comparison.html
+</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-high-vaccination-%26-short-immunity-(opening).html
 </loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-high-vaccination-%26-long-immunity-(optimal).html
 </loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/README.html
 </loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/README-REPORTS.html
