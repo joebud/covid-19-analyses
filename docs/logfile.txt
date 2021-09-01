@@ -10567,3 +10567,8 @@ Logfiles at ../docs/LOGFILE.html & ../docs/logfile.txt
  
 RUNTIME: 43266 s (721 m)
  
+[main e019a3b4] 2021_08_31
+ 1380 files changed, 6445 insertions(+), 6620 deletions(-)
+ rewrite docs/MODEL.html (72%)
+ rewrite docs/NOTATION.html (68%)
+fatal: unable to access 'https://github.com/joebud/covid-19-analyses.git/': Could not resolve host: github.com
