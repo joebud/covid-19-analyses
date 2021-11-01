@@ -5,20 +5,23 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-   <url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination-%26-short-immunity-(opening).html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination-%26-short-immunity-(opening)-p.html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination-%26-long-immunity-(optimal).html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-high-vaccination-%26-long-immunity-(optimal)-p.html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-scenario-comparison.html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-high-vaccination-%26-short-immunity-(opening).html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-high-vaccination-%26-long-immunity-(optimal).html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/README.html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/README-REPORTS.html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/SCENARIOS-REPORTS.html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/MODEL.html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/NOTATION.html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/index.html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/sitemap3.html
-</loc><lastmod>2021-08-12</lastmod><changefreq>weekly</changefreq></url>
+   <url><loc>https://joebud.github.io/covid-19-analyses/scenarios/PRT-low-vaccination-%26-short-immunity-(opening).html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/PRT-low-vaccination-%26-short-immunity-(opening)-p.html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/PRT-low-vaccination-%26-long-immunity-(opening).html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/PRT-low-vaccination-%26-long-immunity-(opening)-p.html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/PRT-low-vaccination-%26-short-immunity-(balanced).html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/PRT-low-vaccination-%26-short-immunity-(balanced)-p.html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/PRT-scenario-comparison.html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-low-vaccination-%26-short-immunity-(opening).html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-low-vaccination-%26-long-immunity-(opening).html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-low-vaccination-%26-short-immunity-(balanced).html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/README.html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/README-REPORTS.html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/SCENARIOS-REPORTS.html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/MODEL.html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/NOTATION.html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/index.html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/sitemap3.html
+</loc><lastmod>2021-11-01</lastmod><changefreq>weekly</changefreq></url>
 
 </urlset>
