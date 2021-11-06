@@ -15,8 +15,8 @@
     <meta charset="UTF-8">
 
 <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>COVID-19 Simulations | web visualization | Countries: Austria, China, Germany, Israel, Italy, Korea, South, US, United Kingdom, France, Poland, Russia, Czechia, Denmark, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Australia, Brazil, Canada, India, Iran, Japan, Kuwait, Malaysia, Mexico, New Zealand, Panama, Peru, Saudi Arabia, Singapore, South Africa, Argentina, Indonesia, Thailand,  | Scenarios: high vaccination & short immunity (opening), low vaccination & short immunity (opening), no vaccination & short immunity (opening), high vaccination & long immunity (opening), low vaccination & long immunity (opening), no vaccination & long immunity (opening), high vaccination & short immunity (balanced), low vaccination & short immunity (balanced), no vaccination & short immunity (balanced), high vaccination & long immunity (balanced), low vaccination & long immunity (balanced), no vaccination & long immunity (balanced), scenario comparison, </title>
-<meta name="description" content="Simulating COVID-19 projections for various scenarios and countries. Projections for countries: Austria, China, Germany, Israel, Italy, Korea, South, US, United Kingdom, France, Poland, Russia, Czechia, Denmark, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Australia, Brazil, Canada, India, Iran, Japan, Kuwait, Malaysia, Mexico, New Zealand, Panama, Peru, Saudi Arabia, Singapore, South Africa, Argentina, Indonesia, Thailand, . Includes the following scenarios: high vaccination & short immunity (opening), low vaccination & short immunity (opening), no vaccination & short immunity (opening), high vaccination & long immunity (opening), low vaccination & long immunity (opening), no vaccination & long immunity (opening), high vaccination & short immunity (balanced), low vaccination & short immunity (balanced), no vaccination & short immunity (balanced), high vaccination & long immunity (balanced), low vaccination & long immunity (balanced), no vaccination & long immunity (balanced), scenario comparison, . Analysis focuses on: vaccination rate, immunity duration, effective reproduction number, lockdowns, death rate, natural mortality, Vaccine efficacy, Vaccine effectiveness against transmission, Vaccine effectiveness against death, age groups, seasonal reproduction number, outdoor mobility, incidence rate, Symptomatic proportion, Vaccinated, Reproduction number, Mortality, Death rate, Infected, Incidence rate, Susceptible, Immune, Immunity duration, Reinfections, Immunity boosting, Effectiveness against transmission, Detection probability, Log growth rate, Initial reproduction number, Phase space, Spectrum, Mobility, Weather, Control measures, Holidays, Past simulations, latest and historic country reports, GitHub, COVID-19 data." />
+<title>COVID-19 Simulations | web visualization | Countries: Austria, China, Germany, Israel, Italy, Korea, South, US, United Kingdom, France, Poland, Russia, Czechia, Denmark, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Australia, Brazil, Canada, India, Iran, Japan, Kuwait, Malaysia, Mexico, New Zealand, Panama, Peru, Saudi Arabia, Singapore, South Africa, Argentina, Indonesia, Thailand,  | Scenarios: high vaccination & short immunity (balanced), low vaccination & short immunity (balanced), no vaccination & short immunity (balanced), high vaccination & medium immunity (balanced), low vaccination & medium immunity (balanced), no vaccination & medium immunity (balanced), high vaccination & long immunity (balanced), low vaccination & long immunity (balanced), no vaccination & long immunity (balanced), scenario comparison, </title>
+<meta name="description" content="Simulating COVID-19 projections for various scenarios and countries. Projections for countries: Austria, China, Germany, Israel, Italy, Korea, South, US, United Kingdom, France, Poland, Russia, Czechia, Denmark, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Australia, Brazil, Canada, India, Iran, Japan, Kuwait, Malaysia, Mexico, New Zealand, Panama, Peru, Saudi Arabia, Singapore, South Africa, Argentina, Indonesia, Thailand, . Includes the following scenarios: high vaccination & short immunity (balanced), low vaccination & short immunity (balanced), no vaccination & short immunity (balanced), high vaccination & medium immunity (balanced), low vaccination & medium immunity (balanced), no vaccination & medium immunity (balanced), high vaccination & long immunity (balanced), low vaccination & long immunity (balanced), no vaccination & long immunity (balanced), scenario comparison, . Analysis focuses on: vaccination rate, immunity duration, effective reproduction number, lockdowns, death rate, natural mortality, Vaccine efficacy, Vaccine effectiveness against transmission, Vaccine effectiveness against death, age groups, seasonal reproduction number, outdoor mobility, incidence rate, Symptomatic proportion, Vaccinated, Reproduction number, Mortality, Death rate, Infected, Incidence rate, Susceptible, Immune, Immunity duration, Reinfections, Immunity boosting, Effectiveness against transmission, Detection probability, Log growth rate, Initial reproduction number, Phase space, Spectrum, Mobility, Weather, Control measures, Holidays, Past simulations, latest and historic country reports, GitHub, COVID-19 data." />
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="COVID-19 Simulations" />
 <meta property="og:locale" content="en_US" />
@@ -46,8 +46,8 @@
 
         <script>
         function newwin() {       
-            if ((document.getElementById('country').value != '' || document.getElementById('scenario').value != '') && 
-                (document.getElementById('country').value != 'country-comparison' || document.getElementById('scenario').value != 'scenario-comparison')) {
+            if (! ((document.getElementById('country').value == '' || document.getElementById('scenario').value == '') ||  
+                (document.getElementById('country').value == 'country-comparison' && document.getElementById('scenario').value == 'scenario-comparison'))) {
                 if (document.getElementById('country').value != 'country-comparison') {
                     var tmp = 'scenarios/' + document.getElementById('country').value + '-' + document.getElementById('scenario').value + '.html';
                 }
@@ -157,23 +157,17 @@
         
         <select id="scenario" name="scenario"   class="btn">
         
-                <option value="high-vaccination-&-short-immunity-(opening)" class="page-header">high vaccination & short immunity (opening)</option>
-        
-                <option value="low-vaccination-&-short-immunity-(opening)" class="page-header">low vaccination & short immunity (opening)</option>
-        
-                <option value="no-vaccination-&-short-immunity-(opening)" class="page-header">no vaccination & short immunity (opening)</option>
-        
-                <option value="high-vaccination-&-long-immunity-(opening)" class="page-header">high vaccination & long immunity (opening)</option>
-        
-                <option value="low-vaccination-&-long-immunity-(opening)" class="page-header">low vaccination & long immunity (opening)</option>
-        
-                <option value="no-vaccination-&-long-immunity-(opening)" class="page-header">no vaccination & long immunity (opening)</option>
-        
                 <option value="high-vaccination-&-short-immunity-(balanced)" class="page-header">high vaccination & short immunity (balanced)</option>
         
                 <option value="low-vaccination-&-short-immunity-(balanced)" class="page-header">low vaccination & short immunity (balanced)</option>
         
                 <option value="no-vaccination-&-short-immunity-(balanced)" class="page-header">no vaccination & short immunity (balanced)</option>
+        
+                <option value="high-vaccination-&-medium-immunity-(balanced)" class="page-header">high vaccination & medium immunity (balanced)</option>
+        
+                <option value="low-vaccination-&-medium-immunity-(balanced)" class="page-header">low vaccination & medium immunity (balanced)</option>
+        
+                <option value="no-vaccination-&-medium-immunity-(balanced)" class="page-header">no vaccination & medium immunity (balanced)</option>
         
                 <option value="high-vaccination-&-long-immunity-(balanced)" class="page-header">high vaccination & long immunity (balanced)</option>
         
