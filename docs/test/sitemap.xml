@@ -5,23 +5,17 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-   <url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-curr-vaccination-%26-short-immunity-(balanced).html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-curr-vaccination-%26-short-immunity-(balanced)-p.html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-curr-vaccination-%26-medium-immunity-(balanced).html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-curr-vaccination-%26-medium-immunity-(balanced)-p.html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-curr-vaccination-%26-long-immunity-(balanced).html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-curr-vaccination-%26-long-immunity-(balanced)-p.html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-scenario-comparison.html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-curr-vaccination-%26-short-immunity-(balanced).html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-curr-vaccination-%26-medium-immunity-(balanced).html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-curr-vaccination-%26-long-immunity-(balanced).html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/README.html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/README-REPORTS.html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/SCENARIOS-REPORTS.html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/MODEL.html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/NOTATION.html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/index.html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/sitemap3.html
-</loc><lastmod>2021-11-14</lastmod><changefreq>weekly</changefreq></url>
+   <url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-curr-vaccination-%26-long-immunity-(balanced).html
+</loc><lastmod>2021-11-16</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-curr-vaccination-%26-long-immunity-(balanced)-p.html
+</loc><lastmod>2021-11-16</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/AUT-scenario-comparison.html
+</loc><lastmod>2021-11-16</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-curr-vaccination-%26-long-immunity-(balanced).html
+</loc><lastmod>2021-11-16</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/README.html
+</loc><lastmod>2021-11-16</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/README-REPORTS.html
+</loc><lastmod>2021-11-16</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/SCENARIOS-REPORTS.html
+</loc><lastmod>2021-11-16</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/MODEL.html
+</loc><lastmod>2021-11-16</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/NOTATION.html
+</loc><lastmod>2021-11-16</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/index.html
+</loc><lastmod>2021-11-16</lastmod><changefreq>weekly</changefreq></url><url><loc>https://joebud.github.io/covid-19-analyses/sitemap3.html
+</loc><lastmod>2021-11-16</lastmod><changefreq>weekly</changefreq></url>
 
 </urlset>
