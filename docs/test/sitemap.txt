@@ -1,11 +1,9 @@
 https://joebud.github.io/covid-19-analyses/scenarios/AUT-curr-vaccination-%26-long-immunity-(balanced).html
 https://joebud.github.io/covid-19-analyses/scenarios/AUT-curr-vaccination-%26-long-immunity-(balanced)-p.html
 https://joebud.github.io/covid-19-analyses/scenarios/AUT-scenario-comparison.html
+https://joebud.github.io/covid-19-analyses/scenarios/USA-curr-vaccination-%26-long-immunity-(balanced).html
+https://joebud.github.io/covid-19-analyses/scenarios/USA-curr-vaccination-%26-long-immunity-(balanced)-p.html
+https://joebud.github.io/covid-19-analyses/scenarios/USA-scenario-comparison.html
 https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-curr-vaccination-%26-long-immunity-(balanced).html
-https://joebud.github.io/covid-19-analyses/README.html
-https://joebud.github.io/covid-19-analyses/README-REPORTS.html
-https://joebud.github.io/covid-19-analyses/SCENARIOS-REPORTS.html
-https://joebud.github.io/covid-19-analyses/MODEL.html
-https://joebud.github.io/covid-19-analyses/NOTATION.html
 https://joebud.github.io/covid-19-analyses/index.html
 https://joebud.github.io/covid-19-analyses/sitemap3.html

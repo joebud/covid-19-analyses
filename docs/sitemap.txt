@@ -124,13 +124,6 @@ https://joebud.github.io/covid-19-analyses/scenarios/IRL-curr-vaccination-%26-me
 https://joebud.github.io/covid-19-analyses/scenarios/IRL-curr-vaccination-%26-long-immunity-(balanced).html
 https://joebud.github.io/covid-19-analyses/scenarios/IRL-curr-vaccination-%26-long-immunity-(balanced)-p.html
 https://joebud.github.io/covid-19-analyses/scenarios/IRL-scenario-comparison.html
-https://joebud.github.io/covid-19-analyses/scenarios/IRN-curr-vaccination-%26-short-immunity-(balanced).html
-https://joebud.github.io/covid-19-analyses/scenarios/IRN-curr-vaccination-%26-short-immunity-(balanced)-p.html
-https://joebud.github.io/covid-19-analyses/scenarios/IRN-curr-vaccination-%26-medium-immunity-(balanced).html
-https://joebud.github.io/covid-19-analyses/scenarios/IRN-curr-vaccination-%26-medium-immunity-(balanced)-p.html
-https://joebud.github.io/covid-19-analyses/scenarios/IRN-curr-vaccination-%26-long-immunity-(balanced).html
-https://joebud.github.io/covid-19-analyses/scenarios/IRN-curr-vaccination-%26-long-immunity-(balanced)-p.html
-https://joebud.github.io/covid-19-analyses/scenarios/IRN-scenario-comparison.html
 https://joebud.github.io/covid-19-analyses/scenarios/ISR-curr-vaccination-%26-short-immunity-(balanced).html
 https://joebud.github.io/covid-19-analyses/scenarios/ISR-curr-vaccination-%26-short-immunity-(balanced)-p.html
 https://joebud.github.io/covid-19-analyses/scenarios/ISR-curr-vaccination-%26-medium-immunity-(balanced).html
@@ -309,10 +302,5 @@ https://joebud.github.io/covid-19-analyses/scenarios/ZAF-scenario-comparison.htm
 https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-curr-vaccination-%26-short-immunity-(balanced).html
 https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-curr-vaccination-%26-medium-immunity-(balanced).html
 https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-curr-vaccination-%26-long-immunity-(balanced).html
-https://joebud.github.io/covid-19-analyses/README.html
-https://joebud.github.io/covid-19-analyses/README-REPORTS.html
-https://joebud.github.io/covid-19-analyses/SCENARIOS-REPORTS.html
-https://joebud.github.io/covid-19-analyses/MODEL.html
-https://joebud.github.io/covid-19-analyses/NOTATION.html
 https://joebud.github.io/covid-19-analyses/index.html
 https://joebud.github.io/covid-19-analyses/sitemap3.html

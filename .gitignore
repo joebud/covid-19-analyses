@@ -29,14 +29,19 @@ data/raw/*/*
 /LICENSE-CC-BY-NC
 /LICENSE-CC-BY-NC-ND
 
-#/MANIFEST.in
-#/setup.cfg
+/MANIFEST.in
+/setup.cfg
 /make_sdist.sh
-#/COVID-19-ANALYSIS-debug.spec
+/COVID-19-ANALYSIS-debug.spec
 /make_dist_debug.sh
-#/build.txt
-#/COVID-19-ANALYSIS.spec
+/build.txt
+/COVID-19-ANALYSIS.spec
 /make_dist.sh
 /setup.py
 
- 
+/.Rhistory 
+/.RData
+
+/index_bak.html
+
+
