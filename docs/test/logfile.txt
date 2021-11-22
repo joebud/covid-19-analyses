@@ -1,133 +1,0 @@
- 
-Internet connection OK...
- 
-  File "inputs.py", line 285
-    : {
-    ^
-SyntaxError: invalid syntax
-COUNTRIES=AUT USA
-SCENARIOS=curr-vaccination-&-long-immunity-(balanced) scenario-comparison
-DEBUG=1
- 
-############################################################################
-RUNNING ANALYSIS (WEB)
-[2021_11_22]
-############################################################################
- 
-[jupytext] Reading web-run-sim.ipynb in format ipynb
-[jupytext] Loading 'web-run-sim.py'
-[jupytext] Updating 'web-run-sim.ipynb'
-[jupytext] Updating 'web-run-sim.py'
-[jupytext] Reading web-meta.ipynb in format ipynb
-[jupytext] Loading 'web-meta.py'
-[jupytext] Updating 'web-meta.ipynb'
-[jupytext] Updating 'web-meta.py'
-[jupytext] Reading web-index.ipynb in format ipynb
-[jupytext] Loading 'web-index.py'
-[jupytext] Updating 'web-index.ipynb'
-[jupytext] Updating 'web-index.py'
-[jupytext] Reading web-country-scen.ipynb in format ipynb
-[jupytext] Updating 'web-country-scen.py'
-[jupytext] Reading web-country-comp.ipynb in format ipynb
-[jupytext] Updating 'web-country-comp.py'
- 
-RUNNING ANALYSIS FOR COUNTRY: AUT...
- 
-[NbConvertApp] Converting notebook ./web-run-sim_.ipynb to notebook
-[NbConvertApp] Writing 23644 bytes to web-run-sim_.ipynb
-Input Notebook:  ./web-run-sim_.ipynb
-Output Notebook: ./web-run-sim_.ipynb
-Executing:   0%|          | 0/22 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   5%|▍         | 1/22 [00:00<00:19,  1.10cell/s]Executing:  23%|██▎       | 5/22 [00:01<00:10,  1.55cell/s]Executing:  32%|███▏      | 7/22 [00:03<00:11,  1.28cell/s]Executing:  32%|███▏      | 7/22 [00:03<00:08,  1.87cell/s]
-Traceback (most recent call last):
-  File "/home/jb/.local/bin/papermill", line 8, in <module>
-    sys.exit(papermill())
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1137, in __call__
-    return self.main(*args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1062, in main
-    rv = self.invoke(ctx)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
-    return ctx.invoke(self.callback, **ctx.params)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 763, in invoke
-    return __callback(*args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/decorators.py", line 26, in new_func
-    return f(get_current_context(), *args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/cli.py", line 267, in papermill
-    execution_timeout=execution_timeout,
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/execute.py", line 122, in execute_notebook
-    raise_for_execution_errors(nb, output_path)
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/execute.py", line 234, in raise_for_execution_errors
-    raise error
-papermill.exceptions.PapermillExecutionError: 
----------------------------------------------------------------------------
-Exception encountered at "In [6]":
-Traceback (most recent call last):
-
-  File "/home/jb/.local/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3441, in run_code
-    exec(code_obj, self.user_global_ns, self.user_ns)
-
-  File "<ipython-input-6-77a8edef756d>", line 1, in <module>
-    import simulation
-
-  File "/home/jb/git/covid-19-sird/sim/output/src/simulation.py", line 34, in <module>
-    import inputs
-
-  File "/home/jb/git/covid-19-sird/sim/output/src/inputs.py", line 285
-    : {
-    ^
-SyntaxError: invalid syntax
-
-
-[NbConvertApp] Converting notebook ./web-run-sim_.ipynb to html
-[NbConvertApp] Writing 571119 bytes to web-run-sim_.html
- 
-SCENARIO: curr-vaccination-&-long-immunity-(balanced)...
- 
-[NbConvertApp] Converting notebook ./web-country-scen_.ipynb to notebook
-[NbConvertApp] Writing 195979 bytes to web-country-scen_.ipynb
-Input Notebook:  ./web-country-scen_.ipynb
-Output Notebook: ./web-country-scen_.ipynb
-Executing:   0%|          | 0/45 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   2%|▏         | 1/45 [00:00<00:39,  1.10cell/s]Executing:   7%|▋         | 3/45 [00:01<00:27,  1.53cell/s]Executing:  11%|█         | 5/45 [00:01<00:19,  2.10cell/s]Executing:  16%|█▌        | 7/45 [00:01<00:13,  2.82cell/s]Executing:  20%|██        | 9/45 [00:01<00:10,  3.51cell/s]Executing:  24%|██▍       | 11/45 [00:01<00:07,  4.57cell/s]Executing:  29%|██▉       | 13/45 [00:01<00:05,  5.77cell/s]Executing:  33%|███▎      | 15/45 [00:02<00:07,  3.79cell/s]Executing:  38%|███▊      | 17/45 [00:02<00:05,  4.89cell/s]Executing:  42%|████▏     | 19/45 [00:03<00:04,  6.14cell/s]Executing:  47%|████▋     | 21/45 [00:04<00:09,  2.62cell/s]Executing:  47%|████▋     | 21/45 [00:06<00:07,  3.36cell/s]
-Traceback (most recent call last):
-  File "/home/jb/.local/bin/papermill", line 8, in <module>
-    sys.exit(papermill())
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1137, in __call__
-    return self.main(*args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1062, in main
-    rv = self.invoke(ctx)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
-    return ctx.invoke(self.callback, **ctx.params)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/core.py", line 763, in invoke
-    return __callback(*args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/click/decorators.py", line 26, in new_func
-    return f(get_current_context(), *args, **kwargs)
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/cli.py", line 267, in papermill
-    execution_timeout=execution_timeout,
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/execute.py", line 122, in execute_notebook
-    raise_for_execution_errors(nb, output_path)
-  File "/home/jb/.local/lib/python3.7/site-packages/papermill/execute.py", line 234, in raise_for_execution_errors
-    raise error
-papermill.exceptions.PapermillExecutionError: 
----------------------------------------------------------------------------
-Exception encountered at "In [20]":
-Traceback (most recent call last):
-
-  File "/home/jb/.local/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3441, in run_code
-    exec(code_obj, self.user_global_ns, self.user_ns)
-
-  File "<ipython-input-20-d2153f43af6d>", line 22, in <module>
-    sim_Countries_cname = pickle.load(f)
-
-  File "/home/jb/git/covid-19-sird/sim/output/src/simulation.py", line 34, in <module>
-    import inputs
-
-  File "/home/jb/git/covid-19-sird/sim/output/src/inputs.py", line 285
-    : {
-    ^
-SyntaxError: invalid syntax
-
-
- 
-SCENARIO: scenario-comparison...
- 

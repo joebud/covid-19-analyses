@@ -1,9 +1,6 @@
 
 venv/
 
-notes-tech/
-notes/
-
 #docs/
 docs-bak/
 src/
@@ -43,5 +40,8 @@ data/raw/*/*
 /.RData
 
 /index_bak.html
+
+/git-status.txt
+
 
 
