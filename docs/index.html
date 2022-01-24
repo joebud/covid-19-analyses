@@ -15,8 +15,8 @@
     <meta charset="UTF-8">
 
 <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>COVID-19 Simulations | web visualization | Countries: Austria, China, Germany, Israel, Italy, Korea, South, US, United Kingdom, France, Poland, Russia, Czechia, Denmark, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Australia, Brazil, Canada, India, Japan, Kuwait, Malaysia, Mexico, New Zealand, Panama, Peru, Saudi Arabia, Singapore, South Africa, Argentina, Indonesia, Thailand,  | Scenarios: curr vaccination & med immunity (balanced), scenario comparison, </title>
-<meta name="description" content="Simulating COVID-19 projections for various scenarios and countries. Projections for countries: Austria, China, Germany, Israel, Italy, Korea, South, US, United Kingdom, France, Poland, Russia, Czechia, Denmark, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Australia, Brazil, Canada, India, Japan, Kuwait, Malaysia, Mexico, New Zealand, Panama, Peru, Saudi Arabia, Singapore, South Africa, Argentina, Indonesia, Thailand, . Includes the following scenarios: curr vaccination & med immunity (balanced), scenario comparison, . Analysis focuses on: vaccination rate, immunity duration, effective reproduction number, lockdowns, death rate, natural mortality, Vaccine efficacy, Vaccine effectiveness against transmission, Vaccine effectiveness against death, age groups, seasonal reproduction number, outdoor mobility, incidence rate, Symptomatic proportion, Vaccinated, Reproduction number, Mortality, Death rate, Infected, Incidence rate, Susceptible, Immune, Immunity duration, Reinfections, Immunity boosting, Effectiveness against transmission, Detection probability, Log growth rate, Initial reproduction number, Phase space, Spectrum, Mobility, Weather, Control measures, Holidays, Past simulations, latest and historic country reports, GitHub, COVID-19 data." />
+<title>COVID-19 Simulations | web visualization | Countries: Austria, China, Germany, Israel, Italy, Korea, South, US, United Kingdom, France, Poland, Russia, Czechia, Denmark, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Australia, Brazil, Canada, India, Japan, Kuwait, Malaysia, Mexico, New Zealand, Panama, Peru, Saudi Arabia, Singapore, South Africa, Argentina, Indonesia, Thailand,  | Scenarios: curr vaxx & short imm (balanced), curr vaxx & med imm (balanced), low vaxx & short imm (balanced), low vaxx & med imm (balanced), scenario comparison, </title>
+<meta name="description" content="Simulating COVID-19 projections for various scenarios and countries. Projections for countries: Austria, China, Germany, Israel, Italy, Korea, South, US, United Kingdom, France, Poland, Russia, Czechia, Denmark, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Australia, Brazil, Canada, India, Japan, Kuwait, Malaysia, Mexico, New Zealand, Panama, Peru, Saudi Arabia, Singapore, South Africa, Argentina, Indonesia, Thailand, . Includes the following scenarios: curr vaxx & short imm (balanced), curr vaxx & med imm (balanced), low vaxx & short imm (balanced), low vaxx & med imm (balanced), scenario comparison, . Analysis focuses on: vaccination rate, immunity duration, effective reproduction number, lockdowns, death rate, natural mortality, Vaccine efficacy, Vaccine effectiveness against transmission, Vaccine effectiveness against death, age groups, seasonal reproduction number, outdoor mobility, incidence rate, Symptomatic proportion, Vaccinated, Reproduction number, Mortality, Death rate, Infected, Incidence rate, Susceptible, Immune, Immunity duration, Reinfections, Immunity boosting, Effectiveness against transmission, Detection probability, Log growth rate, Initial reproduction number, Phase space, Spectrum, Mobility, Weather, Control measures, Holidays, Past simulations, latest and historic country reports, GitHub, COVID-19 data." />
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="COVID-19 Simulations" />
 <meta property="og:locale" content="en_US" />
@@ -29,10 +29,12 @@
 <script type="application/ld+json">
 {"name":"covid-19-analyses","description":"Simulating COVID-19 projections for various scenarios and countries.","url":"https://joebud.github.io/covid-19-analyses/","@type":"WebSite","headline":"COVID-19 Analyses","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link rel="stylesheet" href="https://joebud.github.io/covid-19-analyses/assets/css/style.css?v=e3d1bbb10d401d860e0ffee7febdc1790a615a75">
+        <!-- 
+    <link rel="stylesheet" href="style.css">
+        -->
   </head>
   <body>
     <section class="page-header">
@@ -160,12 +162,26 @@
         
         <select id="scenario" name="scenario"   class="btn">
         
-                <option value="curr-vaccination-&-med-immunity-(balanced)" class="page-header">curr vaccination & med immunity (balanced)</option>
+                <option value="curr-vaxx-&-short-imm-(balanced)" class="page-header">curr vaxx & short imm (balanced)</option>
+        
+                <option value="curr-vaxx-&-med-imm-(balanced)" class="page-header">curr vaxx & med imm (balanced)</option>
+        
+                <option value="low-vaxx-&-short-imm-(balanced)" class="page-header">low vaxx & short imm (balanced)</option>
+        
+                <option value="low-vaxx-&-med-imm-(balanced)" class="page-header">low vaxx & med imm (balanced)</option>
         
                 <option value="scenario-comparison" class="page-header">scenario comparison</option>
         
         <option value="" selected="selected" class="page-header">Select scenario...</option>
         </select>
+
+        <!--
+        <select id="scope" name="scope"   class="btn">
+        <option value="" selected="selected" class="page-header">Brief report</option>
+        <option value="ext" class="page-header">Extended report</option>
+        </select>
+        -->
+        
         </section>
    
         <section   class="main-content">
