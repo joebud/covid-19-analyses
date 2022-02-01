@@ -15,8 +15,8 @@
     <meta charset="UTF-8">
 
 <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>COVID-19 Simulations | web visualization | Countries: Austria, China, Germany, Israel, Italy, Korea, South, US, United Kingdom, France, Poland, Russia, Czechia, Denmark, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Australia, Brazil, Canada, India, Japan, Kuwait, Malaysia, Mexico, New Zealand, Panama, Peru, Saudi Arabia, Singapore, South Africa, Argentina, Indonesia, Thailand,  | Scenarios: curr vaxx & short imm (balanced), curr vaxx & med imm (balanced), low vaxx & short imm (balanced), low vaxx & med imm (balanced), scenario comparison, </title>
-<meta name="description" content="Simulating COVID-19 projections for various scenarios and countries. Projections for countries: Austria, China, Germany, Israel, Italy, Korea, South, US, United Kingdom, France, Poland, Russia, Czechia, Denmark, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Australia, Brazil, Canada, India, Japan, Kuwait, Malaysia, Mexico, New Zealand, Panama, Peru, Saudi Arabia, Singapore, South Africa, Argentina, Indonesia, Thailand, . Includes the following scenarios: curr vaxx & short imm (balanced), curr vaxx & med imm (balanced), low vaxx & short imm (balanced), low vaxx & med imm (balanced), scenario comparison, . Analysis focuses on: vaccination rate, immunity duration, effective reproduction number, lockdowns, death rate, natural mortality, Vaccine efficacy, Vaccine effectiveness against transmission, Vaccine effectiveness against death, age groups, seasonal reproduction number, outdoor mobility, incidence rate, Symptomatic proportion, Vaccinated, Reproduction number, Mortality, Death rate, Infected, Incidence rate, Susceptible, Immune, Immunity duration, Reinfections, Immunity boosting, Effectiveness against transmission, Detection probability, Log growth rate, Initial reproduction number, Phase space, Spectrum, Mobility, Weather, Control measures, Holidays, Past simulations, latest and historic country reports, GitHub, COVID-19 data." />
+<title>COVID-19 Simulations | web visualization | Countries: Austria, China, Germany, Israel, Italy, Korea, South, US, United Kingdom, France, Poland, Russia, Czechia, Denmark, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Australia, Brazil, Canada, India, Japan, Kuwait, Malaysia, Mexico, New Zealand, Panama, Peru, Saudi Arabia, Singapore, South Africa, Argentina, Indonesia, Thailand,  | Scenarios: curr vaxx & short imm (pegged), scenario comparison, </title>
+<meta name="description" content="Simulating COVID-19 long-term projections for various scenarios and countries. Projections for countries: Austria, China, Germany, Israel, Italy, Korea, South, US, United Kingdom, France, Poland, Russia, Czechia, Denmark, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Australia, Brazil, Canada, India, Japan, Kuwait, Malaysia, Mexico, New Zealand, Panama, Peru, Saudi Arabia, Singapore, South Africa, Argentina, Indonesia, Thailand, . Includes the following scenarios: curr vaxx & short imm (pegged), scenario comparison, . Analysis focuses on: vaccination rate, immunity duration, effective reproduction number, lockdowns, death rate, natural mortality, Vaccine efficacy, Vaccine effectiveness against transmission, Vaccine effectiveness against death, age groups, seasonal reproduction number, outdoor mobility, incidence rate, Symptomatic proportion, Vaccinated, Reproduction number, Mortality, Death rate, Infected, Incidence rate, Susceptible, Immune, Immunity duration, Reinfections, Immunity boosting, Effectiveness against transmission, Detection probability, Log growth rate, Initial reproduction number, Phase space, Spectrum, Mobility, Weather, Control measures, Holidays, Past simulations, latest and historic country reports, GitHub, COVID-19 data." />
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="COVID-19 Simulations" />
 <meta property="og:locale" content="en_US" />
@@ -31,7 +31,7 @@
 <!-- End Jekyll SEO tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="https://joebud.github.io/covid-19-analyses/assets/css/style.css?v=e3d1bbb10d401d860e0ffee7febdc1790a615a75">
+    <link rel="stylesheet" href="https://joebud.github.io/assets/css/style.css?v=e3d1bbb10d401d860e0ffee7febdc1790a615a75">
         <!-- 
     <link rel="stylesheet" href="style.css">
         -->
@@ -39,7 +39,7 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">COVID-19 Simulations</h1>
-      <h2 class="project-tagline">Simulating COVID-19 projections for various scenarios and countries.</h2>
+      <h2 class="project-tagline">Simulating COVID-19 projections for various scenarios and countries.<br>A data science perspective.</h2>
       
         <a href="https://joebud.github.io/covid-19-analyses" target="_blank" class="btn">Home</a>
         <!-- 
@@ -56,397 +56,136 @@
     <section class="main-content">
  
         <h1>Sitemap</h1>
-<br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ARG-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Argentina, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ARG-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Argentina, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ARG-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Argentina, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ARG-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Argentina, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ARG-low-vaxx-&-short-imm-(balanced).html" target="_blank">Argentina, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ARG-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Argentina, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ARG-low-vaxx-&-med-imm-(balanced).html" target="_blank">Argentina, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ARG-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Argentina, scenario description: low vaxx & med imm (balanced)</a>
+<br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ARG-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Argentina, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ARG-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Argentina, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ARG-scenario-comparison.html" target="_blank">Argentina, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUS-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Australia, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUS-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Australia, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUS-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Australia, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUS-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Australia, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUS-low-vaxx-&-short-imm-(balanced).html" target="_blank">Australia, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUS-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Australia, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUS-low-vaxx-&-med-imm-(balanced).html" target="_blank">Australia, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUS-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Australia, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUS-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Australia, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUS-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Australia, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUS-scenario-comparison.html" target="_blank">Australia, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUT-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Austria, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUT-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Austria, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUT-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Austria, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUT-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Austria, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUT-low-vaxx-&-short-imm-(balanced).html" target="_blank">Austria, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUT-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Austria, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUT-low-vaxx-&-med-imm-(balanced).html" target="_blank">Austria, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUT-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Austria, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUT-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Austria, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUT-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Austria, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/AUT-scenario-comparison.html" target="_blank">Austria, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/BRA-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Brazil, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/BRA-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Brazil, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/BRA-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Brazil, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/BRA-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Brazil, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/BRA-low-vaxx-&-short-imm-(balanced).html" target="_blank">Brazil, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/BRA-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Brazil, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/BRA-low-vaxx-&-med-imm-(balanced).html" target="_blank">Brazil, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/BRA-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Brazil, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/BRA-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Brazil, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/BRA-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Brazil, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/BRA-scenario-comparison.html" target="_blank">Brazil, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CAN-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Canada, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CAN-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Canada, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CAN-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Canada, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CAN-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Canada, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CAN-low-vaxx-&-short-imm-(balanced).html" target="_blank">Canada, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CAN-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Canada, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CAN-low-vaxx-&-med-imm-(balanced).html" target="_blank">Canada, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CAN-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Canada, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CAN-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Canada, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CAN-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Canada, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CAN-scenario-comparison.html" target="_blank">Canada, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CHN-curr-vaxx-&-short-imm-(balanced).html" target="_blank">China, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CHN-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">China, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CHN-curr-vaxx-&-med-imm-(balanced).html" target="_blank">China, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CHN-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">China, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CHN-low-vaxx-&-short-imm-(balanced).html" target="_blank">China, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CHN-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">China, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CHN-low-vaxx-&-med-imm-(balanced).html" target="_blank">China, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CHN-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">China, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CHN-curr-vaxx-&-short-imm-(pegged).html" target="_blank">China, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CHN-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">China, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CHN-scenario-comparison.html" target="_blank">China, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CZE-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Czechia, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CZE-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Czechia, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CZE-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Czechia, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CZE-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Czechia, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CZE-low-vaxx-&-short-imm-(balanced).html" target="_blank">Czechia, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CZE-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Czechia, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CZE-low-vaxx-&-med-imm-(balanced).html" target="_blank">Czechia, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CZE-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Czechia, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CZE-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Czechia, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CZE-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Czechia, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/CZE-scenario-comparison.html" target="_blank">Czechia, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DEU-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Germany, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DEU-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Germany, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DEU-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Germany, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DEU-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Germany, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DEU-low-vaxx-&-short-imm-(balanced).html" target="_blank">Germany, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DEU-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Germany, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DEU-low-vaxx-&-med-imm-(balanced).html" target="_blank">Germany, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DEU-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Germany, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DEU-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Germany, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DEU-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Germany, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DEU-scenario-comparison.html" target="_blank">Germany, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DNK-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Denmark, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DNK-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Denmark, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DNK-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Denmark, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DNK-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Denmark, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DNK-low-vaxx-&-short-imm-(balanced).html" target="_blank">Denmark, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DNK-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Denmark, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DNK-low-vaxx-&-med-imm-(balanced).html" target="_blank">Denmark, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DNK-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Denmark, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DNK-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Denmark, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DNK-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Denmark, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/DNK-scenario-comparison.html" target="_blank">Denmark, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ESP-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Spain, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ESP-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Spain, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ESP-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Spain, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ESP-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Spain, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ESP-low-vaxx-&-short-imm-(balanced).html" target="_blank">Spain, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ESP-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Spain, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ESP-low-vaxx-&-med-imm-(balanced).html" target="_blank">Spain, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ESP-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Spain, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ESP-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Spain, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ESP-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Spain, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ESP-scenario-comparison.html" target="_blank">Spain, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FIN-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Finland, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FIN-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Finland, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FIN-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Finland, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FIN-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Finland, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FIN-low-vaxx-&-short-imm-(balanced).html" target="_blank">Finland, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FIN-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Finland, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FIN-low-vaxx-&-med-imm-(balanced).html" target="_blank">Finland, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FIN-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Finland, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FIN-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Finland, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FIN-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Finland, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FIN-scenario-comparison.html" target="_blank">Finland, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FRA-curr-vaxx-&-short-imm-(balanced).html" target="_blank">France, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FRA-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">France, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FRA-curr-vaxx-&-med-imm-(balanced).html" target="_blank">France, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FRA-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">France, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FRA-low-vaxx-&-short-imm-(balanced).html" target="_blank">France, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FRA-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">France, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FRA-low-vaxx-&-med-imm-(balanced).html" target="_blank">France, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FRA-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">France, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FRA-curr-vaxx-&-short-imm-(pegged).html" target="_blank">France, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FRA-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">France, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/FRA-scenario-comparison.html" target="_blank">France, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GBR-curr-vaxx-&-short-imm-(balanced).html" target="_blank">United Kingdom, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GBR-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">United Kingdom, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GBR-curr-vaxx-&-med-imm-(balanced).html" target="_blank">United Kingdom, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GBR-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">United Kingdom, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GBR-low-vaxx-&-short-imm-(balanced).html" target="_blank">United Kingdom, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GBR-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">United Kingdom, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GBR-low-vaxx-&-med-imm-(balanced).html" target="_blank">United Kingdom, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GBR-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">United Kingdom, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GBR-curr-vaxx-&-short-imm-(pegged).html" target="_blank">United Kingdom, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GBR-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">United Kingdom, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GBR-scenario-comparison.html" target="_blank">United Kingdom, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GRC-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Greece, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GRC-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Greece, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GRC-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Greece, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GRC-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Greece, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GRC-low-vaxx-&-short-imm-(balanced).html" target="_blank">Greece, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GRC-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Greece, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GRC-low-vaxx-&-med-imm-(balanced).html" target="_blank">Greece, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GRC-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Greece, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GRC-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Greece, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GRC-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Greece, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/GRC-scenario-comparison.html" target="_blank">Greece, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/HUN-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Hungary, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/HUN-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Hungary, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/HUN-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Hungary, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/HUN-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Hungary, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/HUN-low-vaxx-&-short-imm-(balanced).html" target="_blank">Hungary, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/HUN-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Hungary, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/HUN-low-vaxx-&-med-imm-(balanced).html" target="_blank">Hungary, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/HUN-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Hungary, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/HUN-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Hungary, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/HUN-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Hungary, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/HUN-scenario-comparison.html" target="_blank">Hungary, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IDN-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Indonesia, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IDN-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Indonesia, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IDN-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Indonesia, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IDN-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Indonesia, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IDN-low-vaxx-&-short-imm-(balanced).html" target="_blank">Indonesia, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IDN-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Indonesia, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IDN-low-vaxx-&-med-imm-(balanced).html" target="_blank">Indonesia, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IDN-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Indonesia, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IDN-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Indonesia, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IDN-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Indonesia, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IDN-scenario-comparison.html" target="_blank">Indonesia, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IND-curr-vaxx-&-short-imm-(balanced).html" target="_blank">India, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IND-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">India, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IND-curr-vaxx-&-med-imm-(balanced).html" target="_blank">India, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IND-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">India, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IND-low-vaxx-&-short-imm-(balanced).html" target="_blank">India, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IND-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">India, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IND-low-vaxx-&-med-imm-(balanced).html" target="_blank">India, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IND-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">India, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IND-curr-vaxx-&-short-imm-(pegged).html" target="_blank">India, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IND-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">India, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IND-scenario-comparison.html" target="_blank">India, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IRL-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Ireland, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IRL-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Ireland, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IRL-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Ireland, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IRL-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Ireland, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IRL-low-vaxx-&-short-imm-(balanced).html" target="_blank">Ireland, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IRL-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Ireland, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IRL-low-vaxx-&-med-imm-(balanced).html" target="_blank">Ireland, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IRL-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Ireland, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IRL-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Ireland, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IRL-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Ireland, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/IRL-scenario-comparison.html" target="_blank">Ireland, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ISR-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Israel, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ISR-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Israel, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ISR-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Israel, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ISR-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Israel, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ISR-low-vaxx-&-short-imm-(balanced).html" target="_blank">Israel, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ISR-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Israel, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ISR-low-vaxx-&-med-imm-(balanced).html" target="_blank">Israel, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ISR-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Israel, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ISR-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Israel, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ISR-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Israel, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ISR-scenario-comparison.html" target="_blank">Israel, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ITA-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Italy, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ITA-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Italy, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ITA-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Italy, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ITA-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Italy, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ITA-low-vaxx-&-short-imm-(balanced).html" target="_blank">Italy, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ITA-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Italy, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ITA-low-vaxx-&-med-imm-(balanced).html" target="_blank">Italy, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ITA-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Italy, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ITA-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Italy, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ITA-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Italy, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ITA-scenario-comparison.html" target="_blank">Italy, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/JPN-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Japan, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/JPN-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Japan, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/JPN-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Japan, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/JPN-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Japan, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/JPN-low-vaxx-&-short-imm-(balanced).html" target="_blank">Japan, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/JPN-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Japan, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/JPN-low-vaxx-&-med-imm-(balanced).html" target="_blank">Japan, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/JPN-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Japan, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/JPN-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Japan, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/JPN-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Japan, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/JPN-scenario-comparison.html" target="_blank">Japan, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KOR-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Korea, South, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KOR-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Korea, South, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KOR-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Korea, South, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KOR-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Korea, South, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KOR-low-vaxx-&-short-imm-(balanced).html" target="_blank">Korea, South, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KOR-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Korea, South, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KOR-low-vaxx-&-med-imm-(balanced).html" target="_blank">Korea, South, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KOR-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Korea, South, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KOR-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Korea, South, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KOR-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Korea, South, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KOR-scenario-comparison.html" target="_blank">Korea, South, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KWT-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Kuwait, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KWT-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Kuwait, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KWT-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Kuwait, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KWT-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Kuwait, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KWT-low-vaxx-&-short-imm-(balanced).html" target="_blank">Kuwait, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KWT-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Kuwait, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KWT-low-vaxx-&-med-imm-(balanced).html" target="_blank">Kuwait, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KWT-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Kuwait, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KWT-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Kuwait, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KWT-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Kuwait, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/KWT-scenario-comparison.html" target="_blank">Kuwait, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LTU-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Lithuania, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LTU-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Lithuania, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LTU-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Lithuania, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LTU-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Lithuania, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LTU-low-vaxx-&-short-imm-(balanced).html" target="_blank">Lithuania, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LTU-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Lithuania, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LTU-low-vaxx-&-med-imm-(balanced).html" target="_blank">Lithuania, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LTU-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Lithuania, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LTU-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Lithuania, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LTU-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Lithuania, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LTU-scenario-comparison.html" target="_blank">Lithuania, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LVA-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Latvia, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LVA-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Latvia, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LVA-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Latvia, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LVA-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Latvia, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LVA-low-vaxx-&-short-imm-(balanced).html" target="_blank">Latvia, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LVA-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Latvia, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LVA-low-vaxx-&-med-imm-(balanced).html" target="_blank">Latvia, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LVA-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Latvia, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LVA-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Latvia, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LVA-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Latvia, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/LVA-scenario-comparison.html" target="_blank">Latvia, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MEX-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Mexico, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MEX-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Mexico, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MEX-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Mexico, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MEX-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Mexico, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MEX-low-vaxx-&-short-imm-(balanced).html" target="_blank">Mexico, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MEX-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Mexico, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MEX-low-vaxx-&-med-imm-(balanced).html" target="_blank">Mexico, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MEX-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Mexico, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MEX-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Mexico, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MEX-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Mexico, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MEX-scenario-comparison.html" target="_blank">Mexico, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MYS-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Malaysia, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MYS-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Malaysia, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MYS-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Malaysia, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MYS-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Malaysia, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MYS-low-vaxx-&-short-imm-(balanced).html" target="_blank">Malaysia, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MYS-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Malaysia, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MYS-low-vaxx-&-med-imm-(balanced).html" target="_blank">Malaysia, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MYS-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Malaysia, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MYS-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Malaysia, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MYS-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Malaysia, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/MYS-scenario-comparison.html" target="_blank">Malaysia, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NLD-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Netherlands, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NLD-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Netherlands, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NLD-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Netherlands, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NLD-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Netherlands, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NLD-low-vaxx-&-short-imm-(balanced).html" target="_blank">Netherlands, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NLD-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Netherlands, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NLD-low-vaxx-&-med-imm-(balanced).html" target="_blank">Netherlands, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NLD-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Netherlands, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NLD-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Netherlands, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NLD-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Netherlands, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NLD-scenario-comparison.html" target="_blank">Netherlands, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NOR-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Norway, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NOR-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Norway, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NOR-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Norway, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NOR-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Norway, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NOR-low-vaxx-&-short-imm-(balanced).html" target="_blank">Norway, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NOR-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Norway, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NOR-low-vaxx-&-med-imm-(balanced).html" target="_blank">Norway, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NOR-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Norway, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NOR-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Norway, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NOR-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Norway, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NOR-scenario-comparison.html" target="_blank">Norway, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NZL-curr-vaxx-&-short-imm-(balanced).html" target="_blank">New Zealand, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NZL-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">New Zealand, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NZL-curr-vaxx-&-med-imm-(balanced).html" target="_blank">New Zealand, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NZL-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">New Zealand, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NZL-low-vaxx-&-short-imm-(balanced).html" target="_blank">New Zealand, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NZL-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">New Zealand, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NZL-low-vaxx-&-med-imm-(balanced).html" target="_blank">New Zealand, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NZL-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">New Zealand, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NZL-curr-vaxx-&-short-imm-(pegged).html" target="_blank">New Zealand, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NZL-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">New Zealand, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/NZL-scenario-comparison.html" target="_blank">New Zealand, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PAN-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Panama, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PAN-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Panama, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PAN-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Panama, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PAN-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Panama, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PAN-low-vaxx-&-short-imm-(balanced).html" target="_blank">Panama, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PAN-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Panama, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PAN-low-vaxx-&-med-imm-(balanced).html" target="_blank">Panama, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PAN-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Panama, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PAN-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Panama, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PAN-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Panama, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PAN-scenario-comparison.html" target="_blank">Panama, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PER-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Peru, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PER-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Peru, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PER-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Peru, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PER-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Peru, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PER-low-vaxx-&-short-imm-(balanced).html" target="_blank">Peru, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PER-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Peru, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PER-low-vaxx-&-med-imm-(balanced).html" target="_blank">Peru, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PER-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Peru, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PER-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Peru, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PER-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Peru, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PER-scenario-comparison.html" target="_blank">Peru, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/POL-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Poland, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/POL-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Poland, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/POL-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Poland, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/POL-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Poland, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/POL-low-vaxx-&-short-imm-(balanced).html" target="_blank">Poland, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/POL-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Poland, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/POL-low-vaxx-&-med-imm-(balanced).html" target="_blank">Poland, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/POL-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Poland, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/POL-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Poland, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/POL-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Poland, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/POL-scenario-comparison.html" target="_blank">Poland, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PRT-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Portugal, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PRT-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Portugal, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PRT-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Portugal, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PRT-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Portugal, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PRT-low-vaxx-&-short-imm-(balanced).html" target="_blank">Portugal, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PRT-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Portugal, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PRT-low-vaxx-&-med-imm-(balanced).html" target="_blank">Portugal, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PRT-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Portugal, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PRT-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Portugal, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PRT-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Portugal, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/PRT-scenario-comparison.html" target="_blank">Portugal, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/RUS-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Russia, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/RUS-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Russia, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/RUS-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Russia, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/RUS-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Russia, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/RUS-low-vaxx-&-short-imm-(balanced).html" target="_blank">Russia, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/RUS-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Russia, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/RUS-low-vaxx-&-med-imm-(balanced).html" target="_blank">Russia, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/RUS-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Russia, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/RUS-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Russia, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/RUS-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Russia, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/RUS-scenario-comparison.html" target="_blank">Russia, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SAU-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Saudi Arabia, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SAU-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Saudi Arabia, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SAU-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Saudi Arabia, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SAU-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Saudi Arabia, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SAU-low-vaxx-&-short-imm-(balanced).html" target="_blank">Saudi Arabia, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SAU-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Saudi Arabia, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SAU-low-vaxx-&-med-imm-(balanced).html" target="_blank">Saudi Arabia, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SAU-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Saudi Arabia, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SAU-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Saudi Arabia, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SAU-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Saudi Arabia, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SAU-scenario-comparison.html" target="_blank">Saudi Arabia, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SGP-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Singapore, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SGP-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Singapore, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SGP-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Singapore, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SGP-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Singapore, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SGP-low-vaxx-&-short-imm-(balanced).html" target="_blank">Singapore, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SGP-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Singapore, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SGP-low-vaxx-&-med-imm-(balanced).html" target="_blank">Singapore, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SGP-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Singapore, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SGP-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Singapore, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SGP-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Singapore, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SGP-scenario-comparison.html" target="_blank">Singapore, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVK-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Slovakia, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVK-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Slovakia, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVK-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Slovakia, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVK-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Slovakia, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVK-low-vaxx-&-short-imm-(balanced).html" target="_blank">Slovakia, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVK-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Slovakia, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVK-low-vaxx-&-med-imm-(balanced).html" target="_blank">Slovakia, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVK-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Slovakia, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVK-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Slovakia, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVK-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Slovakia, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVK-scenario-comparison.html" target="_blank">Slovakia, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVN-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Slovenia, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVN-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Slovenia, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVN-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Slovenia, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVN-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Slovenia, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVN-low-vaxx-&-short-imm-(balanced).html" target="_blank">Slovenia, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVN-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Slovenia, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVN-low-vaxx-&-med-imm-(balanced).html" target="_blank">Slovenia, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVN-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Slovenia, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVN-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Slovenia, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVN-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Slovenia, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SVN-scenario-comparison.html" target="_blank">Slovenia, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SWE-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Sweden, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SWE-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Sweden, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SWE-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Sweden, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SWE-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Sweden, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SWE-low-vaxx-&-short-imm-(balanced).html" target="_blank">Sweden, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SWE-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Sweden, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SWE-low-vaxx-&-med-imm-(balanced).html" target="_blank">Sweden, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SWE-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Sweden, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SWE-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Sweden, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SWE-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Sweden, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/SWE-scenario-comparison.html" target="_blank">Sweden, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/THA-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Thailand, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/THA-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Thailand, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/THA-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Thailand, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/THA-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Thailand, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/THA-low-vaxx-&-short-imm-(balanced).html" target="_blank">Thailand, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/THA-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">Thailand, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/THA-low-vaxx-&-med-imm-(balanced).html" target="_blank">Thailand, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/THA-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">Thailand, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/THA-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Thailand, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/THA-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">Thailand, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/THA-scenario-comparison.html" target="_blank">Thailand, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/USA-curr-vaxx-&-short-imm-(balanced).html" target="_blank">US, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/USA-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">US, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/USA-curr-vaxx-&-med-imm-(balanced).html" target="_blank">US, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/USA-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">US, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/USA-low-vaxx-&-short-imm-(balanced).html" target="_blank">US, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/USA-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">US, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/USA-low-vaxx-&-med-imm-(balanced).html" target="_blank">US, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/USA-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">US, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/USA-curr-vaxx-&-short-imm-(pegged).html" target="_blank">US, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/USA-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">US, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/USA-scenario-comparison.html" target="_blank">US, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ZAF-curr-vaxx-&-short-imm-(balanced).html" target="_blank">South Africa, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ZAF-curr-vaxx-&-short-imm-(balanced)-p.html" target="_blank">South Africa, scenario description: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ZAF-curr-vaxx-&-med-imm-(balanced).html" target="_blank">South Africa, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ZAF-curr-vaxx-&-med-imm-(balanced)-p.html" target="_blank">South Africa, scenario description: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ZAF-low-vaxx-&-short-imm-(balanced).html" target="_blank">South Africa, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ZAF-low-vaxx-&-short-imm-(balanced)-p.html" target="_blank">South Africa, scenario description: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ZAF-low-vaxx-&-med-imm-(balanced).html" target="_blank">South Africa, scenario: low vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ZAF-low-vaxx-&-med-imm-(balanced)-p.html" target="_blank">South Africa, scenario description: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ZAF-curr-vaxx-&-short-imm-(pegged).html" target="_blank">South Africa, scenario: curr vaxx & short imm (pegged)</a>
+                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ZAF-curr-vaxx-&-short-imm-(pegged)-p.html" target="_blank">South Africa, scenario description: curr vaxx & short imm (pegged)</a>
                 </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/ZAF-scenario-comparison.html" target="_blank">South Africa, scenario comparison</a>
-            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-curr-vaxx-&-short-imm-(balanced).html" target="_blank">Country comparison, scenario: curr vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-curr-vaxx-&-med-imm-(balanced).html" target="_blank">Country comparison, scenario: curr vaxx & med imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-low-vaxx-&-short-imm-(balanced).html" target="_blank">Country comparison, scenario: low vaxx & short imm (balanced)</a>
-                </p><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-low-vaxx-&-med-imm-(balanced).html" target="_blank">Country comparison, scenario: low vaxx & med imm (balanced)</a>
+            </p><br><p><a href="https://joebud.github.io/covid-19-analyses/scenarios/country-comparison-curr-vaxx-&-short-imm-(pegged).html" target="_blank">Country comparison, scenario: curr vaxx & short imm (pegged)</a>
                 </p><br>
 
       <footer class="site-footer">
