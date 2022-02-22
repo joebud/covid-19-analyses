@@ -31,6 +31,10 @@ The data produced by third parties and made available by this repository is subj
 - Oxford Covid-19 Government Response Tracker (OxCGRT)  (https://github.com/OxCGRT/covid-policy-tracker)
 -- data on control measures
 
+- World Bank (https://www.worldbank.org) -- population, pre-covid natural mortality data, etc. 
+
+- World Life Expectancy (https://www.worldlifeexpectancy.com) -- pre-covid flu & pneumonia mortality data 
+
 
 Please consult these licenses before using these data to ensure that you follow the terms under which these data were released.
 
