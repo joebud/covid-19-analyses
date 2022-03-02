@@ -16,7 +16,7 @@
 
 <!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>France: Country report | Long-term COVID-19 Simulations | Scenario: high vaccination & short immunity (relaxed) | web visualization</title>
-<meta name="description" content="France: Country report. Simulating long-term COVID-19 projections for various scenarios and countries. Includes the following scenarios: high vaccination & short immunity (relaxed). Analysis focuses on: vaccination rate, immunity duration, effective reproduction number, lockdowns, death rate, natural mortality, Vaccine efficacy, Vaccine effectiveness against transmission, Vaccine effectiveness against death, age groups, seasonal reproduction number, outdoor mobility, incidence rate, Symptomatic proportion, Vaccinated, Reproduction number, Mortality, Death rate, Infected, Incidence rate, Susceptible, Immune, Immunity duration, Reinfections, Immunity boosting, Effectiveness against transmission, Detection probability, Log growth rate, Initial reproduction number, Phase space, Spectrum, Mobility, Weather, Control measures, Holidays, Past simulations, latest and historic country reports, GitHub, COVID-19 data." />
+<meta name="description" content="France: Country report. Simulating long-term COVID-19 projections for various scenarios and countries. Includes the following scenarios: high vaccination & short immunity (relaxed). Analysis focuses on: Long-term COVID-19 simulations, forecasts, projections, scenarios, vaccination rate, immunity duration, effective reproduction number, lockdowns, death rate, natural mortality, Vaccine efficacy, Vaccine effectiveness against transmission, Vaccine effectiveness against death, seasonal reproduction number, incidence rate, Vaccinated, Reproduction number, Mortality, Infected, Incidence rate, Immune, Log growth rate, Initial reproduction number, Phase space plots, Control measures, latest and historic country reports, GitHub, COVID-19 data." />
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="COVID-19 Simulations" />
 <meta property="og:locale" content="en_US" />
@@ -35,7 +35,14 @@
         <!-- 
     <link rel="stylesheet" href="style.css">
         -->
+<style type="text/css">
+.plotly-graph-div {
+    background-image: url('spinner.gif'); background-repeat: no-repeat; background-position: center; position: relative; 
+}
+</style>
+        <!-- 
     <script type="text/javascript" src="selectize.js"></script>
+        -->
     <script src="plotly.min.js"></script> 
   </head>
   <body>
@@ -63,17 +70,17 @@
  
         
                 <h1>France</h1>
-                <p>Simulations performed on 2022-02-22</p>
+                <p>Simulations performed on 2022-03-01</p>
                 <h2>Scenario description: high vaccination & short immunity (relaxed)</h2>
                     <h3>Defining parameters</h3>
-                    <p>Projection vaccination rate: 96 % of population per year (continuously)</p>
+                    <p>Projection vaccination rate: 95 % of population per year (continuously)</p>
                         <p>Mean immunity duration (after natural infection): 105 days (transmission) </p>
                         <p>Mean immunity duration (after vaccination): 70 days (transmission)  </p>
                         <p>Scenario involving gradual re-opening as more immunity builds up: True </p>
                         <p>Assuming no more variants of concern to appear: True </p>
                         <p>Assumed steady-state mortality: 0.020 % </p>
                     <h3>Other key parameters</h3>
-                        <p>Threshold death rate for starting countermeasures: 20.00 percent of natural mortality rate </p>
+                        <p>Threshold death rate for starting countermeasures: 40.00 percent of natural mortality rate </p>
                             <p>Threshold death rate applied to: Death rate corrected for natural mortality</p>
                             <p>Omicron mortality decrease factor: 10.00  </p>
                             <p>Extrapolate mortality exp decay fit to projection: True  </p>
@@ -82,7 +89,7 @@
                     <p>Vaccine effectiveness: 95 % (death) </p>
                     <p>Include the contribution due to natural mortality ('with covid') in death rate projections: True  </p>
                     <p>Assume data include deaths 'with covid' (as opposed to deaths OF covid only): True  </p>
-                    <p>Avgerage seasonal reproduction number: 19.84  </p>
+                    <p>Avgerage seasonal reproduction number: 19.82  </p>
                     <p>Relative strength of seasonal signal: 0.06  </p>
                     <p>Minimum incidence rate: 0.02 per million per day </p>
                     <h3>Remarks</h3>

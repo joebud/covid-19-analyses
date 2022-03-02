@@ -15,8 +15,8 @@
     <meta charset="UTF-8">
 
 <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>COVID-19 Simulations | web visualization | Countries: Austria, Czechia, Denmark, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Portugal, Slovakia, Slovenia, Spain, Sweden, Norway, United Kingdom, US,  | Scenarios: high vaccination & short immunity (relaxed), scenario comparison, </title>
-<meta name="description" content="Simulating COVID-19 long-term projections for various scenarios and countries. Projections for countries: Austria, Czechia, Denmark, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Portugal, Slovakia, Slovenia, Spain, Sweden, Norway, United Kingdom, US, . Includes the following scenarios: high vaccination & short immunity (relaxed), scenario comparison, . Analysis focuses on: vaccination rate, immunity duration, effective reproduction number, lockdowns, death rate, natural mortality, Vaccine efficacy, Vaccine effectiveness against transmission, Vaccine effectiveness against death, age groups, seasonal reproduction number, outdoor mobility, incidence rate, Symptomatic proportion, Vaccinated, Reproduction number, Mortality, Death rate, Infected, Incidence rate, Susceptible, Immune, Immunity duration, Reinfections, Immunity boosting, Effectiveness against transmission, Detection probability, Log growth rate, Initial reproduction number, Phase space, Spectrum, Mobility, Weather, Control measures, Holidays, Past simulations, latest and historic country reports, GitHub, COVID-19 data." />
+<title>COVID-19 Simulations | web visualization | Countries: Austria, China, Germany, Israel, Italy, Korea, South, US, United Kingdom, France, Poland, Russia, Czechia, Denmark, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Australia, Brazil, Canada, India, Japan, Kuwait, Malaysia, Mexico, New Zealand, Panama, Peru, Saudi Arabia, Singapore, South Africa, Argentina, Indonesia, Thailand, Algeria, Egypt, Nigeria, Ukraine, Iraq, Afghanistan, Jamaica, Turkey, Pakistan, Ethiopia, Philippines, Vietnam, Tanzania, Burma, Kenya, Colombia, Sudan, Morocco, Uzbekistan, Angola, Belgium, Switzerland, Romania, Chile, Bulgaria, Croatia, Estonia, Luxembourg, Iceland, Iran,  | Scenarios: high vaccination & short immunity (relaxed), scenario comparison, </title>
+<meta name="description" content="Simulating COVID-19 long-term projections for various scenarios and countries. Projections for countries: Austria, China, Germany, Israel, Italy, Korea, South, US, United Kingdom, France, Poland, Russia, Czechia, Denmark, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Australia, Brazil, Canada, India, Japan, Kuwait, Malaysia, Mexico, New Zealand, Panama, Peru, Saudi Arabia, Singapore, South Africa, Argentina, Indonesia, Thailand, Algeria, Egypt, Nigeria, Ukraine, Iraq, Afghanistan, Jamaica, Turkey, Pakistan, Ethiopia, Philippines, Vietnam, Tanzania, Burma, Kenya, Colombia, Sudan, Morocco, Uzbekistan, Angola, Belgium, Switzerland, Romania, Chile, Bulgaria, Croatia, Estonia, Luxembourg, Iceland, Iran, . Includes the following scenarios: high vaccination & short immunity (relaxed), scenario comparison, . Analysis focuses on: Long-term COVID-19 simulations, forecasts, projections, scenarios, vaccination rate, immunity duration, effective reproduction number, lockdowns, death rate, natural mortality, Vaccine efficacy, Vaccine effectiveness against transmission, Vaccine effectiveness against death, seasonal reproduction number, incidence rate, Vaccinated, Reproduction number, Mortality, Infected, Incidence rate, Immune, Log growth rate, Initial reproduction number, Phase space plots, Control measures, latest and historic country reports, GitHub, COVID-19 data." />
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="COVID-19 Simulations" />
 <meta property="og:locale" content="en_US" />
@@ -35,7 +35,14 @@
         <!-- 
     <link rel="stylesheet" href="style.css">
         -->
+<style type="text/css">
+.plotly-graph-div {
+    background-image: url('spinner.gif'); background-repeat: no-repeat; background-position: center; position: relative; 
+}
+</style>
+        <!-- 
     <script type="text/javascript" src="selectize.js"></script>
+        -->
     <script src="plotly.min.js"></script> 
   </head>
   <body>
@@ -60,8 +67,8 @@
         <script>
         function newwin() {       
             if (! ((document.getElementById('country').value == '' || document.getElementById('scenario').value == '') ||  
-                (document.getElementById('country').value == 'country-comparison' && document.getElementById('scenario').value == 'scenario-comparison'))) {
-                if (document.getElementById('country').value != 'country-comparison') {
+                ((document.getElementById('country').value == 'country-comparison' || document.getElementById('country').value == 'country-comparison-maps') && document.getElementById('scenario').value == 'scenario-comparisons'))) {
+                if (document.getElementById('country').value != 'country-comparison' && document.getElementById('country').value != 'country-comparison-maps') {
                     var tmp = 'scenarios/' + document.getElementById('country').value + '-' + document.getElementById('scenario').value + '.html';
                 }
                 else {
@@ -77,56 +84,159 @@
         
         
         <select id="country" name="country" placeholder="Select a country or country comparison..." class="btn">
+        <option value="" hidden selected="selected" class="page-header">Select a country or country comparison...</option>
+        <option value="country-comparison-maps" class="page-header">[Country comparison maps]</option>
+        <option value="country-comparison" class="page-header">[Country comparison]</option>
+        
+                <option value="AFG" class="page-header">Afghanistan</option>
+        
+                <option value="DZA" class="page-header">Algeria</option>
+        
+                <option value="AGO" class="page-header">Angola</option>
+        
+                <option value="ARG" class="page-header">Argentina</option>
+        
+                <option value="AUS" class="page-header">Australia</option>
         
                 <option value="AUT" class="page-header">Austria</option>
         
-                <option value="CZE" class="page-header">Czech Republic</option>
+                <option value="BEL" class="page-header">Belgium</option>
         
-                <option value="DEU" class="page-header">Germany</option>
+                <option value="BRA" class="page-header">Brazil</option>
+        
+                <option value="BGR" class="page-header">Bulgaria</option>
+        
+                <option value="MMR" class="page-header">Burma</option>
+        
+                <option value="CAN" class="page-header">Canada</option>
+        
+                <option value="CHL" class="page-header">Chile</option>
+        
+                <option value="CHN" class="page-header">China</option>
+        
+                <option value="COL" class="page-header">Colombia</option>
+        
+                <option value="HRV" class="page-header">Croatia</option>
+        
+                <option value="CZE" class="page-header">Czech Republic</option>
         
                 <option value="DNK" class="page-header">Denmark</option>
         
-                <option value="ESP" class="page-header">Spain</option>
+                <option value="EGY" class="page-header">Egypt</option>
+        
+                <option value="EST" class="page-header">Estonia</option>
+        
+                <option value="ETH" class="page-header">Ethiopia</option>
         
                 <option value="FIN" class="page-header">Finland</option>
         
                 <option value="FRA" class="page-header">France</option>
         
-                <option value="GBR" class="page-header">United Kingdom</option>
+                <option value="DEU" class="page-header">Germany</option>
         
                 <option value="GRC" class="page-header">Greece</option>
         
                 <option value="HUN" class="page-header">Hungary</option>
         
+                <option value="ISL" class="page-header">Iceland</option>
+        
+                <option value="IND" class="page-header">India</option>
+        
+                <option value="IDN" class="page-header">Indonesia</option>
+        
+                <option value="IRN" class="page-header">Iran, Islamic Republic of</option>
+        
+                <option value="IRQ" class="page-header">Iraq</option>
+        
                 <option value="IRL" class="page-header">Ireland</option>
+        
+                <option value="ISR" class="page-header">Israel</option>
         
                 <option value="ITA" class="page-header">Italy</option>
         
-                <option value="LTU" class="page-header">Lithuania</option>
+                <option value="JAM" class="page-header">Jamaica</option>
+        
+                <option value="JPN" class="page-header">Japan</option>
+        
+                <option value="KEN" class="page-header">Kenya</option>
+        
+                <option value="KOR" class="page-header">South Korea</option>
+        
+                <option value="KWT" class="page-header">Kuwait</option>
         
                 <option value="LVA" class="page-header">Latvia</option>
         
+                <option value="LTU" class="page-header">Lithuania</option>
+        
+                <option value="LUX" class="page-header">Luxembourg</option>
+        
+                <option value="MYS" class="page-header">Malaysia</option>
+        
+                <option value="MEX" class="page-header">Mexico</option>
+        
+                <option value="MAR" class="page-header">Morocco</option>
+        
                 <option value="NLD" class="page-header">Netherlands</option>
         
+                <option value="NZL" class="page-header">New Zealand</option>
+        
+                <option value="NGA" class="page-header">Nigeria</option>
+        
                 <option value="NOR" class="page-header">Norway</option>
+        
+                <option value="PAK" class="page-header">Pakistan</option>
+        
+                <option value="PAN" class="page-header">Panama</option>
+        
+                <option value="PER" class="page-header">Peru</option>
+        
+                <option value="PHL" class="page-header">Philippines</option>
         
                 <option value="POL" class="page-header">Poland</option>
         
                 <option value="PRT" class="page-header">Portugal</option>
         
+                <option value="ROU" class="page-header">Romania</option>
+        
+                <option value="RUS" class="page-header">Russia</option>
+        
+                <option value="SAU" class="page-header">Saudi Arabia</option>
+        
+                <option value="SGP" class="page-header">Singapore</option>
+        
                 <option value="SVK" class="page-header">Slovakia</option>
         
                 <option value="SVN" class="page-header">Slovenia</option>
         
+                <option value="ZAF" class="page-header">South Africa</option>
+        
+                <option value="ESP" class="page-header">Spain</option>
+        
+                <option value="SDN" class="page-header">Sudan</option>
+        
                 <option value="SWE" class="page-header">Sweden</option>
         
-                <option value="USA" class="page-header">United States of America</option>
+                <option value="CHE" class="page-header">Switzerland</option>
         
-        <option value="country-comparison" class="page-header">Country comparison</option>
-        <option value="" hidden selected="selected" class="page-header">Select a country or country comparison...</option>
+                <option value="TZA" class="page-header">Tanzania, United Republic of</option>
+        
+                <option value="THA" class="page-header">Thailand</option>
+        
+                <option value="TUR" class="page-header">Turkey</option>
+        
+                <option value="USA" class="page-header">United States</option>
+        
+                <option value="UKR" class="page-header">Ukraine</option>
+        
+                <option value="GBR" class="page-header">United Kingdom</option>
+        
+                <option value="UZB" class="page-header">Uzbekistan</option>
+        
+                <option value="VNM" class="page-header">Vietnam</option>
+        
         </select>
         <script>
-            $("#country").selectize();
+            // $("#country").selectize();
         </script>
   
         <select id="scenario" name="scenario" placeholder="Select a scenario or scenario comparison..." class="btn">
@@ -138,7 +248,7 @@
         <option value="" hidden selected="selected" class="page-header">Select a scenario or scenario comparison...</option>
         </select>
         <script>
-            $("#scenario").selectize();
+            // $("#scenario").selectize();
         </script>
 
         <!--
